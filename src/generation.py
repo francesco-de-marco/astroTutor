@@ -71,7 +71,8 @@ class RAGGenerator:
                 model=self.model_name,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.0, # Temperatura 0 per avere zero creatività e massima precisione
-                max_tokens=60
+                frequency_penalty=0.6,  # Previene i loop ma permette le formule.
+                presence_penalty=0.5    # Lo spinge a usare vocaboli nuovi nelle spiegazioni.
             )
             return response.choices[0].message.content.strip()
         except:

@@ -17,7 +17,7 @@ class AdvancedRetriever:
         # Usiamo bge-m3 per la trasformazione della domanda in vettore
         self.bge_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name="BAAI/bge-m3",
-            device="cuda" # Metti "cpu" se non hai una GPU Nvidia
+            device="cpu" # Metti "cpu" se non hai una GPU Nvidia
         )
         
         self.collection = self.client.get_collection(
@@ -29,60 +29,57 @@ class AdvancedRetriever:
         # --- STADIO 2: Inizializzazione Cross-Encoder (Re-Ranker) ---
         self.reranker = CrossEncoder(
             "BAAI/bge-reranker-v2-m3",
-            device="cuda" # Metti "cpu" se non hai una GPU Nvidia
+            device="cpu" # Metti "cpu" se non hai una GPU Nvidia
         )
         print("✓ Re-Ranker caricato.\n")
 
-    def search(self, user_query: str, user_level: str = None, initial_k: int = 20, final_k: int = 3):
-        """
-        Esegue la ricerca a due stadi:
-        1. Recupera 'initial_k' frammenti grezzi filtrando per livello.
-        2. Usa il re-ranker per scegliere i migliori 'final_k'.
-        """
-        print(f"🔍 Domanda: '{user_query}' | Filtro Livello: {user_level}")
-        
-        # ==========================================
-        # STADIO 1: Ricerca Vettoriale Grezza (Fast)
-        # ==========================================
+    # In src/retrieval.py, aggiorna il metodo search:
+
+    # Cambia user_query in una lista (es. [query_ita, query_eng])
+    def search(self, user_queries: list, user_level: str = None, initial_k: int = 20, final_k: int = 3):
         where_filter = {"difficulty_level": user_level} if user_level else None
 
+        # Passiamo l'intera lista di varianti a ChromaDB
         raw_results = self.collection.query(
-            query_texts=[user_query],
+            query_texts=user_queries, 
             n_results=initial_k,
             where=where_filter
         )
         
-        # Estraiamo i documenti trovati (se non trova nulla, esce)
-        if not raw_results['documents'] or not raw_results['documents'][0]:
-            print("Nessun documento trovato nello Stadio 1.")
+        # Uniamo tutti i documenti trovati (Chroma restituisce una lista di liste)
+        all_texts = []
+        all_metadatas = []
+        for doc_list, meta_list in zip(raw_results['documents'], raw_results['metadatas']):
+            all_texts.extend(doc_list)
+            all_metadatas.extend(meta_list)
+
+        if not all_texts:
             return []
 
-        retrieved_texts = raw_results['documents'][0]
-        retrieved_metadatas = raw_results['metadatas'][0]
+        # Rimuoviamo eventuali duplicati (se sia la query ITA che ENG hanno pescato lo stesso chunk)
+        unique_docs = []
+        seen_texts = set()
+        for t, m in zip(all_texts, all_metadatas):
+            if t not in seen_texts:
+                seen_texts.add(t)
+                unique_docs.append({"text": t, "metadata": m})
 
-        # ==========================================
-        # STADIO 2: Re-Ranking di Precisione (Slow)
-        # ==========================================
-        # Prepariamo le coppie [Domanda, Testo] da dare in pasto al Re-ranker
-        query_text_pairs = [[user_query, text] for text in retrieved_texts]
-        
-        # Il Re-ranker legge ogni coppia e assegna un punteggio matematico
+        # Stadio 2: Re-Ranking
+        # Usiamo la primissima query (quella originale dell'utente) per dare il voto finale
+        original_query = user_queries[0] 
+        query_text_pairs = [[original_query, doc["text"]] for doc in unique_docs]
         scores = self.reranker.predict(query_text_pairs)
 
-        # Creiamo una lista di dizionari con tutte le info (Testo, Metadati, Punteggio)
         ranked_results = []
-        for i in range(len(retrieved_texts)):
+        for i, doc in enumerate(unique_docs):
             ranked_results.append({
-                "text": retrieved_texts[i],
-                "source": retrieved_metadatas[i].get("source_file"),
-                "title": retrieved_metadatas[i].get("title"),
-                "score": float(scores[i]) # Punteggio assegnato dal re-ranker
+                "text": doc["text"],
+                "source": doc["metadata"].get("source_file"),
+                "title": doc["metadata"].get("title"),
+                "score": float(scores[i])
             })
 
-        # Ordiniamo i risultati dal punteggio più alto a quello più basso
         ranked_results.sort(key=lambda x: x["score"], reverse=True)
-
-        # Restituiamo solo i top 'final_k' risultati
         return ranked_results[:final_k]
 
 

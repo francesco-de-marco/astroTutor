@@ -33,11 +33,24 @@ def index_chunks(collection):
     
     for file_path in jsonl_files:
         print(f"Indicizzando: {file_path.name}")
-        
-        # Usiamo un dizionario per evitare ID duplicati nello STESSO batch.
-        # Se c'è un duplicato nello stesso file, sovrascriverà semplicemente la chiave.
+        # Dizionario per accumulare il batch
         batch_data = {}
         
+        # CONTROLLO IDEMPOTENZA: Leggiamo solo la prima riga per vedere se il file è già indicizzato
+        with open(file_path, 'r', encoding='utf-8') as f:
+            first_line = f.readline()
+            if not first_line:
+                continue
+            first_chunk = json.loads(first_line)
+            first_id = hashlib.md5(first_chunk['content'].encode('utf-8')).hexdigest()
+            
+        # Chiediamo a ChromaDB se ha già questo ID
+        existing = collection.get(ids=[first_id])
+        if existing and existing.get('ids'):
+            print(f"    [-] SKIP (già indicizzato): {file_path.name}")
+            continue
+            
+        print(f"    [+] Elaborazione e Calcolo Embedding per: {file_path.name}...")
         with open(file_path, 'r', encoding='utf-8') as f:
             for i, line in enumerate(f):
                 chunk = json.loads(line)

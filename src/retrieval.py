@@ -7,6 +7,19 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "vector_db"
 
+# Livelli accettati in ordine di preferenza: prima il richiesto, poi gli adiacenti.
+# Un bambino (A) può ricevere materiale B da semplificare nel prompt,
+# ma mai un textbook universitario (D).
+LEVEL_FALLBACK = {
+    "A": ["A", "B"],
+    "B": ["B", "A", "C"],
+    "C": ["C", "B", "D"],
+    "D": ["D", "C"],
+}
+
+# A parità di pertinenza vince la fonte scritta per il livello richiesto
+EXACT_LEVEL_BONUS = 0.5
+
 class AdvancedRetriever:
     def __init__(self):
         print("Inizializzazione Retriever Avanzato...")
@@ -37,7 +50,11 @@ class AdvancedRetriever:
 
     # Cambia user_query in una lista (es. [query_ita, query_eng])
     def search(self, user_queries: list, user_level: str = None, initial_k: int = 20, final_k: int = 3):
-        where_filter = {"difficulty_level": user_level} if user_level else None
+        # Filtro con fallback: livello richiesto + livelli adiacenti
+        where_filter = None
+        if user_level:
+            accepted_levels = LEVEL_FALLBACK.get(user_level, [user_level])
+            where_filter = {"difficulty_level": {"$in": accepted_levels}}
 
         # Passiamo l'intera lista di varianti a ChromaDB
         raw_results = self.collection.query(
@@ -72,11 +89,15 @@ class AdvancedRetriever:
 
         ranked_results = []
         for i, doc in enumerate(unique_docs):
+            is_exact = user_level is not None and doc["metadata"].get("difficulty_level") == user_level
             ranked_results.append({
                 "text": doc["text"],
                 "source": doc["metadata"].get("source_file"),
                 "title": doc["metadata"].get("title"),
-                "score": float(scores[i])
+                "level": doc["metadata"].get("difficulty_level"),
+                # segnala a generation.py se il contesto va adattato al livello richiesto
+                "level_match": "exact" if is_exact else "fallback",
+                "score": float(scores[i]) + (EXACT_LEVEL_BONUS if is_exact else 0.0)
             })
 
         ranked_results.sort(key=lambda x: x["score"], reverse=True)
@@ -93,9 +114,9 @@ if __name__ == "__main__":
     # Chiediamo i top 3 risultati per un utente delle medie (Livello B)
     # Lo stadio 1 ne pescherà 20, lo stadio 2 li riordinerà e terrà i 3 migliori.
     risultati_finali = retriever.search(
-        user_query=domanda_test, 
-        user_level="D", 
-        initial_k=20, 
+        user_queries=[domanda_test],
+        user_level="D",
+        initial_k=20,
         final_k=3
     )
     

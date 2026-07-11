@@ -1,11 +1,15 @@
 from src.generation import RAGGenerator
+try:
+    from config import LLM_MODEL
+except ImportError:
+    LLM_MODEL = "qwen2.5:3b"
 
 def main():
     print("Avvio del RAG Tester...\n")
     
-    # Assicurati di aver scaricato il modello su Ollama con: ollama run qwen2.5:3b
+    # Assicurati di aver scaricato il modello su Ollama (es. ollama run qwen2.5:1.5b)
     try:
-        generator = RAGGenerator(model_name="qwen2.5:3b") 
+        generator = RAGGenerator(model_name=LLM_MODEL) 
     except Exception as e:
         print(f"Errore di inizializzazione: {e}")
         return

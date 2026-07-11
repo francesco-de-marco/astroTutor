@@ -2,11 +2,15 @@ import os
 from pathlib import Path
 from src.retrieval import AdvancedRetriever
 from openai import OpenAI
+try:
+    from config import LLM_MODEL
+except ImportError:
+    LLM_MODEL = "qwen2.5:3b"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 class RAGGenerator:
-    def __init__(self, model_name="qwen2.5:3b"):
+    def __init__(self, model_name=LLM_MODEL):
         print(f"Inizializzazione Generatore RAG con modello locale: {model_name}...")
         self.retriever = AdvancedRetriever()
         
@@ -70,7 +74,7 @@ class RAGGenerator:
             response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.0, # Temperatura 0 per avere zero creatività e massima precisione
+                temperature=0.1, # Temperatura 0 per avere zero creatività e massima precisione
                 frequency_penalty=0.6,  # Previene i loop ma permette le formule.
                 presence_penalty=0.5    # Lo spinge a usare vocaboli nuovi nelle spiegazioni.
             )
@@ -101,6 +105,8 @@ class RAGGenerator:
                 model=self.model_name,
                 messages=messages,
                 temperature=0.1, 
+                frequency_penalty=0.6,
+                presence_penalty=0.5,
             )
             
             answer = response.choices[0].message.content
@@ -138,6 +144,8 @@ class RAGGenerator:
                 model=self.model_name,
                 messages=messages,
                 temperature=0.1, 
+                frequency_penalty=0.6,
+                presence_penalty=0.5,
             )
             return response.choices[0].message.content
         except Exception as e:

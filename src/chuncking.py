@@ -9,6 +9,8 @@ import os
 import re
 import sys
 import time
+import html
+from bs4 import BeautifulSoup
 from pathlib import Path
 
 # Assicurati di aver installato: pip install langchain-text-splitters
@@ -22,6 +24,26 @@ CHUNKS_DIR = PROJECT_ROOT / "data" / "processed" / "chunks"
 
 CHUNK_SIZE = 1500
 CHUNK_OVERLAP = 200
+# Sotto questa soglia il chunk è rumore (didascalie, colophon, rating di copertina)
+MIN_CHUNK_CHARS = 150
+
+def clean_docling_markdown(text: str) -> str:
+    if not text:
+        return ""
+    text = html.unescape(text)
+    text = re.sub(r'<!--.*?-->', ' ', text, flags=re.DOTALL)
+    text = re.sub(r'!\[.*?\]\(.*?\)', ' ', text)
+
+    soup = BeautifulSoup(text, "html.parser")
+    text = soup.get_text(separator=" ")
+
+    text = re.sub(
+        r'([a-z0-9,;\-][\*_\"\'»”’]*)\s*\n+\s*([\*_\"\'«“‘]*[a-zA-Z0-9])',
+        r'\1 \2', text
+    )
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text.strip()
 
 # ─── Logica di Chunking ───────────────────────────────────────────
 def process_json_document(json_path: Path) -> list:
@@ -33,9 +55,8 @@ def process_json_document(json_path: Path) -> list:
         
     markdown_text = data.get("text_markdown", "")
 
-    # --- 1. PRE-PROCESSING: Ripariamo i finti a capo QUI! ---
-    # Lo facciamo prima che LangChain veda il testo, così le frasi tornano unite.
-    markdown_text = re.sub(r'([a-z,;\-][\*_\"\'»”’]*)\s*\n+\s*([\*_\"\'«“‘]*[a-zA-Z])', r'\1 \2', markdown_text)
+    # --- 1. PRE-PROCESSING: Pulizia HTML robusta e ricongiungimento righe PDF ---
+    markdown_text = clean_docling_markdown(markdown_text)
     
     # Estraiamo i metadati base dal JSON (prendiamo solo il primo livello di difficoltà per semplicità)
     base_metadata = {
@@ -70,11 +91,11 @@ def process_json_document(json_path: Path) -> list:
         # Uniamo i metadati del documento con quelli generati dall'header splitter
         chunk_metadata = {**base_metadata, **chunk.metadata}
         
-        # Pulizia: Rimuoviamo i tag delle immagini generati da marker-pdf es: ![](_page_15_Picture_2.jpeg)
-        cleaned_content = re.sub(r'!\[\]\(.*?\)', '', chunk.page_content).strip()
+        # Pulizia post-split (già passata per clean_docling_markdown, togliamo solo spazi superflui)
+        cleaned_content = chunk.page_content.strip()
         
-        # Salviamo solo se c'è testo reale
-        if cleaned_content:
+        # Salviamo solo se c'è testo reale (scarta frammenti sotto la soglia minima)
+        if len(cleaned_content) >= MIN_CHUNK_CHARS:
             processed_chunks.append({
                 "content": cleaned_content,
                 "metadata": chunk_metadata
@@ -109,9 +130,13 @@ def main():
         # Mantiene la struttura delle cartelle (es. TOPIC 1 - Black Hole)
         relative_path = json_path.relative_to(PARSED_DIR)
         
-        # Sostituiamo l'estensione .json con .jsonl
         out_path = CHUNKS_DIR / relative_path.with_suffix('.jsonl')
         out_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        if out_path.exists():
+            print(f"[{idx}/{len(json_files)}] SKIP (già chunkato): {json_path.name}")
+            success += 1
+            continue
 
         print(f"[{idx}/{len(json_files)}] Chunking di: {json_path.name} ...")
 

@@ -1,8 +1,12 @@
 from src.generation import RAGGenerator
+try:
+    from config import LLM_MODEL
+except ImportError:
+    LLM_MODEL = "qwen2.5:3b"
 
 def main():
     print("Avvio del Test Comparativo (Baseline vs RAG)...\n")
-    generator = RAGGenerator(model_name="qwen2.5:3b") 
+    generator = RAGGenerator(model_name=LLM_MODEL) 
 
     while True:
         try:
@@ -15,7 +19,7 @@ def main():
                 
             # TEST 1: SENZA RAG (Baseline)
             print("\n" + "="*60)
-            print("❌ VERSIONE 1: SENZA RAG (Solo memoria di Qwen2.5)")
+            print(f"❌ VERSIONE 1: SENZA RAG (Solo memoria di {generator.model_name})")
             print("="*60)
             risposta_base = generator.generate_without_rag(query, user_level=livello)
             print(risposta_base)

@@ -169,10 +169,15 @@ progetto_IR/
 
 ### Parsing
 
-- **PyMuPDF (fitz):** Il misuratore. Legge solo quante pagine ha il PDF in una frazione di secondo.
-- **Docling:** Il cervello visivo. Guarda le pagine, ricostruisce l'ordine di lettura, traduce le formule in LaTeX e usa l'OCR per leggere il testo intrappolato nelle immagini.
-- **PyTorch:** Il motore. È il framework di intelligenza artificiale che fa fisicamente girare le reti neurali di Docling.
-- **CUDA (Hardware Nvidia):** L'acceleratore. Permette a PyTorch di scaricare miliardi di calcoli matematici direttamente sulla GPU (scheda video) anziché ingolfare il processore.
+Il parser principale del corpus è **MinerU** (adottato l'11/07/2026 dopo un test comparativo su 3 PDF campione, in sostituzione di Docling), eseguito su GPU cloud tramite il notebook `src/orizzonte_ingest_mineru_kaggle.ipynb` che produce direttamente i JSON nel formato della pipeline.
+
+- **MinerU (backend `pipeline`):** Il cervello visivo. Nato per estrarre dati di training dalla letteratura scientifica, ricostruisce l'ordine di lettura, traduce in LaTeX sia le equazioni a blocco (`$$...$$`) sia le **formule inline** (`$...$`, che Docling perdeva), e scarta automaticamente header, footer e numeri di pagina — il rumore ripetitivo che prima finiva nei chunk.
+- **UniMERNet + PaddleOCR (dentro MinerU):** Gli specialisti. Il primo è il modello dedicato al riconoscimento delle formule; il secondo è l'OCR, nettamente più robusto sulle scansioni (sul libro del 1980 ha prodotto testo pulito dove Docling generava garbage).
+- **PyMuPDF (fitz):** Il misuratore. Legge solo quante pagine ha il PDF in una frazione di secondo, per il campo `num_pages` dei metadati.
+- **Kaggle T4 (GPU cloud gratuita):** L'officina. Il parsing dell'intero corpus gira sul notebook Kaggle in poche ore a costo zero; il notebook è idempotente (salta i file già processati) e riprende da dove si era fermato se la sessione scade.
+- **Docling (legacy):** Il predecessore. Resta l'output Docling solo per il *Gravitation* (Misner-Thorne-Wheeler, 1.301 pagine), assente dal run MinerU; la sua estrazione era comunque di buona qualità (4.753 formule display). Attenzione storica: la gerarchia dei titoli MinerU si è rivelata pari o migliore (es. Astronomy 2e: 2.022 header `##`), requisito critico perché il chunking si basa su `MarkdownHeaderTextSplitter`.
+
+*Nota operativa: Kaggle storpia i nomi dei file nei dataset (rimuove virgole, apostrofi e accenti: `George's` → `Georges`), quindi al rientro i JSON vanno rimappati sui nomi locali esatti prima di sovrascrivere quelli in `data/processed/parsed/`.*
 
 ### Chunking
 
@@ -223,3 +228,11 @@ Per evitare che ChromaDB si riempia di documenti duplicati (situazione molto com
 - **Fase 4: Generazione Controllata e Citazione Trasparente** L'Intelligenza Artificiale produce la risposta finale leggendo la domanda, le regole di stile e i riassunti trovati. L'operazione avviene a bassissima temperatura (`temperature=0.1`) per favorire spiegazioni razionali, ancorate ai fatti e stabili. A risposta conclusa, il sistema estrae in automatico i metadati dei frammenti effettivamente inseriti nel prompt e appende in calce un blocco riassuntivo delle **fonti utilizzate**, indicando chiaramente i titoli dei testi e i nomi dei file originali consultati. Questo dona totale tracciabilità ai risultati.
 
 *(Nel modulo è prevista anche una modalità Baseline — `generate_without_rag` — che spegne tutto il Retrieval per misurare come avrebbe risposto il modello "da solo"; una tecnica usata per valutare l'effettivo salto di qualità e precisione portato dalla pipeline).*
+
+### Alignment
+
+Il modulo `src/alignment.py` copre le Fasi 4 e 5 del progetto in due parti indipendenti.
+
+- **Data Collection RLAIF (Fase 4):** genera il dataset RAG-Aware di triplette `{prompt, chosen, rejected}` in `data/alignment_data.json` (JSON Lines, formato conversazionale TRL). Il `prompt` è *esattamente* quello che `build_prompt()` di `generation.py` costruisce a runtime (system prompt severo + 3 chunk recuperati + domanda), così il DPO ottimizza il modello sulla stessa distribuzione di input che vedrà in produzione. La `chosen` la scrive un **LLM Oracolo** più grande (config `ORACLE_MODEL`, default `qwen3:8b` su Ollama, override via variabili d'ambiente per API esterne); la `rejected` la scrive il modello piccolo di produzione con tre strategie di errore: **wrong_register** (risposta fedele al contesto ma con registro invertito: accademica per un bambino, infantile per un universitario), **hallucination** (risposta a memoria che ignora il contesto) e **ood** (domanda fuori dominio: `chosen` = rifiuto standard, `rejected` = risposta sicura e inventata). Le domande stesse sono sintetiche: l'oracolo le genera da chunk campionati del corpus, stratificati per livello, così ogni domanda ha per costruzione una risposta nei documenti. Lo script è idempotente (ID = MD5 di chunk+livello+strategia, append riga per riga): si interrompe e riprende senza perdere nulla. Uso: `python src/alignment.py --target 400`.
+- **Guardrails a runtime:** la classe `ResponseGuardrails` controlla ogni risposta generata rispetto al livello utente — **indice Gulpease** minimo (leggibilità tarata sull'italiano: soglia 55 per il livello A, 45 per il B), lunghezza massima, lista di gergo accademico vietato ai bambini e assenza di formule LaTeX per il livello A. Se un controllo fallisce, `generation.py` rigenera **una sola volta** accodando l'istruzione correttiva alla conversazione e tiene la versione con meno problemi: il meccanismo è best-effort e non blocca mai la risposta. Il rifiuto standard OOD passa sempre (è il comportamento corretto, non un difetto di registro).
+- **Training DPO (Fase 5):** avviene su Colab A100 con il notebook `src/alignment_dpo_colab.ipynb` — QLoRA (base `Qwen/Qwen2.5-3B-Instruct` in 4-bit NF4) + adattatori LoRA + `DPOTrainer` di TRL (con LoRA il modello di riferimento è implicito: il base con adapter disattivati, dimezzando la VRAM). A fine training: merge dell'adapter in fp16, conversione GGUF e quantizzazione `Q4_K_M` per la GPU locale da 4 GB, `Modelfile` per Ollama. Deploy locale: `ollama create astrotutor-dpo -f Modelfile` e `LLM_MODEL = "astrotutor-dpo"` in `config.py`. Budget: i 33 crediti Colab riservati bastano ampiamente (~30-60 min di A100 per ~400 triplette).

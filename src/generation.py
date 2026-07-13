@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from src.retrieval import AdvancedRetriever
+from src.alignment import ResponseGuardrails, REFUSAL_MESSAGE
 from openai import OpenAI
 try:
     from config import LLM_MODEL
@@ -20,6 +21,7 @@ class RAGGenerator:
             api_key="ollama", # Ignorata da Ollama, ma richiesta dalla libreria
         )
         self.model_name = model_name
+        self.guardrails = ResponseGuardrails()
 
     def _get_system_instructions(self, user_level: str) -> str:
         instructions = {
@@ -44,8 +46,8 @@ class RAGGenerator:
             "⚠️ REGOLE ASSOLUTE E INVIOLABILI:\n"
             "1. Cerca la risposta SOLO all'interno del CONTESTO fornito.\n"
             "2. Se il CONTESTO non contiene la risposta esatta o non ne parla, DEVI rispondere "
-            "ESATTAMENTE con: 'Mi dispiace, ma i documenti a mia disposizione non contengono "
-            "questa informazione.' Non aggiungere altre spiegazioni, scuse o storielle.\n"
+            f"ESATTAMENTE con: '{REFUSAL_MESSAGE}' "
+            "Non aggiungere altre spiegazioni, scuse o storielle.\n"
             "3. NON INVENTARE nulla. Non usare la tua conoscenza pregressa. Non creare "
             "analogie o metafore che non siano già scritte nel testo.\n\n"
             f"STILE DI RISPOSTA:\nSe (e SOLO SE) trovi la risposta nel contesto, esponila "
@@ -82,6 +84,39 @@ class RAGGenerator:
         except:
             return query # Fallback in caso di errore
 
+    def _apply_guardrails(self, answer: str, messages: list, user_level: str) -> str:
+        """
+        Controlla tono/registro della risposta rispetto al livello utente.
+        Se i guardrail segnalano problemi, rigenera UNA volta con l'istruzione
+        correttiva e tiene la versione con meno problemi. Mai bloccante.
+        """
+        issues = self.guardrails.check(answer, user_level)
+        if not issues:
+            return answer
+
+        print(f"🛡️ Guardrails ({user_level}): {'; '.join(issues)} — rigenero...")
+        retry_messages = messages + [
+            {"role": "assistant", "content": answer},
+            {"role": "user", "content": self.guardrails.corrective_instruction(issues, user_level)},
+        ]
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=retry_messages,
+                temperature=0.1,
+                frequency_penalty=0.6,
+                presence_penalty=0.5,
+            )
+            new_answer = response.choices[0].message.content
+        except Exception:
+            return answer  # la rigenerazione è best-effort
+
+        new_issues = self.guardrails.check(new_answer, user_level)
+        if len(new_issues) < len(issues):
+            return new_answer
+        print("🛡️ Guardrails: la rigenerazione non ha migliorato, tengo l'originale.")
+        return answer
+
     def generate(self, query: str, user_level: str = "B"):
         print(f"🔄 Generazione varianti di ricerca...")
         query_eng = self._translate_query(query)
@@ -110,7 +145,8 @@ class RAGGenerator:
             )
             
             answer = response.choices[0].message.content
-            
+            answer = self._apply_guardrails(answer, messages, user_level)
+
             # Aggiunta fonti univoche
             fonti = set([f"- {r['title']} ({r['source']})" for r in results])
             sources_text = "\n\n---\n**Fonti utilizzate:**\n" + "\n".join(fonti)

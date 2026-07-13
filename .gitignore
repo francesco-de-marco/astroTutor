@@ -1,5 +1,6 @@
 __pycache__/
 data/raw/
 data/vector_db/
+.venv
 *.pyc
- 
+.env

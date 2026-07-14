@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Modello LLM per la generazione (utilizzato da generation.py, main.py, compare.py)
 # Possibili opzioni per testare modelli meno potenti:
@@ -14,5 +17,10 @@ LLM_MODEL = "qwen2.5:3b"
 # Default: Ollama locale. Per usare un'API esterna OpenAI-compatibile basta
 # impostare le variabili d'ambiente, senza toccare il codice.
 ORACLE_BASE_URL = os.environ.get("ORACLE_BASE_URL", "https://api.groq.com/openai/v1")
-ORACLE_API_KEY = os.environ.get("ORACLE_API_KEY", "API_KEY")
+ORACLE_API_KEY = os.environ.get("ORACLE_API_KEY")
 ORACLE_MODEL = os.environ.get("ORACLE_MODEL", "llama-3.3-70b-versatile")
+
+if ORACLE_API_KEY is None:
+    raise ValueError(
+        "ORACLE_API_KEY non impostata. Controlla il file .env nella root del progetto."
+    )

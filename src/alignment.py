@@ -58,6 +58,14 @@ except ImportError:
 CHUNKS_DIR = PROJECT_ROOT / "data" / "processed" / "chunks"
 DATA_PATH = PROJECT_ROOT / "data" / "alignment_data.json"
 
+# Fonti escluse dal pool di generazione delle triplette: libro narrativo per
+# ragazzi (presente in doppio, IT/EN) i cui chunk sono spesso puro dialogo/
+# trama senza contenuto astronomico. Resta comunque nell'indice RAG live.
+EXCLUDED_SOURCE_SUBSTRINGS = [
+    "georges secret key",
+    "chiave segreta per luniverso",
+]
+
 # Stessa stringa imposta dal system prompt di generation.py: il modello
 # allineato deve impararla come comportamento nativo sui casi OOD.
 REFUSAL_MESSAGE = (
@@ -218,6 +226,9 @@ def load_chunk_pool() -> dict:
                     continue
                 level = chunk.get("metadata", {}).get("difficulty_level")
                 content = chunk.get("content", "")
+                source_file = (chunk.get("metadata", {}).get("source_file") or "").lower()
+                if any(s in source_file for s in EXCLUDED_SOURCE_SUBSTRINGS):
+                    continue
                 if level in pool and len(content) >= MIN_SOURCE_CHUNK_CHARS:
                     pool[level].append(chunk)
     return pool

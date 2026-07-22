@@ -1,0 +1,5 @@
+ [46/46 8:04:01, Epoch 2/2]
+Epoch	Training Loss	Validation Loss	Entropy	Num Tokens	Logits/chosen	Logits/rejected	Mean Token Accuracy	Rewards/chosen	Rewards/rejected	Rewards/accuracies	Rewards/margins	Logps/chosen	Logps/rejected
+1	0.562047	0.472276	1.163505	1237763.000000	-3.102772	-2.702374	0.835482	0.081962	-0.461150	0.947368	0.543112	-183.703095	-758.295709
+2	0.436195	0.389420	1.162361	2475526.000000	-3.105702	-2.701614	0.837456	0.039920	-0.768226	1.000000	0.808146	-184.123514	-761.366468
+TrainOutput(global_step=46, training_loss=0.5252518336410108, metrics={'train_runtime': 29633.9409, 'train_samples_per_second': 0.024, 'train_steps_per_second': 0.002, 'total_flos': 4.50470550871081e+16, 'train_loss': 0.5252518336410108, 'epoch': 2.0})

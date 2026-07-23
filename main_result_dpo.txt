@@ -1,0 +1,118 @@
+============================================================
+🚀 RAG TESTER INTERATTIVO ATTIVO
+Premi Ctrl+C o scrivi 'esci' per terminare.
+============================================================
+
+🧐 Fai una domanda ai tuoi PDF: come funziona la gravità in un buco nero 
+🎓 Scegli il livello (A=Bambini, B=Medie, C=Superiori, D=Uni) [Premi Invio per B]: B
+
+Generazione in corso (Livello B)... ⏳
+
+🔄 Generazione varianti di ricerca...
+🔍 Ricerca documenti per livello B...
+🧠 Generazione risposta con astrotutor-dpo...
+
+------------------------------------------------------------
+La gravità nei buchi neri è così intensa che nulla può sfuggire a essa. Anche la luce non riesce ad allontanarsi, quindi i buchi neri sono anche chiamati "buchi neri". Quando una stella si raffredda e smette di produrre energia attraverso il carburante termonucleare, diventa un buco nero. Questi eventi vengono detti "collasso" della stella. Nel collasso, la gravità compressisce i residui della stella verso l'interno fino a che non si riduce in una singolarità con densità infinita e dimensioni zero. La legge di Einstein ci dice come questa comprensione matematica funziona. Se un buco nero ingloba abbastanza materia, diventa un "buco nero supermassivo".
+
+---
+**Fonti utilizzate:**
+- Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi (data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf)
+- La chiave segreta per luniverso (data/raw/TOPIC 1 - Black Hole/B - La chiave segreta per luniverso.pdf)
+- Attività astroEDU - costruisci-buco-nero (A - api_astroedu_costruisci-buco-nero.json)
+------------------------------------------------------------
+
+
+🧐 Fai una domanda ai tuoi PDF: e cos'è la singolarità ?
+🎓 Scegli il livello (A=Bambini, B=Medie, C=Superiori, D=Uni) [Premi Invio per B]: A 
+
+Generazione in corso (Livello A)... ⏳
+
+🔄 Generazione varianti di ricerca...
+🔍 Ricerca documenti per livello A...
+🧠 Generazione risposta con astrotutor-dpo...
+
+------------------------------------------------------------
+La singolarità è un punto così piccolo e densissimo che non si può più definire come una dimensione, tipo zero volumi e infinita densità. È come se tutto il materiale di un buco nero fosse concentrato in uno solo puntino molto piccolo! Non c'è modo di andare indietro da quel punto. Solo i buchi neri hanno queste condizioni strane, quindi anche gli eventi horizonti (che sono come una linea invisibile intorno al buco nero) si trovano soltanto nei buchi neri. Questo rende un buco nero diverso da tutto ciò che c'è!
+
+---
+**Fonti utilizzate:**
+- Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff) (data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf)
+- A Black Hole is Not a Hole (Carolyn Cinami DeCristofano) (data/raw/TOPIC 1 - Black Hole/A - A Black Hole is Not a Hole (Carolyn Cinami DeCristofano).pdf)
+- Attività astroEDU - costruisci-buco-nero (A - api_astroedu_costruisci-buco-nero.json)
+------------------------------------------------------------
+
+
+🧐 Fai una domanda ai tuoi PDF: spiegami meglio la singolarità 
+🎓 Scegli il livello (A=Bambini, B=Medie, C=Superiori, D=Uni) [Premi Invio per B]: D
+
+Generazione in corso (Livello D)... ⏳
+
+🔄 Generazione varianti di ricerca...
+🔍 Ricerca documenti per livello D...
+🧠 Generazione risposta con astrotutor-dpo...
+
+------------------------------------------------------------
+Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli specifici sulla singolarità in essenza o sui suoi aspetti più profondi come sarebbe necessario per una spiegazione completa e accademica di questo concetto complesso della teoria dei buchi neri.
+
+---
+**Fonti utilizzate:**
+- Gravitation (Physics Series) (Charles W. Misner, Kip S. Thorne etc.) (TOPIC 2 - Wormhole, viaggi nel tempo e spazio-tempo/D - Gravitation (Physics Series) (Charles W. Misner, Kip S. Thorne etc.).pdf)
+- Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking) (data/raw/TOPIC 1 - Black Hole/C - Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking).pdf)
+------------------------------------------------------------
+
+
+🧐 Fai una domanda ai tuoi PDF: spiegami meglio come funziona la gravità in un buco nero 
+🎓 Scegli il livello (A=Bambini, B=Medie, C=Superiori, D=Uni) [Premi Invio per B]: D
+
+Generazione in corso (Livello D)... ⏳
+
+🔄 Generazione varianti di ricerca...
+🔍 Ricerca documenti per livello D...
+🧠 Generazione risposta con astrotutor-dpo...
+
+------------------------------------------------------------
+In una singolarità, o nel centro di un buco nero, la forza di gravità si estende fino a raggiungere il limite della nostra comprensione fisica. Secondo quanto riportato nelle fonti fornite, l'effetto della gravità in queste condizioni è così intenso che non può essere calcolata con le nostre teorie attuali di meccanica quantistica e relatività generale.
+
+La formula classica della forza di gravità ci dice che essa aumenta proporzionalmente alla massa dei corpi attratti, ma diminuisce rapidamente in funzione della distanza. Tuttavia, nel caso di un buco nero con una densità infinita e senza dimensioni (singolarità), questa formula non è più applicabile.
+
+L'astronomo John Michell ha sottolineato che il potere gravitazionale di un buco nero si estende fino a influenzare gli oggetti vicini, come le stelle in orbita attorno al compagno invisibile. Questi sistemi mostrano anche una forza gravitazionale abbastanza forte da emettere raggi X quando la materia cade verso il buco nero.
+
+In sintesi, nella regione intorno a un buco nero (ma non all'interno), l'effetto della gravità è così potente che può influenzare gli oggetti in orbita attorno al compagno invisibile. Tuttavia, la forza di gravità si estende fino ad avere una grande intensità anche nel caso di un buco nero con singolarità, rendendo impossibile calcolarne l'effetto all'interno del buco stesso.
+
+---
+**Fonti utilizzate:**
+- Dal big bang ai buchi neri. Breve storia del tempo (data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf)    
+- Astrofisica per ansiosi (Licia Troisi) (data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf)      
+------------------------------------------------------------
+
+
+🧐 Fai una domanda ai tuoi PDF: quali sono le formule più importanti quando si parla di onde gravitazionali ?
+🎓 Scegli il livello (A=Bambini, B=Medie, C=Superiori, D=Uni) [Premi Invio per B]: D
+
+Generazione in corso (Livello D)... ⏳
+
+🔄 Generazione varianti di ricerca...
+🔍 Ricerca documenti per livello D...
+🧠 Generazione risposta con astrotutor-dpo...
+
+------------------------------------------------------------
+Le due formule più importanti per la generazione delle onde gravitazionali, come evidenziato nel contesto fornito, sono:
+
+1. La formula del quadrupolo della massa:
+$${ \cal L } _ { \mathrm { m a s s ~ q u a d r u p o l e } } \sim { \frac { G } { c ^ { 5 } } } { \frac { M v ^ { 2 } } { \tau }} .$$
+
+Questa formula suggerisce che la emissione di energia in onde gravitazionali è severamente restringuta da un coefficiente, con una grandezza simile a \(10^{-59}\). Questo significa che l'efficienza della conversione di qualsiasi tipo di energia in onde gravitazionali non è generalmente efficace.
+
+2. La formula del quadrupolo della massa può essere derivata più rigorosamente attraverso un espansione post-Newtoniana (PN), come evidenziato nel contesto fornito:
+
+Questa formola, tuttavia, viene menzionata solo in modo generale e non è espressa con dettagli numerici o fisici specifici.
+
+Le altre informazioni presentate nella formula di Eq. 56 sono considerate molto semplicistiche ma contengono queste due componenti chiave per comprendere la natura delle onde gravitazionali.
+
+---
+**Fonti utilizzate:**
+- TASI Lectures on Inflation (Daniel Baumann arXiv) (data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/D - TASI Lectures on Inflation (Daniel Baumann arXiv).pdf)
+- The Physics of Gravitational Waves (Enrico Barausse arXiv) (data/raw/TOPIC 7 - Onde gravitazionali e astronomia multi-messaggero/D - The Physics of Gravitational Waves (Enrico Barausse arXiv).pdf)
+- GW from Perturbed Black Holes and Relativistic Stars (arXiv gr-qc0302025) (data/raw/TOPIC 7 - Onde gravitazionali e astronomia multi-messaggero/D - GW from Perturbed Black Holes and Relativistic Stars (arXiv gr-qc0302025).pdf)
+------------------------------------------------------------

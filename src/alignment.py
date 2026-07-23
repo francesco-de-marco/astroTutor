@@ -55,16 +55,7 @@ except ImportError:
     ORACLE_API_KEY = "ollama"
     ORACLE_MODEL = "qwen3:8b"
 
-CHUNKS_DIR = PROJECT_ROOT / "data" / "processed" / "chunks"
 DATA_PATH = PROJECT_ROOT / "data" / "alignment_data.json"
-
-# Fonti escluse dal pool di generazione delle triplette: libro narrativo per
-# ragazzi (presente in doppio, IT/EN) i cui chunk sono spesso puro dialogo/
-# trama senza contenuto astronomico. Resta comunque nell'indice RAG live.
-EXCLUDED_SOURCE_SUBSTRINGS = [
-    "georges secret key",
-    "chiave segreta per luniverso",
-]
 
 # Stessa stringa imposta dal system prompt di generation.py: il modello
 # allineato deve impararla come comportamento nativo sui casi OOD.
@@ -72,9 +63,6 @@ REFUSAL_MESSAGE = (
     "Mi dispiace, ma i documenti a mia disposizione non contengono "
     "questa informazione."
 )
-
-# Sotto questa lunghezza un chunk non basta a generare una buona domanda
-MIN_SOURCE_CHUNK_CHARS = 400
 
 STRATEGY_WEIGHTS = {
     "wrong_register": 0.4,
@@ -88,6 +76,20 @@ AUDIENCE = {
     "C": "uno studente delle scuole superiori",
     "D": "uno studente universitario di fisica",
 }
+
+# I 7 argomenti reali del corpus (cartelle di data/raw). Le domande di
+# training partono da qui, non da un chunk casuale: una domanda ancorata
+# a un singolo chunk eredita dettagli iper-specifici (didascalie, aneddoti)
+# che non riflettono come un vero studente interrogherebbe il tutor.
+TOPICS = [
+    "Black Hole",
+    "Wormhole, viaggi nel tempo e spazio-tempo",
+    "Altri oggetti compatti e contesto cosmologico",
+    "Evoluzione stellare e supernovae",
+    "Galassie, ammassi e struttura a grande scala",
+    "Cosmologia Big Bang, espansione, materia oscura, energia oscura",
+    "Onde gravitazionali e astronomia multi-messaggero",
+]
 
 # Domande fuori dominio: il comportamento corretto è il rifiuto standard.
 OOD_QUESTIONS = [
@@ -214,26 +216,6 @@ class ResponseGuardrails:
 #  PARTE 1 — DATA COLLECTION PER DPO (RLAIF)
 # ═══════════════════════════════════════════════════════════════════
 
-def load_chunk_pool() -> dict:
-    """Carica tutti i chunk dai JSONL, raggruppati per livello di difficoltà."""
-    pool = {"A": [], "B": [], "C": [], "D": []}
-    for jsonl_path in CHUNKS_DIR.rglob("*.jsonl"):
-        with open(jsonl_path, "r", encoding="utf-8") as f:
-            for line in f:
-                try:
-                    chunk = json.loads(line)
-                except json.JSONDecodeError:
-                    continue
-                level = chunk.get("metadata", {}).get("difficulty_level")
-                content = chunk.get("content", "")
-                source_file = (chunk.get("metadata", {}).get("source_file") or "").lower()
-                if any(s in source_file for s in EXCLUDED_SOURCE_SUBSTRINGS):
-                    continue
-                if level in pool and len(content) >= MIN_SOURCE_CHUNK_CHARS:
-                    pool[level].append(chunk)
-    return pool
-
-
 def load_existing_ids() -> set:
     """ID delle triplette già salvate (per idempotenza/resume)."""
     ids = set()
@@ -287,19 +269,24 @@ class TripletFactory:
         return self._chat(self.rag.client, self.rag.model_name, messages, temperature)
 
     # ── Generazione dei componenti della tripletta ─────────────────
-    def generate_question(self, chunk: dict, user_level: str) -> str:
-        """L'oracolo genera una domanda in italiano a cui il chunk risponde."""
+    def generate_topic_question(self, topic: str, user_level: str) -> str:
+        """L'oracolo genera una domanda naturale sull'argomento, senza vedere
+        alcun testo sorgente: nasce dal topic, non da un chunk specifico, per
+        rispecchiare come farebbe davvero uno studente. Il retrieval reale
+        (in build_triplet) trova poi le fonti pertinenti, esattamente come
+        a runtime."""
         prompt = (
             "Sei un generatore di domande per un tutor di astrofisica.\n"
-            "Leggi il passaggio e scrivi UNA sola domanda in ITALIANO che:\n"
-            "- abbia una risposta completa nel passaggio;\n"
+            f"Scrivi UNA sola domanda in ITALIANO sull'argomento \"{topic}\" che:\n"
             f"- sia formulata come la porrebbe {AUDIENCE[user_level]};\n"
-            "- sia autonoma: NON citare 'il testo', 'il passaggio' o 'l'autore'.\n"
-            "Rispondi SOLO con la domanda, senza premesse né virgolette.\n\n"
-            f"PASSAGGIO:\n{chunk['content'][:1500]}"
+            "- sia una domanda concettuale naturale su questo argomento, NON "
+            "legata a un dettaglio iper-specifico di un singolo libro o fonte "
+            "(niente aneddoti, nomi di persone minori, didascalie di figure);\n"
+            "- sia autonoma: NON citare 'il testo', 'il libro' o 'l'autore'.\n"
+            "Rispondi SOLO con la domanda, senza premesse né virgolette."
         )
         question = self._ask_oracle(
-            [{"role": "user", "content": prompt}], temperature=0.7
+            [{"role": "user", "content": prompt}], temperature=0.8
         )
         # Teniamo solo la prima riga non vuota: qualche modello aggiunge note
         for line in question.splitlines():
@@ -313,22 +300,15 @@ class TripletFactory:
         return self._ask_oracle(prompt_messages, temperature=0.3)
 
     def generate_rejected_wrong_register(self, question, docs, user_level) -> str:
-        """Risposta fedele al contesto ma con registro invertito."""
+        """Risposta con registro invertito, generata con LO STESSO prompt
+        rigido della chosen (stesse regole di grounding, stesso contesto) —
+        cambia solo lo stile richiesto. Isolare il registro come unica
+        variabile evita che il segnale "registro sbagliato" si confonda con
+        "contesto meno rispettato" (le due cose erano mescolate nella
+        versione precedente, che usava un prompt più permissivo)."""
         inverted_level = "D" if user_level in ("A", "B") else "A"
-        inverted_style = self.rag._get_system_instructions(inverted_level)
-        context = "\n\n".join(
-            f"[Fonte {i} - {d['title']}]:\n{d['text']}" for i, d in enumerate(docs, 1)
-        )
-        system = (
-            "Sei un assistente didattico. Rispondi alla domanda basandoti sul "
-            f"contesto fornito.\n\nSTILE DI RISPOSTA: {inverted_style}\n\n"
-            f"CONTESTO:\n{context}"
-        )
-        return self._ask_small(
-            [{"role": "system", "content": system},
-             {"role": "user", "content": question}],
-            temperature=0.4,
-        )
+        messages = self.rag.build_prompt(question, docs, inverted_level)
+        return self._ask_small(messages, temperature=0.4)
 
     def generate_rejected_hallucination(self, question, user_level) -> str:
         """Risposta a memoria, sicura e ricca di dettagli non verificati."""
@@ -399,13 +379,8 @@ class TripletFactory:
 def collect_data(target: int, seed: int):
     random.seed(seed)
 
-    print(f"Caricamento pool di chunk da {CHUNKS_DIR} ...")
-    pool = load_chunk_pool()
-    for level, chunks in pool.items():
-        print(f"  Livello {level}: {len(chunks)} chunk candidati")
-
     existing = load_existing_ids()
-    print(f"\nTriplette già presenti in {DATA_PATH.name}: {len(existing)}")
+    print(f"Triplette già presenti in {DATA_PATH.name}: {len(existing)}")
     if len(existing) >= target:
         print("Obiettivo già raggiunto, niente da fare.")
         return
@@ -428,7 +403,6 @@ def collect_data(target: int, seed: int):
         while count < target:
             strategy = random.choices(strategies, weights=weights, k=1)[0]
             user_level = random.choice(levels)
-            source_chunk = None
 
             if strategy == "ood":
                 if not ood_cycle:
@@ -439,40 +413,22 @@ def collect_data(target: int, seed: int):
                     f"ood|{question}|{user_level}".encode("utf-8")
                 ).hexdigest()
             else:
-                # Preferisci un chunk del livello esatto, altrimenti adiacente
-                from src.retrieval import LEVEL_FALLBACK
-                candidate_levels = [
-                    lv for lv in LEVEL_FALLBACK[user_level] if pool[lv]
-                ]
-                if not candidate_levels:
+                topic = random.choice(TOPICS)
+                question = factory.generate_topic_question(topic, user_level)
+                if not question or len(question) < 15:
+                    skipped += 1
                     continue
-                chunk_level = candidate_levels[0] if (
-                    random.random() < 0.7 or len(candidate_levels) == 1
-                ) else random.choice(candidate_levels[1:])
-                source_chunk = random.choice(pool[chunk_level])
-                chunk_hash = hashlib.md5(
-                    source_chunk["content"].encode("utf-8")
-                ).hexdigest()
                 triplet_id = hashlib.md5(
-                    f"{strategy}|{chunk_hash}|{user_level}".encode("utf-8")
+                    f"{strategy}|{question}|{user_level}".encode("utf-8")
                 ).hexdigest()
 
             if triplet_id in existing:
                 continue
 
             try:
-                if strategy == "ood":
-                    triplet = factory.build_triplet(
-                        strategy, question, user_level, triplet_id
-                    )
-                else:
-                    question = factory.generate_question(source_chunk, user_level)
-                    if not question or len(question) < 15:
-                        skipped += 1
-                        continue
-                    triplet = factory.build_triplet(
-                        strategy, question, user_level, triplet_id, source_chunk
-                    )
+                triplet = factory.build_triplet(
+                    strategy, question, user_level, triplet_id
+                )
             except RuntimeError as e:
                 print(f"\n✗ ERRORE: {e}")
                 print("Controlla che Ollama sia attivo e che i modelli siano scaricati:")

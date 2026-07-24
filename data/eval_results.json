@@ -1,0 +1,836 @@
+{
+  "qwen2.5:3b": {
+    "grounded": [
+      {
+        "level": "A",
+        "question": "Cos'è un buco nero e perché si chiama così?",
+        "answer": "Un buco nero è una specie di punto molto piccolo nel cielo, come se fosse il centro di una cascata gigantesca. Non c'è nulla che possa uscire da lì, quindi sembra un po' come la parte più bassa della cascata dove tutto cade dentro e non può scappare.\n\nIl nome \"buco nero\" viene dal fatto che pensavamo per molto tempo che nessuna cosa potesse uscirne. Si diceva che chiunque cadessi in uno di questi puntini sarebbe rimasto lì per sempre, come se fosse una prigione senza fine. Ma ora siamo sicuri che ci sia qualcosa che può uscire da un buco nero.\n\nCi sono particelle piccolissime chiamate Radiazioni Hawking che possono uscirne lentamente. Questo significa che non è esattamente come dicevano prima, ma c'è sempre una possibilità di uscita. Non si tratta più di prigioni senza fine!",
+        "gulpease": 60.94244604316547,
+        "faithfulness": 0.5
+      },
+      {
+        "level": "A",
+        "question": "Cosa succederebbe se cadessi dentro un buco nero?",
+        "answer": "Se cadessi in un buco nero grande come il Sole o magari ancora più piccolo, sarebbe come essere stretto da una enorme morsa. I tuoi piedini si avvicinerebbero al buco nero e la sua forza gravitazionale li attirerebbe verso di lui. Così diventerei sempre più sottile, come se fossi un elastico che viene strizzato.\n\nSe cadessi in un buco nero molto grande, non noteresti nulla finché non ti avvicini all'orizzonte del buco nero. Allora la luce da te emessa impiegherebbe sempre più tempo per uscire dal buco nesso e sembrerà rallentare fino a sparire completamente.\n\nSe fossi fortunato, potresti superare l'orizzonte senza notare nulla di particolare. Ma se non lo fai, ti troveresti intrappolato dentro il buco nero per sempre! Non c'è modo di uscire da un buco nesso.\n\nCi sono anche queste cose speciali chiamate Radiazioni Hawking che possono far emergere piccole particelle dal buco nero. Questo significa che potresti vedere qualcosa uscire, ma non ti aiuterà a fuggire. Il tuo viaggio nel buco nesso sarebbe come una grande avventura in un mondo strano e distorcito!",
+        "gulpease": 58.888888888888886,
+        "faithfulness": 0.6363636363636364
+      },
+      {
+        "level": "A",
+        "question": "Cos'è un wormhole, e potremmo davvero usarlo per viaggiare nello spazio?",
+        "answer": "Un wormhole è come una specie di tunnel nel vuoto dello spazio che collega due punti diversi nell'universo. È come se avessimo due gommoncini vicino l'uno all'altra, ma uno si trova molto più lontano rispetto all'altro. Questo tunnel è così piccolo e nascosto che non possiamo vederlo con i nostri occhi.\n\nCi sono persone che pensano che se esistessero wormholes potremmo usarli per andare da un luogo a un altro molto più veloce del solito, quasi come magia. Ma ci sarebbe bisogno di una specie di materia strana estraordinaria per tenerlo aperto.\n\nCi sono anche persone che pensano che non possiamo fare wormholes con le nostre conoscenze attuali della scienza. Se esistessero, si dissolverebbero molto velocemente dopo essersi creati.\n\nQuindi, a questo momento non sappiamo se realmente funzionerebbero per viaggiare nello spazio in modo veloce come vogliamo noi!",
+        "gulpease": 55.901408450704224,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una stella di neutroni?",
+        "answer": "Una stella di neutroni è come se avessimo una piccola lampadina molto, molto potente dentro a noi. È così piccolo che puoi immaginare qualcosa del suo diametro per essere solo poche decine di chilometri - un po' più grande della città in cui viviamo.\n\nQuesto oggetto è come se avesse una massa enorme, quasi quanto il Sole! Ma perché ha questa grandezza straordinaria? È stato creato quando una stella molto massiccia si è spenta. Quando la stella spende tutto il suo carburante interni e inizia a raffreddarsi, parte del suo corpo viene spinta verso l'interno.\n\nQuando questo accade, le particelle dentro diventano così vicine che non possono più separarsi tra loro. Questo fa sì che la stella si contrae molto, creando una pressione enorme all'interno. Alla fine, il nucleo della stella diventa così piccolo e denso che può essere chiamato una \"stella di neutroni\".\n\nQuesto tipo di stelle ruotano in modo incredibilmente veloce - più velocemente del tuo cervello può pensare! E perché si muove così velocemente, genera un forte campo magnetico. Questo è come se avessimo uno spettro che emette luce e radio quando la sua \"lampadina\" ruota.\n\nLe stelle di neutroni sono molto rare e speciali, ma i nostri moderni telescopi hanno scoperto molte di queste piccole lampade nel cielo.",
+        "gulpease": 58.575471698113205,
+        "faithfulness": 0.46153846153846156
+      },
+      {
+        "level": "A",
+        "question": "Come nasce una stella?",
+        "answer": "Certo! Perché le stelle sono come neonate, nascoste dentro grandi nubi di polvere e gas champoni.\n\nLe stelle nascono quando queste nubi enormi cominciano a contrarsi. È come se qualcuno avesse dato un colpo forte alle nuvole di gas, facendole diventare più dense e piccole.\n\nQueste nuove stelle iniziano ad avere una temperatura molto alta all'interno perché si contrae così tanto. Quando la temperatura arriva a un certo livello - come se qualcuno avesse acceso un grande fuoco dentro le nubi -, comincia il processo di fusione nucleare, che significa che l'energia viene prodotta dall'interno della stella.\n\nLì all'interno si fondono idrogeno in elio. Questa fusione produce calore e luce, facendo brillare la nuova stella come un lampadina! \n\nQuindi le stelle continuano a vivere per moltissimo tempo - più o meno quanto il nostro pianeta Terra esiste ormai - prima di finire con una specie di esplosione finale. Questo processo ci dice molto sulle stelle e sulla loro vita lunga, come se fossero bambini che crescono fino a diventare grandi adulti!",
+        "gulpease": 56.66081871345029,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una supernova?",
+        "answer": "Una supernova è come se un grande e brillante nuovo stella nascesse dentro a uno di questi grandi stelle molto pesanti! Quando queste stelle diventano vecchie, si mettono in moto per fare qualcosa che sembra la nascita di una nuova stella. In realtà, sta succedendo il contrario: l'antica stella sta moribonda e esplose!\n\nQuesto evento è così brillante da far sì che possiamo vederlo anche durante il giorno! Quando un grande pianeta si spezza in pezzi mentre esplode, genera una grandissima quantità di energia. Questa energia fa spuntare fuori gas e polvere dal centro della stella.\n\nDopo l'esplosione, resta solo qualcosa che sembra come uno strano oggetto nascosto: o un \"pianeta neutro\" (che è una cosa molto piccola ma pesante) oppure un buco nero. Un buco nero è così potente e forte che persino la luce non può uscire da dentro!",
+        "gulpease": 58.65034965034965,
+        "faithfulness": 0.375
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una galassia e quante ce ne sono nell'universo?",
+        "answer": "Una galassia è come un grande gruppo di estremità, o stelle, quegli oggetti bril-lanti no-bi-li che vediamo al buio notturno. Sono molto grandi - più grandi delle montagne e dei laghi! E dentro c'è spazio per milioni e milioni di stelle.\n\nNell'universo ci sono tante galassie da farci venire voglia di contare, ma non ce la facciamo proprio. Ci sono circa 125 miliardi di galassie nell'universo! È un numero così grande che è difficile immaginarlo. Se pensi a tutti i numeri del mondo e poi ancora più numeri sopra quegli altri, sei ancora lontano dal contare tutte le galassie.\n\nLa nostra Galassia, la Via Lattea, è come una piccola goccia di un mare enorme pieno di galassie. E c'è anche qualcosa chiamato materia oscura che non vediamo mai ma sappiamo esiste perché ci aiuta a capire come funziona il nostro sistema solare e le stelle intorno a noi.\n\nQuindi, in breve: una galassia è un grande gruppo di stelle, e nell'universo ce ne sono tante miliardi!",
+        "gulpease": 62.372093023255815,
+        "faithfulness": 0.7777777777777778
+      },
+      {
+        "level": "A",
+        "question": "Cos'è il Big Bang?",
+        "answer": "Il Big Bang era una teoria per capire come nacque tutto l'universo! Secondo questa idea, circa 13 miliardi di anni fa, esisteva un piccolo punto molto caldo e densoato. Questa massa si esplose in tutte le direzioni del mondo, creando spazio vuoto che poi diventò il nostro universo come lo conosciamo oggi.\n\nNel momento dell'esplosione, nacquero particelle elementari - queste sono piccole cose molto piccole! Le prime parti di idrogeno e elio si unirono per formare atomi. Questi atomi poi diventarono stelle e galassie che vediamo attualmente.\n\nIl Big Bang è come se avessimo una pannocchia, quando la metti in acqua esploderebbe creando schizzi d'acqua ovunque! Ma l'universo non ha un centro come il petardo: si espande sempre più e più. Non c'è nulla che possa fermare questa espansione.\n\nIl nome \"Big Bang\" è stato dato da uno scienziato, Fred Hoyle, ma poi diventò una parola molto usata per parlare dell'universo!",
+        "gulpease": 60.677419354838705,
+        "faithfulness": 0.6666666666666666
+      },
+      {
+        "level": "A",
+        "question": "Cos'è la materia oscura?",
+        "answer": "La materia oscura è come se fossimo in una stanza buia e urtassimo qualcosa con il piede senza vedere cosa sia. Non vediamo direttamente la materia oscura, ma sappiamo che c’è perché molti fenomeni osservati sarebbero difficilmente spiegabili altrimenti.\n\nLa gente pensa che la materia oscura possa essere come una specie di gomma nera. Non emette luce e quindi non si vede, proprio come se qualcuno nascondesse un oggetto in mezzo a noi senza farlo vedere con i nostri occhi. \n\nCi sono anche alcuni sospetti su cosa potrebbe essere la materia oscura: alcuni scienziati pensano che sia composta da particelle molto piccole e veloci, così rapide che non riusciamo a vederle direttamente.\n\nTutti questi sussurri sul tipo di particella che costituisce la materia oscura sono solo ipotesi. Non abbiamo ancora trovato le prove chiare per capire cosa sia esattamente.",
+        "gulpease": 53.5,
+        "faithfulness": 0.8
+      },
+      {
+        "level": "A",
+        "question": "Cosa sono le onde gravitazionali?",
+        "answer": "Le onde gravitazionali sono come sebbene un po' strane: immagina di avere due bacchette molto lunghe che stai osservando con attenzione. Se passa qualcosa di grosso e veloce, le bacchette si muovono leggermente indietro o avanti! Questo è come se la terra fosse un po' più vicina a te per qualche secondo.\n\nLe onde gravitazionali sono simili: quando ci sono cose molto grandi che accelerano velocemente in spazio, il tessuto dello spazio e del tempo intorno si muove leggermente. Questo movimento è così piccolo che non lo vediamo con i nostri occhi normali.\n\nLe onde gravitazionali vengono create quando ci sono due cose molto grandi come buchi neri o neutroni che si avvicinano e poi si allontanano l'una dall'altra. Quando queste cose si muovono, creano un movimento del tessuto dello spazio-tempo intorno a loro.\n\nQuesti movimenti sono così piccoli che non li vediamo mai con i nostri occhi o con le nostre macchine specializzate come LIGO (che è una specie di antenna per ascoltare queste onde). Tuttavia, quando ci sono due cose molto grandi e veloci a muoversi insieme, possono creare movimenti del tessuto dello spazio-tempo che vengono sentiti da questi strumenti specializzati.",
+        "gulpease": 53.568527918781726,
+        "faithfulness": 0.6
+      },
+      {
+        "level": "B",
+        "question": "Come si forma un buco nero?",
+        "answer": "Per formare un buco nero, occorre che una stella molto grande esploda come una supernova e diventi così densa che la forza di gravità supera qualsiasi limite. Questo succede quando l'energia compressione della stella si accumula in uno spazio sempre più piccolo. Quando questa quantità di materia viene compressa, il suo orizzonte avanza, creando un buco nero. Un buco nero può formarsi anche all'interno degli ammassi stellari e al centro delle galassie.",
+        "gulpease": 54.54054054054054,
+        "faithfulness": 0.6666666666666666
+      },
+      {
+        "level": "B",
+        "question": "Cos'è l'orizzonte degli eventi di un buco nero?",
+        "answer": "L'orizzonte degli eventi è come una sorta di bordo o confine intorno al buco nero, oltre cui non c'è nulla che possa uscire. È simile a quanto potrebbe essere il bordo di una cascata: se sei sopra la cascata e remi abbastanza velocemente, puoi ancora salvarvi. Ma una volta superato l'orizzonte degli eventi, nessuno può tornare indietro - non c'è modo per uscire dal buco nero.",
+        "gulpease": 58.42028985507247,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "B",
+        "question": "Secondo la relatività, sarebbe possibile viaggiare nel tempo attraverso un wormhole?",
+        "answer": "Sì, secondo alcuni modelli della teoria della relatività generale proposta porre il concetto di \"wormholes\" (che si traduce come buchi neri o ponti spazio-temporali), sarebbe possibile creare tubi che collegano diverse parti dello spazio e del tempo. Questo potrebbe permettere viaggi rapidi attraverso la galassia, ma non è chiaro se questi \"wormholes\" resterebbero aperti a lungo termine o si trasformerebbero in singolarità come suggerito da Einstein-Rosen.\n\nTuttavia, ci sono problemi significativi con questo concetto. Per esempio, il viaggiatore attraverso un wormhole risulterebbe ricondotto nel passato molto tempo prima del suo partenza dal punto di vista degli osservatori esterni. Questa è una conseguenza della teoria della relatività generale e dell'effetto che la gravità ha sull'evoluzione dello spazio-tempo.\n\nInoltre, i wormholes sono considerati molto instabili o \"passaggi\" temporanei: non si sa se sarebbero stabili a lungo termine per permettere viaggi nel tempo. Nonostante queste difficoltà teoriche e pratiche, il concetto di wormhole rimane un'ipotesi interessante nella fisica teorica.\n\nÈ importante notare che nessuno ha mai visto o dimostrato l'esistenza di questi fenomeni, quindi la loro esistenza è ancora solo una speculazione.",
+        "gulpease": 45.666666666666664,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "B",
+        "question": "Qual è la differenza tra una nana bianca e una stella di neutroni?",
+        "answer": "Una nana bianca e una stella di neutroni sono entrambi residui delle stelle che hanno esaurito il loro combustibile nucleare, ma c'è un importante punto di divergenza nella loro dimensione finale.\n\nLe nane bianche si formano quando le stelle simili al Sole (come la nostra) perdono i loro strati esterni e rimangono con solo una parte del nucleo. Questa parte è così piccola che appare come un oggetto molto più grande rispetto alla sua massa, quasi il diametro della Terra.\n\nLe stelle di neutroni invece nascono quando le stelle pesanti (simili al Sole ma molto più grandi) esauriscono completamente il loro combustibile. In questo caso, la forza gravitazionale diventa così forte che non c'è nulla a frenarla e inizia ad attrarsi verso se stessa. Questo processo di collasso continua fino a quando le particelle atomiche si fondono insieme formando un nucleo molto più piccolo ma ancora estremamente pesante, quasi la massa del Sole.\n\nQuindi, mentre una nana bianca può essere abbastanza grande per avere dimensioni simili alla Terra, una stella di neutroni diventa così densa che non si potrebbe neanche mettere un cucchiaino della sua materia in un contenitore. Questa differenza nel collasso finale è ciò che rende le nane bianche e le stelle di neutroni particolarmente interessanti per i fisici!",
+        "gulpease": 50.07981220657277,
+        "faithfulness": 0.625
+      },
+      {
+        "level": "B",
+        "question": "Cosa determina se una stella diventerà una nana bianca, una stella di neutroni o un buco nero?",
+        "answer": "Per capire cosa determina la destinazione finale di una stella dopo il suo combustibile è stato consumato, possiamo considerare i tre casi principali che vengono menzionati nel contesto fornito:\n\n1. **Nane Bianche**: Le stelle con un peso residuo (la massa) inferiore a 1,4 volte quella del Sole diventano nane bianche. Queste sono le stelle più piccole e pesanti tra quelle che possono evitare di collassare in buchi neri.\n\n2. **Stelle di Neutroni**: Le stelle con un peso residuo superiore a 1,4 volte quella del Sole ma inferiore a circa 3 soli (6 volte la massa del Sole) diventano stelle di neutroni. Queste sono le più pesanti tra quelle che possono evitare il collasso in buchi neri.\n\n3. **Buchi Neri**: Le stelle con un peso residuo superiore a circa 3 soli (6 volte la massa del Sole) non smettono mai di collassare e diventano buchi neri. Queste sono le più pesanti tra quelle che possono evitare il collasso in nane bianche o stelle di neutroni.\n\nQuindi, l'importante è capire quanto pesa rimasto della stella dopo la combustione del suo idrogeno interno: se questo peso residuo è inferiore a 1,4 soli (nane bianche), superiore ma inferiore a 6 soli (stelle di neutroni) o superiore a 6 soli (buchi neri).",
+        "gulpease": 56.09183673469388,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "B",
+        "question": "Come sono organizzate le galassie nell'universo, in ammassi e superammassi?",
+        "answer": "Le galassie tendono a formarsi in gruppi più piccoli che poi si uniscono per formare ancora più grandi. Queste unità di galassie vengono chiamate ammassi e superammassi.\n\nIn particolare, il nostro sistema solare fa parte dell'ammasso globale delle Galassie (o Gruppo Locale), che contiene circa 40 galassie in totale. Alcune di queste galassie sono molto piccole e vengono chiamate \"galassie nane\". Le due più grandi, Andromeda e la Via Lattea, si muovono intorno a questi gruppi.\n\nInoltre, il testo parla anche di superammassi. Questi includono galassie che formano un'unità ancora maggiore e spesso gravitazionalmente legate tra loro. Tuttavia, non specifica quanti elementi costituiscono uno di questi superammassi.\n\nQuindi, in sintesi: le galassie si organizzano come gruppi più piccoli (ammassi) che poi formano unità ancora maggiori e spesso gravitazionalmente legati tra loro (superammassi).",
+        "gulpease": 54.037593984962406,
+        "faithfulness": 0.8181818181818182
+      },
+      {
+        "level": "B",
+        "question": "Cosa tiene insieme una galassia a spirale come la Via Lattea?",
+        "answer": "Una galassia a spirale come la nostra, l'Andromeda o qualsiasi altra, è tenuta assieme dalla forza di gravità che generano le stesse stelle e materia all'interno della galassia. Questa forza di gravità attira tutte queste cose insieme verso il centro della galassia. In particolare:\n\n1. Le stelle: Attraggono l'intero sistema.\n2. Nubi di gas e polvere: Attraevano le stelle quando si formarono, creando la struttura a spirale che conosciamo oggi.\n\nQueste forze gravitazionali sono molto potenti e possono superare il campo visivo diretto delle stelle individuali per raggiungere l'intero sistema galattico. Questa è una spiegazione basata sulle teorie dell'astronomia attuali, come descritta nei documenti forniti.",
+        "gulpease": 56.96296296296296,
+        "faithfulness": 0.42857142857142855
+      },
+      {
+        "level": "B",
+        "question": "Come facciamo a sapere che l'universo si sta espandendo?",
+        "answer": "Per capire se il nostro universo si sta espandendo o meno, gli astronomi hanno usato diversi metodi di osservazione e calcolo. Uno dei principali è studiare le galassie vicine a noi.\n\nImmagina che tu stia facendo una foto con un teleobiettivo: se guardi in direzione opposta rispetto alla tua fonte luminosa, vedrai la luce arrivare più lentamente perché si sta allontanando. Questo è il principio dell'espansione del mondo.\n\nGli astronomi hanno notato che le galassie vicine a noi sembrano sempre più distanti tra loro e questo spostamento delle stelle verso est rimane costante indipendentemente dalla posizione da cui guardiamo, come se si allontanassero in una specie di \"panettone con l'uvetta\". Questo è un segno importante che il nostro universo potrebbe essere espanso.\n\nUn altro metodo per capire questo fenomeno è studiare le supernove. Le supernove sono stelle molto luminose e brillanti, simili a lampade da laboratorio. Quando si esplodono, la loro luce può raggiungere gli astronomi sulla Terra anche se distanze enormi.\n\nGli astronomi hanno notato che queste supernove sembrano più luminose di quanto dovrebbero essere in base alla loro velocità apparente e a come sono vicine. Questo significa che stanno allontanandosi da noi molto più rapidamente del previsto, un fenomeno chiamato \"accelerazione dell'espansione\".\n\nTutti questi indizi fanno sì che gli astronomi credano con grande probabilità che il nostro universo si sta espandendo. Tuttavia, la natura esatta di questa espansione e se potrebbe continuare per sempre o finire in un \"Big Crunch\" sono ancora questioni aperte alla ricerca scientifica.",
+        "gulpease": 51.42063492063492,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "B",
+        "question": "Cos'è l'energia oscura e in che modo è diversa dalla materia oscura?",
+        "answer": "L'energia oscura e la materia oscura sono entrambe particolari di un fenomeno chiamato \"materia ed energia oscuri\", ma hanno caratteristiche diverse.\n\nLa materia oscura, come detto nel contesto fornito, è una forma di materiale che non emette o riceve luce e quindi non può essere osservata direttamente. È stata identificata perché sembra influenzare la gravità attorno a stelle e galassie in modo simile alla materia ordinaria.\n\nL'energia oscura, invece, è un altro tipo di fenomeno che si riferisce all'universo come intera. Non possiamo vedere o toccarla direttamente perché non emette né riceve luce e non risponde al nostro modo di osservare la materia ordinaria.\n\nLa differenza principale sta nel fatto che:\n\n1. La materia oscura è una forma particolare della materiale presente nell'universo, mentre l'energia oscura rappresenta un tipo di energia.\n2. Sappiamo solo il 4% circa dell'esistenza totale del nostro universo e la maggior parte di ciò che non vediamo o toccamo è costituita da materia ed energia oscuri.\n\nIn sintesi, mentre la materia oscura si riferisce a particelle invisibili ma gravitative, l'energia oscura si riferisce all'universo come intero e alla forza di espansione dell'universo.",
+        "gulpease": 53.270833333333336,
+        "faithfulness": 0.8333333333333334
+      },
+      {
+        "level": "B",
+        "question": "Come vengono rilevate le onde gravitazionali sulla Terra?",
+        "answer": "Le onde gravitazionali sono rilevate sulla Terra attraverso un tipo di osservazione chiamata interferometria laser. Questa tecnica implica l'utilizzo di due o più interruttori laser che si allineano per formare una specie di \"interferometro\". \n\nL'idea è semplice: se le onde gravitazionali passassero attraverso queste reticole laser, dovrebbero deformarle. In pratica, l’onda gravitazionale altererebbe la lunghezza delle fibre ottiche che costeggiano i due interruttori di LIGO (Laser Interferometer Gravitational-Wave Observatory), causando un cambiamento nella distanza tra le parti dell'interfotrometro.\n\nQuesto cambio è così piccolo, approssimativamente pari a 1/10 del diametro di un protone per una lunghezza di 4 km (la distanza fra i due interruttori), che richiede strumentazioni estremamente precise e sensibili. \n\nL'oscillazione della distanza tra le fibre ottiche viene misurata con l'aiuto del laser, che si propaga lungo entrambi gli interni dell'interfotrometro. Se un’onda gravitazionale passa attraverso il sistema, la distanza fra i due interruttori cambierà leggermente e questo cambiamento viene misurato con una precisione incredibile.\n\nL'importante è che queste oscillazioni sono molto piccole rispetto alla lunghezza di onda dell’onda gravitazionale stessa. Per rendere visibili questi effetti, i campi laser devono essere lunghi migliaia o persino milioni di volte la lunghezza della distorsione spazio-temporale che si sta cercando di misurare.\n\nQuindi, per rilevare le onde gravitazionali sulla Terra, è necessario costruire strumentazioni estremamente sensibili e lunghissime (come i due LIGO) in modo da poter registrare questi piccoli cambiamenti nella distanza tra parti di un interferometro laser.",
+        "gulpease": 42.577235772357724,
+        "faithfulness": 0.0
+      },
+      {
+        "level": "C",
+        "question": "Qual è la differenza tra un buco nero stellare e uno supermassiccio?",
+        "answer": "Un buco nero di massa stellare ha una massa che può variare fino a qualche decina di masse solari, mentre i buchi neri supermassivi hanno masse comprese tra un milione e una decina di miliardi di masse del Sole. Questo significa che gli stessori massicci dei buchi neri supermassivi sono molto superiori rispetto ai buchi neri di massa stellare.\n\nI buchi neri supermassivi si trovano principalmente nei nuclei delle galassie, mentre i buchi neri di massa stellare possono essere osservati in varie parti della galassia. La loro presenza e la loro importanza per l'evoluzione globale delle galassie sono molto differenti a causa del loro peso massiccio.\n\nInoltre, gli studi attuali suggeriscono che i buchi neri supermassivi potrebbero essere il risultato della coagulazione di una serie di buchi neri stellari. Tuttavia, l'esistenza e la formazione precisi dei buchi neri con masse intermedie (tra un centinaio e qualche decina di migliaia di masse solari) non sono ancora state dimostrate scientificamente.\n\nQuindi, in sintesi, mentre i buchi neri stellare possono essere trovati ovunque nella galassia e hanno una massa relativamente piccola, gli supermassivi si concentrano nei nuclei delle galassie e hanno un peso massiccio significativamente maggiore.",
+        "gulpease": 46.23076923076923,
+        "faithfulness": 0.5555555555555556
+      },
+      {
+        "level": "C",
+        "question": "Cosa serve, secondo la relatività generale, per mantenere aperto un wormhole attraversabile?",
+        "answer": "Secondo i documenti forniti e in particolare il testo del documento [Fonte 3 - Black holes wormholes time machines], non c'è una soluzione conosciuta alla questione di come mantenere aperto un wormhole attraversabile. Il documento menziona che Thorne, uno dei principali studiosi sulla teoria degli wormhole, cercò di stabilire condizioni per i wormhole attraversabili senza che si chiusessero o si schiantassero in modo anomalo.\n\nThorne desiderava che il wormhole non \"pinch off\" come un Einstein-Rosen bridge (che è una specie di ponte gravitazionale) o non \"snap shut\" come un singolarezza Kerr. Tuttavia, scoppiò a trovare che questo sarebbe stato molto difficile da realizzare.\n\nIl documento specifica che la gola del wormhole dovrebbe rimanere aperta senza l'aiuto di qualcosa e richiederebbe una grande quantità di aiuto. Thorne concluse che per mantenere aperto un wormhole attraversabile, avrebbe potuto essere necessario \"trizzare\" il wormhole con uno strano tipo di materia che dovrebbe avere massa negativa!\n\nTuttavia, non c'è alcuna materia nota nel nostro universo capace di soddisfare queste condizioni. Thorne chiamò questa specie di materiale 'exotic', ma affermava anche che era \"preposteroso\" e \"incomprensibile\". In altre parole, la soluzione sembra essere un tipo di materia strana con massa negativa.\n\nIn sintesi, secondo i documenti forniti, non c'è una risposta definitiva alla domanda su cosa sia necessario per mantenere aperto un wormhole attraversabile. La teoria suggerisce che potrebbe essere necessaria una specie di materiale strano e con massa negativa, ma nessuna materia nota nel nostro universo può soddisfare queste condizioni attuali.",
+        "gulpease": 47.12,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "Perché una stella di neutroni non collassa ulteriormente in un buco nero?",
+        "answer": "Una stella di neutroni, anche se è già molto compressa e densa rispetto a qualsiasi altro oggetto fisico conosciuto, non può collassare ulteriormente perché raggiunge una limitazione fondamentale della natura. Questo limite si chiama \"densità massima\" o singolarità gravitazionale. Una volta che la massa di un'oggetto è sufficientemente alta e compressa in un volume così piccolo, l'intensità dell'attrazione gravitazionale diventa tale da impedire una collasso ulteriore.\n\nNel caso delle stelle di neutroni, il loro nucleo centrale raggiunge la densità massima possibile per i materiali fisici conosciuti. Questa densità è così alta che l'atmosfera esterna della stella non può resistere all'intensa attrazione gravitazionale del suo interno e si spande in un fenomeno noto come \"stelle di nebbia\". In questo stato, la stella ha perso il suo contorno visibile ed è diventata invisibile per l'osservatore esterno.\n\nQuindi, una volta che una stella supera il limite Chandrasekhar (circa 1.44 volte la massa del Sole), non può collassare ulteriormente in un buco nero perché ha già raggiunto la densità massima possibile per i materiali fisici conosciuti e si è trasformata in una stella di neutroni invece. Questo limite rappresenta il punto di \"non ritorno\" della compressione, oltre il quale non c'è spazio o materia sufficiente da impedire un collasso ulteriore verso un buco nero.",
+        "gulpease": 48.81481481481482,
+        "faithfulness": 0.5
+      },
+      {
+        "level": "C",
+        "question": "Qual è il ruolo del limite di Chandrasekhar nel destino finale di una stella?",
+        "answer": "Il limite di Chandrasekhar ha un ruolo cruciale nel determinare la destinazione finale di una stella, particolarmente per quelle con masse superiori. Se la massa della stella supera questo valore (circa 1,44 volte quella del Sole), il suo destino è definito da Chandrasekhar e dallo scienziato russo Lev Landau contemporaneamente.\n\nUna volta che una stella passa oltre questo limite di massa, non può più mantenere la propria forma come un corpo celeste. La gravità della stella diventa così forte che supera l'effetto repulsivo dovuto all'inizio dell'esclusione tra gli elettroni (cioè il principio di esclusione quantistico), causando un collasso inesorabile verso una singolarità.\n\nIl risultato finale può essere uno dei due seguenti:\n1. **Stella di Neutroni**: Se la stella ha una massa inferiore al limite di Chandrasekhar, ma supera il valore del limite di Eddington (circa 3 vezes quella del Sole), allora potrebbe evitare un collasso totale e stabilizzarsi in una **stella di neutroni**. Queste stelle hanno densità molto più alta rispetto a quelle normali, ma non sono né nane bianche né buchi neri.\n2. **Buchi Neri**: Se la massa della stella supera il limite di Eddington (ma è inferiore al limite di Chandrasekhar), allora collasserà completamente e si trasformerà in un **bucolo nero**. Questo tipo di singolarità ha una densità infinita, non può essere osservata direttamente ed esiste solo come risultato del collasso della stella.\n\nIn sintesi, il limite di Chandrasekhar definisce la soglia oltre la quale un'astronomia massiccia è destinata a collassare in una singolarità o ad evitare questo destino attraversando almeno uno dei due passaggi sopra descritti.",
+        "gulpease": 49.38610038610039,
+        "faithfulness": 0.625
+      },
+      {
+        "level": "C",
+        "question": "Come vengono prodotti nel nucleo di una stella gli elementi più pesanti del ferro?",
+        "answer": "Nel nucleo di una stella, i nuclei atomici si fondono per formare nuovi e più stabili nuclei. Questa fusione nucleare è un processo che produce principalmente l'elemento ferric (Fe-56), anche se la produzione di elementi pesanti come il rame (Rg) o lo zefiro (Zf) può avvenire in stelle con masse superiori e condizioni particolari. Tuttavia, questi processi sono molto meno stabili rispetto alla fusione nucleare che produce l'elemento ferric.\n\nLa produzione di elementi pesanti come il rame o lo zefiro richiede una quantità significativa di energia per essere in equilibrio con la forza gravitazionale, e non è possibile mantenere queste reazioni in un nucleo stellare. Quando tutte le risorse del nucleo della stella vengono convertite in ferric (Fe-56), il supporto che permette alla stella di resistere all'attrazione gravitazionale viene meno, e ciò porta a una rapidissima collassazione dei resti esterni verso l'interno.\n\nQuesta collassazione forzata genera un impatto con il nucleo ormai inerte di ferric (Fe-56), che causa la sua esplosione. Questa esplosione, nota come supernova, libera una quantità enorme di energia e produce nuovi elementi pesanti.\n\nQuindi, i nuclei più pesanti del ferro non vengono prodotti direttamente nel nucleo della stella attraverso fusione nucleare; invece, la produzione di questi elementi pesati viene generata durante l'esplosione finale che segue quando il carburante interno è esaurito.",
+        "gulpease": 46.63636363636363,
+        "faithfulness": 0.7777777777777778
+      },
+      {
+        "level": "C",
+        "question": "Quali prove osservative supportano l'esistenza della materia oscura nelle galassie a spirale?",
+        "answer": "Il contesto fornito non contiene direttamente prove specifiche che supportino la presenza di materia oscura in galassie a spirale. Tuttavia, esiste un'ampia base di indizi e modelli teorici che suggeriscono l'esistenza della materia oscura:\n\n1. **Massa apparente vs Massa effettiva**: In molte galassie a spirale, la massa osservata delle stelle (che è diretta da gravità) supera significativamente quella massima che si può calcolare basandosi solo sulla luce e sul movimento dei corpi luminosi. Questo spesso indica presenza di una materia oscura.\n\n2. **Movimenti degli oggetti nel nucleo**: Nuclei attivi delle galassie a spirale mostrano movimenti anomali che non possono essere spiegati soltanto con la massa osservabile dei corpi luminosi (come stelle e gas). Queste anomalie suggeriscono l'esistenza di una materia oscura.\n\n3. **Forza gravitazionale**: La forza gravitazionale nelle galassie a spirale è più forte del previsto basandoci solo sulla massa osservabile, che spiegerebbe la velocità dei corpi luminosi nel nucleo e nella periferia della galassia.\n\n4. **Struttura delle galassie**: La struttura globale di molte galassie a spirale (come le forme del disco o l'asimmetria) non può essere spiegata soltanto con la massa osservabile, ma richiede una materia oscura per ottenere risultati coerenti.\n\n5. **Forza gravitazionale anomala**: La forza di attrazione dovuta alla materia oscura è sufficientemente forte da influenzare il movimento dei corpi luminosi in modo che le galassie a spirale non si disgregano, anche se la massa osservabile sarebbe insufficiente per questo.\n\nTuttavia, nessuno di questi indizi può essere considerato una prova certa della presenza della materia oscura. La teoria più popolare sostiene l'esistenza di questa materia sconosciuta basandosi su questi e altri indizi.",
+        "gulpease": 50.20754716981132,
+        "faithfulness": 0.6
+      },
+      {
+        "level": "C",
+        "question": "Cosa ci dice la radiazione cosmica di fondo sull'universo primordiale?",
+        "answer": "La radiazione cosmica di fondo ci fornisce una quantità significativa d'informazioni sullo stato del nostro universo in epoca molto antichissima. In particolare, essa ci dimostra che l'universo era all'inizio relativamente omogeneo e isotrope - ovvero uniforme su tutto il suo spazio e non mostrava grani o variazioni notevoli.\n\nQuesti aspetti dell'omogeneità e dell'isotropia sono stati dimostrati attraverso la presenza di piccole fluttuazioni nella radiazione cosmica di fondo, che si estendono fino a livelli del 1 in centocinquanta milioni (1/10^5). Queste fluttuazioni indicano che l'universo non era perfettamente uniforme all'inizio, ma c'era già un po' di variazione nella densità dell'universo. Tali piccole differenze nel contenuto della materia e nell'esistenza di particelle subatomiche hanno portato a condensazioni locali che sarebbero divenute le prime strutture visibili in forma galattica.\n\nInoltre, la radiazione cosmica di fondo ci fornisce anche una stima sulla densità dell'universo all'inizio. I dati suggeriscono che l'intensità della radiazione era costante su tutto il cielo a meno di 1 in centocinquanta milioni (1/10^5). Questa uniformezza è stata un'ulteriore prova per la teoria dell'universo omogeneo e isotropico, che sostiene che l'universo sia stato costituito da parti ugualmente distribuite di materia.\n\nInfine, il fatto che si possano osservare le fluttuazioni della radiazione cosmica di fondo ci dice qualcosa sulla storia dell'emissione. Sebbene non sappiamo esattamente quando e come l'universo iniziò a emettere questa radiazione (che è stata scoperta nel 1964), la presenza delle fluttuazioni suggerisce che questo processo di emissione ha avuto luogo molto prima del momento attuale, probabilmente durante un periodo relativamente breve della storia dell'universo.",
+        "gulpease": 44.46816479400749,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "In cosa consiste la teoria dell'inflazione cosmica?",
+        "answer": "La teoria dell'inflazione è una modifica della cosiddetta Teoria del Big Bang standard, che cerca di risolvere alcuni dei suoi problemi più notevoli. La principale idea alla base della teoria dell'inflazione è l'ipotesi che all'immediato dopo il big bang (probabilmente intorno a 10^-36 secondi), l'universo si sia espanduto in modo molto rapido e prolungato, un fenomeno chiamato \"inflazione\".\n\nL'inflazione è stata proposta da Alan Guth nel 1980. L'idea principale di questa teoria è che all'immediato dopo il big bang l'universo si sia espanduto in modo così rapido e prolungato, che la distanza tra qualsiasi due punti nell'universo sarebbe stata aumentata a un livello incredibilmente elevato. Questa velocità di espansione è talmente grande da essere difficile per noi immaginare.\n\nLa teoria dell'inflazione suggerisce che l'energia extra presente in questo stato senza rottura di simmetria (cioè, una condizione in cui tutte le forze fisiche sarebbero state uguali) si sia liberata e abbia scaldato il cosiddetto \"campo inflazionario\", portando così all'inizio dell'espansione standard che conosciamo come Big Bang.\n\nQuesto fenomeno di inflazione ha due conseguenze importanti: \n1. Ha spiegato perché l'universo è uniforme a livello globale, anche se contiene regioni molto diverse.\n2. Ha fornito una soluzione alla questione della simmetria tra le forze fisiche.\n\nIn sintesi, la teoria dell'inflazione sostiene che il Big Bang non si sia verificato in un momento preciso e uniforme come previsto dalla Teoria del Big Bang standard, ma è stato seguito da una fase di inflazione rapida e prolungata. Questo ha portato all'espansione lenta dell'universo attuale che conosciamo.",
+        "gulpease": 51.0,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "Cosa ha rappresentato la prima rilevazione diretta di onde gravitazionali (GW150914)?",
+        "answer": "La prima rilevazione diretta di onde gravitazionale, GW150914, ha rappresentato una scoperta fondamentale nell'astrofisica e nella fisica teorica. Questo evento è stato causato dalla fusione di due buchi neri con masse pari a 36 e 29 volte quella del Sole.\n\nGW150914 ha permesso agli scienziati di osservare direttamente il passaggio di un'onda gravitazionale, che si propaga attraverso lo spazio-tempo proprio come una luce. Questa scoperta conferma la previsione della teoria della relatività generale formulata da Einstein nel 1915.\n\nLa fusione dei buchi neri ha prodotto un evento di grande intensità e durata, che è stato misurato con una precisione quasi incredibile: circa $4 \\times 10^{-16}$ cm per una distanza di propagazione del segnale pari a 4 km. Questa scoperta non solo conferma la teoria della relatività generale ma anche il concetto che le onde gravitazionali sono effetti diretti dell'esistenza delle masse massicce e dei processi cosmologici come l'espansione del universo.\n\nGW150914 è stata un evento di grande importanza per la fisica teorica, confermando i modelli predittivi della relatività generale e fornendo una nuova fonte di dati astronomici. Questa scoperta ha aperto nuove porte nell'osservazione diretta dell'universo attraverso le onde gravitazionali, permettendoci di osservare eventi cosmologici che fino a quel momento erano invisibili alla nostra vista tradizionale.\n\nIn sintesi, GW150914 rappresenta una testimonianza importante della validità delle teorie fisiche e un passo significativo nella comprensione dell'universo.",
+        "gulpease": 45.16740088105727,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "Perché la fusione di due buchi neri produce onde gravitazionali rilevabili sulla Terra?",
+        "answer": "La fusione di due buchi neri genera onde gravitazionali perché, come spiega il testo fornito da [Fonte 1 - Astrofisica per ansiosi (Licia Troisi)], si tratta di un fenomeno che \"tira in ballo le onde gravitazionali\". Questa fusione produce una forza molto potente e rapida, simile a quando due masse enormi come i buchi neri si avvicinano rapidamente. \n\nQueste forze create durante la fusione di un buco nero con un altro oggetto (come un'altra stella o ancora più probabile, il suo partner in una binaria) causano increspature dello spazio-tempo che si propagano attraverso l'universo come onde gravitazionali. \n\nQueste onde gravitazionali sono simili a quelle create quando due masse pesanti vengono flette di colpo, ma con un impatto molto più potente e rapido. La loro forza è sufficientemente grande da essere rilevata sulla Terra attraverso i dettagli della forma dell'onda gravitazionale osservata.\n\nQuindi, la fusione di due buchi neri genera onde gravitazionali perché produce un evento fisico così potente e rapido che crea increspature dello spazio-tempo visibili a distanze interstellari. Questa è una delle poche prove dirette che abbiamo per capire come si comportano i buchi neri, specialmente quando si combinano con altri oggetti pesanti in questo modo.",
+        "gulpease": 47.5,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "D",
+        "question": "Come si deriva il raggio di Schwarzschild di un buco nero dalla relatività generale?",
+        "answer": "Il raggio di Schwarzschild è derivato nella dimostrazione del Teorema 2.5.2, che implica una scelta opportuna delle coordinate per ottenere la metrica mostrata nel contesto fornito.\n\nLa formula per il raggio di Schwarzschild si ottiene dalla risoluzione dell'equazione del campo della relatività generale in un sistema cilindrico sferico con una massa costante M e nulla carica elettrica. Questa soluzione porta a:\n\n$$\n{ \\frac { 2 G M } { c ^ { 2 } r } }\n$$\n\ndove \\(G\\) è la constante di gravità, \\(c\\) è la velocità della luce, ed \\(r\\) rappresenta il raggio dal centro del buco nero. Questo valore viene chiamato \"raggio Schwarzschild\" in onore dell'astronomo e fisico matematico Karl Schwarzschild, che risolse per primo questa equazione nel 1916.\n\nIl raggio di Schwarzschild è un importante parametro nella teoria dei buchi neri perché indica la distanza minima dalla sorgente massiva (il centro del buco nero) oltre la quale non esiste alcuna via attraversabile, sia per i fotoni che per le particelle più veloci. Questa distanza viene chiamata \"raggio di Schwarzschild\" e rappresenta il punto in cui l'attrazione gravitazionale della massa è sufficientemente forte da impedire la fuga perfetta (anche se non impedisce completamente la fuga, come si evidenzia dalla singolarità all'interno del buco nero).",
+        "gulpease": 48.7979797979798,
+        "faithfulness": 0.6666666666666666
+      },
+      {
+        "level": "D",
+        "question": "Che ruolo gioca l'energia esotica (violazione delle condizioni di energia) nella stabilità di un wormhole di Morris-Thorne?",
+        "answer": "L'energia esotica, che è la violazione della condizione di energia nullità (\\(\\text{NEC}\\)), ha un ruolo cruciale nella stabilità del wormhole di Morris-Thorne. Questo tipo di materia o forza non rispetta le regole standard dell'energia elettromagnetica e gravitazionale, come la condizione di energia nullità che stabilisce che l'energia totale in ogni direzione deve essere maggiore o uguale a zero.\n\nNel contesto fornito da Matt Visser nel suo libro \"Lorentzian Wormholes From Einstein to Hawking\", si evidenzia il fatto che la presenza di energia esotica è necessaria per supportare un wormhole traversabile. Questa violazione della condizione di energia nullità non solo garantisce l'esistenza del wormhole, ma anche la sua stabilità.\n\nVisser sottolinea che in una analisi statica (senza considerare le questioni di stabilità), il modello dei wormholes richiede la presenza di \"energia esotica\" o violazione della condizione di energia nullità. Tuttavia, l'analisi dinamica e la verifica della stabilità aggiungono ulteriori restrizioni alla forma dell'equazione d'istate per questa materia esotica.\n\nIn altre parole, mentre una violazione della condizione di energia nullità è necessaria per garantire che un wormhole possa esistere (come evidenziato nella formula (12.51) e (12.52)), la stabilità del wormhole richiede ulteriori restrizioni sulla forma dell'equazione d'istate della materia esotica, come sottolineato nel testo fornito.\n\nQuindi, l'energia esotica non solo garantisce che il wormhole possa essere supportato (come evidenziato dalla violazione della condizione di energia nullità), ma anche che la sua stabilità sia garantita. Questo è essenziale per comprendere come un wormhole può funzionare in modo fisicamente accettabile e non solo teoricamente possibile.",
+        "gulpease": 45.55172413793103,
+        "faithfulness": 0.8888888888888888
+      },
+      {
+        "level": "D",
+        "question": "Qual è il limite di Tolman-Oppenheimer-Volkoff e cosa determina per la massa massima di una stella di neutroni?",
+        "answer": "Il documento fornito non specifica esplicitamente il \"limite di Tolman-Oppenheimer-Volkoff\" (TOV). Tuttavia, si può dedurre che l'equazione d'istate TOV determina la massa massima per le stelle di neutroni.\n\nL'informazione più diretta fornita è che:\n\n1. La forza che mantiene stabile la struttura delle stelle di neutroni deriva dalla pressione dovuta ai neutrioni degenerati, proporzionale a:\n   $$ P \\propto { \\frac { 1 } { m _ { n } } } \\biggl ( { \\frac { \\rho }{ \\mu _{n} }}\\biggr ) ^{\\frac{5}{3}} $$\n   \n2. La massa massima per le stelle di neutroni è influenzata dalla scelta dell'equazione d'istate, che può variare notevolmente a seconda della specificità dell'equazione.\n\nIn particolare, l'opinione degli autori suggerisce che:\n\n- L'equazione d'istate \"non-interacting neutron gas\" (Oppenheimer e Volkoff 1939) conduce ad una massima molto bassa.\n- Un'altra equazione di stato considerata nel testo, non specificamente identificata ma descritta come un caso tra i cinque presenti in Fig. 10.3 dei Weber et al. (2009), porta a una massa massima superiore a $3 M_{\\odot}$.\n\nQueste informazioni indicano che la scelta dell'equazione d'istate è fondamentale per determinare la massa massima di una stella di neutroni, con un intervallo stimato tra circa $1M_{\\odot}$ e $3M_{\\odot}$. La presenza di equazioni più \"strette\" (oppure con interazioni incorporate) può portare a masse massime superiori a questo limite.",
+        "gulpease": 55.411483253588514,
+        "faithfulness": 0.8571428571428571
+      },
+      {
+        "level": "D",
+        "question": "Come descrive il ciclo CNO la produzione di energia nel nucleo delle stelle più massicce?",
+        "answer": "Nel contesto fornito, non viene esplicitamente descritto come il ciclo CNO contribuisca alla produzione di energia nel nucleo delle stelle più massicce. Il testo specifica che per le stelle con massa compresa tra 1 M☉ e 3 M☉, la parte del luminoso generato dalla fusione in ciclo CNO aumenta fino a circa il 65% al centro della stella di 1.6 M☉, ma non si trova una descrizione dettagliata dell'effetto che ha questo processo sulla produzione di energia nel nucleo delle stelle più massicce.\n\nIl testo suggerisce invece che per le stelle con massa superiore a 3 M☉ la fusione CNO diventa dominante, ma non fornisce ulteriori dettagli sull'effetto specifico del ciclo CNO sulla produzione di energia nel nucleo. Per comprendere meglio come il ciclo CNO contribuisca alla produzione di energia nelle stelle più massicce, sarebbe necessario consultare documenti o testi che trattano questo aspetto in dettaglio.",
+        "gulpease": 47.88111888111888,
+        "faithfulness": 0.3333333333333333
+      },
+      {
+        "level": "D",
+        "question": "Come vengono usate le curve di rotazione delle galassie per inferire la distribuzione di materia oscura?",
+        "answer": "Le curve di rotazione delle galassie sono utilizzate come un strumento cruciale per comprendere e misurare l'esistenza della materia oscura. Queste curve mostrano il rapporto tra le velocità tangenti dei corpi luminosi (come stelle e gas) nelle galassie, che dipendono dalla densità di massa gravitazionale attorno a essi, contro la distanza dal centro della galassia.\n\nNel contesto fornito, si evidenziano tre punti chiave per comprendere come le curve di rotazione possono essere utilizzate:\n\n1. **Misure dirette delle velocità tangenti**: Le misure dirette dei valori di velocità tangente (come la curva di rotazione) permettono agli astronomi di determinare l'effetto gravitazionale attorno alle galassie.\n\n2. **Risultati contraddittori con i pianeti nel sistema solare**: Le curve delle galassie mostrano velocità tangenti costanti a distanze esterne al centro, mentre le orbite planetarie nell'Solar System seguono la terza legge di Keplero e diminuiscono in funzione della distanza dal Sole.\n\n3. **Inferimento del contenuto massicco**: La differenza tra i valori delle velocità tangenti misurate (che riflettono l'effetto gravitazionale) e quelli che si aspetterebbero basati solo sulla massa luminosa osservabile suggerisce la presenza di una materia oscura.\n\n4. **Funzione esponenziale della densità massica**: La funzione Σ(R) = Σ₀ exp(-R/h), dove R è la distanza dal centro e h è un parametro, descrive come diminuisce l'effetto gravitazionale con aumentare di R.\n\nTale inferimento suggerisce che il contenuto della materia oscura in una galassia supera significativamente quello luminoso osservabile. Questo risultato ha portato a teorie e modelli per spiegare la presenza della materia oscura, come quella proposta durante l'inflazione cosmica descritta nel testo fornito da Baumann.\n\nIn sintesi, le curve di rotazione delle galassie sono un strumento essenziale per inferire il contenuto massicco totale e quindi la presenza della materia oscura in una galassia.",
+        "gulpease": 46.24738675958188,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "D",
+        "question": "Cosa rappresenta il parametro di densità Ω nel modello cosmologico ΛCDM?",
+        "answer": "Nel modello cosmologico ΛCDM, il parametro di densità \\(\\Omega\\) è una combinazione delle contribuzioni della materia ordinaria (\\(\\Omega_m\\)), del cosmoleggiante (\\(\\Omega_\\Lambda\\)) e dell'energia radiativa (\\(\\Omega_r\\)). Questo modello specifica che la somma totale dei questi parametri deve essere pari a 1:\n\n$$\n\\Omega_{tot} = \\Omega_m + \\Omega_\\Lambda + \\Omega_r = 1.\n$$\n\nIl parametro di densità \\(K\\) (che rappresenta il curvatura della cosmo) può quindi essere calcolato utilizzando la relazione fornita in [Fonte 3]:\n\n$$\nK = H_0^2 (\\Omega_{tot,0} - 1),\n$$\n\ndove \\(\\Omega_{tot,0}\\) è l'insieme di questi tre parametri (materia ordinaria, cosmoleggiante e energia radiativa), calcolato in base alla densità totale nel nostro universo attuale. \n\nTuttavia, il parametro \\(K\\) non viene direttamente misurato o osservato; è un concetto teorico che deriva dalla somma dei contributi di materia ordinaria e cosmoleggiante (che rappresentano la maggior parte della densità totale nel nostro universo). La componente radiativa (\\(\\Omega_r\\)) viene considerata molto più piccola rispetto alle altre due, quindi non ha un impatto significativo sul valore finale del parametro \\(K\\) o dell'insieme \\(\\Omega_{tot}\\).\n\nQuindi, in termini semplici: il modello ΛCDM assegna una contribuzione di materia ordinaria (\\(\\Omega_m\\)), della cosmoleggiante (\\(\\Omega_\\Lambda\\)) e di energia radiativa (\\(\\Omega_r\\)) al totale dei parametri \\(\\Omega_{tot}\\), che sommato a 1 rappresenta la densità del nostro universo. Il parametro \\(K\\) deriva quindi da questa combinazione, ma non viene osservato direttamente; è un concetto teorico derivante dalla comprensione della composizione dell'universo attuale.",
+        "gulpease": 43.7008547008547,
+        "faithfulness": 0.42857142857142855
+      },
+      {
+        "level": "D",
+        "question": "Quali sono i principali problemi che la teoria dell'inflazione cerca di risolvere (piattezza, orizzonte)?",
+        "answer": "La teoria dell'inflation presenta due dei suoi problemi fondamentali più notevoli come il problema della piattezza e l'orizzonte. Questo è stato chiarito nel contesto fornito attraverso la seguente definizione:\n\n$$\\frac { d } { d t } \\left( \\frac { 1 } { a H } \\right) < 0 .$$\n\nQuesta equazione, utilizzata come definizione fondamentale dell'inflation, si riferisce direttamente al problema della piattezza e all'orizzonte. \n\nIl problema della piattezza deriva dal fatto che l'universo dovrebbe essere molto più piatto di quanto non sia osservato a causa del suo espansione accelerata causata dall'inflation, sebbene la teoria dell'inflation abbia sollevato queste preoccupazioni. \n\nIl problema dell'orizzonte deriva dal fatto che l'universo dovrebbe essere piuttosto uniformemente distribuito in ogni direzione a causa della sua espansione accelerata causata dall'inflation, ma non è evidente come possa esserlo dato il suo stato attuale.\n\nIn altre parole, la teoria dell'inflation cerca di risolvere questi problemi creando un'espansione universale che permette alla materia e all'energia del cosmo di raggiungere una distribuzione uniforme a livello globale.",
+        "gulpease": 43.642857142857146,
+        "faithfulness": 0.3333333333333333
+      },
+      {
+        "level": "D",
+        "question": "Come si ricava la formula del quadrupolo per la luminosità in onde gravitazionali di un sistema binario?",
+        "answer": "La formula del quadruplo utilizzata per calcolare l'emissione delle onde gravitazionali (GW) da un sistema binario non è diretta e viene derivata a partire dal teorema della quadrupolo. Tuttavia, nel contesto fornito, si trova una formula che descrive la forma dell'onda GW per un osservatore in posizione fissa rispetto al sistema binario.\n\nLa formula del tipo (184) e (185), derivata dal teorema della quadrupolo, è:\n\n\\[\nh_{ij}^{TT} = h \\left[ \n\\begin{array}{ccc}\n\\frac{1 + \\cos^2 \\iota }{2}\\cos 2\\Omega t & \\cos \\iota \\sin 2\\Omega t & 0 \\\\\n\\cos \\iota \\sin 2\\Omega t & -\\frac{1 + \\cos^2 \\iota}{2} \\cos 2\\Omega t & 0 \\\\\n0 & 0 & 0\n\\end{array}\n\\right]\n\\]\n\ndove \\( h = \\frac{4 \\mu M^{2/3}\\Omega^{2/3}}{D} \\).\n\nQuesta formula descrive la forma dell'onda gravitazionale in termini di ampiezza (strain) e angolo (\\(\\iota\\) e frequenza orbitale (\\(\\Omega\\))). Tuttavia, non fornisce direttamente una relazione tra l'emissione delle onde gravitazionali e la luminosità. La formula per calcolare la luminosità in onde gravitazionale (GW) da un sistema binario è generalmente derivata utilizzando il teorema della quadrupolo, ma non viene esplicitamente fornita nel contesto fornito.\n\nLa formulazione del teorema della quadruplo e l'interpretazione delle sue conseguenze per la luminosità in onde gravitazionali richiederebbero un trattamento più dettagliato che va oltre il contenuto fornito. In generale, si può dire che la formula dell'emissione GW (184) è una forma della quadrupolo e non fornisce informazioni dirette sulla luminosità delle onde gravitazionali per un sistema binario. Per ottenere l'equazione di luminosità in onde gravitazionale, si dovrebbe utilizzare il teorema della quadruplo più dettagliato o fare riferimento a fonti che trattano questo argomento con maggiore approfondimento.",
+        "gulpease": 46.99227799227799,
+        "faithfulness": 0.42857142857142855
+      },
+      {
+        "level": "D",
+        "question": "Cos'è la 'chirp mass' di un sistema binario e perché è la grandezza più facilmente misurabile dal segnale di un interferometro?",
+        "answer": "La chirp mass $M_c$ di un sistema binario rappresenta una grandezza che può essere facilmente stimata dalla frequenza dei segnali gravitazionali emessi da tale sistema. Essa è definita come:\n\n$$ M_c = \\mu^{3/5} $$\n\ndove $\\mu$ è il rapporto tra i due massimi del sistema binario, espresso in modo matematico come:\n\n$$ \\eta = \\frac{\\mu}{M} $$\n\nDato che la chirp mass $M_c$ può essere facilmente stimata dal segnale gravitazionale emesso da un sistema binario inspiralante (cioè uno spirale verso l'unificazione), essa è una grandezza chiave per comprendere il comportamento del sistema.\n\nIl fatto che sia facile misurare la chirp mass deriva dalla sua funzione come fattore di trasformazione tra le frequenze gravitazionali e i periodi orbitali. In particolare, l'equazione (189) fornita nel contesto recupero mostra una relazione fra il cambiamento della frequenza gravitazionale $\\dot{f}$ e la chirp mass $M_c$:\n\n$$ \\dot{f} = \\frac{96}{5}\\frac{1}{c^5}\\pi^{8/3}(GM_c)^{5/3} f^{11/3} $$\n\nQuesto rapporto mostra come la frequenza gravitazionale cambia in funzione della chirp mass, evidenziando il ruolo centrale di questa grandezza nel comportamento del sistema binario. La presenza di un pulsar nella stessa sistemica permette una misurazione accurata dei periodi orbitali, che sono invece la grandezza diretta monitorata nei sistemi binari con pulsare come componente.\n\nQuindi, la chirp mass è l'unico fattore principale che determina il comportamento della frequenza gravitazionale nel sistema binario e può essere facilmente stimato dal segnale di interferometro.",
+        "gulpease": 44.258620689655174,
+        "faithfulness": 0.36363636363636365
+      },
+      {
+        "level": "D",
+        "question": "In cosa consiste il paradosso dell'informazione nei buchi neri, e come la radiazione di Hawking lo rende rilevante?",
+        "answer": "Il paradosso dell'informazione nei buchi neri si rifà alla contraddizione tra l'invarianza della teoria quantistica delle particelle (che permette la perdita d'informazione) e quella relativista (che implica che non può esistere una perdita di informazione). Questa incompatibilità è stata sottolineata da Stephen Hawking, il quale ha proposto l'esistenza della radiazione di Hawking.\n\nLa radiazione di Hawking deriva dalla distruzione quantistica dell'atomo all'intorno del buco nero. In particolare, la differenziale in energia tra i due lati dello spazio-tempo (il buco nero e l'esterno) crea una tensione che può portare a un'eccessiva emissione di radiazioni infrarosse.\n\nQuesto fenomeno rende il paradosso dell'informazione rilevante perché, se la teoria quantistica permette davvero della perdita d'informazione (come suggerito dalla presenza della radiazione di Hawking), allora dovrebbe esserci un modo per salvare l'invarianza relativista. Questo vuol dire che non può esistere una semplice eliminazione dell'informazione contenuta nel buco nero, ma deve essere conservata in qualche forma.\n\nIn altre parole, la radiazione di Hawking mette in evidenza il problema della perdita d'informazione nei buchi neri e richiede un approccio più complesso alla teoria delle particelle quantistiche per risolverlo. Questo ha portato a ulteriori ricerche e teorie, come quella che suggerisce l'esistenza di informazioni contenute in una forma non visibile all'esterno del buco nero (come un residuo), cercando di salvaguardare la compatibilità tra le due principali teorie della fisica.",
+        "gulpease": 43.472573839662445,
+        "faithfulness": 0.375
+      }
+    ],
+    "ood": {
+      "refusal_rate": 0.5,
+      "correct": 10,
+      "total": 20,
+      "details": [
+        {
+          "question": "Qual è la ricetta originale della carbonara?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non trovo alcuna menzione o descrizione dettagliata della \"ricetta originale\" di una qualunque pasta chiamata carbonara. Il contenuto fornito riguarda principalmente la ricerca scientifica sulla creazione dei composti organici e alcuni dati storici relativi a Copernico, ma non c'è nulla che possa aiutarmi a rispondere alla tua domanda su una ricetta di pasta chiamata carbonara."
+        },
+        {
+          "question": "Chi ha vinto i mondiali di calcio del 2006?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli sul vincitore dei Mondiali di Calcio nel 2006 o in qualsiasi altro anno."
+        },
+        {
+          "question": "Come si coltivano i pomodori sul balcone?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli sull'ortografia o sulla coltivazione dei pomodori su balcone nel contesto fornito."
+        },
+        {
+          "question": "Quali sono i sintomi dell'influenza stagionale?",
+          "refused": false,
+          "answer": "Il testo non parla direttamente di sintomi stagionali. Tuttavia, dice che quando l'Earth si trova con una parte del suo globo verso il Sole, riceve più sole e questo fa caldo. Quando è la metà dell'altro lato a guardare verso il Sole invece, quella parte sente freddo perché non riceve tanto sole. Questa differenza di temperatura può influire sul clima locale. Non c'è però detto chi sono i sintomi specifici che questo potrebbe causare."
+        },
+        {
+          "question": "Chi era Giulio Cesare e come è morto?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione riguardante Galileo Galilei o altri individui chiamati Giulio Cesare. I testi forniti parlano invece di Galileo Galilei e delle sue opere nel campo della meccanica. Non ci sono dettagli sull'identità di un uomo con il nome \"Giulio Cesare\"."
+        },
+        {
+          "question": "Come funziona il motore a scoppio di un'automobile?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non troviamo alcuna menzione del funzionamento del motore a scoppio in nessun documento fornito."
+        },
+        {
+          "question": "Qual è la capitale dell'Australia?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Come si prepara il pane in casa?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli su come preparare un pane in casa nel contesto fornito."
+        },
+        {
+          "question": "Quali esercizi servono per allenare gli addominali?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli su esercizi specifici per allenare gli addominali nei testuali contesto fornito."
+        },
+        {
+          "question": "Chi ha dipinto la Gioconda e in che anno?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Come si scrive un curriculum efficace?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione riguardante come scrivere un curriculum efficace. Non trovo alcuna relazione diretta con il contenuto fornito nelle fonti specifiche che hai indicato. Ti consiglio di cercare direttamente su internet o in libri di riferimento universitario per trovare istruzioni sul come creare un buon curriculum vitae."
+        },
+        {
+          "question": "Qual è la differenza tra un mutuo fisso e uno variabile?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non troviamo alcuna menzione di mutui fisi o variabili in nessuno dei tre contesti forniti."
+        },
+        {
+          "question": "Come si addestra un cucciolo di cane?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono informazioni specifiche sullo addestramento dei cuccioloni di cani. Questo tipo di contenuto riguarda piuttosto il trattamento e l'addestramento degli animali domestici come porcellini d’India o piccoli elefanti, non i cuccioli di cani."
+        },
+        {
+          "question": "Quali sono le regole del gioco degli scacchi?",
+          "refused": false,
+          "answer": "Le regole del gioco degli scacchi, come spiega il testo fornito, sembrano essere state osservate da Newton. Egli ha notato che i pedoni non si muovono molto velocemente e che la rete di quadrati colorata (chiamata \"scacchiera\") è un elemento importante del gioco. Tuttavia, il testo non fornisce dettagli specifici sulle regole degli scacchi in modo da poter rispondere con precisione alle tue domande riguardanti le regole esatte e complesse di questo gioco."
+        },
+        {
+          "question": "Che strumenti servono per imparare a suonare la chitarra?",
+          "refused": false,
+          "answer": "Nel contesto fornito non c'è nessuna informazione diretta sulle cose necessarie per imparare a suonare una chitarra. Il testo parla principalmente di George, Annie e il loro viaggio in macchina, così come della rivoluzione scientifica guidata da Galileo Galilei. Non ci sono dettagli sull'acquisto o l'utilizzo degli strumenti per imparare a suonare la chitarra."
+        },
+        {
+          "question": "Come funziona la fotosintesi clorofilliana?",
+          "refused": false,
+          "answer": "La fotosintesi clorofilliana è una reazione chimica che avviene all'interno delle piante, alberi e altri organismi viventi con cellule contenute in un tessuto chiamato cloro. Questa reazione utilizza l'energia fornita dalla luce solare per convertire acqua (H₂O) e anidride carbonica (CO₂), che sono due sostanze non organiche, in ossigeno (O₂) e zuccheri come il glucosio. Queste molecole di zucchero vengono poi utilizzate dall'organismo per generare energia necessaria alla sopravvivenza.\n\nLa fotosintesi clorofilliana può essere suddivisa in due fasi principali: la fase di chelazione e la fase di cottura. Nella prima fase, le molecole del CO₂ entrano nel tessuto della pianta attraverso i pori delle foglie chiamati stomacioli. Queste molecole poi si uniscono a una sostanza chimica presente nelle cellule della pianta per formare composti più complessi.\n\nNella seconda fase, questi composti vengono utilizzati come iniziativa di reazione con l'acqua e la luce solare. Questo processo produce ossigeno (O₂) come prodotto di scarto e zuccheri che servono alla pianta per generare energia.\n\nIn sintesi, è un sistema molto efficace che permette alle piante di creare propria alimentazione utilizzando luce solare."
+        },
+        {
+          "question": "Quali documenti servono per rinnovare il passaporto?",
+          "refused": false,
+          "answer": "Per rinnovare un passaporto, ti servono alcuni documenti specifici come:\n\n1. Il vecchio passaporte.\n2. Un documento di identità attuale (come una carta d'identità o un certificato di nascita).\n3. Una foto recente da cui è stata scattata la tua coda del naso.\n\nQuesti sono i principali documenti richiesti per il rinnovamento, ma potrebbero essercene altri a seconda della legge in tuo stato o paese. Ricorda di controllare con l'ufficio dei passaporti localmente perché possono variare le norme."
+        },
+        {
+          "question": "Come si toglie una macchia di vino dalla tovaglia?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Qual è la trama dei Promessi Sposi?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione riguardante \"Promessi Sposi\". Non trovato nel contesto fornito."
+        },
+        {
+          "question": "Come si programma un sito web in HTML?",
+          "refused": false,
+          "answer": "Per programmare un sito web con HTML, devi fare in modo che ogni pagina del tuo sito contenga codice HTML. Questo include elementi come testo, immagini e link. Poi aggiungi estetica usando CSS per personalizzare la forma delle pagine. Infine, puoi rendere il tuo sito interattivo con JavaScript.\n\nHTML è un linguaggio di markup che descrive cosa deve apparire una pagina web. CSS (Cascading Style Sheets) si occupa della presentazione e del design, mentre JavaScript permette all'utente di interagire con la tua pagina in modo dinamico."
+        }
+      ]
+    },
+    "summary": {
+      "model": "qwen2.5:3b",
+      "per_level": {
+        "A": {
+          "n": 10,
+          "gulpease_mean": 57.9737423741548,
+          "faithfulness_mean": 0.6567346542346543
+        },
+        "B": {
+          "n": 10,
+          "gulpease_mean": 52.30684069777976,
+          "faithfulness_mean": 0.6871753246753247
+        },
+        "C": {
+          "n": 10,
+          "gulpease_mean": 47.65311609129242,
+          "faithfulness_mean": 0.8058333333333334
+        },
+        "D": {
+          "n": 10,
+          "gulpease_mean": 46.59568771955075,
+          "faithfulness_mean": 0.56751443001443
+        }
+      },
+      "ood_refusal_rate": 0.5
+    }
+  },
+  "astrotutor-dpo": {
+    "grounded": [
+      {
+        "level": "A",
+        "question": "Cos'è un buco nero e perché si chiama così?",
+        "answer": "Un buco nero, cara bambina, è come una grande trappola gravitazionale molto potente che non permette nulla di uscire da dentro. È chiamato così perché la luce stessa non può sfuggirgli! Come se fosse un buio profondo e senza fine.\n\nImmagina di avere un enorme guscetto pieno di polvere, tanto grande quanto il tuo paese intero. Se qualcosa cade dentro quel guscetto, nessuno può più uscirne perché la forza della gravità è così forte che neanche la luce potrebbe scappare.\n\nIl nome \"buco nero\" deriva dal fatto che non c'è nulla di visibile o di rilevabile all'interno. È come se qualcuno avesse messo un buio enorme e senza fine, quindi nessun oggetto può uscirne. Questa è una delle cose più strane del mondo!",
+        "gulpease": 62.6,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "A",
+        "question": "Cosa succederebbe se cadessi dentro un buco nero?",
+        "answer": "Se cadessi dentro un buco nero:\n\nI tuoi piedi diventerebbero più vicini al buco nero rispetto alla testa come se tirassi un elastico da una parte, facendolo stringersi sempre di più.\n\nQuando sei vicino all'orizzonte del buco nero - la linea di sicurezza oltre cui non puoi andare indietro - tutto diventa confuso. Il tempo e lo spazio si stravolgono come se stessimo parlando dell'effetto che vediamo quando guardiamo un film in 3D: le cose sembrano sempre più sfocate.\n\nSe riesci a superare l'orizzonte del buco nero senza essere distrutto dalla forza di attrazione gravitazionale, non puoi uscire. Il tuo corpo e tutto ciò che porti con te rimarranno intrappolati nel buco nero per sempre! Come se fossimo in una grotta profonda dove nessuno può venirti a trovare.\n\nMa c'è un po' di speranza: le particelle piccolissime, chiamate Radiazioni Hawking, possono uscire da questo luogo strano. Queste particelle sono come minuscole farfalle che si librano nel buco nero e poi escono - quasi come se stessimo parlando di un uccello che vola via dalla gabbia.\n\nQuindi, anche se sei intrappolato dentro il buco nero per sempre, non è tutto perso. Ci sono piccole possibilità che qualcosa possa uscire da lì e portare con sé informazioni sul tuo viaggio nel buco nero!",
+        "gulpease": 55.132075471698116,
+        "faithfulness": 0.8181818181818182
+      },
+      {
+        "level": "A",
+        "question": "Cos'è un wormhole, e potremmo davvero usarlo per viaggiare nello spazio?",
+        "answer": "Un wormhole è come un tunnel magico nel vuoto dello spazio che collega due punti lontani a distanza. Se potessimo costruirlo, sarebbe come avere una strada segreta tra luoghi molto distanti.\n\nTuttavia, non sappiamo ancora come fare questo tunnel perché ci vorrebbe qualcosa di speciale e teorico chiamato \"esotica materia\". Non siamo sicuri se esiste davvero in tutto l'universo. \n\nPer ora, è solo un'idea interessante che i ricercatori stanno cercando di capire meglio. Non abbiamo mai visto uno di questi tunnel nel vuoto dello spazio!",
+        "gulpease": 59.45977011494253,
+        "faithfulness": 0.6666666666666666
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una stella di neutroni?",
+        "answer": "Una stella di neutroni è come se avessimo un piccolo soluzionario, ma molto più denso e grande che il Sole! Questo piccolo soluzionario ha la massa del nostro Sol per circa 10 volte. È così massiccio da farlo diventare molto compatto, quasi come una mela in miniatura.\n\nQuando si forma questa stella di neutroni, ruota velocemente e genera un forte campo magnetico che è più potente della maggior parte del nostro sol! \n\nÈ simile a quando tu prendi delle piccole gocce d'acqua e le metti dentro una confezione. Se la confezione fosse così grande da contenere il tuo corpo, queste goccioline di acqua sarebbero molto più dense rispetto all'acqua normale.\n\nQuesto tipo di stella è specialmente interessante perché i suoi interno si congela come se fossero in un freezer enorme! È così denso che le particelle dentro diventano quasi tutti neutroni, e non ci sono altre specie di particelle. Questa combinazione crea una cosa strana e molto potente.\n\nI nostri telescopi speciali possono vedere queste stelle di neutroni perché emettono segnali luminosi che sembrano come se fossero lampade in movimento, proprio come un faro sul mare!",
+        "gulpease": 55.844919786096256,
+        "faithfulness": 0.0
+      },
+      {
+        "level": "A",
+        "question": "Come nasce una stella?",
+        "answer": "Certo! Vediamo come nascono le stelle in modo semplice.\n\nLe stelle nascono da grandi nubi di gas e polvere, tipo un grosso guscetto pieno di aria che si trova nel cielo notturno. Questa nube è così grande che può contenere tutta la Terra!\n\nQuando questa nube comincia a tremare per qualche motivo (come se qualcuno le avesse dato una piccola spinta), inizia ad aggrinzirsi un po'. Come quando tu prendi un pezzo di carta e lo fai diventare più stretto, la nube si contrae anche lei.\n\nQuando si contrae, l'energia che proviene dalla forza della gravità fa scaldare il centro della nube. Ecco perché dicevano che nascono le stelle: quando arriva un certo grado di calore (come se qualcuno avesse acceso una fiamma), la parte del guscetto diventa così calda e luminosa da essere chiamata \"stella\".\n\nQuindi, ecco come funziona! La nube si contrae per via della forza della gravità, arriva un certo grado di calore al suo centro (simile a quando qualcuno accende una fiamma), e allora diventa luminosa. E così nasce la stella!\n\nQuando le stelle sono piccole come il Sole o più grandi, si chiamano \"stelle principali\". Quando diventano molto grandi, si chiamano \"stelline giganti\" oppure \"buco nero\", ma non sempre! C'è una teoria che dice che tutte le stelle finiscono per essere così.",
+        "gulpease": 61.78538812785388,
+        "faithfulness": 0.42857142857142855
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una supernova?",
+        "answer": "Una supernova è come se un grande e molto caldo ball di gas brillante si esplose! È tipo quando qualcuno prende un fiammifero, lo spegne ed esplode tutto intorno a lui. Quando questo succede con le stelle, diventa così luminoso che può essere visto persino durante il giorno!\n\nLe stelle creano queste supernove per una ragione: hanno finito la loro energia e non possono più continuare ad accendere i fiammiferi interni dentro di sé. Quando questo succede, esplosivamente spingono via tutta l'aria intorno a se.\n\nDopo questa grande esplosione, resta soltanto un po' di materia molto densa che può diventare o una cosa chiamata neutronia (che è come un gigantesco nucleo) oppure una cosa chiamata buio nero. Queste cose sono così forti e pesanti che persino la luce non riesce a uscire!",
+        "gulpease": 56.96992481203007,
+        "faithfulness": 0.25
+      },
+      {
+        "level": "A",
+        "question": "Cos'è una galassia e quante ce ne sono nell'universo?",
+        "answer": "Le galassie sono come grandi gruppi di stelle jolly che vivono insieme in un'universo enorme. La Via Lattea è una nostra grande scatola piena di lucette rosse, ma l'Universo ha miliardi e miliardi di queste scatole con le stelle dentro.\n\nOgni volta che si sposta nel nuovo posto dell'universo, posa la sua \"scatola\" su un altro pianeta o sulla superficie di una nuova terra. Ognuno dei nuovi posti diventa una nuova grande scatola piena di lucette rosse come quelle nella Via Lattea.\n\nNon sappiamo esattamente quanti sono questi sacchetti perché non possiamo contare tutte le stelle in tutto l'universo, ma ci sono miliardi e miliardi. La nostra galassia è solo una delle tante scatole con le stelle dentro nell'Universo enorme!",
+        "gulpease": 56.12,
+        "faithfulness": 0.25
+      },
+      {
+        "level": "A",
+        "question": "Cos'è il Big Bang?",
+        "answer": "Il Big Bang era una teoria per capire come nacque tutto l'universo! Immagina di avere un enorme bollo di caramello, molto più grande del tuo magroleggio. Questa massa diventa sempre più calda e espande se stessa in tutte le direzioni possibili, creando una quantità infinita di piccole particelle che poi si fondono insieme per formare atomi.\n\nQuindi, circa 13 miliardi di anni fa (cioè molto prima della tua nascita), questo bollo enorme ha esploduto! Ecco perché la teoria è chiamata \"Big Bang\": l'esplosione grande. Questo espandeva tutto nel vuoto che c’era prima, creando atomi e poi galassie.\n\nCi sono ancora cose che si stanno allontanando dall'universo a velocità sempre maggiore! E anche se il Big Bang è stato chiamato così da un astronomo per scherzo, ora tutti lo considerano una teoria molto vera.",
+        "gulpease": 58.779411764705884,
+        "faithfulness": 0.1111111111111111
+      },
+      {
+        "level": "A",
+        "question": "Cos'è la materia oscura?",
+        "answer": "La materia oscura è come se tu avessi urtato una sedia in mezzo a una stanza buia senza poter vedere cosa c'era sotto o sopra quella sedia. Non vediamo mai realmente la materia oscura, ma siamo sicuri che esista perché moltissimi fenomeni osservati non sarebbero spiegabili se non fosse per l'esistenza di questa materia oscura.\n\nLa gente pensa che sia come un grande alone intorno alla Galassia. Questo alone contiene particelle molto strane e sconosciute, perché la materia oscura non emette mai nessuna specie di luce o energia. Non possiamo vederla con i nostri occhi normali.\n\nCi sono moltissimi laboratori sotto terra dove gli scienziati cercano di trovare tracce della materia oscura. Sono come se stessero cercando qualcosa che non si può vedere, ma sanno che deve essere lì perché alcuni fenomeni osservati sarebbero impossibili senza quella particella misteriosa.\n\nCi sono anche dei progetti molto grandi e complicati per capire meglio la materia oscura. Uno di questi è un satellite spaziale chiamato Euclid, costruito da molte agenzie spaziali europee tra cui l'ASI italiana. Questo satellite cerca di risolvere i misteri sulla materia oscura usando strumentazioni specializzate.\n\nTutto questo ci dice che la materia oscura è una cosa molto importante per capire come funziona il nostro Universo, ma ancora non sappiamo esattamente cos'è o da dove viene. È un grande mistero della scienza!",
+        "gulpease": 53.823008849557525,
+        "faithfulness": 0.9230769230769231
+      },
+      {
+        "level": "A",
+        "question": "Cosa sono le onde gravitazionali?",
+        "answer": "Le onde gravitazionali sono come piccoli movimenti che fanno oscillare l'intero spazio e il tempo! Immagina di avere un anello perfetto, proprio come uno striscione da festa. Se passasse vicino a questo anello una grande ondata gravitazionale, allungerebbe o accorcia l'anello in certe direzioni.\n\nQuesti piccoli movimenti non sono visibili con i nostri occhi umani, ma possono essere sentiti usando strumenti speciali costruiti dagli esseri umani. Questo è come se qualcuno facesse un gran rumore nell'universo e noi dobbiamo ascoltare per capire cosa succede.\n\nLe onde gravitazionali sono state trovate solo recentemente, nel 2015! Allora, i ricercatori hanno sentito una grande ondata che proveniva da due buchi neri molto grandi. Questo era come se due enormi spazzane si fossero avvicinati e poi si erano fusi insieme in un solo buco nero più grande.\n\nQueste onde gravitazionali ci dicono cose interessanti sulle forze che regolano il nostro universo, specialmente le forze di attrazione tra oggetti come i buchi neri.",
+        "gulpease": 53.3125,
+        "faithfulness": 0.7777777777777778
+      },
+      {
+        "level": "B",
+        "question": "Come si forma un buco nero?",
+        "answer": "Perché si forma un buco nero è necessario che una quantità enorme di materia venga compressa in uno spazio molto piccolo. Questo processo viene generalmente attivato quando una stella con una massa molto maggiore del Sole esplode come una supernova, espellendo i suoi strati esterni mentre il suo nucleo rimane pressoché intatto.\n\nIl nucleo restante diventa così compresso e densissimo che la forza di gravità aumenta al punto in cui trascina indietro perfino la luce. Questa compressione continua fino a quando non si forma un buco nero, una regione dello spazio dove la forza di gravità è così forte da impedire alla materia e alla luce di uscire.\n\nIn altre parole, i buchi neri nascono dalla morte delle stelle giganti. Quando queste stelle esauriscono il carburante interno durante lo stato di supernova, la loro massa viene concentrata in un punto molto piccolo, creando una forza gravitazionale così forte da formare un buco nero.",
+        "gulpease": 50.372549019607845,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "B",
+        "question": "Cos'è l'orizzonte degli eventi di un buco nero?",
+        "answer": "L'orizzonte degli eventi è come una sorta di bordo o confine intorno al buco nero. È considerato la regione dell'universo dall'interno della quale non si può scappare, anche se ci sono alcuni modi per superarlo. Se qualcosa cade attraverso l'orizzonte degli eventi, è impossibile tornare indietro e nessun oggetto o persona può uscire dal buco nero una volta passato questo confine. È come un punto di non ritorno nel tempo spazio.",
+        "gulpease": 58.2,
+        "faithfulness": 0.8
+      },
+      {
+        "level": "B",
+        "question": "Secondo la relatività, sarebbe possibile viaggiare nel tempo attraverso un wormhole?",
+        "answer": "Sì, secondo la teoria della Relatività Generale di Einstein, si pensa che sia potenzialmente possibile creare e mantenere \"wormholes\", o buchi neri temporali. Questi sono come piccoli tubi che collegano regioni diverse dello spazio-tempo. Se possedessimo una materia con densità di energia negativa - la cui esistenza non è stata ancora dimostrata -, potremmo forse utilizzare questi wormholes per viaggiare nel tempo o attraversare grandi distanze in fretta, come da un pianeta all'altro. Tuttavia, ci sono molti problemi che devono essere risolti prima di questo diventare possibile: i wormholes dovrebbero essere molto più stabili e durarli lungo il tempo. Non abbiamo mai visto uno di questi buchi neri temporali in realtà, quindi non possiamo dire con certezza se esistano o meno.",
+        "gulpease": 48.00826446280992,
+        "faithfulness": 0.8
+      },
+      {
+        "level": "B",
+        "question": "Qual è la differenza tra una nana bianca e una stella di neutroni?",
+        "answer": "Una nana bianca e una stella di neutroni sono entrambe residui delle grandi stelle, ma si distinguono per il loro peso.\n\nLe nane bianche nascono quando le piccole stelle (come la nostra Solare) esauriscono l'idrogeno nel proprio nucleo. Queste nane bianche possono essere abbastanza piccole come la Terra e pesano intorno a 1,4 volte quella del Sole. \n\nLe stelle di neutroni invece nascono quando le grandi stelle (come quelle che hanno una massa più grande della nostra Solare) esauriscono il loro combustibile nucleare. Queste stelle diventano così piccole e pesanti da formare un oggetto con dimensioni simili a quella del Sole, ma con la massa di circa 2-3 volte quella del nostro sistema solare.\n\nQuindi, l'unica differenza principale è che le nane bianche sono più piccole e pesano meno della stella di neutroni. Le nane bianche non hanno ancora smesso completamente di collassare quando diventano invisibili perché non dispone più di una fonte di energia nucleare. Invece, le stelle di neutroni continuano a collassare fino ad arrivare al punto in cui la loro attrazione gravitazionale è così forte da impedire che si allarghino ulteriormente.",
+        "gulpease": 51.01086956521739,
+        "faithfulness": 0.4
+      },
+      {
+        "level": "B",
+        "question": "Cosa determina se una stella diventerà una nana bianca, una stella di neutroni o un buco nero?",
+        "answer": "Secondo il contesto fornito, la dimensione e la massa della stella sono le cose principali che determinano quale tipo finale può assumere. Se una stella ha una massa inferiore a circa 1,4 volte quella del Sole diventa una \"nana bianca\". \n\nSe invece ha un'energia più grande (più di 2,1 volte la massa del Sole), non smette mai di collassare e finisce per formarsi in uno spazio vuoto senza dimensioni limitate: questo è il cosiddetto buco nero.\n\nLe stelle con una massa compresa tra queste due soglie (circa 1,4 a 2,1 volte la massa del Sole) diventano \"stelle di neutroni\". Questo tipo di stella ha dimensioni simili alla Terra ma pesa come il Sole.",
+        "gulpease": 56.63636363636363,
+        "faithfulness": 0.8
+      },
+      {
+        "level": "B",
+        "question": "Come sono organizzate le galassie nell'universo, in ammassi e superammassi?",
+        "answer": "Le galassie tendono a formarsi in gruppi più grandi chiamati ammassi e ancora più grandi chiamati superammassi. Queste strutture si trovano spesso tra i vuoti intergalattici che separano le diverse galassie.\n\nAd esempio, la Via Lattea fa parte di un grande gruppo di galassie chiamato Gruppo Locale. In questo gruppo c'è una galassia molto vicina notata come Andromeda. Entrambe queste due galassie sono più grandi delle altre che orbitano intorno a loro, e si chiamano \"galassie a spirale\".\n\nLe galassie formano questi ammassi e superammassi perché c'è una forza gravitazionale tra le stelle. Questa forza è così forte da farle concentrarsi insieme in gruppi più grandi.\n\nInoltre, molte di queste strutture galattiche sono anche attive. Significa che hanno un centro dove si trova uno strumento spettroscopico molto grande chiamato \"supermassivo black hole\". Questi supermassivi black holes emettono una quantità enorme di energia dal loro centro.\n\nQuindi, le galassie non vivono soltanto da sole in vuoti intergalattici. Piuttosto, si uniscono per formare ammassi e superammassi che possono contenere migliaia o milioni di stelle!",
+        "gulpease": 56.01149425287356,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "B",
+        "question": "Cosa tiene insieme una galassia a spirale come la Via Lattea?",
+        "answer": "Le stelle, le nubi di gas e polvere che si trovano in una galassia a spirale come la nostra, sono tenute assieme dalla forza gravitazionale. Questa forza è generata dalle stesse entità stesse - cioè da tutte queste cose insieme! È un po' come se tutto ciò che c'è nella galassia fosse unito l'un l'altra grazie alla sua propria massa e all'intensità della gravità. Questa forza di gravitazione è così forte che può trattenere le stelle in orbita attorno al centro, formando la struttura a spirale che conosciamo come galassia a spirale.",
+        "gulpease": 56.1578947368421,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "B",
+        "question": "Come facciamo a sapere che l'universo si sta espandendo?",
+        "answer": "Per capire se il nostro universo si sta espandendo o meno, gli astronomi hanno usato diversi metodi di osservazione e misurazione. Uno dei principali è studiare le galassie vicine a noi.\n\nImmagina che tu stia facendo una foto con un teleobiettivo da 100 mm: puoi vedere solo la parte centrale della scena, mentre tutto il resto rimane nascosto. Ora immagina di avere uno strumento molto più potente e possa osservare a migliaia di chilometri d'istanti dalla stessa posizione.\n\nGli astronomi hanno notato che le galassie vicine si allontanano l'un dall'altra, proprio come se fossero sulle pareti di una grande stanza. Questo fenomeno è conosciuto come \"spostamento verso il rosso\" o doppler spettrale.\n\nSe osserviamo le stelle in profondità nel cielo notturno e risalendo lungo la linea d'occhio, vediamo che tutte queste galassie si allontanano da noi. Questa è una prova chiara che l'universo sta espandendosi.\n\nInoltre, studiare le stelle di tipo Cefeide (che sono delle stelle giganti) ci permette anche di misurare la distanza a lungo raggio dell'Universo. Se queste galassie si allontanano da noi e se l'universo non fosse espansivo, dovrebbero essere più luminose per il loro stesso peso (come un panettone con le uvette che diventa sempre più piccolo). Invece, sembrano sempre uguali in luminosità. Questa è una prova ancora più forte dell'espansione universale.\n\nTutti questi indizi fanno sì che gli astronomi oggi sono quasi certi che l'universo si sta espandendo e non rallentando o fermandosi, a meno di un cambiamento drastico nella fisica del nostro mondo.",
+        "gulpease": 54.4863813229572,
+        "faithfulness": 0.7692307692307693
+      },
+      {
+        "level": "B",
+        "question": "Cos'è l'energia oscura e in che modo è diversa dalla materia oscura?",
+        "answer": "L'energia oscura e la materia oscura sono entrambe particolari di un fenomeno chiamato \"materia ed energia oscuri\". La differenza principale sta nel fatto che l'una riguarda l'energia, mentre l'altra riguarda il materiale fisico.\n\nLa materia oscura è quella che non emette o riceve la luce. Non possiamo vederla direttamente perché non produce né riflette né raccoglie la luce come fanno le stelle e gli altri oggetti luminosi. Ciò significa che, sebbene sappiamo che esiste grazie a quanto detto nel contesto fornito (come un urto contro qualcosa in una stanza buia), non possiamo vederla o capire cosa contiene.\n\nL'energia oscura invece riguarda l'energia. Non vediamola, ma si pensa che sia distribuita nell'universo e che contribuisca al suo espansione. La differenza è che la materia oscura non emette né riceve energia come fanno le stelle o altri oggetti luminosi.\n\nIn sintesi: mentre la materia oscura ci dice cosa contiene, l'energia oscura ci dice qualcosa sul modo in cui il nostro universo si evolve e si espande.",
+        "gulpease": 56.325581395348834,
+        "faithfulness": 0.9
+      },
+      {
+        "level": "B",
+        "question": "Come vengono rilevate le onde gravitazionali sulla Terra?",
+        "answer": "Le onde gravitazionali sono rilevate sfruttando strumentazioni specializzate che possono percepire piccole deformazioni dello spazio-tempo. Queste dispositivi, come LIGO (Laser Interferometer Gravitational-Wave Observatory), funzionano in modo simile a un laser interferometra.\n\nPer capirlo meglio, immaginiamo di avere due tubi lunghi e paralleli uno all'altro, con una luce che si propaga lungo entrambi. Se non ci fossero onde gravitazionali, la luce avrebbe un percorso identico in ciascuno dei due tubi.\n\nMa se arriva un’onda gravitazionale, il primo a essere influenzato sarà lo spazio-tempo vicino al punto dove si è verificata l'onda. Questa influenza farà allungare o accorciare leggermente uno degli strumenti di LIGO rispetto all'altro.\n\nQueste piccole differenze nel percorso della luce vengono poi misurate dai sensori del dispositivo, che possono rilevare variazioni molto più piccole dello spazio stesso. Questa è la base con cui i ricercatori riescono a vedere e analizzare le onde gravitazionali.\n\nIl fatto che il segnale non sia stato identico in due luoghi distanti (come Hanford rispetto a Livingston) conferisce all'evento una certa \"velocità\", proprio come previsto per le onde gravitazionali. Questo ritardo è dovuto al tempo necessario per la luce di raggiungere uno degli strumenti dall’altro, in linea con quanto predetto dalla teoria della relatività generale.",
+        "gulpease": 48.33014354066986,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "Qual è la differenza tra un buco nero stellare e uno supermassiccio?",
+        "answer": "Un buco nero di massa stellare ha una massa che può variare fino a qualche decina di masse solari, mentre i buchi neri supermassivi hanno masse comprese dal milione di masse solari in poi. Questo significa che un buco nero supermassiccio è molto più pesante rispetto ad uno stellare.\n\nUn buco nero stellare si forma come risultato dell'esplosione finale (la supernova) di una grande e massiccia stella, mentre i buchi neri supermassivi sono presenti nei nuclei delle galassie. Questo suggerisce che la loro formazione potrebbe essere diversa o influenzata da fattori cosmologici a livello galattico.\n\nInoltre, il termine \"intermediario\" viene usato per descrivere i buchi neri di massa intermedia (in inglese intermediate mass black holes), che hanno una massa compresa tra un centinaio e qualche decina di migliaia di masse solari. Tuttavia, l'esistenza dei buchi neri con queste dimensioni non è ancora stata provata o chiarita completamente.\n\nQuindi, in sintesi:\n- Un buco nero stellare ha una massa che può variare da qualche decina a poche centinaia di masse solari.\n- I buchi neri supermassivi hanno un'ordine di grandezza più grande della massa del Sole (dal milione al decimo di miliardo).\n- Non è ancora chiaro se esistono i buchi neri con una massa intermedia, ma la loro presenza potrebbe essere importante per comprendere come si formano questi oggetti straordinari.",
+        "gulpease": 50.13636363636363,
+        "faithfulness": 0.8333333333333334
+      },
+      {
+        "level": "C",
+        "question": "Cosa serve, secondo la relatività generale, per mantenere aperto un wormhole attraversabile?",
+        "answer": "Secondo i principi della teoria della relatività generale descritti nel contesto fornito, non c'è una risposta diretta a questa domanda. Tuttavia, possiamo trarre alcune conclusioni basate sui dati disponibili.\n\nLa relativa durata e l'apertura di un wormhole attraversabile sono legati all'esistenza di condizioni gravitazionali particolari che causano lo spazio a dilatarsi. Questo fenomeno, però, non è sufficiente per mantenere aperto il wormhole in modo costante.\n\nIl testo suggerisce che la durata del wormhole dipende dal fatto che esso può \"pinch off\" o \"snap shut\", come un Einstein-Rosen bridge o una singolarità di Kerr. Questi fenomeni sono caratterizzati da forze gravitazionali molto intense, e il testo afferma che non è facile mantenere aperto un wormhole in presenza di queste forze.\n\nIl testo specifica anche che Thorne cercò di impostare condizioni per i wormholes attraversabili senza esser \"pinched off\" o \"snap shut\", ma rivelò che questo sarebbe stato difficile. Il testo afferma infatti che la gola del wormhole non si mantiene aperta da sola e richiede un grande aiuto.\n\nTuttavia, il testo termina con una nota di incertezza: \"You will have gathered from everything I have said in the last few chapters that the jury is still out on all these questions. We simply do not know for sure yet.\" Questa frase suggerisce che non c'è ancora un consenso o una risposta definitiva a questa domanda.\n\nIn sintesi, secondo la teoria della relatività generale e i dati forniti nel contesto, il wormhole attraversabile richiederebbe condizioni gravitazionali particolari per mantenersi aperto. Tuttavia, non c'è una risposta diretta a questa domanda specifica sul tipo di materia o altre condizioni necessarie per mantenerlo aperto in modo costante.",
+        "gulpease": 51.15827338129496,
+        "faithfulness": 0.8
+      },
+      {
+        "level": "C",
+        "question": "Perché una stella di neutroni non collassa ulteriormente in un buco nero?",
+        "answer": "Una stella di neutroni, anche se è già molto compressa e densa rispetto a qualsiasi altro oggetto fisico conosciuto, non può collassare ulteriormente perché raggiunge una limitazione fondamentale della natura. Questo limite si chiama \"densità infinita\" o singolarità gravitazionale. Una volta che la stella di neutroni raggiunge questa densità infinita, il suo nucleo diventa così compresso e le sue forze interne sono talmente intense da impedire un collasso ulteriore.\n\nIl raggio Schwarzschild della singolarità è l'ultimo limite fisico per una massa determinata. Per una stella di neutroni con circa tre masse solari, questo valore si aggira intorno a 12 km (il diametro del Sole ha approssimativamente 1085 km). Una volta che la stella raggiunge questa densità infinita e il raggio Schwarzschild, non c'è più spazio per un collasso ulteriore. Quindi una stella di neutroni rimane stabile in questo stato senza poter diventare un buco nero.\n\nIl concetto fondamentale qui è che la densità infinita e il raggio Schwarzschild sono limitazioni fisiche intrinseche alla natura delle particelle subatomiche, come i neutrini. Una stella di neutroni raggiunge queste condizioni in un processo molto rapido rispetto all'esperienza umana, ma è comunque una realtà della fisica teorica e non può essere superata o evitata attraverso processi naturali.\n\nIn sintesi, la densità infinita e il raggio Schwarzschild costitucono i limiti fondamentali alla compressione di un oggetto fisico. Una stella di neutroni raggiunge questi valori in una fase molto breve del suo ciclo evolutivo, ma non può superarli o evitarli attraverso processi naturali della fisica attuale.",
+        "gulpease": 47.56573705179283,
+        "faithfulness": 0.6363636363636364
+      },
+      {
+        "level": "C",
+        "question": "Qual è il ruolo del limite di Chandrasekhar nel destino finale di una stella?",
+        "answer": "Il limite di Chandrasekhar ha un ruolo cruciale nel determinare la destinazione finale di una stella massiccia. Se la massa della stella supera questo valore, circa 1,44 volte quella del Sole, allora alla fine della sua vita questa stella è destinata a collassare in uno stato fisico particolarmente strano e complesso: o diventando una \"stella di neutroni\" (che sono stati scoperti da Lev Landau), oppure formando un buco nero.\n\nQuesto limite ha due aspetti fondamentali:\n1. **Stelle di Neutroni**: Se la massa della stella è inferiore al limite di Chandrasekhar, allora alla fine del suo ciclo evolutivo (quando il combustibile nucleare si esaurisce) questa stella può stabilizzarsi in una forma particolare chiamata \"stella di neutroni\". Questa forma ha un raggio relativamente piccolo - solo poche migliaia di chilometri - ma è così densa che la sua massa viene concentrata su una superficie infinitesima, creando uno stato fisico noto come stella di neutroni.\n\n2. **Buchi Neri**: Se invece la massa della stella supera il limite di Chandrasekhar, allora alla fine del suo ciclo evolutivo questa stella collasserà in una singolarità gravitazionale con un raggio zero e una densità infinita - questo è ciò che si chiama un buco nero. \n\nIn entrambi i casi, il limite di Chandrasekhar determina se la stella può evitare o superare l'attrazione della sua propria gravità, permettendo allora a questa massa enorme di stabilizzarsi in una forma fisica compatta e densa come una nana bianca (se inferiore al limite) o diventando un buco nero (se superiore).",
+        "gulpease": 47.52459016393443,
+        "faithfulness": 0.6666666666666666
+      },
+      {
+        "level": "C",
+        "question": "Come vengono prodotti nel nucleo di una stella gli elementi più pesanti del ferro?",
+        "answer": "Nel nucleo di una stella, i nuclei atomici si fondono attraverso reazioni di fusione per formare nuovi e più stabili nuclei. Questa fusione è un processo che produce energia in quantità significative, ma non può avvenire con tutti gli elementi possibili.\n\nLa catena di combustioni nucleare nella stella interrompe la produzione degli elementi pesanti quando si arriva al ferro ($^{56}\\mathrm{Fe}$). Il ferro è l'elemento più stabile che esiste, e non può essere bruciato in modo da liberare energia. Quando una stella ha consumato tutto il carburante necessario per produrre elementi pesanti come il ferro, la fusione nucleare si interrompe.\n\nNel caso di stelle con massa superiore alle 10 masse solari, quando tutte le reazioni che producono elemento ferro sono finite e non c'è più materiale da bruciare per produrre energia, l'equilibrio tra la forza gravitazionale interna della stella (che tende a farla contrarre) e la pressione esterna generata dalle reazioni di fusione nucleare si rompe. Questo è il punto in cui avviene un collasso catastrofico del nucleo della stella.\n\nIl processo che segue include:\n1. Il collasso rapido dei strati esterni verso l'interno.\n2. Un rimbalzo di questi materiali contro il nucleo ormai privo di energia produttiva (il ferro).\n3. Questa esplosione, o supernova, libera una quantità enorme di energia.\n\nNel caso in cui la stella sia ancora più pesante e superiore a 10 masse solari, non c'è nulla che possa fermare il collasso del nucleo. In questo caso, si forma un buco nero: un punto assolutamente densoato dove l'intensità gravitazionale è così forte da impedire la fuga perfetta di qualsiasi materia o energia.\n\nQuindi, gli elementi più pesanti prodotti durante il collasso della stella non possono essere bruciati in modo da liberare energia. Invece, si formano buchi neri quando le condizioni sono adatte per questo evento finale e catastrofico.",
+        "gulpease": 55.29139072847682,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "Quali prove osservative supportano l'esistenza della materia oscura nelle galassie a spirale?",
+        "answer": "Il contesto fornito non contiene direttamente prove specifiche che supportino la presenza di materia oscura in galassie a spirale. Tuttavia, esiste un'ampia base di indizi e ipotesi su come potrebbe funzionare questa teoria:\n\n1. La massa osservabile delle galassie non spiega completamente il loro movimento: le stelle e altre particelle che si trovano all'interno della galassia hanno una forza gravitazionale sufficiente per mantenere la galassia in equilibrio, ma questa forza è insufficiente a far muovere tutte le galassie nel modo previsto dalla teoria del Big Bang. Questo vuol dire che ci deve essere un'energia o massa non osservabile.\n\n2. La materia oscura interagisce solo gravitazionalmente: essa ha una forte attrazione per altre masse, ma non emette luce e quindi non può essere diretta osservata con i nostri strumenti attuali come telescopi a lungo raggio o satelliti di astronave.\n\n3. La materia oscura spiega le strutture delle galassie: la sua presenza è necessaria per spiegare il modo in cui galassie e ammassi oscuri si collassano, formando struttura come i buchi neri o nuclei attivi di galassia.\n\n4. La teoria della materia oscura risolve alcuni problemi aperti: ad esempio, la soluzione alla domanda se M87 fosse un ammasso oscuro o un buco nero richiede l'ipotesi che sia una massa non osservabile a determinare il suo comportamento.\n\n5. La teoria della materia oscura è necessaria per spiegare le fluttuazioni del fondo cosmico: se la materia oscura esistesse, dovrebbe essere presente in quantità sufficiente da influenzarne l'ampiezza e la dispersiono.\n\nTuttavia, non c'è un solo indizio diretto che possa dire con certezza di avere dimostrato l'esistenza della materia oscura. La teoria è basata su questi indizi logici e ipotetiche, piuttosto che prove dirette come si trova per molte altre scoperte in astrofisica.",
+        "gulpease": 51.37931034482759,
+        "faithfulness": 0.875
+      },
+      {
+        "level": "C",
+        "question": "Cosa ci dice la radiazione cosmica di fondo sull'universo primordiale?",
+        "answer": "La radiazione cosmica di fondo ci fornisce una quantità significativa d'informazioni sullo stato del nostro universo in epoca molto antichissima. In particolare, essa ci dimostra che l'universo era allora omogeneo e isotrope, ovvero uniforme e indifferenziato su larga scala.\n\nQuesti due concetti - la \"omogeneità\" (la costanza) ed il \"isotropia\" (l'identico in tutte le direzioni) dell'universo primordiale sono stati provati attraverso l'esistenza della radiazione cosmica di fondo. Questa radiazione, che pervade tutto lo spazio e si estende da quando l'universo aveva circa 400.000 anni (quando la materia inizialmente dispersa cominciò a collassare per formare le prime galassie), è stata scoperta nel 1964 dai due ingegneri Arno Penzias e Robert Wilson.\n\nL'omogeneità dell'universo primordiale significa che non c'erano differenze significative nella densità (la quantità di materia) all'interno del nostro universo in quel momento. Tuttavia, l'esistenza della radiazione cosmica di fondo ci mostra anche le prime condensazioni o rarefazioni di materia - piccole variazioni nell'assoluta uniformezza dell'universo.\n\nQuesti piccoli cambiamenti nella densità non erano visibili allora ma hanno lasciato tracce nel calcolo della radiazione cosmica di fondo. In particolare, la figura 7.5 del documento che abbiamo consultato mostra come l'intensità osservata della radiazione cambia con le frequenze, e ci dimostra una linea a tratti per i raggi gamma prodotti da buchi neri primordiali.\n\nTuttavia, il grafico suggerisce anche che queste condensazioni o rarefazioni non potevano essere più intense di 300 per ogni anno luce cubo nell'universo. Questa limitazione ci dice quindi che i buchi neri primordiali potrebbero costituire una quantità molto piccola, probabilmente meno del milionesimo della materia totale dell'universo.\n\nIn sintesi, la radiazione cosmica di fondo fornisce un'indicazione chiara e dettagliata sullo stato dello spazio-temporale in epoca molto antichissima, dimostrando che l'universo era allora omogeneo ed isotrope ma con piccole variazioni nella densità.",
+        "gulpease": 45.557377049180324,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "C",
+        "question": "In cosa consiste la teoria dell'inflazione cosmica?",
+        "answer": "La teoria dell'inflazione è una modifica della cosiddetta Teoria del Big Bang standard, che cerca di risolvere alcuni dei problemi più noti nella descrizione del nostro universo. Secondo questa teoria:\n\n1. L'idea principale è che all'inizio dell'universo (probabilmente intorno a 10^-36 secondi dopo il big bang), l'universo si sarebbe espanduto in modo molto rapido e improvviso, più veloce del velocità della luce.\n\n2. Questa rapidissima espansione è chiamata \"inflazione\" perché simula un processo di gonfiamento o allargamento dell'energia gravitazionale nell'universo.\n\n3. L'inflazione sarebbe stata così rapida e intensiva da cancellare le piccole variazioni in temperatura che si trovano nella radiazione cosmica doppia osservata oggi, dimostrando come l'universo potrebbe essere stato molto più omogeneo di quanto sembrerebbe.\n\n4. La teoria dell'inflazione suggerisce anche una spiegazione per la simmetria tra le forze fondamentali nell'universo attuale: secondo Guth, all'epoca della inflazione l'universo sarebbe stato in uno stato senza rottura di simmetrie (cioè con tutte le forze fisiche unitamente), e solo dopo che si è sviluppata la gravità come forza separata.\n\n5. L'inflazione dovrebbe anche spiegare perché il nostro universo non ha una costante cosmologica effettiva diversa da quella osservata attualmente, evitando così l'espansione accelerata (che è un altro problema della Teoria del Big Bang standard).\n\n6. Infine, la teoria dell'inflazione suggerisce che il nostro universo potrebbe essere solo una piccola parte di uno spazio infinitamente grande e in continua espansione.\n\nTuttavia, come per molte altre teorie cosmiche avanzate, l'ultima parola non è ancora stata detta. La Teoria dell'inflazione rimane un campo di ricerca attivo che richiede ulteriori prove o modelli matematici per dimostrare la sua validità.",
+        "gulpease": 50.35036496350365,
+        "faithfulness": 0.7777777777777778
+      },
+      {
+        "level": "C",
+        "question": "Cosa ha rappresentato la prima rilevazione diretta di onde gravitazionali (GW150914)?",
+        "answer": "La prima rilevazione diretta di onde gravitazionale, GW150914, è stata un evento cruciale nella storia dell'astrofisica. Questo segnale ha permesso agli scienziati di osservare direttamente l'unione tra due buchi neri molto massicci che si avvicendavano attorno a se stessi prima della fusione finale.\n\nGW150914 rappresenta un evento fondamentale perché:\n\n1. **Prima rilevazione diretta**: Questo segnale è stato osservato direttamente, senza l'intermediario di altre onde (come le onde elettromagnetiche o i raggi cosmici), permettendo agli scienziati di studiare lo spazio-tempo in modo immediato.\n\n2. **Incredibile precisione**: La distanza tra gli osservatori sulla Terra da GW150914 era circa 1,3 miliardi di anni luce, ma la misurazione dell'onda gravitazionale è stata effettuata con una precisione sorprendente. Questa precisità ha permesso agli scienziati di capire meglio come funziona lo spazio-tempo e le onde gravitazionali.\n\n3. **Impatto scientifico**: GW150914 ha aperto nuove porte per la ricerca in astrofisica, permettendo l'osservazione diretta dell'unione di buchi neri e fornendo informazioni sui loro aspetti fisici non osservabili con altri strumenti.\n\nIn sintesi, GW150914 ha rappresentato un evento scientifico fondamentale che ha permesso agli scienziati di scoprire nuove cose sulla natura stessa dello spazio-tempo e delle onde gravitazionali.",
+        "gulpease": 47.865979381443296,
+        "faithfulness": 0.875
+      },
+      {
+        "level": "C",
+        "question": "Perché la fusione di due buchi neri produce onde gravitazionali rilevabili sulla Terra?",
+        "answer": "La fusione di due buchi neri genera onde gravitazionali perché, come abbiamo visto nel contesto fornito, questa è una conseguenza diretta del fenomeno. Quando si fondono due buchi neri con masse significative (come quelle menzionate in fonte 3), viene generata un'energia eccessiva che si espande attraverso lo spazio-tempo come onde gravitazionali.\n\nQuesti segnali sono simili a ondate di acqua sulle spiagge, ma invece di propagarsi nel mondo fisico del fluido, le onde gravitazionali si diffondono nell'universo interstellare. Tuttavia, poiché i buchi neri hanno una forza d'attrazione così forte che non permette la luce (e quindi altre forme di energia) di sfuggire all'interno del loro orizzonte degli eventi, le onde gravitazionali generatrici della fusione devono essere molto potenti per raggiungere e penetrare nell'orizzonte degli eventi dei buchi neri.\n\nInoltre, come spiegato in fonte 1, se i wormhole si formano dalla fusione di due buchi neri (come supposto), dovrebbe produrre un particolare segnale nelle onde gravitazionali. Tuttavia, non è mai stato visto questo tipo di segnale.\n\nQuindi, la fusione dei buchi neri genera queste onde gravitazionali perché rappresenta una forza eccessiva che si espande attraverso lo spazio-tempo in un modo simile a come le onde d'urto propagano l'energia nel mondo fisico. Questo fenomeno è stato osservato direttamente per la prima volta con il riconoscimento delle onde gravitazionali generate dalla fusione di due buchi neri, avvenuta il 14 settembre 2015 (come menzionato in fonte 3).",
+        "gulpease": 45.73728813559322,
+        "faithfulness": 0.5
+      },
+      {
+        "level": "D",
+        "question": "Come si deriva il raggio di Schwarzschild di un buco nero dalla relatività generale?",
+        "answer": "Il raggio di Schwarzschild è derivato dalla soluzione della equazione del campo gravitazionale per una sfera simmetricamente distribuita di massa, considerando la teoria della relatività generale. Questo deriva direttamente dall'equazione del campo di Einstein:\n\n$$\nG_{\\mu\\nu} = \\frac{8\\pi G}{c^4} T_{\\mu\\nu}\n$$\n\nDove $G_{\\mu\\nu}$ è la curvatura dello spazio-tempo, e $T_{\\mu\\nu}$ rappresenta il tensor delle forze (ovvero l'energia-momento). \n\nLa soluzione per una sfera simmetricamente distribuita di massa porta a un sistema di coordinate in cui la metrica della curvatura dello spazio-temporale assume una forma specifica, nota come \"soluzioni del problema di Schwarzschild\". Queste soluzioni derivano dalla teoria della relatività generale e descrivono il campo gravitazionale intorno a un oggetto massivo.\n\nIl raggio di Schwarzschild è definito come la distanza dal centro dell'oggetto massivo fino alla quale l'effetto gravitazionale diventa tale da impedire che nessun corpo, non essendo in grado di superare il limite imposto dalla forza gravitazionale (la velocità di fuga), possa uscire dall'interno del buco nero. Questo valore è dato dalla formula:\n\n$$\n{ \\frac { 2 G M } { c ^ { 2 } } }\n$$\n\nDove $G$ è la costante gravitazionale, $M$ è la massa dell'oggetto massivo e $c$ è velocità della luce. Questa distanza viene chiamata \"raggio di Schwarzschild\" in onore del fisico tedesco Karl Schwarzschild, che fu il primo a risolvere questa equazione nel 1916.\n\nQuindi, la derivazione del raggio di Schwarzschild deriva direttamente dalla teoria della relatività generale e dalla soluzione specifica per una sfera simmetricamente distribuita di massa.",
+        "gulpease": 46.016129032258064,
+        "faithfulness": 0.5714285714285714
+      },
+      {
+        "level": "D",
+        "question": "Che ruolo gioca l'energia esotica (violazione delle condizioni di energia) nella stabilità di un wormhole di Morris-Thorne?",
+        "answer": "L'energia esotica, che è la violazione della condizione di energia nullità, ha un ruolo cruciale nella stabilità del wormhole di Morris-Thorne. Questo tipo di materia o forza non rispetta le regole comuni dell'energia e può portare a conseguenze significative per l'integrità dello strumento spaziotemporale.\n\nNel contesto fornito, si evidenzia che la presenza della materia esotica è necessaria perché il wormhole possa essere traversabile. In particolare, come detto nel testo di Matt Visser (Fonte 1), l'energia nullità viene violata in un intervallo finito vicino al nodo del wormhole. Questa violazione automaticamente porta a conseguenze negative per le altre condizioni d'energia: la condizione nulla, la forte e quella dominante.\n\nTuttavia, il testo non fornisce dettagli specifici sul ruolo preciso dell'energia esotica nella stabilità del wormhole. Visser suggerisce che l'equazione di stato della materia esotica vicino al nodo del wormhole deve essere adeguatamente connessa per garantire la stabilità, ma non fornisce ulteriori dettagli su come questa violazione dell'energia nullità influisca direttamente sulla sua stabilità.",
+        "gulpease": 45.21301775147929,
+        "faithfulness": 0.3333333333333333
+      },
+      {
+        "level": "D",
+        "question": "Qual è il limite di Tolman-Oppenheimer-Volkoff e cosa determina per la massa massima di una stella di neutroni?",
+        "answer": "Il documento fornito non fornisce direttamente l'informazione sul \"limite di Tolman-Oppenheimer-Volkoff\" o specifiche informazioni sulla determinazione della massa massima delle stelle di neutroni. Il testo menziona solo che il limite superiore per le masse delle stelle di neutroni è circa $3 M_{\\odot}$, basato su una teoria moderna che prevede un residuo da stelle con massa iniziale maggiore di $3 M_{\\odot}$. Per quanto riguarda la determinazione della massa massima, il testo specifica solo che essa dipende dalla forza di pressione dei neutroni degeneri e dalle interazioni tra i neutrioni. Non sono fornite informazioni dettagliate sulla formula o l'equazione utilizzata per calcolare tale limite.",
+        "gulpease": 45.79245283018868,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "D",
+        "question": "Come descrive il ciclo CNO la produzione di energia nel nucleo delle stelle più massicce?",
+        "answer": "Nel contesto fornito, non viene esplicitamente descritto come il ciclo CNO contribuisca alla produzione di energia nel nucleo delle stelle più massicce. Il testo specifica che per le stelle con massa compresa tra 1 M☉ e 3 M☉, la parte del luminosità generata dal ciclo CNO aumenta fino a circa il 65% al centro della stella (e quasi metà del totale luminoso). Tuttavia, non viene fornito dettaglio specifico sull'effetto che questo ciclo ha sulla produzione di energia nel nucleo delle stelle più massicce.",
+        "gulpease": 49.74074074074074,
+        "faithfulness": 1.0
+      },
+      {
+        "level": "D",
+        "question": "Come vengono usate le curve di rotazione delle galassie per inferire la distribuzione di materia oscura?",
+        "answer": "Le curve di rotazione delle galassie sono utilizzate per inferire la distribuzione della materia oscura in modo accademico a livello universitario attraverso un approccio che combina osservazioni fisiche con teorie astronomiche. In particolare, le curvature mostrano una differenza significativa rispetto alle curve di rotazione dei pianeti intorno al Sole, dove la velocità orbitale diminuisce in funzione del raggio secondo il terzo legge di Keplero.\n\nNel contesto fornito, si evidenzia che nelle galassie spiralizzate (come quella mostrata nella figura 5), le curve di rotazione tendono a rimanere costanti all'esterno della loro parte centrale densa. Questo è in contrasto con la dinamica dei pianeti intorno al Sole, dove si osserva una diminuzione progressiva delle velocità orbitali rispetto alla distanza dal centro.\n\nQuesti risultati suggeriscono che l'energia gravitazionale necessaria per mantenere le galassie insieme durante il loro moto di rotazione non è completamente costituita dalla materia luminosa osservabile (come stelle e gas). In particolare, si notano curve di rotazione simili a quelle delle galassie spiralizzate che tendono ad avere velocità orbitale costante all'esterno della parte centrale densa.\n\nQuesto suggerisce l'esistenza di una materia oscura non luminosa (ossia non osservabile direttamente) che contribuisce significativamente alla massa totale delle galassie, con un'ipotesi originata negli anni '70. La quantità e la distribuzione della materia oscura in queste galassie sono state stimate attraverso l'osservazione diretta dei movimenti luminosi (come stelle) e gas all'interno delle galassie, con risultati che indicano che soltanto un piccolo percentuale di questa massa è costituita da materia osservabile.\n\nIn sintesi, le curve di rotazione delle galassie forniscono una misura diretta della quantità totale di materiale gravitative necessaria per mantenere la galassia insieme durante il suo moto. Questo richiama l'esistenza e la significatività della materia oscura nella comprensione del comportamento fisico delle galassie, in particolare nelle regioni all'esterno dei loro nuclei densi.",
+        "gulpease": 39.91803278688525,
+        "faithfulness": 0.7142857142857143
+      },
+      {
+        "level": "D",
+        "question": "Cosa rappresenta il parametro di densità Ω nel modello cosmologico ΛCDM?",
+        "answer": "Nel modello cosmologico ΛCDM, il parametro di densità \\(\\Omega\\) è una combinazione delle componenti dell'universo che contribuiscono alla curvatura dello spazio-temporale. Questo parametro viene utilizzato per descrivere la composizione del nostro universo in termini della sua densità totale rispetto al valore critico di densità (\\(\\rho_{\\text{crit}}\\)).\n\nNel contesto fornito, si può vedere che \\(\\Omega\\) è una combinazione delle componenti dell'universo descritte come segue:\n\n- \\(\\Omega_m = 0.25\\): rappresenta la contribuzione della materia ordinaria.\n- \\(\\Omega_\\Lambda = 0.75\\): rappresenta il contributo del cosmologico constante (\\(\\Lambda\\)).\n\nQuesti valori, combinati con l'assenza di curvatura evidente nell'universo (indotta dal parametro \\(|\\Omega_k| < 0.01\\)), forniscono una descrizione completa della composizione dell'universo nel modello ΛCDM.",
+        "gulpease": 50.711711711711715,
+        "faithfulness": 0.8333333333333334
+      },
+      {
+        "level": "D",
+        "question": "Quali sono i principali problemi che la teoria dell'inflazione cerca di risolvere (piattezza, orizzonte)?",
+        "answer": "La teoria dell'inflation presenta due dei suoi problemi fondamentali più notevoli:\n\n1. **Problema della Piattezza**: Questo problema si riferisce alla simmetria spaziale del cosmo all'orario di Big Bang, che dovrebbe essere piatta a livello globale ma in realtà sembra avere una forma molto lieve e non uniforme.\n\n2. **Problema dell'Orizzonte**: Il secondo problema è il \"problema dell'orizzonte\", che si riferisce alla possibilità di raggiungere le regioni spaziali distanti del cosmo, in modo da poter osservare oggetti o fenomeni all'interno della loro visuale cosmica. Questo richiede che la materia elettrone-positronia (MEP) sia distribuita uniformemente nel tempo e nello spazio.\n\nLa teoria dell'inflation proposta in questi corsi di lezioni cerca di risolvere entrambi questi problemi, offrendo una soluzione alla piattezza del cosmo attraverso la sua definizione fondamentale:\n\n$$\n\\frac { d } { d t } \\left( \\frac { 1 } { a H } \\right) < 0 .\\tag{51}\n$$\n\nInoltre, l'inflazione accelerata (con $a(t) \\sim e^{H_{inf}t}$ con costante $H_{inf}$), che è stata menzionata come una soluzione possibile per la teoria dell'inflation, risolve il problema dell'orizzonte. Questo tipo di fase in cui l'aureola del cosmo si espande rapidamente permette a regioni spaziali distanti di entrare nella causalità reciproca durante un periodo molto breve (con conformal time), rendendo possibile la comunicazione tra questi punti remoti e quindi risolvendo il problema dell'orizzonte.",
+        "gulpease": 47.22727272727273,
+        "faithfulness": 0.0
+      },
+      {
+        "level": "D",
+        "question": "Come si ricava la formula del quadrupolo per la luminosità in onde gravitazionali di un sistema binario?",
+        "answer": "La risposta alla tua domanda non è diretta nel contesto fornito, ma possiamo cercare informazioni utili che potrebbero aiutarti a rispondere. Il testo specifica la formula del quadrupolo per le onde gravitazionali di un sistema binario in termini della frequenza orbitale e dell'amplitude delle onde gravitazionali, ma non fornisce una derivazione diretta.\n\nLa formula che si trova nel contesto è:\n\n$$\nh = \\frac { 4 \\mu M ^ { 2 / 3 } \\Omega ^ { 2 / 3 } } { D }\n$$\n\ndove:\n- \\( h \\) rappresenta l'amplitude (anche chiamata \"strain\") delle onde gravitazionali.\n- \\( \\mu = m _{1} m_{2} / M \\), dove \\( m_1 \\) e \\( m_2 \\) sono i massimi dei due oggetti nella coppia binaria, mentre \\( M = m_1 + m_2 \\).\n- \\( D \\) è la distanza dell'osservatore dall'origine del sistema.\n- \\( M^{\\frac{2}{3}} \\Omega^{\\frac{2}{3}} \\) rappresenta una combinazione delle masse e della frequenza orbitale.\n\nLa formula per l'amplitude non fornisce informazioni dirette sulla derivazione dell'espressione di luminosità in onde gravitazionali. La derivazione completa sarebbe un argomento più ampio, che generalmente si basa su teorie del quadrupolo e della perturbazione lineare.\n\nQuindi risponderei con:\n\nMi dispiace, ma i documenti a mia disposizione non contengono questa informazione.",
+        "gulpease": 52.02857142857143,
+        "faithfulness": 0.75
+      },
+      {
+        "level": "D",
+        "question": "Cos'è la 'chirp mass' di un sistema binario e perché è la grandezza più facilmente misurabile dal segnale di un interferometro?",
+        "answer": "La chirp mass $M_c$ di un sistema binario rappresenta una grandezza che può essere estremamente facile da stimare dalla frequenza dei segnali gravitazionali prodotti durante l'infusione delle stelle in coppia. Questo è dovuto alla sua naturale connessione con la frequenza del segnale gravitazionale, come evidenziato nella formula (189) fornita nel contesto:\n\n$$\n\\dot { f } = \\frac { 9 6 } { 5 } \\frac { 1 } { c ^ { 5 } } \\pi ^ { 8 / 3 } ( G M _{c} )^{5/3} f^{11/3},\n$$\n\ndove $M_c$ è definito come:\n\n$$\nM_{c} = M \\eta^{\\frac{3}{5}},\n$$\n\ncon $\\eta = \\frac{\\mu}{M}$, dove $\\mu$ rappresenta la massa simmetrica del sistema. \n\nLa chirp mass è una grandezza che dipende solo dalla massa totale $M$ e dal rapporto di masse simmetriche $\\eta$, non da altre caratteristiche specifiche dei singoli oggetti binari come i loro spinti o le loro deformabilità. Questa semplicità rende la chirp mass un'obiettivo facile per l'estrazione dalla analisi del segnale gravitazionale, che è basata sulla frequenza e sullo stato di evoluzione della coppia binaria.\n\nIn particolare, durante il processo di infusione delle stelle in coppia (cioè quando le stelle si avvicinano), la chirp mass $M_c$ determina come cambia la frequenza del segnale gravitazionale. Questo è un fenomeno che può essere osservato con precisione storica, contribuendo alla prima dimostrazione diretta dei segnali gravitazionali [18]. \n\nQuindi, per motivi di semplicità e connessione diretta con la frequenza del segnale gravitazionale, la chirp mass è l'obiettivo più facile da misurare nel contesto degli interferometri gravitazionali.",
+        "gulpease": 46.316017316017316,
+        "faithfulness": 0.5
+      },
+      {
+        "level": "D",
+        "question": "In cosa consiste il paradosso dell'informazione nei buchi neri, e come la radiazione di Hawking lo rende rilevante?",
+        "answer": "Il paradosso dell'informazione nei buchi neri si rifà alla possibilità che un oggetto microscopico contenga tanta informazione da violare il principio dell’entropia di Bekenstein-Hawking. Questo significa che se la quantità di informazione contenuta in un buco nero dipendesse dalle sue dimensioni, allora avrebbe una temperatura e potrebbe brillare come un pezzo di metallo arroventato.\n\nTuttavia, da un buco nero non può uscire nulla. Questa situazione crea uno scontro fra teorie sulla natura dei buchi neri: se la radiazione di Hawking esistesse (cioè una forma di radiante che potrebbe provenire dai bordi esterni del buco nero), allora avrebbe bisogno della meccanica quantistica per spiegare come si comporterebbe l'informazione contenuta nel buco nero. In altre parole, la radiazione di Hawking rende il paradosso dell'informazione nei buchi neri rilevante perché introduce un elemento che potrebbe risolvere o peggiorare lo stato d’incertezza esistente.\n\nSe si accettasse l'esistenza della radiazione di Hawking, allora la meccanica quantistica dovrebbe essere modificata per permettere una perdita di informazione. Oppure, come suggerito da alcuni teorici, potrebbe essere necessario modificarla anche il principio dell'entropia di Bekenstein-Hawking o l'universo stesso per consentire all’informazione contenuta nel buco nero di sfuggirvi.\n\nIn sintesi, la radiazione di Hawking rende questo paradosso rilevante perché introduce un elemento che potrebbe risolvere lo stato d'incertezza esistente tra le teorie della meccanica quantistica e quella relativista riguardo alla natura dei buchi neri.",
+        "gulpease": 42.05084745762712,
+        "faithfulness": 1.0
+      }
+    ],
+    "ood": {
+      "refusal_rate": 0.55,
+      "correct": 11,
+      "total": 20,
+      "details": [
+        {
+          "question": "Qual è la ricetta originale della carbonara?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non trovo alcuna menzione o descrizione della ricetta originale della carbonara in nessuno dei tre contesti forniti."
+        },
+        {
+          "question": "Chi ha vinto i mondiali di calcio del 2006?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono presenti dettagli sul vincitore dei Mondiali di Calcio nel 2006 o in qualsiasi altro anno."
+        },
+        {
+          "question": "Come si coltivano i pomodori sul balcone?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non vi sono dettagli sull'ortografia o sulla coltivazione dei pomodori su balcone nel contesto fornito."
+        },
+        {
+          "question": "Quali sono i sintomi dell'influenza stagionale?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non trovato alcuna menzione di sintomi specifici legati all'influenza stagionale nel contesto fornito."
+        },
+        {
+          "question": "Chi era Giulio Cesare e come è morto?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non troviamo niente riguardante Giulio Cesare o il suo decesso. Il contesto fornito parla di Galileo Galilei e della storia dell'astronomia, ma non offre alcuna informazione su Giulio Cesare o come sia morto."
+        },
+        {
+          "question": "Come funziona il motore a scoppio di un'automobile?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti forniti non contengono informazioni sulle auto o sui motori a scoppio. Questo materiale riguarda principalmente l'universo e le teorie relative all'aumento della sua velocità. Non c'è nulla qui che possa aiutarmi a rispondere alla tua domanda su come funziona un motore a scoppio di una macchina."
+        },
+        {
+          "question": "Qual è la capitale dell'Australia?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Come si prepara il pane in casa?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono informazioni sul modo di preparare il pane in casa."
+        },
+        {
+          "question": "Quali esercizi servono per allenare gli addominali?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono informazioni sulle attività specifiche che possono essere utilizzate per allenare gli addominali. Questo testo riguarda principalmente argomenti di astronomia e fisica spaziale. Non c'è alcuna indicazione nel contesto fornito su come esercitarsi concretamente per migliorare la forza o il tonico degli addominali."
+        },
+        {
+          "question": "Chi ha dipinto la Gioconda e in che anno?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Come si scrive un curriculum efficace?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione riguardante come scrivere un curriculum efficace. Non trovo alcuna relazione diretta con il contenuto fornito nelle fonti specifiche che hai indicato."
+        },
+        {
+          "question": "Qual è la differenza tra un mutuo fisso e uno variabile?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non trovano alcuna menzione di mutui flessibili o variabili nell'elenco fornito. Potrebbe essere utile consultare un altro documento o risorsa per trovare queste informazioni specifiche sul mutuo fisso e sui mutui variabili."
+        },
+        {
+          "question": "Come si addestra un cucciolo di cane?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono informazioni su come addestrare un cucciolo di cane."
+        },
+        {
+          "question": "Quali sono le regole del gioco degli scacchi?",
+          "refused": false,
+          "answer": "Le regole degli scacchi sono state scoperte dai giocatori esperti. I bambini li gioca come un mistero, mentre gli adulti apprendono nuove cose durante le partite. Non c'è una lista completa e facile da capire delle regole per i giochi di scacchi."
+        },
+        {
+          "question": "Che strumenti servono per imparare a suonare la chitarra?",
+          "refused": true,
+          "answer": "Il contesto fornito non contiene informazioni sulle strutture necessarie per imparare a suonare una chitarra. Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione."
+        },
+        {
+          "question": "Come funziona la fotosintesi clorofilliana?",
+          "refused": false,
+          "answer": "La fotosintesi clorofilliana è una reazione chimica che avviene all'interno delle piante, e si basa su tre ingredienti principali: acqua, anidride carbonica (ossia CO2) e luce solare. Questo processo permette alle piante di produrre carboidrati come zucchero da annuso, che sono una fonte energetica vitale per la loro sopravvivenza.\n\nLa reazione principale si esprime così: 6 molecole d'acqua + 6 molecole di anidride carbonica + energia solare → carbone ossido (ossia CO2) + acqua + zucchero da annuso. \n\nIl processo inizia quando la luce solare viene assorbita dalle clorofila, le sostanze pigmentate che vivono nelle cellule delle piante chiamate cilindri del cellulare. Questo impulso di energia permette all'acqua di essere ionizzata e divisa in idrogeno e ossigeno.\n\nL'idrogeno si unisce con l'anidride carbonica per formare zucchero da annuso, mentre il ossigeno viene liberato come residuo. Questa reazione non solo fornisce energia vitale alle piante ma anche produce ossigeno che poi vengono utilizzati dai batteri e altri organismi viventi.\n\nQuindi, la fotosintesi clorofilliana è fondamentale per le piante perché permette loro di produrre il proprio nutrimento (zucchero da annuso) usando l'acqua e l'anidride carbonica."
+        },
+        {
+          "question": "Quali documenti servono per rinnovare il passaporto?",
+          "refused": false,
+          "answer": "Per rinnovare un passaporto, ti servono alcuni documenti specifici. Devi avere il vecchio passaporte con te e pagare una certa quantità di denaro. Inoltre, potrebbe essere necessario presentare prove d'identità come la carta d'identità o l'albo della carnet di risidenza. Ricorda sempre di controllare sul sito ufficiale del Dipartimento degli Esteri per le ultime informazioni e requisiti specifici."
+        },
+        {
+          "question": "Come si toglie una macchia di vino dalla tovaglia?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. Non sono riuscito a trovare nulla sul modo per rimuovere una macchia di vino da una tovagliola."
+        },
+        {
+          "question": "Qual è la trama dei Promessi Sposi?",
+          "refused": true,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione. La trama di \"I Promessi Sposi\" riguarda un altro testo e non viene menzionata nei contesti forniti."
+        },
+        {
+          "question": "Come si programma un sito web in HTML?",
+          "refused": false,
+          "answer": "Mi dispiace, ma i documenti a mia disposizione non contengono informazioni sul come programmare un sito web con HTML. Questo argomento sembra essere più legato alla programmazione e alle tecnologie di codifica che vanno oltre il contesto fornito."
+        }
+      ]
+    },
+    "summary": {
+      "model": "astrotutor-dpo",
+      "per_level": {
+        "A": {
+          "n": 10,
+          "gulpease_mean": 57.38269989268842,
+          "faithfulness_mean": 0.4975385725385726
+        },
+        "B": {
+          "n": 10,
+          "gulpease_mean": 53.553954193269035,
+          "faithfulness_mean": 0.8469230769230769
+        },
+        "C": {
+          "n": 10,
+          "gulpease_mean": 49.256667483641074,
+          "faithfulness_mean": 0.7964141414141415
+        },
+        "D": {
+          "n": 10,
+          "gulpease_mean": 46.501479378275235,
+          "faithfulness_mean": 0.6452380952380953
+        }
+      },
+      "ood_refusal_rate": 0.55
+    }
+  }
+}

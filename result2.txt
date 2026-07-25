@@ -1,0 +1,4 @@
+ [74/74 1:06:14, Epoch 2/2]
+Epoch	Training Loss	Validation Loss	Num Tokens	Logits/chosen	Logits/rejected	Rewards/chosen	Rewards/rejected	Rewards/accuracies	Rewards/margins	Logps/chosen	Logps/rejected
+1	0.428338	0.375447	2046862.000000	-2.190674	-2.215576	-0.017660	-0.872898	0.968750	0.855238	-301.119390	-806.239140
+2	0.276407	0.283276	4093724.000000	-2.191406	-2.214844	-0.071926	-1.342540	0.968750	1.270614	-301.662049	-810.935561

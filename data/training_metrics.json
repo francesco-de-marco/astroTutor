@@ -1,0 +1,41 @@
+{
+  "_nota": "Metriche per epoca del training DPO, trascritte a mano dalla tabella stampata da DPOTrainer nel notebook Colab (src/alignment_dpo_colab.ipynb, cella 6) il 25/07/2026. TRL non le salva su file quando report_to='none', quindi questa e' l'unica copia.",
+  "_run": {
+    "dataset": "data/alignment_data.json — 623 triplette (591 train / 32 eval, split 95/5 seed 42)",
+    "base_model": "Qwen/Qwen2.5-3B-Instruct",
+    "gpu": "NVIDIA L4",
+    "steps": 74,
+    "durata": "1h06m",
+    "iperparametri": "beta=0.1, lr=5e-6, 2 epoche, LoRA r=16 alpha=32, batch effettivo 16, use_liger_kernel=True"
+  },
+  "metrics": [
+    {
+      "epoch": 1,
+      "train_loss": 0.428338,
+      "eval_loss": 0.375447,
+      "rewards_chosen": -0.017660,
+      "rewards_rejected": -0.872898,
+      "rewards_accuracies": 0.968750,
+      "rewards_margins": 0.855238,
+      "logps_chosen": -301.119390,
+      "logps_rejected": -806.239140,
+      "logits_chosen": -2.190674,
+      "logits_rejected": -2.215576,
+      "num_tokens": 2046862
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.276407,
+      "eval_loss": 0.283276,
+      "rewards_chosen": -0.071926,
+      "rewards_rejected": -1.342540,
+      "rewards_accuracies": 0.968750,
+      "rewards_margins": 1.270614,
+      "logps_chosen": -301.662049,
+      "logps_rejected": -810.935561,
+      "logits_chosen": -2.191406,
+      "logits_rejected": -2.214844,
+      "num_tokens": 4093724
+    }
+  ]
+}

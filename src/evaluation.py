@@ -1,7 +1,8 @@
 """
 Valutazione — Fase 6 del progetto.
 
-Confronta qwen2.5:3b (baseline) e astrotutor-dpo (allineato) sullo stesso
+Confronta qwen2.5:3b (baseline), astrotutor-dpo (allineato su 378 triplette) e
+astrotutor-dpo-v2 (allineato su 623 triplette, stessi iperparametri) sullo stesso
 pipeline RAG, su tre assi:
   - Gulpease: leggibilità della risposta rispetto al livello richiesto
   - Faithfulness (RAGAS): quanto la risposta è supportata dal contesto
@@ -32,7 +33,9 @@ from ragas.metrics.collections import Faithfulness
 from src.generation import RAGGenerator
 from src.alignment import ResponseGuardrails, OOD_QUESTIONS, REFUSAL_MESSAGE
 
-MODELS = ["qwen2.5:3b", "astrotutor-dpo"]
+# Tre bracci con gli stessi iperparametri di training: cambia solo la dimensione
+# del dataset di allineamento (astrotutor-dpo = 378 triplette, -v2 = 623).
+MODELS = ["qwen2.5:3b", "astrotutor-dpo", "astrotutor-dpo-v2"]
 JUDGE_MODEL = "qwen2.5:7b-instruct"
 JUDGE_BASE_URL = "http://localhost:11434/v1"
 EVAL_QUESTIONS_PATH = PROJECT_ROOT / "data" / "eval_questions.json"
@@ -127,9 +130,19 @@ async def evaluate_grounded(rag: RAGGenerator, questions: list, faithfulness, mo
 
             if docs:
                 contexts = [d["text"] for d in docs]
-                score = await faithfulness.ascore(
-                    user_input=question, response=answer, retrieved_contexts=contexts
-                )
+                try:
+                    score = await faithfulness.ascore(
+                        user_input=question, response=answer, retrieved_contexts=contexts
+                    )
+                except Exception as e:
+                    # Il giudice locale gira in parte su CPU: su risposte lunghe la
+                    # verifica NLI (un verdetto per affermazione) può sforare il
+                    # timeout. Una singola chiamata andata male non deve far abortire
+                    # l'intera run: si salta la domanda SENZA scriverla nel file di
+                    # progresso, così un rilancio successivo la ritenta.
+                    print(f"  ⚠️  [{level}] giudice fallito ({type(e).__name__}), "
+                          f"domanda rimandata — {question[:60]}")
+                    continue
                 faithfulness_score = score.value
             else:
                 faithfulness_score = None
@@ -140,6 +153,14 @@ async def evaluate_grounded(rag: RAGGenerator, questions: list, faithfulness, mo
                 "answer": answer,
                 "gulpease": gulpease,
                 "faithfulness": faithfulness_score,
+                # I chunk su cui è stato dato il voto di faithfulness. Salvarli rende
+                # il file autosufficiente: si può rigiudicare con un modello diverso
+                # (giudice più grande, altra macchina) senza rifare il retrieval e
+                # quindi senza portarsi dietro data/vector_db. Costa ~2 MB per modello.
+                "contexts": [d["text"] for d in docs],
+                "sources": [{"title": d["title"], "file": d["source"],
+                             "level": d["level"], "level_match": d["level_match"],
+                             "score": d["score"]} for d in docs],
             }
             results.append(result)
             progress_out.write(json.dumps(result, ensure_ascii=False) + "\n")
@@ -186,8 +207,10 @@ async def main():
 
     # timeout generoso: il giudice locale (7B, in parte su CPU) può metterci
     # oltre un minuto a chiamata, soprattutto in concorrenza con altri
-    # processi Ollama in esecuzione
-    judge_client = AsyncOpenAI(base_url=JUDGE_BASE_URL, api_key="ollama", timeout=300.0)
+    # processi Ollama in esecuzione. Alzato da 300 a 900 s dopo un timeout
+    # reale su una risposta lunga: con il 7B ripartito 55% CPU / 45% GPU la
+    # verifica NLI di una risposta con molte affermazioni supera i 5 minuti.
+    judge_client = AsyncOpenAI(base_url=JUDGE_BASE_URL, api_key="ollama", timeout=900.0)
     # max_tokens generoso: il passaggio di verifica di faithfulness elenca un
     # verdetto per ogni affermazione della risposta rispetto al contesto — con
     # risposte lunghe o più fonti recuperate il default troncava l'output

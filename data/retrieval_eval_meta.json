@@ -1,0 +1,55 @@
+{
+ "_nota": "Gold set silver-standard a granularita' di DOCUMENTO: triplette di alignment_data.json con source_chunk_file (domanda generata da un chunk di quel file). Le triplette topic-based sono escluse perche' il loro campo sources e' l'output del retriever stesso (circolare).",
+ "data": "2026-07-26 16:35",
+ "n_query": 172,
+ "query_per_livello": {
+  "D": 55,
+  "C": 35,
+  "A": 40,
+  "B": 42
+ },
+ "query_escluse_gold_rimosso": 0,
+ "traduttore": "qwen2.5:3b",
+ "reranker_device": "cuda",
+ "initial_k": 20,
+ "profondita": 20,
+ "ndcg_cut": 10,
+ "recall_at_3_per_livello": {
+  "BM25": {
+   "A": 0.225,
+   "B": 0.143,
+   "C": 0.429,
+   "D": 0.145
+  },
+  "BM25 + expansion": {
+   "A": 0.375,
+   "B": 0.31,
+   "C": 0.543,
+   "D": 0.509
+  },
+  "solo bi-encoder": {
+   "A": 0.575,
+   "B": 0.81,
+   "C": 0.714,
+   "D": 0.8
+  },
+  "+ re-ranker": {
+   "A": 0.575,
+   "B": 0.833,
+   "C": 0.714,
+   "D": 0.873
+  },
+  "+ query expansion": {
+   "A": 0.6,
+   "B": 0.857,
+   "C": 0.714,
+   "D": 0.855
+  },
+  "+ bonus livello": {
+   "A": 0.7,
+   "B": 0.857,
+   "C": 0.714,
+   "D": 0.873
+  }
+ }
+}

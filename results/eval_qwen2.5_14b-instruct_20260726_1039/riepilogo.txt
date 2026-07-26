@@ -1,0 +1,27 @@
+======================================================================
+RIEPILOGO VALUTAZIONE
+======================================================================
+
+Modello: qwen2.5:3b
+  Tasso di rifiuto OOD corretto: 45.0%
+  Livello N    Gulpease medio    Faithfulness medio  
+  A       10   58.5              0.61                
+  B       10   53.3              0.69                
+  C       10   47.1              0.57                
+  D       10   47.8              0.51                
+
+Modello: astrotutor-dpo
+  Tasso di rifiuto OOD corretto: 40.0%
+  Livello N    Gulpease medio    Faithfulness medio  
+  A       10   58.1              0.67                
+  B       10   54.6              0.62                
+  C       10   47.3              0.48                
+  D       10   47.7              0.46                
+
+Modello: astrotutor-dpo-v2
+  Tasso di rifiuto OOD corretto: 55.0%
+  Livello N    Gulpease medio    Faithfulness medio  
+  A       10   57.6              0.56                
+  B       10   50.6              0.74                
+  C       10   47.7              0.61                
+  D       10   48.4              0.35  

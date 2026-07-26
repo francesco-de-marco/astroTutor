@@ -1,0 +1,25 @@
+{
+  "run_id": "eval_qwen2.5_14b-instruct_20260726_1039",
+  "data": "2026-07-26",
+  "ambiente": "Google Colab (GPU), risultati scaricati da Drive",
+  "giudice": "qwen2.5:14b-instruct",
+  "bracci": {
+    "qwen2.5:3b": "baseline, nessun fine-tuning",
+    "astrotutor-dpo": "DPO su 378 triplette (training 20-21/07, Kaggle)",
+    "astrotutor-dpo-v2": "DPO su 623 triplette (training 25/07, Colab L4, vedi data/training_metrics.json)"
+  },
+  "generazione": {
+    "temperature": 0.0,
+    "seed": 42,
+    "nota": "applicati a tutti e 4 i punti di chiamata di generation.py (traduzione query, generazione, rigenerazione guardrail, baseline no-RAG)"
+  },
+  "retrieval": {
+    "embedder": "bge-m3 (cuda)",
+    "reranker": "CrossEncoder (cuda)",
+    "nota": "retrieval identico fra i tre bracci: Jaccard 1.00 sui contesti recuperati su tutte le 40 domande"
+  },
+  "domande": "40 in dominio (10 per livello A/B/C/D) + 20 OOD per braccio, da eval_questions.json",
+  "campi_salvati": "contexts e sources popolati in ogni riga dei file di progresso: rigiudizio possibile senza rifare il retrieval",
+  "caveat": "la colonna OOD in eval_results.json usa il match letterale della frase di rifiuto (evaluation.py:77), che misura conformita' al template e non rifiuto reale; conteggio semantico: 18-19/20 su tutti i bracci (report 26/07, tabella 6)",
+  "riferimento": "report/report_2026_07_26.md, sezioni 'seconda parte'"
+}

@@ -1,0 +1,14 @@
+{
+  "descrizione": "Metadati della run di valutazione LOCALE (file eval_results.json e eval_progress_*.jsonl in questa cartella)",
+  "stato": "SUPERATA — le conclusioni della tesi si basano sulla run Colab in results/eval_qwen2.5_14b-instruct_20260726_1039/",
+  "date": "23-25/07/2026 (baseline e dpo giudicati il 23/07, dpo-v2 il 25/07)",
+  "giudice": "qwen2.5:7b-instruct, in locale (RTX 3050 4GB, ripartito CPU/GPU)",
+  "generazione": {
+    "temperature": 0.1,
+    "seed": "nessuno",
+    "nota": "generazione stocastica; traduzione della query eseguita da ciascun modello per se', quindi i tre bracci possono aver visto documenti diversi"
+  },
+  "campi_salvati": "contexts e sources VUOTI in tutti i file: il retrieval di questa run non e' ricostruibile a posteriori",
+  "perche_superata": "confronto fra bracci confuso con rumore di retrieval (contesti non salvati, traduzione stocastica per-modello) e giudice piccolo; vedi report/report_2026_07_26.md, decisione 'Basare le conclusioni sulla run Colab'",
+  "riferimento": "report/report_2026_07_23.md, report/report_2026_07_25.md, report/report_2026_07_26.md"
+}

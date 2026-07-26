@@ -1,18 +1,81 @@
 # TODO — AstroTutor (Progetto IR)
 
-> Aggiornato: 25/07/2026 · Dettagli e motivazioni: [`report/report_2026_07_25.md`](report/report_2026_07_25.md)
+ Pipeline completa
+
+PDF + API  →  parsed  →  chunks  →  ChromaDB  →  retrieval  →  generation  →  UI
+                                                      ↑                ↑
+                                              valutazione IR    modello allineato
+
+┌─────┬─────────────────┬──────────────────────────────────┬────────────────────────────────────┬──────────────────────────┬───────────────────────┐
+│  #  │     Stadio      │               File               │           Input → Output           │        Obiettivo         │         Stato         │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 0   │ Acquisizione    │ src/ingest_api_data.py           │ API Vikidia/Wikipedia/EduINAF →    │ Coprire i livelli A e B, │ ✅                    │
+│     │                 │                                  │ data/processed/parsed/             │  che i PDF non coprono   │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 1   │ Parsing         │ src/parsing.py (+ varianti       │ data/raw/*.pdf →                   │ Estrarre testo pulito    │ ✅                    │
+│     │                 │ Colab/Kaggle/MinerU)             │ data/processed/parsed/             │ dai libri, con Docling   │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│     │                 │                                  │ parsed/ →                          │ Spezzare in blocchi con  │                       │
+│ 2   │ Chunking        │ src/chuncking.py                 │ data/processed/chunks/*.jsonl      │ metadati: titolo, fonte, │ ✅                    │
+│     │                 │                                  │                                    │  livello                 │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 3   │ Indicizzazione  │ src/indexing.py                  │ chunks/ → data/vector_db/          │ Embedding bge-m3 →       │ ✅                    │
+│     │                 │                                  │                                    │ ChromaDB                 │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│     │                 │                                  │                                    │ Multi-query IT/EN,       │                       │
+│ 4   │ Recupero        │ src/retrieval.py                 │ query → 3 chunk                    │ filtro di livello con    │ ✅                    │
+│     │                 │                                  │                                    │ fallback, bonus,         │                       │
+│     │                 │                                  │                                    │ re-ranker                │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 5   │ Generazione     │ src/generation.py                │ chunk + livello → risposta         │ Prompt per livello,      │ ⚠️ manca best-of-3 e  │
+│     │                 │                                  │                                    │ guardrail sul registro   │ soglia OOD            │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 6   │ Interfaccia     │ main.py                          │ CLI                                │ Provare il sistema       │ ⚠️ manca Streamlit    │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 6b  │ Profilazione    │ (assente)                        │ intervista → livello A/B/C/D       │ Fase 2 della specifica   │ ❌ mai fatta          │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 7   │ Dati insegnante │ src/alignment.py                 │ topic → data/alignment_data.json   │ Risposte ideali del 70B  │ ✅ (da rigenerare le  │
+│     │                 │                                  │                                    │ sui prompt RAG reali     │ D)                    │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│     │                 │                                  │ alignment_data.json →              │ Filtrare le ~423         │                       │
+│ 8   │ Dataset SFT     │ src/sft_dataset.py               │ data/sft_data.json                 │ risposte che passano i   │ ➕ nuovo              │
+│     │                 │                                  │                                    │ guardrail                │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 9   │ Training SFT    │ src/alignment_dpo_colab.ipynb (2 │ sft_data.json → adapter LoRA       │ Trasferire il registro   │ ➕ da adattare        │
+│     │                 │  celle)                          │                                    │ nei pesi                 │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 10  │ DPO opzionale   │ stesso notebook, 1 riga          │ adapter SFT → adapter DPO          │ Solo se resta un difetto │ 🔄                    │
+│     │                 │                                  │                                    │  specifico               │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 11  │ Export          │ stesso notebook                  │ adapter → GGUF Q4 + Modelfile →    │ Rendere il modello       │ ✅                    │
+│     │                 │                                  │ Ollama                             │ usabile in locale        │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│     │ Valutazione     │                                  │ alignment_data.json →              │ Recall@k, MRR, nDCG +    │                       │
+│ 12  │ retrieval       │ src/retrieval_eval.py            │ data/retrieval_eval.json           │ ablazione re-ranker /    │ ❌ il buco più grave  │
+│     │                 │                                  │                                    │ query expansion / bonus  │                       │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│     │ Valutazione     │ src/evaluation.py,               │                                    │ Gulpease, faithfulness,  │ ⚠️ metrica di rifiuto │
+│ 13  │ generazione     │ evaluation_colab.ipynb           │ domande → eval_results.json        │ rifiuto OOD              │  da correggere, manca │
+│     │                 │                                  │                                    │                          │  il braccio no-RAG    │
+├─────┼─────────────────┼──────────────────────────────────┼────────────────────────────────────┼──────────────────────────┼───────────────────────┤
+│ 14  │ Analisi         │ src/analysis.py                  │ risultati → report/figures/        │ Grafici e tabelle del    │ ✅ (4 grafici in      │
+│     │                 │                                  │                                    │ report                   │ attesa di dati)       │
+└─────┴─────────────────┴──────────────────────────────────┴────────────────────────────────────┴──────────────────────────┴───────────────────────┘
+
+
+> Aggiornato: 26/07/2026 · Dettagli e motivazioni: [`report/report_2026_07_26.md`](report/report_2026_07_26.md)
 
 **Legenda** — 🟢 si può fare subito · ⛔ bloccato da un'altra voce · 🔥 impatto alto · 💤 in attesa di hardware/training
 
 ---
 
-## ⚡ Prossime 3 azioni
+## ⚡ Prossime 3 azioni *(riallineate il 26/07 sera, dopo la run Colab)*
 
-1. **P0** — strumentare la latenza dei 3 stadi (6 righe, sblocca tutte le ottimizzazioni)
-2. **#15** — puntare `_translate_query` su un modello base fisso (prima dell'ablazione, altrimenti la falsa)
-3. **#1** — costruire il gold set del retrieval da `alignment_data.json`
+1. ~~**#1 + #15**~~ ✅ **fatto** — valutazione IR del retrieval completata su 172 query, 6 configurazioni: vedi §2️⃣. Il documento giusto è nei primi 3 nell'**80%** dei casi
+2. **Fix rapidi sul sistema** — metrica OOD letterale+semantica (`evaluation.py:77`), soglia di rifiuto sulla scala giusta [0,1] (`generation.py:132`), `level_match` passato al prompt, **best-of-3 sul Gulpease** nei guardrail. Ora si aggiunge **P7** (togliere la query expansion: l'ablazione dice che non serve)
+3. **#4** — braccio no-RAG nella prossima run di valutazione (una riga: `generate_without_rag` esiste già). Nella stessa run, se possibile, braccio `qwen2.5:7b` come riferimento superiore
 
-Tutte e tre sono offline e non dipendono dal training in corso.
+La tesi si basa sulla **run Colab** (`results/eval_qwen2.5_14b-instruct_20260726_1039/`, vedi `run_meta.json`); la run locale in `data/` è superata (vedi `data/run_meta.json`). L'alignment DPO va presentato come **ablazione a esito nullo con diagnosi** (autori diversi ai due lati); l'eventuale riallenamento on-policy sul registro (`alignment_register.py`, best-of-N) è opzionale e viene **dopo** i tre punti sopra.
 
 ---
 
@@ -23,27 +86,37 @@ Tutte e tre sono offline e non dipendono dal training in corso.
 - [ ] 🟢 **P0** — Strumentare con `perf_counter` i 3 stadi (traduzione / retrieval / generazione) in `generation.py` e misurare su 5 domande
   → oggi **non esiste nessuna misura di latenza**: senza, ogni ottimizzazione è a caso
 - [ ] 🟢 **#15** — `_translate_query` (`generation.py:64`) usa `self.model_name`: puntarlo su un modello base fisso
-  → con `LLM_MODEL = "astrotutor-dpo"` a tradurre è il modello allineato, addestrato a rifiutare fuori dominio. **Da fare prima di #2**, altrimenti l'ablazione confronta configurazioni con traduttori diversi
+  → con `LLM_MODEL = "astrotutor-dpo"` a tradurre è il modello allineato, addestrato a rifiutare fuori dominio
+  → ✅ **risolto lato valutazione**: `retrieval_eval.py` usa un traduttore fisso (`qwen2.5:3b`, `temperature=0.0`) con cache in `data/query_translations.json`, quindi l'ablazione #2 è pulita
+  → ⚠️ **in `generation.py` il difetto resta**, ma diventa irrilevante se si esegue **P7** (rimozione della query expansion): niente traduzione, niente problema. Fare P7 *prima*, e riaprire #15 solo se si decide di tenerla
 
 ---
 
-## 2️⃣ Valutazione del retrieval 🔥
+## 2️⃣ Valutazione del retrieval ✅ *(fatta il 26/07 sera)*
 
-*Il buco più grave rispetto ai requisiti del corso (Lezione 4). Tutto offline.*
+*Era il buco più grave rispetto ai requisiti del corso (Lezione 4). `src/retrieval_eval.py`, tutto offline.*
 
-- [ ] 🟢 **#1** — Costruire il gold set da `data/alignment_data.json` (campi `source_chunk_file` / `sources` → ~600 coppie query/chunk) e calcolare **Recall@k, MRR, nDCG**
-  → il gold set esiste già: ogni domanda è stata generata *da* un chunk specifico. È un silver-standard, quindi i valori assoluti sono un limite inferiore — conta il confronto tra configurazioni
-- [ ] ⛔ **#2** — Ablazione sulle 5 configurazioni *(dipende da #1 e #15)*
+- [x] ✅ **#1** — Gold set da `data/alignment_data.json`: **172 query** con `source_chunk_file` (domanda generata *da* un chunk di quel PDF). Le triplette topic-based sono escluse perché il loro campo `sources` è l'output del retriever stesso → circolare. Silver-standard a granularità di **documento**: i valori assoluti sono un limite inferiore, conta il confronto fra configurazioni
+- [x] ✅ **#2** — Ablazione su **6** configurazioni, n=172 (A 40 / B 42 / C 35 / D 55)
 
-  | Configurazione | Cosa isola |
-  |---|---|
-  | solo bi-encoder BGE-m3 | baseline denso |
-  | + re-ranker cross-encoder | guadagno dello Stadio 2 |
-  | + query expansion multilingua | guadagno delle varianti IT/EN |
-  | + `EXACT_LEVEL_BONUS` | costo/beneficio del bias di livello |
-  | BM25 | risponde al finding di AstroLLM-Eval sulla terminologia esatta |
+  | Configurazione | R@1 | R@3 | R@10 | MRR | nDCG |
+  |---|---|---|---|---|---|
+  | BM25 | 0.180 | 0.221 | 0.244 | 0.206 | 0.214 |
+  | BM25 + expansion | 0.308 | 0.436 | 0.605 | 0.406 | 0.447 |
+  | solo bi-encoder | 0.576 | 0.733 | 0.884 | 0.674 | 0.725 |
+  | + re-ranker | 0.523 | 0.762 | 0.884 | 0.651 | 0.708 |
+  | + query expansion | 0.523 | 0.767 | 0.890 | 0.656 | 0.713 |
+  | **+ bonus livello** (produzione) | **0.593** | **0.797** | **0.895** | **0.705** | **0.751** |
 
-  → **sblocca anche P7 e P8**: se la query expansion aggiunge poco, toglierla elimina una generazione LLM e dimezza i candidati da riordinare
+  **Tre risultati da riportare in tesi:**
+  1. **BM25 raddoppia con la traduzione** (0.221 → 0.436 R@3): il lessicale fallisce per la **lingua** (corpus in inglese, query in italiano), non per l'approccio. Risposta diretta alla critica di AstroLLM-Eval
+  2. **La query expansion non aggiunge nulla** (+0.005 R@3, +0.005 MRR): bge-m3 è già multilingue → **sblocca P7**
+  3. **Il bonus di livello è il componente più utile** (+0.030 R@3, +0.049 MRR) e recupera esattamente ciò che il re-ranker perde in cima. ⚠️ Il re-ranker **peggiora R@1** (0.576 → 0.523) pur migliorando R@3: riordina bene il podio, sbaglia più spesso il primo posto — da indagare
+
+  Per livello (R@3, pipeline completa): A **0.700** · B 0.857 · C 0.714 · D 0.873. Il livello A è il più debole, coerente con la copertura del corpus (252 chunk A contro 10.547 D)
+
+- [x] ✅ Grafici 7 e 8 generati: `report/figures/07_recall_at_k.png`, `08_mrr_ndcg.png`
+- [ ] 🟢 Indagare il calo di R@1 del re-ranker con `data/retrieval_eval_details.jsonl` (contiene il rank del gold per ogni query × configurazione)
 
 ---
 
@@ -67,10 +140,10 @@ Tutte e tre sono offline e non dipendono dal training in corso.
 
 ## 4️⃣ Fattualità del dataset
 
-*Da fare **prima** del prossimo riallenamento.*
+*⏸️ **Sospeso** (report 26/07, seconda parte).*
 
-- [ ] 🟢 **#3** — Rescoring di fattualità delle 623 triplette col giudice RAGAS già scritto: scartare o invertire le coppie dove `F(rejected) > F(chosen)`, e riportare quante erano invertite
-  → approccio F-DPO a livello di dataset (niente loss custom). Spiega il calo di faithfulness a livello A: 0.657 → 0.498
+- [ ] ⏸️ **#3** — Rescoring di fattualità delle 623 triplette col giudice RAGAS (30-50 h)
+  → era motivato dal calo di faithfulness a livello A (0.657 → 0.498), che **non replica** nella run Colab: non è chiaro che il problema esista. Da riconsiderare solo se un rigiudizio incrociato lo riapre
 
 ---
 
@@ -109,9 +182,9 @@ Tutte e tre sono offline e non dipendono dal training in corso.
 
 *⛔ Bloccati fino ai risultati di #2. Sono i più allettanti, ed è proprio per questo che serve il blocco esplicito.*
 
-- [ ] ⛔ **P7** — Rimuovere la query expansion multilingua → 🔥 −1 generazione LLM, −50% candidati da riordinare
-  → BGE-m3 è multilingua nativo: l'ablazione dirà se la traduzione esplicita aggiunge davvero valore
-- [ ] ⛔ **P8** — `initial_k` da 20 a 10 (`retrieval.py:126`) → costo del re-ranking lineare nei candidati
+- [ ] 🟢 **P7** — **SBLOCCATO dall'ablazione #2: si può togliere.** La query expansion vale +0.005 R@3 e +0.005 MRR, cioè nulla — BGE-m3 è multilingua nativo e la traduzione esplicita è ridondante. Rimuoverla elimina 🔥 una generazione LLM per query e dimezza i candidati da riordinare
+  → attenzione: il **bonus di livello** va tenuto (è il componente più utile), quindi togliere solo la variante EN, non il resto della pipeline
+- [ ] 🟢 **P8** — `initial_k` da 20 a 10 (`retrieval.py:126`) → costo del re-ranking lineare nei candidati. Con la expansion rimossa i candidati sono già la metà: rimisurare prima di ridurre ancora
 
 ---
 

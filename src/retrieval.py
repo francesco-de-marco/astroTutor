@@ -1,3 +1,4 @@
+import torch
 import chromadb
 from chromadb.utils import embedding_functions
 from sentence_transformers import CrossEncoder
@@ -30,7 +31,7 @@ class AdvancedRetriever:
         # Usiamo bge-m3 per la trasformazione della domanda in vettore
         self.bge_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name="BAAI/bge-m3",
-            device="cpu" # Metti "cpu" se non hai una GPU Nvidia
+            device="cuda" if torch.cuda.is_available() else "cpu"
         )
         
         self.collection = self.client.get_collection(
@@ -42,7 +43,7 @@ class AdvancedRetriever:
         # --- STADIO 2: Inizializzazione Cross-Encoder (Re-Ranker) ---
         self.reranker = CrossEncoder(
             "BAAI/bge-reranker-v2-m3",
-            device="cpu" # Metti "cpu" se non hai una GPU Nvidia
+            device="cuda" if torch.cuda.is_available() else "cpu"
         )
         print("✓ Re-Ranker caricato.\n")
 

@@ -47,13 +47,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-try:
-    from config import LLM_MODEL, ORACLE_BASE_URL, ORACLE_API_KEY, ORACLE_MODEL
-except ImportError:
-    LLM_MODEL = "qwen2.5:3b"
-    ORACLE_BASE_URL = "http://localhost:11434/v1"
-    ORACLE_API_KEY = "ollama"
-    ORACLE_MODEL = "qwen3:8b"
+from config import (
+    LLM_MODEL,
+    ORACLE_BASE_URL,
+    ORACLE_MODEL,
+    require_oracle_key,
+)
 
 DATA_PATH = PROJECT_ROOT / "data" / "alignment_data.json"
 
@@ -236,16 +235,22 @@ class TripletFactory:
     """Costruisce le triplette DPO usando la pipeline RAG reale del progetto."""
 
     def __init__(self):
-        # Import locale per evitare il ciclo generation.py -> alignment.py
+        # Richiede la chiave solo quando si crea il generatore di dati,
+        # prima di caricare il retriever.
+        oracle_key = require_oracle_key()
+
+        # Import locale per evitare il ciclo generation.py -> alignment.py.
         from src.generation import RAGGenerator
 
         print(f"Oracolo (chosen): {ORACLE_MODEL} @ {ORACLE_BASE_URL}")
         print(f"Modello piccolo (rejected): {LLM_MODEL}\n")
 
-        self.rag = RAGGenerator(model_name=LLM_MODEL)
         self.oracle = OpenAI(
-            base_url=ORACLE_BASE_URL, api_key=ORACLE_API_KEY, timeout=600.0
+            base_url=ORACLE_BASE_URL,
+            api_key=oracle_key,
+            timeout=600.0,
         )
+        self.rag = RAGGenerator(model_name=LLM_MODEL)
 
     # ── Chiamate ai modelli ────────────────────────────────────────
     def _chat(self, client, model, messages, temperature=0.3, retries=3):

@@ -1,27 +1,67 @@
-import os
+"""Generazione RAG con tracciamento delle risposte prima/dopo i guardrail."""
+import hashlib
+import json
+import time
+from copy import deepcopy
+from datetime import datetime, timezone
 from pathlib import Path
+
+from openai import OpenAI
 from src.retrieval import AdvancedRetriever
 from src.alignment import ResponseGuardrails, REFUSAL_MESSAGE
-from openai import OpenAI
-try:
-    from config import LLM_MODEL
-except ImportError:
-    LLM_MODEL = "qwen2.5:3b"
+from config import LLM_MODEL
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+
 class RAGGenerator:
-    def __init__(self, model_name=LLM_MODEL):
-        print(f"Inizializzazione Generatore RAG con modello locale: {model_name}...")
-        self.retriever = AdvancedRetriever()
-        
-        # Configurazione Client per Ollama (porta standard 11434)
-        self.client = OpenAI(
-            base_url="http://localhost:11434/v1",
-            api_key="ollama", # Ignorata da Ollama, ma richiesta dalla libreria
-        )
+    def __init__(
+        self, model_name=LLM_MODEL, *, guardrails_enabled=True,
+        temperature=0.1, seed=42, initial_k=15, final_k=3,
+        translation_model=LLM_MODEL,
+        base_url="http://localhost:11434/v1", log_path=None,
+        retriever=None, client=None,
+    ):
         self.model_name = model_name
+        self.translation_model = translation_model
+        self.base_url = base_url
+        self.guardrails_enabled = guardrails_enabled
+        self.initial_k = initial_k
+        self.final_k = final_k
+        self.log_path = Path(log_path) if log_path is not None else None
+        self.generation_config = {
+            "temperature": temperature,
+            "seed": seed,
+            "frequency_penalty": 0.6,
+            "presence_penalty": 0.5,
+        }
         self.guardrails = ResponseGuardrails()
+        # Il retriever viene caricato solo quando serve una ricerca.
+        self._retriever = retriever
+        self.client = client if client is not None else OpenAI(
+            base_url=base_url, api_key="ollama", timeout=900.0,
+        )
+
+    @property
+    def retriever(self):
+        if self._retriever is None:
+            self._retriever = AdvancedRetriever()
+        return self._retriever
+
+    @retriever.setter
+    def retriever(self, value):
+        self._retriever = value
+
+    def _chat(self, messages):
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=messages,
+            **self.generation_config,
+        )
+        answer = response.choices[0].message.content
+        if not answer or not answer.strip():
+            raise RuntimeError("Il modello ha restituito una risposta vuota.")
+        return answer.strip()
 
     def _get_system_instructions(self, user_level: str) -> str:
         instructions = {
@@ -74,115 +114,163 @@ class RAGGenerator:
         )
         try:
             response = self.client.chat.completions.create(
-                model=self.model_name,
+                model=self.translation_model,
                 messages=[{"role": "user", "content": prompt}],
-                temperature=0.1, # Temperatura 0 per avere zero creatività e massima precisione
-                frequency_penalty=0.6,  # Previene i loop ma permette le formule.
-                presence_penalty=0.5    # Lo spinge a usare vocaboli nuovi nelle spiegazioni.
+                **self.generation_config,
             )
             return response.choices[0].message.content.strip()
-        except:
+        except Exception:
             return query # Fallback in caso di errore
 
-    def _apply_guardrails(self, answer: str, messages: list, user_level: str) -> str:
-        """
-        Controlla tono/registro della risposta rispetto al livello utente.
-        Se i guardrail segnalano problemi, rigenera UNA volta con l'istruzione
-        correttiva e tiene la versione con meno problemi. Mai bloccante.
-        """
-        issues = self.guardrails.check(answer, user_level)
-        if not issues:
-            return answer
 
-        print(f"🛡️ Guardrails ({user_level}): {'; '.join(issues)} — rigenero...")
+    def _guardrail_result(self, answer, messages, user_level, enabled):
+        issues = self.guardrails.check(answer, user_level)
+        result = {
+            "enabled": enabled,
+            "attempted": False,
+            "changed": False,
+            "issues_before": issues,
+            "issues_after": list(issues),
+            "retry_answer": None,
+            "retry_issues": None,
+            "retry_error": None,
+            "final_answer": answer,
+        }
+        if not enabled or not issues:
+            return result
+        result["attempted"] = True
         retry_messages = messages + [
             {"role": "assistant", "content": answer},
-            {"role": "user", "content": self.guardrails.corrective_instruction(issues, user_level)},
+            {"role": "user", "content":
+             self.guardrails.corrective_instruction(issues, user_level)},
         ]
         try:
-            response = self.client.chat.completions.create(
-                model=self.model_name,
-                messages=retry_messages,
-                temperature=0.1,
-                frequency_penalty=0.6,
-                presence_penalty=0.5,
-            )
-            new_answer = response.choices[0].message.content
-        except Exception:
-            return answer  # la rigenerazione è best-effort
+            candidate = self._chat(retry_messages)
+            candidate_issues = self.guardrails.check(candidate, user_level)
+            result["retry_answer"] = candidate
+            result["retry_issues"] = candidate_issues
+            if len(candidate_issues) < len(issues):
+                result["final_answer"] = candidate
+                result["issues_after"] = candidate_issues
+                result["changed"] = candidate != answer
+        except Exception as exc:
+            result["retry_error"] = str(exc)
+        return result
 
-        new_issues = self.guardrails.check(new_answer, user_level)
-        if len(new_issues) < len(issues):
-            return new_answer
-        print("🛡️ Guardrails: la rigenerazione non ha migliorato, tengo l'originale.")
-        return answer
+    def _apply_guardrails(self, answer, messages, user_level):
+        """Interfaccia compatibile con il vecchio evaluation.py."""
+        return self._guardrail_result(
+            answer, messages, user_level, self.guardrails_enabled,
+        )["final_answer"]
+
+    def generate_record(
+        self, query, user_level="B", *, docs=None, use_rag=True,
+        guardrails_enabled=None,
+    ):
+        """Restituisce un record; se log_path è impostato lo accoda in JSONL.
+
+        docs=None esegue retrieval; docs=[] usa un contesto vuoto.
+        Passare gli stessi docs a tutti i modelli per un confronto controllato.
+        Gli errori della generazione primaria vengono propagati.
+        """
+        if user_level not in ("A", "B", "C", "D"):
+            raise ValueError("user_level deve essere A, B, C o D.")
+        if not isinstance(query, str) or not query.strip():
+            raise ValueError("La domanda deve essere una stringa non vuota.")
+        if not use_rag and docs is not None:
+            raise ValueError("Non passare docs quando use_rag=False.")
+
+        started = time.perf_counter()
+        enabled = (self.guardrails_enabled if guardrails_enabled is None
+                   else guardrails_enabled)
+        queries = None
+        if use_rag:
+            if docs is None:
+                queries = [query, self._translate_query(query)]
+                docs = self.retriever.search(
+                    queries, user_level=user_level,
+                    initial_k=self.initial_k, final_k=self.final_k,
+                )
+                context_origin = "retrieval"
+            else:
+                context_origin = "provided"
+            docs = deepcopy(docs)
+            messages = self.build_prompt(query, docs, user_level)
+        else:
+            context_origin = "none"
+            docs = []
+            messages = [
+                {"role": "system", "content": (
+                    "Sei un assistente didattico intelligente.\n\n"
+                    f"STILE DI RISPOSTA: {self._get_system_instructions(user_level)}\n\n"
+                    "Rispondi alla domanda dell'utente usando la tua conoscenza generale."
+                )},
+                {"role": "user", "content": query},
+            ]
+
+        # Registra esplicitamente il rifiuto imposto dalla pipeline,
+        # distinguendolo da una risposta prodotta dal modello.
+        model_called = not (use_rag and not docs)
+        raw_answer = self._chat(messages) if model_called else REFUSAL_MESSAGE
+        guard = self._guardrail_result(raw_answer, messages, user_level, enabled)
+        config = {
+            "model": self.model_name,
+            "base_url": self.base_url,
+            "translation_model": self.translation_model,
+            "generation": dict(self.generation_config),
+            "initial_k": self.initial_k,
+            "final_k": self.final_k,
+            "use_rag": use_rag,
+            "guardrails_enabled": enabled,
+        }
+        prompt_json = json.dumps(messages, ensure_ascii=False, sort_keys=True)
+        record = {
+            "schema_version": 1,
+            "created_at": datetime.now(timezone.utc).isoformat(),
+            "question": query,
+            "level": user_level,
+            "model": self.model_name,
+            "config": config,
+            "messages": messages,
+            "prompt_hash": hashlib.sha256(prompt_json.encode("utf-8")).hexdigest(),
+            "retrieved_docs": docs,
+            "context_origin": context_origin,
+            "retrieval_queries": queries,
+            "model_called": model_called,
+            "raw_answer": raw_answer,
+            "final_answer": guard["final_answer"],
+            "guardrails": guard,
+            "elapsed_seconds": time.perf_counter() - started,
+        }
+        if self.log_path is not None:
+            # Serializza prima di aprire il file: evita righe parziali
+            # in caso di metadati non serializzabili.
+            line = json.dumps(record, ensure_ascii=False, allow_nan=False)
+            self.log_path.parent.mkdir(parents=True, exist_ok=True)
+            with self.log_path.open("a", encoding="utf-8") as stream:
+                stream.write(line + "\n")
+        return record
 
     def generate(self, query: str, user_level: str = "B"):
-        print(f"🔄 Generazione varianti di ricerca...")
-        query_eng = self._translate_query(query)
-        queries_to_search = [query, query_eng]
-
-        print(f"🔍 Ricerca documenti per livello {user_level}...")
-        results = self.retriever.search(queries_to_search, user_level=user_level, initial_k=15, final_k=3)
-        
-        if not results:
-            return "Mi dispiace, non ho trovato informazioni utili nei miei documenti per rispondere."
-
-        # Controllo di sicurezza sui punteggi del re-ranker
-        if results[0]['score'] < -5.0:  # Soglia indicativa per punteggi logit estremamente bassi
-             print("⚠️ Avviso: I documenti trovati hanno una bassa pertinenza.")
-
-        messages = self.build_prompt(query, results, user_level)
-
-        print(f"🧠 Generazione risposta con {self.model_name}...")
+        """Mantiene il ritorno stringa usato da main.py e compare.py."""
         try:
-            response = self.client.chat.completions.create(
-                model=self.model_name,
-                messages=messages,
-                temperature=0.1, 
-                frequency_penalty=0.6,
-                presence_penalty=0.5,
-            )
-            
-            answer = response.choices[0].message.content
-            answer = self._apply_guardrails(answer, messages, user_level)
-
-            # Aggiunta fonti univoche
-            fonti = set([f"- {r['title']} ({r['source']})" for r in results])
-            sources_text = "\n\n---\n**Fonti utilizzate:**\n" + "\n".join(fonti)
-            
-            return answer + sources_text
-
-        except Exception as e:
-            return f"Errore durante la generazione: {str(e)}"
+            record = self.generate_record(query, user_level)
+            answer = record["final_answer"]
+            sources = sorted({
+                f"- {doc['title']} ({doc.get('source', 'fonte non indicata')})"
+                for doc in record["retrieved_docs"]
+            })
+            if sources:
+                answer += "\n\n---\n**Fonti recuperate:**\n" + "\n".join(sources)
+            return answer
+        except Exception as exc:
+            return f"Errore durante la generazione: {exc}"
 
     def generate_without_rag(self, query: str, user_level: str = "B"):
-        """
-        Genera una risposta usando SOLO la conoscenza interna del modello (Baseline),
-        senza fare retrieval dal database vettoriale.
-        """
-        level_style = self._get_system_instructions(user_level)
-
-        system_prompt = (
-            "Sei un assistente didattico intelligente.\n\n"
-            f"STILE DI RISPOSTA: {level_style}\n\n"
-            "Rispondi alla domanda dell'utente usando la tua conoscenza generale."
-        )
-
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": query}
-        ]
-
-        print(f"🧠 Generazione risposta BASELINE (Senza RAG) con {self.model_name}...")
+        """Mantiene il ritorno stringa e l'assenza di guardrail della baseline."""
         try:
-            response = self.client.chat.completions.create(
-                model=self.model_name,
-                messages=messages,
-                temperature=0.1, 
-                frequency_penalty=0.6,
-                presence_penalty=0.5,
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            return f"Errore durante la generazione: {str(e)}"
+            return self.generate_record(
+                query, user_level, use_rag=False, guardrails_enabled=False,
+            )["final_answer"]
+        except Exception as exc:
+            return f"Errore durante la generazione: {exc}"

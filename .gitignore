@@ -9,4 +9,7 @@ models/*.gguf
 
 
 
-apikey.txt
+apikey.txtrequirements-gpu-win.txt
+results/dev_penalties_v1/
+results/dev_penalties_v1_judge7b/
+results/smoke_20260910_135617/

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "71923386c1d64571c00ddd803eb8bf49e07e8550848f7e4969b78e7b07938b55",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta corretta e completa, collega anche l'uso delle righe per stimare la temperatura."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.132096952,
+      "prompt_tokens": 1797,
+      "prompt_time": 0.109398759,
+      "completion_tokens": 825,
+      "completion_time": 1.736172899,
+      "total_tokens": 2622,
+      "total_time": 1.845571658,
+      "completion_tokens_details": {
+        "reasoning_tokens": 266
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-d4086394-41b9-4019-8f19-72520b61a461",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "a175a371cc1297d5f888b4e01a0f88b426d4e692793ecdf150981f25e5f7cb8b",
+    "b11104c2cb4bf8403100799b1969edc78535d4e92a13a47457b07d2699bf4c0e",
+    "22370591fc228dcbb4220eda53e03caefc45e86080780a2352e09725c73941d0",
+    "3ae5aa0771d4742bbf45eac73b4505101f5a2c207e529881dc651f826479a9f0",
+    "71923386c1d64571c00ddd803eb8bf49e07e8550848f7e4969b78e7b07938b55",
+    "bc1fbca1a26cf4699a00c29bd06d691e6e7b0f00229163e5114bee485e96e910"
+  ]
+}

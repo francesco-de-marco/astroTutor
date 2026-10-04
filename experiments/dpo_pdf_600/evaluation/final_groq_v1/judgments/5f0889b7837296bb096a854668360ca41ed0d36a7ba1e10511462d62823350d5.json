@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "5f0889b7837296bb096a854668360ca41ed0d36a7ba1e10511462d62823350d5",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Dichiara che la materia oscura ha un'interazione più diretta con la radiazione, affermazione non supportata."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.206442333,
+      "prompt_tokens": 2303,
+      "prompt_time": 0.695725897,
+      "completion_tokens": 871,
+      "completion_time": 2.438906319,
+      "total_tokens": 3174,
+      "total_time": 3.134632216,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 320
+      }
+    },
+    "system_fingerprint": "fp_bb691ea66b",
+    "response_id": "chatcmpl-29ace52c-ef9a-43c2-981c-ef7df4c12d77",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "9d9cfb0d98630259fc1ebd21809f3877c90e12cfe2a406493f1f4381a27314d9",
+    "5f0889b7837296bb096a854668360ca41ed0d36a7ba1e10511462d62823350d5",
+    "6286eacead13f76f89dde2ab96e4e0ac18b8863d751bfd57c9a2083ccfa48190",
+    "379892efb6c073071494a5caf8f143150e18e4da6d5aad792fa0442d85159fb0",
+    "569f46b9e5cf2e8e4e38983fc4eec1f357907c9c3bc5b7221ab4542402486c38",
+    "788fdedaa50b22ce79ae2f2c1c52435f1cfdd6c9c0fa5490eea4a361535c2139"
+  ]
+}

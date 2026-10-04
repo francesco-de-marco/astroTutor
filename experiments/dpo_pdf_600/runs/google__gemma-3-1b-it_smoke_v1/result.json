@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "smoke",
+  "steps": 3,
+  "train_metrics": {
+    "train_runtime": 2.9597,
+    "train_samples_per_second": 1.014,
+    "train_steps_per_second": 1.014,
+    "total_flos": 0.0,
+    "train_loss": 0.6816178758939108,
+    "epoch": 0.1875
+  },
+  "max_adapter_parameter_change": 1.502471695857821e-05,
+  "peak_vram_allocated_gib": 1.624558448791504,
+  "peak_vram_reserved_gib": 2.126953125,
+  "adapter": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\google__gemma-3-1b-it_smoke_v1\\adapter",
+  "before": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "after": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "interpretation": "Loss e reward margin misurano la preferenza relativa al riferimento. Non sono voti di correttezza o di efficacia didattica."
+}

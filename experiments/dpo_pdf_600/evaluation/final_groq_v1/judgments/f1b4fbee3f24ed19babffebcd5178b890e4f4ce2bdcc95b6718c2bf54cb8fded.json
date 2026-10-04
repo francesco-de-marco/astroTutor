@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "f1b4fbee3f24ed19babffebcd5178b890e4f4ce2bdcc95b6718c2bf54cb8fded",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente il processo di riemissione infrarossa e il suo uso osservativo."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.094432585,
+      "prompt_tokens": 1825,
+      "prompt_time": 0.103791569,
+      "completion_tokens": 622,
+      "completion_time": 1.303620172,
+      "total_tokens": 2447,
+      "total_time": 1.407411741,
+      "completion_tokens_details": {
+        "reasoning_tokens": 100
+      }
+    },
+    "system_fingerprint": "fp_420c059a6a",
+    "response_id": "chatcmpl-585d4915-5848-48e6-bd04-cf8986a0386c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "b06916d8ce76579d490e5c5838580095d9561f84bd537d5b7e58f031079e1bfb",
+    "f1b4fbee3f24ed19babffebcd5178b890e4f4ce2bdcc95b6718c2bf54cb8fded",
+    "9a6a48233de493844dd54edf4e8400a7f222b0d2931a163e48f11c23eca6c116",
+    "90818815f2f8967189195384d84087b42215c016186bdacad6b18897c0e2b241",
+    "fee91194dc11dea5759995d185bdcf5ff1d065891cf01d15c3f912e2c81abe99",
+    "72448f2f9f42c895124a2e1825cddac5c3fa466920601bef1efb9e5e4ce77bc4"
+  ]
+}

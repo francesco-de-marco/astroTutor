@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "c9c2574d0e346157279a8adefbb1fd1634995cb223c4e4aa672a465c492af95c",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Contraddice se stessa, afferma che gli specchi sono sorgenti indipendenti, aggiunta non supportata."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.090052405,
+      "prompt_tokens": 1511,
+      "prompt_time": 0.069149763,
+      "completion_tokens": 765,
+      "completion_time": 1.6287721450000001,
+      "total_tokens": 2276,
+      "total_time": 1.697921908,
+      "completion_tokens_details": {
+        "reasoning_tokens": 237
+      }
+    },
+    "system_fingerprint": "fp_267e812a3a",
+    "response_id": "chatcmpl-04b6095f-d2c6-4472-97b4-75d1ded136cf",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "924118b8edbed5ba9d8fc230889971352a2c2c68fabcbc53eac33bc184f43261",
+    "46cd3e52e977fda11dee422b412ba77cd6ca6510089e6c8395edfae2d9f9d79f",
+    "a7a1c4a9c0ea1234b888a7879fd183e778dc1d734747ee69e4b49b6bea15a97f",
+    "dfa934917d0c298b27c872906565deafdf60e7db153cd2b30ed74f566f390613",
+    "c9c2574d0e346157279a8adefbb1fd1634995cb223c4e4aa672a465c492af95c",
+    "fd60b8f84a89827797681655d7c821215674a8fba1e4fb8e5a30b5de1e8a4b0e"
+  ]
+}

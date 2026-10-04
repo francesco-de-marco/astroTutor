@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "smoke",
+  "steps": 3,
+  "train_metrics": {
+    "train_runtime": 2.643,
+    "train_samples_per_second": 1.135,
+    "train_steps_per_second": 1.135,
+    "total_flos": 0.0,
+    "train_loss": 0.6832030415534973,
+    "epoch": 0.1875
+  },
+  "max_adapter_parameter_change": 1.5024805179564282e-05,
+  "peak_vram_allocated_gib": 2.6691203117370605,
+  "peak_vram_reserved_gib": 3.908203125,
+  "adapter": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\HuggingFaceTB__SmolLM3-3B_smoke_v1\\adapter",
+  "before": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "after": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "interpretation": "Loss e reward margin misurano la preferenza relativa al riferimento. Non sono voti di correttezza o di efficacia didattica."
+}

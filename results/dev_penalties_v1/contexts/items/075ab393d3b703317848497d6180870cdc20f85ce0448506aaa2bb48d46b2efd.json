@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev08_A",
+    "group_id": "dev08",
+    "topic": "Onde gravitazionali",
+    "question": "Che cosa sono le onde gravitazionali e come vengono rilevate?",
+    "level": "A",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "A parameter called γ encodes the influence of gravity on the geometry of space.  \nGravitational waves Gravitational waves are ripples in the curvature of spacetime. They move as a wave, travelling outward from the source. Einstein predicted them in 1915 on the basis of his theory of general relativity. In theory, gravitational waves transport energy as gravitational radiation. Sources of detectable gravitational waves might include binary star systems composed of white dwarfs, neutron stars, or black holes. In general relativity, gravitational waves cannot travel faster than the speed of light.  \nThe 1993 Nobel Prize in Physics was awarded for measurements of the Hulse-Taylor binary star system. These measurements suggested gravitational waves are more than mathematical peculiarities.  \nOn February 11, 2016, the LIGO Scientific Collaboration and Virgo Collaboration teams announced that they had made the first observation of gravitational waves, originating from a pair of merging black holes using the Advanced LIGO detectors. On June 15, 2016, a second detection of gravitational waves from coalescing black holes was announced. Besides LIGO, many other gravitational-wave observatories (detectors) are under construction.",
+      "source": "A - api_simplewiki_gravity.json",
+      "title": "Spiegazione di Gravity (Simple Wikipedia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 1.2895932793617249
+    },
+    {
+      "text": "To make gravity waves strong enough to be detected, something very massive must accelerate very fast. Sources of detectable gravitational waves include binary star systems composed of white dwarfs, neutron stars, or black holes.  \nGravity and relativity In physics, gravitational waves are ripples in the curvature of spacetime that travel outward from the source. Albert Einstein predicted them in 1916 on the basis of his theory of general relativity. In theory, gravitational waves transport energy as gravitational radiation.  \nIn general relativity, gravitational waves cannot travel faster than the speed of light. They do not exist in the Newtonian theory of gravitation, in which physical interactions propagate at infinite speed. However, the detection of gravitational waves proves the last prediction of Einstein’s general theory of relativity.  \nIn 1993, the Nobel Prize in Physics was awarded for measurements of the Hulse-Taylor binary star system that suggests gravitational waves are more than mathematical anomalies.  \nFirst detection The first detection of gravitational waves was on September 14 2015. The waves were detected by LIGO and were caused by the merging of two black holes.  \nCollision of neutron stars Gravitational waves have been detected from the collision and merging of two neutron stars. The first detection was on 17 August 2017 by a team in Pasadena, California.",
+      "source": "A - api_simplewiki_gravitational_wave.json",
+      "title": "Spiegazione di Gravitational wave (Simple Wikipedia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 1.1110283732414246
+    },
+    {
+      "text": "Dieci anni fa, dopo un’attesa durata quasi un secolo, l’11 febbraio 2016 fu finalmente annunciato al mondo che strumenti costruiti dall’uomo erano riusciti per la prima volta a rivelare le onde gravitazionali. Qualche mese prima, il 14 settembre 2015, l’esperimento americano LIGO aveva misurato particolari oscillazioni compatibili con il passaggio di un’onda gravitazionale prodotta dalla fusione di due buchi neri, con masse pari a 36 e 29 volte quella del Sole, mentre spiraleggiavano l’uno attorno all’altro.\nQuesto evento, battezzato GW150914, è avvenuto a una distanza di circa 1,3 miliardi di anni luce, generando caratteristiche deformazioni del tessuto geometrico dello spazio-tempo che, propagandosi alla velocità della luce, sono infine giunte fino a noi.\nUn’onda gravitazionale è, in effetti, proprio un’oscillazione dello spazio-tempo: le distanze si allungano o si accorciano, i tempi accelerano o rallentano. Se avessimo un anello di materia perfettamente circolare, disposto trasversalmente alla direzione di propagazione dell’onda, osserveremmo una periodica e caratteristica deformazione: l’anello si allungherebbe in una direzione e si accorcerebbe in quella ortogonale, assumendo temporaneamente una forma ellittica; mezzo periodo dopo, le deformazioni si invertirebbero.",
+      "source": "B - api_eduinaf_deformazioni-spazio-temporali.json",
+      "title": "Deformazioni spazio-temporali!",
+      "level": "B",
+      "level_match": "fallback",
+      "score": 0.9621728658676147
+    }
+  ],
+  "queries": [
+    "Che cosa sono le onde gravitazionali e come vengono rilevate?"
+  ]
+}

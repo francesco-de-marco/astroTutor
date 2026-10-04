@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d42bb1f27fb264a77d890dfc3e75486da60c8ea45f378bc0cde734f7f1e7d11c",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il periodo di 90 min e la dipendenza dalla distanza orbitale."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.157408397,
+      "prompt_tokens": 2013,
+      "prompt_time": 0.130875879,
+      "completion_tokens": 798,
+      "completion_time": 1.6761815960000002,
+      "total_tokens": 2811,
+      "total_time": 1.8070574750000001,
+      "completion_tokens_details": {
+        "reasoning_tokens": 250
+      }
+    },
+    "system_fingerprint": "fp_6b677c2caf",
+    "response_id": "chatcmpl-a72120ac-d091-4c8b-bf8e-a8a312fcba85",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "2dd6af177aa4e84c9c75fce96f3469e15213c34eef3d3a88befc247333835c3e",
+    "0b2d1abbca4e1761d8e67a0168a8604280fa91d09f5de1c3b82b53c72df97c8b",
+    "eb43dcf5c2a9a5574204970ea40efe6fd4954694ae6fa4b327a231b66f84da45",
+    "ddf95cbbcb7a6b7c2291ab0d2d91fd8ba82aab25c4af56dc3683e79d19dc5d24",
+    "d42bb1f27fb264a77d890dfc3e75486da60c8ea45f378bc0cde734f7f1e7d11c",
+    "525810084126fe73f840bf6db1b04a67dcc8768400ee810545b88ce0e818dc6c"
+  ]
+}

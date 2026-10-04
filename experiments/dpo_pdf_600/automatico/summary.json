@@ -1,0 +1,19 @@
+{
+  "completed_contexts": 20,
+  "planned_contexts": 20,
+  "statuses": {
+    "judge_rejection_or_tie": 13,
+    "accepted": 5,
+    "context_unsuitable": 2
+  },
+  "accepted": 5,
+  "by_level": {
+    "C": 2,
+    "A": 1,
+    "B": 2
+  },
+  "requests": 57,
+  "request_cap": 90,
+  "human_validated": false,
+  "production_started": false
+}

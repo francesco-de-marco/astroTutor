@@ -1,0 +1,39 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b05a55e7a41f780f10cd8e8688723c6a1fd2b1c039995b4ba1a1476c0efa2cfe",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Sottolinea il costo e la complessità delle simulazioni complete, giustificando l’uso di modelli analitici."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.050603933,
+      "prompt_tokens": 1693,
+      "prompt_time": 0.093482539,
+      "completion_tokens": 583,
+      "completion_time": 1.226162986,
+      "total_tokens": 2276,
+      "total_time": 1.3196455249999999,
+      "completion_tokens_details": {
+        "reasoning_tokens": 97
+      }
+    },
+    "system_fingerprint": "fp_fe269835c7",
+    "response_id": "chatcmpl-69c53033-d4f5-4f10-8256-3ab02cca7d61",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "92e491762982d99aac1fa45e06b29ff75732261c290e010481a14ac253dedb15",
+    "0966f1769c9e91d28c9cd569c9d5fd44b9c623ea02d7c93f559b8bd8157ce412",
+    "3e71314d69a1bc46f7fac141eb7dddb04175c768abad001a001c44749764909c",
+    "23a83d957e5bafa174008526d35fe3a4caaa8df06a28eb2e1a92e70d80eac69e",
+    "b05a55e7a41f780f10cd8e8688723c6a1fd2b1c039995b4ba1a1476c0efa2cfe"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d78b655d58c1b5823352debb0cf6e5609f04e32de81b1def55f9fde87693fc54",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive il baricentro con analogia chiara, rispetta il riferimento e il livello B."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305227291,
+      "prompt_tokens": 1632,
+      "prompt_time": 0.115313148,
+      "completion_tokens": 815,
+      "completion_time": 1.7078596529999999,
+      "total_tokens": 2447,
+      "total_time": 1.8231728010000001,
+      "completion_tokens_details": {
+        "reasoning_tokens": 278
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-737fbc81-7309-42bb-8af7-baaef553e1ef",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "565d4e44bd1a4727b1fb16784bc29ed9960871e795239274cdbb49fb8dab3712",
+    "d78b655d58c1b5823352debb0cf6e5609f04e32de81b1def55f9fde87693fc54",
+    "50bea027b55bb2141b8ae4bcb30eb292c58b79e2da7b2d90188051f132eac6f9",
+    "6b07ab7c96057dfbeb4adade1a0915e49355e63ffc1a7b379af5b61cda7801f9",
+    "1e7e6e15bf4a682656b7da78eb2e432826df72584251c78164ea8503ebcefa51",
+    "2acb4752c90445c5e8ecc583ac3021156e7981baba8e86fc602ff511baea5a2c"
+  ]
+}

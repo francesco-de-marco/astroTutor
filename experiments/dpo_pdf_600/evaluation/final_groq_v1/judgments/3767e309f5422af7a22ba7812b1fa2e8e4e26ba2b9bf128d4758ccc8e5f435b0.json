@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "3767e309f5422af7a22ba7812b1fa2e8e4e26ba2b9bf128d4758ccc8e5f435b0",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Menziona la distribuzione termica ma non spiega come ricavare la temperatura dallo spettro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.020591005,
+      "prompt_tokens": 2705,
+      "prompt_time": 0.159862706,
+      "completion_tokens": 830,
+      "completion_time": 1.84597937,
+      "total_tokens": 3535,
+      "total_time": 2.005842076,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 271
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-e0da2fde-ca69-4d5e-96b1-686b075ff002",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "59ceadef7827947f4f921649fe55040ad279e5f4d030cf27c48e543ca08615ba",
+    "4a7ec9ced77e354eaf0d4deb59b89f2f40bf175a004234d8fc2a8bf460513607",
+    "3767e309f5422af7a22ba7812b1fa2e8e4e26ba2b9bf128d4758ccc8e5f435b0",
+    "f4b03a324a24c431d0e3fe59e57d40ad3e5579a6a144c288612afa38c7b7ce05",
+    "7c868363dcf185056f76503c3c6e368a09e96c777ea98e17f6c552c6917f0fcd",
+    "1dcc911f9d4906347c7ec59d2d85a2607b42f3b36a0389b8df89c67f12872644"
+  ]
+}

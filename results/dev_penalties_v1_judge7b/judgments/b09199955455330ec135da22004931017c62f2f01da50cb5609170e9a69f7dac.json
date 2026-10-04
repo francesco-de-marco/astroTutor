@@ -1,0 +1,23 @@
+{
+  "response_hash": "b09199955455330ec135da22004931017c62f2f01da50cb5609170e9a69f7dac",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 4,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+      "correctness": "La risposta è corretta e non contiene errori.",
+      "level_adequacy": "Il livello di formalismo e la profondità sono adatti al profilo D.",
+      "clarity": "La risposta è chiara e coerente."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2459,
+    "eval_count": 143,
+    "total_duration": 4937766700,
+    "done_reason": "stop"
+  }
+}

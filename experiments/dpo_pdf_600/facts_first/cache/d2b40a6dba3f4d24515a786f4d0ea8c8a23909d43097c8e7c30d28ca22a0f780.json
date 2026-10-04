@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-22b1b9a0-f2e9-4099-a97b-171d71f9d49d",
+  "object": "chat.completion",
+  "created": 1790377407,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"sentences\":[{\"text\":\"Le luminosità dei corpi celesti, incluse le stelle, sono misurate dalla Terra e quindi sono luminosità apparenti.\",\"fact_ids\":[1]},{\"text\":\"Tra due stelle che appaiono deboli non possiamo sapere se una è molto luminosa ma distante o se è vicina ma intrinsecamente più debole, poiché entrambe hanno luminosità apparenti.\",\"fact_ids\":[6]}]}",
+        "reasoning": "We need produce JSON with sentences covering all facts (ids 1 and 6). Two facts. Create sentences using both. Maybe one sentence covering both. Must list fact_ids. Ensure all facts covered. Max 160 words. Provide compact JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.200276906,
+    "prompt_tokens": 456,
+    "prompt_time": 0.020964632,
+    "completion_tokens": 153,
+    "completion_time": 0.342938343,
+    "total_tokens": 609,
+    "total_time": 0.363902975,
+    "completion_tokens_details": {
+      "reasoning_tokens": 51
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_5082008e34",
+  "x_groq": {
+    "id": "req_01m3dcyc2yet8sfqewjhxtqe4p",
+    "seed": 120801086
+  },
+  "service_tier": "on_demand"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "streamlit",
+    "version": "1.64.0",
+    "wheel": "streamlit-1.64.0-py3-none-any.whl",
+    "sha256": "4daf63aa9eaa5452d0edc64a5bdb0c4ad25580fe3c62c270455f3c43e9db5098"
+  },
+  {
+    "name": "altair",
+    "version": "6.0.0",
+    "wheel": "altair-6.0.0-py3-none-any.whl",
+    "sha256": "09ae95b53d5fe5b16987dccc785a7af8588f2dca50de1e7a156efa8a461515f8"
+  },
+  {
+    "name": "pydeck",
+    "version": "0.9.1",
+    "wheel": "pydeck-0.9.1-py2.py3-none-any.whl",
+    "sha256": "b3f75ba0d273fc917094fa61224f3f6076ca8752b93d46faf3bcfd9f9d59b038"
+  },
+  {
+    "name": "toml",
+    "version": "0.10.2",
+    "wheel": "toml-0.10.2-py2.py3-none-any.whl",
+    "sha256": "806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"
+  },
+  {
+    "name": "watchdog",
+    "version": "6.0.0",
+    "wheel": "watchdog-6.0.0-py3-none-win_amd64.whl",
+    "sha256": "cbafb470cf848d93b5d013e2ecb245d4aa1c8fd0504e863ccefa32445359d680"
+  },
+  {
+    "name": "starlette",
+    "version": "0.48.0",
+    "wheel": "starlette-0.48.0-py3-none-any.whl",
+    "sha256": "0764ca97b097582558ecb498132ed0c7d942f233f365b86ba37770e026510659"
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.20",
+    "wheel": "python_multipart-0.0.20-py3-none-any.whl",
+    "sha256": "8a62d3a8335e06589fe01f2a3e178cdcc632f3fbe0d492ad9ee0ec35aab1f104"
+  },
+  {
+    "name": "itsdangerous",
+    "version": "2.2.0",
+    "wheel": "itsdangerous-2.2.0-py3-none-any.whl",
+    "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef"
+  }
+]

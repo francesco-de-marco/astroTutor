@@ -9,9 +9,25 @@ models/*.gguf
 
 
 
-apikey.txtrequirements-gpu-win.txt
-results/dev_penalties_v1/
-results/dev_penalties_v1_judge7b/
+apikey.txt
 results/smoke_20260910_135617/
-requirements-gpu-win.txt
 results/*.zip
+
+# Local runtimes, secrets, weights and temporary artifacts
+.venv*/
+.env.*
+!.env.example
+.packages/
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+.tmp/
+*.log
+**/adapter/tokenizer*
+**/adapter/special_tokens_map.json
+**/adapter/chat_template.jinja
+**/adapter/added_tokens.json
+**/adapter/vocab.json
+**/adapter/merges.txt

@@ -1,0 +1,43 @@
+{
+  "question": "Come nasce una stella?",
+  "level": "B",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "mode": "compare",
+  "docs": [
+    {
+      "text": "Le stelle nascono continuamente. Prendono forma in vastissime nubi di gas e polveri. All’inizio, una futura stella che avrà caratteristiche simile a quelle del Sole è un frammento di nube di gas cosmico che si contrae. L’energia a disposizione della stella proviene dalla forza di gravità responsabile della contrazione. Una parte dell’energia scalda il centro della stella, che inizia a essere luminoso. Tanto più la futura stella si contrae, tanto più si scalda. Quando il centro della stella raggiunge e supera il milione di gradi, hanno inizio le reazioni nucleari che trasformano l’idrogeno in elio. Dopo circa trenta milioni di anni, la temperatura al centro della stella è di 15 milioni di K. La stella si è ormai formata e nel diagramma di Hertzsprung e Russell ha raggiunto la regione delle stelle nane, dove resterà stabile per una decina di miliardi di anni. La sua temperatura superficiale di 6000 K la rende giallo-arancione, la sua luminosità e la sua dimensione sono simili a quelle del Sole.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+      "title": "Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+      "level": "B",
+      "level_match": "exact",
+      "score": 1.4977226853370667
+    },
+    {
+      "text": "La stella rallenta la sua contrazione fino a fermarsi. A questo punto inizia la fase più lunga e stabile della sua vita. Quando tutto l’idrogeno disponibile è stato utilizzato, la stella si trova temporaneamente senza “carburante”: comincia la fase finale, instabile e caratterizzata da cambiamenti molto rapidi. La piccola quantità di elio prodotto dalla fusione dell’idrogeno brucia rapidamente: il destino della stella è segnato e in “breve” essa finisce la sua esistenza. Le scorie di questa combustione sono elementi, come carbonio e ossigeno, che in origine non esistevano nell’Universo. La fine vera e propria può portare a un’esplosione, che lancia nello spazio una parte o anche tutta la materia che forma la stella. Che si tratti di una nana bianca o di un buco nero, l’esplosione lascia al centro un piccolo residuo molto strano, la cui materia non ha eguali sulla Terra.  \nLa teoria moderna dell’evoluzione stellare porta la firma di molti scienziati e, per la prima volta nella storia, è stata scritta con l’aiuto del calcolatore elettronico.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+      "title": "Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+      "level": "B",
+      "level_match": "exact",
+      "score": 1.3507437109947205
+    }
+  ],
+  "answers": {
+    "base": {
+      "text": "Perché una stella nasce, si forma a partir di una futura stella. Inizialmente, si tratta di una piccola parte di una nube di gas e polvere enorme. Questa piccola parte si contrae a causa della forza di gravità. Quel frammento di nube di gas si scalda sempre di più, tanto più si contrae. Quando il centro diventa così caldo, inizia a succedere qualcosa di magico: le molecole di idrogeno cominciano a fondersi e a trasformarsi in elio. Questo processo di fusione di idrogeno in elio è la chiave per far brillare la stella. Quando la stella si è ormai formata e ha una temperatura al centro di 15 milioni di gradi Kelvin, è pronta per vivere per decine di miliardi di anni.",
+      "token_limit": false,
+      "completion_tokens": 195
+    },
+    "dpo": {
+      "text": "Una stella nasce quando un frammento di nube di gas e polvere comincia a contrarsi a causa della forza di gravità. Questo frammento si contrae e si scalda. Quando il centro diventa abbastanza caldo, inizia a fare reazioni nucleari che trasformano l'idrogeno in elio. Questo processo continua e la stella si forma.",
+      "token_limit": false,
+      "completion_tokens": 89
+    }
+  },
+  "retrieval_queries": [
+    "Come nasce una stella?"
+  ],
+  "guardrails_enabled": false,
+  "note": "Demo RAG live: prompt originale, sola query italiana; non è il test congelato.",
+  "elapsed_seconds": 200.0,
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+}

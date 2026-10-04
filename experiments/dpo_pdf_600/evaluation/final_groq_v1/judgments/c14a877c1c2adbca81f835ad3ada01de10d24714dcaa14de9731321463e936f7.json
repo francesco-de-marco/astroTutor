@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "c14a877c1c2adbca81f835ad3ada01de10d24714dcaa14de9731321463e936f7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riporta esattamente il metodo spettrale indicato, senza errori."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.212444402,
+      "prompt_tokens": 2034,
+      "prompt_time": 0.165323462,
+      "completion_tokens": 624,
+      "completion_time": 1.31252847,
+      "total_tokens": 2658,
+      "total_time": 1.477851932,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 91
+      }
+    },
+    "system_fingerprint": "fp_803c0ba83d",
+    "response_id": "chatcmpl-1412ce5b-51b9-4f90-8f3c-002dd77d8430",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "4d39a92068d45c13c04402d6bf7c870aaed15f302ec5e60fc2f8d18932e99c0c",
+    "c14a877c1c2adbca81f835ad3ada01de10d24714dcaa14de9731321463e936f7",
+    "775b2ced5ed41b8773e6f5abd5f4ac1173acec4ad4c6c2c18ac1fc4fdbbc8f6e",
+    "1f7c7d9dadc2015da3a5513a5ba624fa418f44585b2c1e1e8365ba70eccf06d4",
+    "85c6403677e450b946d57fc85e22a3fbce3578cd5ea61f35cde04070b710ab1d",
+    "c528c738bbad7017e73cb8903156ca17661574983d46432d6775f5d3058499c1"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-d657cbf4-df3c-4837-ae56-1a54a06ecdcc",
+  "object": "chat.completion",
+  "created": 1790375830,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"answer\": \"Secondo il brano, la velocità di fuga di un corpo è la velocità minima necessaria perché qualcosa possa allontanarsi da esso. Per il Sole è di 620 km/s, mentre la luce viaggia 500 volte più veloce. Michell ha calcolato che se un corpo avesse la stessa densità del Sole ma fosse più di 500 volte più grande, la sua velocità di fuga supererebbe quella della luce. Poiché, secondo la teoria newtoniana dell’epoca, la luce è costituita da particelle soggette alla gravità, queste particelle non avrebbero energia sufficiente per sfuggire al campo gravitazionale del corpo. Di conseguenza la luce non può uscire e l’oggetto appare completamente scuro, cioè “nero”, a chi lo osserva dall’esterno.\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to output JSON. Use evidence_ids [1]. Answer in Italian ≤200 words."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.295147596,
+    "prompt_tokens": 604,
+    "prompt_time": 0.033600004,
+    "completion_tokens": 229,
+    "completion_time": 0.473486504,
+    "total_tokens": 833,
+    "total_time": 0.507086508,
+    "completion_tokens_details": {
+      "reasoning_tokens": 20
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_27194a498a",
+  "x_groq": {
+    "id": "req_01m3dbe8ffeeyavmh3ax73dzns",
+    "seed": 1226585091
+  },
+  "service_tier": "on_demand"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-40a47a3f-4999-4b2b-b40c-95e3c5212f79",
+  "object": "chat.completion",
+  "created": 1790378390,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"sentences\":[{\"text\":\"Per studiare la fusione di oggetti compatti, il brano indica che la teoria linearizzata non è sufficiente perché la fusione non rispetta le condizioni dell'approssimazione quadrupolare\",\"fact_ids\":[1]},{\"text\":\"Si propongono due metodi: una serie di espansione che aggiunge termini quadratici, cubici e di ordine superiore alle espressioni linearizzate, e, per la fase finale della fusione, simulazioni numeriche delle equazioni complete di Einstein su ipersuperfici spaziali\",\"fact_ids\":[2,4]}]}",
+        "reasoning": "We need produce JSON with sentences and fact_ids referencing 1,2,4. Max 180 words. Provide answer in Italian. Include only those facts. Let's craft two sentences. JSON compact."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.048414873,
+    "prompt_tokens": 612,
+    "prompt_time": 0.029057447,
+    "completion_tokens": 181,
+    "completion_time": 0.375744689,
+    "total_tokens": 793,
+    "total_time": 0.404802136,
+    "completion_tokens_details": {
+      "reasoning_tokens": 41
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_fe269835c7",
+  "x_groq": {
+    "id": "req_01m3ddwcbbejbt1wj2fpbz4ww8",
+    "seed": 1247703285
+  },
+  "service_tier": "on_demand"
+}

@@ -86,3 +86,10 @@ Ci sono ancora alcune aree in fase di sviluppo:
 - [ ] **Interfaccia Utente (UI)**: Passaggio dalla CLI attuale (`main.py`) a un'interfaccia web user-friendly (es. Streamlit) per un'interazione più fluida.
 - [x] **Advanced RAG**: Integrare tecniche di recupero avanzato come Multi-Query Expansion e **Re-ranker (CrossEncoder)** per migliorare la precisione (COMPLETATO).
 - [ ] **Containerizzazione**: Creare un `Dockerfile` e un `docker-compose.yaml` per semplificare il deploy del database vettoriale e dell'applicazione in ambienti cloud.
+
+
+## Aggiornamento sperimentale e consegna
+
+Il branch esperimento-calibrazione include pilot, confronto Base/DPO su sei modelli,
+dataset sintetico, risultati, grafici, relazione approfondita e demo Streamlit.
+Vedere [README per il collega](README_COLLEGA.md) per orientarsi e avviare la demo.

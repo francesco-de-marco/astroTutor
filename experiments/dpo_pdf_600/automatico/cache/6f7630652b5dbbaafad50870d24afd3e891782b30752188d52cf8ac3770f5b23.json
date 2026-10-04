@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8561a6f7-0408-4175-befe-ee3e27ee0266",
+  "object": "chat.completion",
+  "created": 1790375226,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché i pianeti giganti gassosi non hanno una superficie solida?\",\n  \"answer\": \"I pianeti giganti sono composti quasi esclusivamente di gas, perciò non possiedono una crosta solida come la Terra. La loro massa è formata da idrogeno, elio e tracce di altri composti, quindi la materia rimane in forma gassosa anche verso il loro interno, impedendo la formazione di una superficie solida.\",\n  \"evidence_ids\": [2]\n}",
+        "reasoning": "We need to output JSON with usable true, question and answer, evidence_ids. Choose a conceptual question: e.g., \"Perché i giganti gassosi non hanno una superficie solida?\" Answer using text. Evidence from [1] and [2]. Use ids. Provide."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 3.148448569,
+    "prompt_tokens": 750,
+    "prompt_time": 0.048165605,
+    "completion_tokens": 189,
+    "completion_time": 0.389972963,
+    "total_tokens": 939,
+    "total_time": 0.438138568,
+    "completion_tokens_details": {
+      "reasoning_tokens": 59
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_9241e9962b",
+  "x_groq": {
+    "id": "req_01m3davqxpe15b6w8v8wn6x9wt",
+    "seed": 1644125002
+  },
+  "service_tier": "on_demand"
+}

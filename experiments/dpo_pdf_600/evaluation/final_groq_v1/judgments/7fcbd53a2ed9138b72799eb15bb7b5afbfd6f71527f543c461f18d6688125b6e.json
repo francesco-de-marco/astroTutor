@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7fcbd53a2ed9138b72799eb15bb7b5afbfd6f71527f543c461f18d6688125b6e",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Dice che creano \"onde di luce indipendenti\", affermazione ambigua rispetto al concetto di sorgenti."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.02099497,
+      "prompt_tokens": 1640,
+      "prompt_time": 0.115815608,
+      "completion_tokens": 668,
+      "completion_time": 1.420508986,
+      "total_tokens": 2308,
+      "total_time": 1.5363245939999999,
+      "completion_tokens_details": {
+        "reasoning_tokens": 137
+      }
+    },
+    "system_fingerprint": "fp_854fa9be4c",
+    "response_id": "chatcmpl-bba4fd16-a048-4df7-9a10-14d2dc84be42",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "d2ff8565bb16ace6e70c3f12770808d168dd688a5581e9a0763382842c06fa5a",
+    "37f1de54f987cc5631114716039982f272dacad4c2831fad640c827d837c8561",
+    "67ad2945fc48afe74f96b27188d50990d26cef0e150980f1031169baa3e7ba75",
+    "7fcbd53a2ed9138b72799eb15bb7b5afbfd6f71527f543c461f18d6688125b6e",
+    "fe35c17d9dd25fef717955e81e9002f4f91f01ee50f73971ba4c27e98bb776d6",
+    "c0f7de42bc7c0490e9b3f6e7d9ccea7bd4224db47e57f760cb8fef579970bc03"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "179eff1c345e25abc45bbe962a62468cb358f3649a72e59e24e1dcfe01f6468d",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Usa termine errato \"rielettrizzato\" e non chiarisce che l'infrarosso penetra meglio."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305232609,
+      "prompt_tokens": 1735,
+      "prompt_time": 0.256433887,
+      "completion_tokens": 821,
+      "completion_time": 1.7164788739999999,
+      "total_tokens": 2556,
+      "total_time": 1.972912761,
+      "completion_tokens_details": {
+        "reasoning_tokens": 282
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-c9e41696-3b5d-4197-b240-eb5ea5113106",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "2f47d09c43dda081a67e62b6963f610adcfc19811209e8d4a97a40257fd2de72",
+    "179eff1c345e25abc45bbe962a62468cb358f3649a72e59e24e1dcfe01f6468d",
+    "b1e22197c3850868b3af741f3a9acaa1ef77515680b37c6632867b1e6b0b5e45",
+    "3e6e70aa577c80e20a67972c1ced3f9c787d80beadc6b5939bf57ba710dbf44f",
+    "b6e43532a5a0ad716d0e3df2cfaa09c62ddab1e48cf62aabe89428ba0404761f",
+    "8cb658a225f109e5afbf93b74f9f63fe6749e2239028a0ee9b15b09dd438dec3"
+  ]
+}

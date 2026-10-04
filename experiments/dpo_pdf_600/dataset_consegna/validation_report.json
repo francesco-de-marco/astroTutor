@@ -1,0 +1,33 @@
+{
+  "structural_checks_passed": true,
+  "pairs": 600,
+  "unique_questions": 75,
+  "unique_question_level_prompts": 300,
+  "concept_blocks": 25,
+  "by_level": {
+    "A": 150,
+    "B": 150,
+    "C": 150,
+    "D": 150
+  },
+  "by_category": {
+    "factual_contradiction": 300,
+    "off_question": 300
+  },
+  "source_groups_used": [
+    "astrofisica per ansiosi licia troisi",
+    "astronomy 2e openstax fraknoi morrison wolff",
+    "black holes wormholes time machines",
+    "george_secret_key_book",
+    "i buchi neri misteriosi protagonisti dellevoluzione delle galassie alessandro marconi",
+    "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi"
+  ],
+  "reserved_source_overlap": false,
+  "evidence_exact_substrings": true,
+  "human_validated": false,
+  "independent_semantic_validation": false,
+  "average_response_words": {
+    "chosen": 21.92,
+    "rejected": 19.89
+  }
+}

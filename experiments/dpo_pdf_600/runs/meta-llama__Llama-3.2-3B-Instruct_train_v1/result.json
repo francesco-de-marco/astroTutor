@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "train",
+  "steps": 300,
+  "train_metrics": {
+    "train_runtime": 909.099,
+    "train_samples_per_second": 1.32,
+    "train_steps_per_second": 0.33,
+    "total_flos": 0.0,
+    "train_loss": 0.4818726760149002,
+    "epoch": 2.0
+  },
+  "max_adapter_parameter_change": 0.002189035527408123,
+  "peak_vram_allocated_gib": 3.2368640899658203,
+  "peak_vram_reserved_gib": 4.365234375,
+  "adapter": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\meta-llama__Llama-3.2-3B-Instruct_train_v1\\adapter",
+  "before": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "after": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "interpretation": "Loss e reward margin misurano la preferenza relativa al riferimento. Non sono voti di correttezza o di efficacia didattica."
+}

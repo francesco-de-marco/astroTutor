@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "ffbe57eb83b2bb487a87fd3e9aace309585071096f2ac4c37ee6dfe43620bbd0",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 0,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che la Terra è ferma è errato; il baricentro è interno ma la Terra vi orbita."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.2100456,
+      "prompt_tokens": 1659,
+      "prompt_time": 0.292584591,
+      "completion_tokens": 873,
+      "completion_time": 2.310334356,
+      "total_tokens": 2532,
+      "total_time": 2.602918947,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 327
+      }
+    },
+    "system_fingerprint": "fp_803c0ba83d",
+    "response_id": "chatcmpl-ccf992c7-f3f8-4e93-b6bc-173340ca321d",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "ffbe57eb83b2bb487a87fd3e9aace309585071096f2ac4c37ee6dfe43620bbd0",
+    "d59ba468cfcd61f6ff362b9e918c013800a3eecc5be2db318e64b0043ca90e84",
+    "dd8ffafa02051e9e2831742484b62c6e93603f2d806cdea0c3955bda16d8ede2",
+    "c1e8f97f5c87882b11678882b4d2fcd4bc701858624110113e59089c6ea81147",
+    "e19cce95ef3cbd37330f73dc3e70c36293e3e5e84ad1679dcce569e60530df0b",
+    "8c3c08db272f137d9ffe1fe88f6d3d96a24d652df47b0a2fc629b0793bb1dfb7"
+  ]
+}

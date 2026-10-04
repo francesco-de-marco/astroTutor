@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6011b2279f3fca2e671cf717f765c53a3eb4070b02113eac62ee175624d787e4",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Descrizione imprecisa dei percorsi e aggiunge scopo di rilevare l'etere."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305996369,
+      "prompt_tokens": 1940,
+      "prompt_time": 0.183720596,
+      "completion_tokens": 964,
+      "completion_time": 2.02751677,
+      "total_tokens": 2904,
+      "total_time": 2.211237366,
+      "completion_tokens_details": {
+        "reasoning_tokens": 457
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-9f96909c-ffa3-4b90-a499-0f95bc701bc3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "bbb55dca20e64b29834050bf42bb4beefb2afbb3750f0c93991218db5b9fb612",
+    "ab90f05b75366c8ee5185053c97656499b120e67650e81e880ea9de1bbd9c68a",
+    "a292a0e446e0af388098f6675b0eafded3e4ceb5fdb1abcfb371c2b78fe96f9a",
+    "514df926504ba97818f9b19f51b0bd3843e76c3d9570ae3b92ad8d367fe6f14b",
+    "8839ec41c5ab1cfb90376a2f762cce3427baa51ff29d2477159ed5b08bd8da3f",
+    "6011b2279f3fca2e671cf717f765c53a3eb4070b02113eac62ee175624d787e4"
+  ]
+}

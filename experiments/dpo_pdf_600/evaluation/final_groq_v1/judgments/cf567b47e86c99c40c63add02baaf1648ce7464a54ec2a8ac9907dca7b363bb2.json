@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "cf567b47e86c99c40c63add02baaf1648ce7464a54ec2a8ac9907dca7b363bb2",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente che gli atomi neutri non interagiscono più con la radiazione, rendendo l'universo trasparente."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.09644317,
+      "prompt_tokens": 1714,
+      "prompt_time": 0.083690378,
+      "completion_tokens": 957,
+      "completion_time": 2.03425222,
+      "total_tokens": 2671,
+      "total_time": 2.117942598,
+      "completion_tokens_details": {
+        "reasoning_tokens": 373
+      }
+    },
+    "system_fingerprint": "fp_420c059a6a",
+    "response_id": "chatcmpl-57153275-2784-48aa-ae5d-1dd15f05003b",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "57d401dd8f85189b446ec4ee00e426fb1feca892e35a58d40c11cbed514b7980",
+    "bbeb0e1d2fb2910dda3898af5fc29a156bdc54b462ee73ce429432d0abf486ca",
+    "eb5e6428f259bcbe80de18e231927623628c29ef80912afe0fcc0831ed203b7d",
+    "cf567b47e86c99c40c63add02baaf1648ce7464a54ec2a8ac9907dca7b363bb2",
+    "0fa0067952edc6a769060ade33eaadbacd0182a30e359a16a06e5719f623aa9a",
+    "cd0fc6a1bc9e33fe6c918f5a5e5909914e99be15bb9d3ab530e89e664a6af96a"
+  ]
+}

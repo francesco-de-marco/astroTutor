@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "fbf06ed7556288f9d1033009f53c7b9157a98c1ccc5e87264d191a3c7b132e6d",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente la diminuzione della sezione d'urto e l'aumento di trasparenza."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.357152934,
+      "prompt_tokens": 2071,
+      "prompt_time": 0.960923546,
+      "completion_tokens": 909,
+      "completion_time": 2.038095958,
+      "total_tokens": 2980,
+      "total_time": 2.999019504,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 361
+      }
+    },
+    "system_fingerprint": "fp_df9620fe21",
+    "response_id": "chatcmpl-77892661-6222-412d-966c-ed97566cccdb",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "ce00d1692b4fbca32416aa276e8c7c4839685dc9ad458d96fbfea8be6814b31d",
+    "22fa12130b5c6284a66100c784b2019e9d9f2ff029ce150db22a3c9f9a2047c3",
+    "e6c797d73f6649aa8bcd21c1304a0d9aa9b0693ccafa8aaa4bfbc181a0a2c439",
+    "fbf06ed7556288f9d1033009f53c7b9157a98c1ccc5e87264d191a3c7b132e6d",
+    "3475672ef28a035cb5539bf88daca6ae332f67a15703b86569f36ba0674de173",
+    "fd0e35664b63938cbe4344f300d8c52da7122a485b3014fc6cabf1cb308cefc2"
+  ]
+}

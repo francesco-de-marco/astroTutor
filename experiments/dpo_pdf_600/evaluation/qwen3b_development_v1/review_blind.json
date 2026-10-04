@@ -1,0 +1,237 @@
+{
+  "reviewer": "AI assistant, same assistant involved in dataset design",
+  "independent_human_review": false,
+  "blinded_to_answer_mapping_at_annotation": true,
+  "rubric": {
+    "C": "Nucleo corretto senza errori sostanziali individuati; ammesse semplificazioni minori",
+    "P": "Risposta parziale, ambigua o con imprecisioni rilevanti",
+    "I": "Nucleo errato oppure errore grave nella spiegazione"
+  },
+  "preference_rule": "Preferenza prudente per correttezza e chiarezza; t include entrambe sbagliate. Non è una misura isolata di adattamento al livello.",
+  "records": [
+    {
+      "id": "dev01_A",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "Entrambe impongono uguaglianza dei tempi vissuti; la seconda si contraddice anche internamente."
+    },
+    {
+      "id": "dev01_B",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima nega correttamente la necessità ma poi dice che l'età totale rimane la stessa; la seconda afferma uniformità del tempo per tutti."
+    },
+    {
+      "id": "dev01_C",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "Entrambe rispondono sì erroneamente; la seconda aggiunge una falsa simultaneità universale."
+    },
+    {
+      "id": "dev01_D",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "Entrambe negano la possibile differenza dei tempi propri."
+    },
+    {
+      "id": "dev02_A",
+      "answer_1": "C",
+      "answer_2": "C",
+      "preference": "t",
+      "reason": "Entrambe distinguono correttamente tempo proprio vissuto e confronto con un altro percorso; differenza didattica non decisiva."
+    },
+    {
+      "id": "dev02_B",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima conclude correttamente ma contiene 10ml anni e relazionismo; la seconda separa erroneamente tempo proprio ed età."
+    },
+    {
+      "id": "dev02_C",
+      "answer_1": "P",
+      "answer_2": "P",
+      "preference": "t",
+      "reason": "Nucleo corretto in entrambe, con spiegazioni ambigue sull'invarianza del tempo totale e sull'accelerazione del tempo vicino al buco nero."
+    },
+    {
+      "id": "dev02_D",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda mantiene il nesso orologio-invecchiamento; la prima aggiunge una spiegazione confusa della differenza di età dei gemelli."
+    },
+    {
+      "id": "dev03_A",
+      "answer_1": "C",
+      "answer_2": "C",
+      "preference": "t",
+      "reason": "Entrambe collegano la caduta alla variazione della gravità con la distanza; velocità al posto di accelerazione è una semplificazione da migliorare."
+    },
+    {
+      "id": "dev03_B",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda esplicita l'accelerazione maggiore vicino al centro; la prima usa velocità di accelerazione e devia sul caso tangenziale. La legge inversa quadratica della seconda è conoscenza aggiuntiva non esplicitata nel brano."
+    },
+    {
+      "id": "dev03_C",
+      "answer_1": "P",
+      "answer_2": "P",
+      "preference": "t",
+      "reason": "Entrambe colgono la non uniformità ma usano tides; la prima generalizza accelerazioni non parallele, la seconda è ripetitiva e confonde termini."
+    },
+    {
+      "id": "dev03_D",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "Entrambe inventano termini elettromagnetici/elettromotrici; la prima aggiunge una spiegazione falsa su ombre, mari e fiumi."
+    },
+    {
+      "id": "dev04_A",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda offre una semplificazione utile delle differenze di caduta; la prima aggiunge coordinate non più rette prive di spiegazione fisica."
+    },
+    {
+      "id": "dev04_B",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima conserva il criterio di precisione pur con accelerazioni tangenti imprecise; la seconda introduce un centro di gravità della regione e un criterio scorretto."
+    },
+    {
+      "id": "dev04_C",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima conserva il confronto con l'accuratezza sperimentale; la seconda inventa una forza tangenziale tra le parti come spiegazione generale."
+    },
+    {
+      "id": "dev04_D",
+      "answer_1": "P",
+      "answer_2": "P",
+      "preference": "t",
+      "reason": "Entrambe riconoscono la variazione del campo e la precisione, ma confondono il fenomeno con accelerazioni tangenziali."
+    },
+    {
+      "id": "dev05_A",
+      "answer_1": "C",
+      "answer_2": "C",
+      "preference": "t",
+      "reason": "Entrambe citano caduta libera e piccola regione. Restano astratte per la primaria; la seconda ripete la definizione senza chiarirla."
+    },
+    {
+      "id": "dev05_B",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La prima sostituisce la caduta libera con un generico moto uniforme iniziale; la seconda mantiene la condizione fisica essenziale."
+    },
+    {
+      "id": "dev05_C",
+      "answer_1": "P",
+      "answer_2": "P",
+      "preference": "t",
+      "reason": "Entrambe sostituiscono la caduta libera con corpo pesante; la seconda aggiunge ripetizioni e un'affermazione confusa sull'estensione globale al limite di volume nullo."
+    },
+    {
+      "id": "dev05_D",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda include caduta libera e località; la prima usa corpo pesante e propone una motivazione impropria."
+    },
+    {
+      "id": "dev06_A",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "Risposta iniziale no corretta, ma entrambe inventano la ragione: impossibilità di cadere in un punto o negazione delle diverse direzioni di caduta."
+    },
+    {
+      "id": "dev06_B",
+      "answer_1": "C",
+      "answer_2": "P",
+      "preference": "1",
+      "reason": "La prima enuncia correttamente il limite locale, pur senza svilupparne il meccanismo; la seconda dà una motivazione confusa su oggetti lontani e contemporanei."
+    },
+    {
+      "id": "dev06_C",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "La prima introduce regione infinita e velocità di rotazione; la seconda attribuisce alla relatività speciale un vincolo locale della relatività generale."
+    },
+    {
+      "id": "dev06_D",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima dà una risposta sostanzialmente pertinente ma tautologica e linguisticamente imprecisa; la seconda attribuisce il limite alla relatività speciale."
+    },
+    {
+      "id": "dev07_A",
+      "answer_1": "I",
+      "answer_2": "I",
+      "preference": "t",
+      "reason": "La prima usa il movimento del legno come conversione della massa; la seconda attribuisce la produzione stellare all'espansione e raffreddamento."
+    },
+    {
+      "id": "dev07_B",
+      "answer_1": "P",
+      "answer_2": "I",
+      "preference": "1",
+      "reason": "La prima presenta il legame ma corrompe il fattore quadratico in cattiva quadrata; la seconda inventa una velocità minima di trasferimento massa-energia."
+    },
+    {
+      "id": "dev07_C",
+      "answer_1": "P",
+      "answer_2": "P",
+      "preference": "t",
+      "reason": "La prima chiama fattore la velocità senza specificare il quadrato nella spiegazione; la seconda identifica inizialmente c² con la velocità e si corregge solo dopo."
+    },
+    {
+      "id": "dev07_D",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda espone l'equivalenza con c al quadrato; la prima ripete l'affermazione impropria sulle stelle dal momento del Big Bang presente nel contesto."
+    },
+    {
+      "id": "dev08_A",
+      "answer_1": "C",
+      "answer_2": "C",
+      "preference": "t",
+      "reason": "Entrambe identificano c correttamente; introducono dettagli ulteriori ma non necessari rispetto al contesto."
+    },
+    {
+      "id": "dev08_B",
+      "answer_1": "C",
+      "answer_2": "C",
+      "preference": "t",
+      "reason": "Entrambe identificano c; la seconda contiene aggiunte non necessarie. Nessun vantaggio fattuale netto."
+    },
+    {
+      "id": "dev08_C",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda è precisa; l'ultima frase della prima confonde il coefficiente e il quadrato con formulazione ambigua."
+    },
+    {
+      "id": "dev08_D",
+      "answer_1": "P",
+      "answer_2": "C",
+      "preference": "2",
+      "reason": "La seconda risponde senza deviazioni; la prima aggiunge una distinzione fuorviante sull'applicabilità di E=mc² all'energia stellare."
+    }
+  ]
+}

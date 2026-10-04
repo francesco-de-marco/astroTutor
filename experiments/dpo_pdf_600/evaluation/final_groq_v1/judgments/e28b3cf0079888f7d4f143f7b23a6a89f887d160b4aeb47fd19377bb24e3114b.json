@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "e28b3cf0079888f7d4f143f7b23a6a89f887d160b4aeb47fd19377bb24e3114b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che modelli analitici e simulazioni numeriche sono complementari e si guidano a vicenda."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.019811521,
+      "prompt_tokens": 1769,
+      "prompt_time": 0.09095297,
+      "completion_tokens": 625,
+      "completion_time": 1.323457773,
+      "total_tokens": 2394,
+      "total_time": 1.414410743,
+      "completion_tokens_details": {
+        "reasoning_tokens": 78
+      }
+    },
+    "system_fingerprint": "fp_c800245357",
+    "response_id": "chatcmpl-07941fc2-2692-4816-9425-d1dcfbf0da6a",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "e28b3cf0079888f7d4f143f7b23a6a89f887d160b4aeb47fd19377bb24e3114b",
+    "d82cd45bc9c7221b68b92129bd868ba6cbbf5d33814c7a6cebf0f6772d1ea0aa",
+    "63524955ecf7599c931ea0b1de0c1215105964b75606427da97b34da6e3c0dee",
+    "6d019abf68f51db09e3701ecfc0e678589c5b57db0f33a722f964276b1ceb9b5",
+    "0f5344cdf4dae015cbbe305d2481b8f6b42ab9655918449a525df1d64f79356a",
+    "ab6f3edb8167f07710a902d132cbc440840f5a3ee51208da8909a5ccc582da27"
+  ]
+}

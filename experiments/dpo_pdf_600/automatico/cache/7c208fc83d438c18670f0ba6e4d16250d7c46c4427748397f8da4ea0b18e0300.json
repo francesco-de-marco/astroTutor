@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9503b382-7652-4815-9fc6-5f122b005bdb",
+  "object": "chat.completion",
+  "created": 1790375522,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"answer\": \"Durante un'eclissi lunare totale la Luna entra nell'umbra terrestre, ma non scompare del tutto perché la luce solare la raggiunge comunque dopo aver attraversato l'atmosfera terrestre. L'atmosfera diffonde e assorbe maggiormente le lunghezze d'onda più corte (blu e violetto) e devia la luce verso la parte più interna dell'ombra. Il risultato è che la luce che riesce a illuminare la Luna è ricca di lunghezze d'onda più lunghe, cioè rosse, facendo apparire il corpo celeste di un colore rosso‑coppero. Questo fenomeno è descritto nel brano, che indica che la luce è “bent into Earth’s shadow by passing through Earth’s atmosphere” e che la Luna appare “a dull coppery red”.\",\n  \"evidence_ids\": [4]\n}",
+        "reasoning": "We need to output JSON with usable true and answer up to 200 words, citing evidence ids. The answer: red color due to refracted sunlight through Earth's atmosphere, scattering of blue light, red remains. Evidence: [4] mentions sunlight bent into Earth's shadow by passing through atmosphere, appears coppery red. Also geometry maybe. Use ids 4."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.294786593,
+    "prompt_tokens": 666,
+    "prompt_time": 0.046495235,
+    "completion_tokens": 280,
+    "completion_time": 0.584571079,
+    "total_tokens": 946,
+    "total_time": 0.631066314,
+    "completion_tokens_details": {
+      "reasoning_tokens": 73
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_a655021f7d",
+  "x_groq": {
+    "id": "req_01m3db4twxe37t6q12j3rfajdk",
+    "seed": 590826186
+  },
+  "service_tier": "on_demand"
+}

@@ -1,0 +1,23 @@
+{
+  "response_hash": "aed0ce6f2c4966f74989a28fc67120b517e89a00f44070268fb4f2a3167412df",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 4,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta sostiene tutte le affermazioni chiave presenti nei chunk, come la contrazione delle nubi di gas e polvere, la formazione di idrogeno e elio, e la produzione di energia attraverso processi nucleari.",
+      "correctness": "La spiegazione è corretta e non contiene errori significativi.",
+      "level_adequacy": "Il linguaggio è adatto a un profilo A, con esempi semplici e un linguaggio comprensibile.",
+      "clarity": "La risposta è chiara e coerente, senza divagazioni o passaggi confusi."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2151,
+    "eval_count": 206,
+    "total_duration": 6701516700,
+    "done_reason": "stop"
+  }
+}

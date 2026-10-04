@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8df4508480da65f839d17dbd00838c7dd9969ad8f22b71572303c4280fca9077",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riassume esattamente il meccanismo di minore attenuazione dell'infrarosso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.091034161,
+      "prompt_tokens": 1747,
+      "prompt_time": 0.083424877,
+      "completion_tokens": 768,
+      "completion_time": 1.614766299,
+      "total_tokens": 2515,
+      "total_time": 1.698191176,
+      "completion_tokens_details": {
+        "reasoning_tokens": 197
+      }
+    },
+    "system_fingerprint": "fp_69dbc96c74",
+    "response_id": "chatcmpl-d387aac5-ef87-45b5-b308-fd9ede734445",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "3d100516990a8294040e83ba2eb8b726708d02ca10e6410213e34206ce7cd3d9",
+    "8df4508480da65f839d17dbd00838c7dd9969ad8f22b71572303c4280fca9077",
+    "402c22713e2dfffe3f6344cc93d2387a89d75e9ec0ec579c98f848f4cbaa5a45",
+    "61ba337a58adce3654d83ca6cd3a3c77748f9925c41df3fb357a0ca47dca9ba8",
+    "863015fcee549429c36587d3dce0d5d1c77c2cde481f9dfbf74815a13584fbfd",
+    "7873cc55a9d7aa5b5b4532172eebaa34a40f4d683fef844bead7d2bbfc0be834"
+  ]
+}

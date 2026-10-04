@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-130d9ce8-b465-412f-b79e-8c8a6fb8b161",
+  "object": "chat.completion",
+  "created": 1790375962,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché, secondo il brano, un eccesso di materia concentrata in un volume molto piccolo può far sì che lo spazio si curvi fino a diventare una “fossa infinitamente profonda”?\",\n  \"answer\": \"Il brano spiega che la gravità è una manifestazione della curvatura dello spazio. Quando la quantità di materia è così grande da occupare un volume molto piccolo, la curvatura dello spazio diventa estremamente intensa: “il bending of space can become so severe that it literally becomes an infinitely deep pit”. Questa curvatura estrema crea una zona da cui nulla può uscire, perché la “fossa” è così profonda da non permettere alcun percorso di ritorno, nemmeno per la luce. In altre parole, l’accumulo eccessivo di massa genera una deformazione dello spazio talmente forte da formare un buco nero, descritto come una “fossa infinitamente profonda”.\",\n  \"evidence_ids\": [2,3,4]\n}",
+        "reasoning": "We need to extract a conceptual question. From text: why does too much matter cause space to bend infinitely? Question: Why does a sufficiently dense mass lead to an \"infinitely deep pit\" of space from the description? Answer based on text. Provide JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.055180975,
+    "prompt_tokens": 744,
+    "prompt_time": 0.035682674,
+    "completion_tokens": 291,
+    "completion_time": 0.603854383,
+    "total_tokens": 1035,
+    "total_time": 0.639537057,
+    "completion_tokens_details": {
+      "reasoning_tokens": 54
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_dee443f41b",
+  "x_groq": {
+    "id": "req_01m3dbj9fzez8s0bkh21s7bynh",
+    "seed": 904288365
+  },
+  "service_tier": "on_demand"
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "c8a89ae9fb619964a3050812a6b5e1802e2a02d2de0710ec7f991898377616a0",
+    "correctness": "I",
+    "completeness": 0,
+    "adequacy": 0,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Non fornisce alcuna spiegazione sul fenomeno dell'aurora."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.154015571,
+      "prompt_tokens": 1732,
+      "prompt_time": 0.266206828,
+      "completion_tokens": 760,
+      "completion_time": 1.620030146,
+      "total_tokens": 2492,
+      "total_time": 1.886236974,
+      "completion_tokens_details": {
+        "reasoning_tokens": 223
+      }
+    },
+    "system_fingerprint": "fp_a4be3b0989",
+    "response_id": "chatcmpl-7b9add8b-72dc-44c4-b132-e4c459557afc",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "a3e4569f5aee69e88ccc96c3df799caed9553b972aa16909f4b58cc4fc638d98",
+    "0dfa211536779c15cd7b4cc353adb943aee69fbf6833d5ec64938364e20fd68e",
+    "b86218d0c650da75be0d8b87857b6f82a81d535aff44cb4e8db560431dde9715",
+    "a04836c3e651615e6ac2b795f1527478cf19b32488a6740e86b71b8c8d71e2f1",
+    "c8a89ae9fb619964a3050812a6b5e1802e2a02d2de0710ec7f991898377616a0",
+    "b75c1b59d08690c037d747ef2ef5411d7a651284a0620cbb9d9665dd7391d21d"
+  ]
+}

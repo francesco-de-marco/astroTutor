@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "9bf3b0aaf06ed30a338a7d678a9ef3194bde7d702d12fb81c0d7e69464615733",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega bene costi e necessità di modelli analitici, adatto al livello B."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.308226854,
+      "prompt_tokens": 2141,
+      "prompt_time": 0.11900047,
+      "completion_tokens": 615,
+      "completion_time": 1.30465439,
+      "total_tokens": 2756,
+      "total_time": 1.42365486,
+      "completion_tokens_details": {
+        "reasoning_tokens": 66
+      }
+    },
+    "system_fingerprint": "fp_69334c0be3",
+    "response_id": "chatcmpl-53b7068a-f871-4dcf-9f41-fade93954588",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "20884c938cd859afd2a083e5f93b117049c66b52f8953a163639bd8f518ed0e5",
+    "6f6cbc83be7e3eec1bebcbd6db094ba3a9256807d9af0ab0140b5c650fa46be7",
+    "ed2f3af61d095ebe7d328cb993dd8399071681c6502d0d3a8861b34a64815524",
+    "9bf3b0aaf06ed30a338a7d678a9ef3194bde7d702d12fb81c0d7e69464615733",
+    "147c10c76ab6c1522b5e1c2066a579a31f41b03d79f9aa6f4823d544e6b8a05a",
+    "7b454dff125668737690186ce05c64e31120e0553c947dff3f894915a53d51ba"
+  ]
+}

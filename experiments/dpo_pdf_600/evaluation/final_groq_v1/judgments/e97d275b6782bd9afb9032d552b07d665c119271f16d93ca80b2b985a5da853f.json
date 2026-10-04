@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "e97d275b6782bd9afb9032d552b07d665c119271f16d93ca80b2b985a5da853f",
+    "correctness": "I",
+    "completeness": 0,
+    "adequacy": 0,
+    "clarity": 0,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrizione priva di fondamento scientifico, confonde i concetti di moto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.052412273,
+      "prompt_tokens": 1666,
+      "prompt_time": 0.150946621,
+      "completion_tokens": 819,
+      "completion_time": 2.221317141,
+      "total_tokens": 2485,
+      "total_time": 2.372263762,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 286
+      }
+    },
+    "system_fingerprint": "fp_4200b3f836",
+    "response_id": "chatcmpl-7cb4e50d-a5ff-427c-9364-adaaaf531530",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "a30e30360faa0c9cf1a308ac9ef014f65667b7d47f7a5b8011ceb91013106e54",
+    "7294427aa70fd22565f62902f1ea72313ca874b5041b3222766763a27177a6f0",
+    "322a51618b4bc2bb9495b788d40c820af0dd624d3adc4ed7bc30e2be4246ee56",
+    "46142d123b9df369a2ce58927993614eea48047356046f9fec9d234a229eafd4",
+    "e97d275b6782bd9afb9032d552b07d665c119271f16d93ca80b2b985a5da853f",
+    "8ac6e82ad292be10e8eb7859cab592c44e5cede59cf6b6d5a222e8232f8db1b8"
+  ]
+}

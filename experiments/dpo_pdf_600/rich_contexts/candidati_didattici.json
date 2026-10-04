@@ -1,0 +1,90 @@
+[
+  {
+    "id": "0b000b835d3967e6acb9def6",
+    "level": "B",
+    "question": "Come possono gli astronomi mettere alla prova le loro ipotesi senza portare le stelle in laboratorio?",
+    "context": "When you read about experiments, you probably have a mental picture of a scientist in a laboratory conducting tests or taking careful measurements. This is certainly the case for a biologist or a chemist, but what can astronomers do when our laboratory is the universe? It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company.  \nAs a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary. New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail. Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment.  \nMuch of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it. In the same way, a geologist cannot alter what has happened to our planet, and a paleontologist cannot bring an ancient animal back to life. While this can make astronomy challenging, it also gives us fascinating opportunities to discover the secrets of our cosmic past.",
+    "source": {
+      "context": "When you read about experiments, you probably have a mental picture of a scientist in a laboratory conducting tests or taking careful measurements. This is certainly the case for a biologist or a chemist, but what can astronomers do when our laboratory is the universe? It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company.  \nAs a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary. New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail. Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment.  \nMuch of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it. In the same way, a geologist cannot alter what has happened to our planet, and a paleontologist cannot bring an ancient animal back to life. While this can make astronomy challenging, it also gives us fascinating opportunities to discover the secrets of our cosmic past.",
+      "context_hash": "4c37525f93fe0114a815b56ebbd2ed801980e18053358d4e9f791f0a4394f303",
+      "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+      "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+      "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+      "source_level": "B",
+      "topic": "6",
+      "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+      "chunk_line": 22,
+      "split": "train",
+      "level": "C",
+      "id": "0b000b835d3967e6acb9def6"
+    },
+    "chosen": "Gli astronomi non possono mettere stelle in provette né ordinare comete, quindi devono affidarsi all'osservazione diretta degli oggetti celesti. Per questo l'astronomia è definita una scienza osservazionale: si studiano molti campioni dello stesso tipo di oggetto e si confrontano le loro differenze. Le ipotesi vengono valutate confrontando le previsioni con i dati raccolti; se i risultati coincidono, l'ipotesi passa, altrimenti fallisce, proprio come in un esperimento di laboratorio.",
+    "rejected": "È impossibile mettere un gruppo di stelle in una provetta o ordinare un cometa da un fornitore scientifico. Per questo l'astronomia è definita una scienza osservazionale: gli astronomi studiano molti campioni di oggetti celesti e confrontano le loro differenze. Le ipotesi vengono poi valutate alla luce di queste nuove osservazioni e, come in un esperimento di laboratorio, possono essere confermate o smentite.",
+    "judge": {
+      "question_answerable": true,
+      "in_astronomy_scope": true,
+      "answers": [
+        {
+          "sentences": [
+            {
+              "index": 1,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Corrisponde esattamente al fatto 3 (impossibilità di mettere stelle in provetta o ordinare comete)."
+            },
+            {
+              "index": 2,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Corrisponde al fatto 4 (astronomia come scienza osservazionale, studio di molti campioni e variazioni)."
+            },
+            {
+              "index": 3,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Corrisponde al fatto 6 (valutazione delle ipotesi alla luce delle osservazioni, confronto con esperimento di laboratorio)."
+            }
+          ],
+          "core_preserved": true,
+          "natural": true
+        },
+        {
+          "sentences": [
+            {
+              "index": 1,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Riformula il fatto 3. L'aggiunta 'quindi devono affidarsi all'osservazione diretta' è una conseguenza logica diretta del fatto 4 presente nel contesto, quindi supportata."
+            },
+            {
+              "index": 2,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Corrisponde al fatto 4 (scienza osservazionale, studio di campioni dello stesso tipo e confronto delle differenze)."
+            },
+            {
+              "index": 3,
+              "supported": true,
+              "scientifically_correct": true,
+              "uncertain": false,
+              "reason": "Corrisponde al fatto 6. L'esplicazione 'confrontando le previsioni con i dati raccolti' è una spiegazione pedagogica corretta del meccanismo di valutazione delle ipotesi descritto nel testo originale ('judged in the light of this new information')."
+            }
+          ],
+          "core_preserved": true,
+          "natural": true
+        }
+      ],
+      "preferred": 2,
+      "substantial_pedagogical_difference": true,
+      "preferred_appropriate": true,
+      "reason": "Entrambe le risposte coprono il nucleo obbligatorio (fatti 3, 4, 6) in modo accurato. Tuttavia, la risposta 2 è preferibile per il profilo 'Scuola secondaria di primo grado' perché spiega meglio il *meccanismo* richiesto dalla domanda. La frase finale della risposta 2 ('Le ipotesi vengono valutate confrontando le previsioni con i dati raccolti...') chiarisce concretamente *come* avviene il giudizio, mentre la risposta 1 si limita a dire che vengono valutate 'alla luce di queste nuove osservazioni'. Questa maggiore chiarezza sul processo scientifico rende la risposta 2 più pedagogicamente efficace per studenti alle prime armi, definendo implicitamente il metodo di verifica senza aggiungere fatti esterni non supportati."
+    },
+    "qa_status": "automatic_preference_locally_inspected_not_human_validated",
+    "training_ready": false
+  }
+]

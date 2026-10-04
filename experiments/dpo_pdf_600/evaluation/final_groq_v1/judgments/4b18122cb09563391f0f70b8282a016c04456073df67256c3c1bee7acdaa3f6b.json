@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "4b18122cb09563391f0f70b8282a016c04456073df67256c3c1bee7acdaa3f6b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente la natura del vento solare, senza errori, in modo comprensibile."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209568538,
+      "prompt_tokens": 1549,
+      "prompt_time": 0.068768727,
+      "completion_tokens": 596,
+      "completion_time": 1.254509013,
+      "total_tokens": 2145,
+      "total_time": 1.32327774,
+      "completion_tokens_details": {
+        "reasoning_tokens": 69
+      }
+    },
+    "system_fingerprint": "fp_9241e9962b",
+    "response_id": "chatcmpl-9469aeed-5220-4465-9e9d-d3eaf05e4549",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "98c84ade06884fe10946d055775aa1da2500d0cab70b540ed9add9be484ded37",
+    "038a34b7bef96402f20598e44d5755e12ce2e487c59bf198a946d3871a5c06c2",
+    "e68c8a4d352c8cde3e98cc7d718e37b9c759d6ce5dc6027ceecd7351c785ca00",
+    "4b18122cb09563391f0f70b8282a016c04456073df67256c3c1bee7acdaa3f6b",
+    "2430063744e7d9ae920ef6ba0d77879ec40621bf9bd31a5cb56fa9a013a09e4f",
+    "c7ca626cb33353b5c06bf2b677a1c9856bf2c8071fb3fde6dd9e0de44814a4ff"
+  ]
+}

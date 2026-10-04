@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d7379f8ea2a7ed5c451fb41b9be39305628fe200c75994747e039e99db4ac7c7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Fornisce spiegazione completa e corretta del fenomeno di assorbimento e della sua origine."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.300192959,
+      "prompt_tokens": 1699,
+      "prompt_time": 0.173183315,
+      "completion_tokens": 855,
+      "completion_time": 3.493318114,
+      "total_tokens": 2554,
+      "total_time": 3.666501429,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 310
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-79178a84-ee16-44a8-86a7-5b36c621f1ba",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "9073832a9644fb86b2d2e3fb3b71b54f406c9f2db081e43f6ed99737699238d1",
+    "41f1c34e9c8ecf13f35fa730b5568f189cf65a2be177671ca220d85dff14ce9f",
+    "d7379f8ea2a7ed5c451fb41b9be39305628fe200c75994747e039e99db4ac7c7",
+    "f0a1c528a831853c58457cd4f468836a6907af45019c8ef97d883cf2de71d564",
+    "4d20ab8197fe53b81e76ceb2553e58c8363970f429c62e768f6e5e0e49521342",
+    "55b14e2f461a09e4ccb00c3bc4782f4ecd02e3b8cbf0581d0cc9a7a1228fbc27"
+  ]
+}

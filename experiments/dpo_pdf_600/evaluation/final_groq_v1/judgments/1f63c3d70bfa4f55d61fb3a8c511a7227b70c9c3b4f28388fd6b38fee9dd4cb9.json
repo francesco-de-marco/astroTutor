@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "1f63c3d70bfa4f55d61fb3a8c511a7227b70c9c3b4f28388fd6b38fee9dd4cb9",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermazione corretta e aggiunge spiegazione sull’interazione con le aurore, senza errori."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.051341275,
+      "prompt_tokens": 1930,
+      "prompt_time": 0.136155719,
+      "completion_tokens": 643,
+      "completion_time": 1.352438338,
+      "total_tokens": 2573,
+      "total_time": 1.488594057,
+      "completion_tokens_details": {
+        "reasoning_tokens": 93
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-60c3d2af-7b56-4ef7-a9ec-e77c03b774e7",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "08e46fe4f2ed77bc935570c749dc89fc401b5536678a2f4bf210bebac955fcab",
+    "1f63c3d70bfa4f55d61fb3a8c511a7227b70c9c3b4f28388fd6b38fee9dd4cb9",
+    "27ad7a99f0eccee63dc8fa3a35fded22c0391d0fdb71baf0322f99d93f14e938",
+    "8c3ade89f3ea1bcfcf95a9ee6e67fcf699ceb19d94c46d96a08842de758ad390",
+    "8ea50e6e7af70c50f6333eea6583cc137486f6e056792f9a8a4bcc61e3f53200",
+    "106fa9de2535721b23000fa1252d72d57ad62b7e57352dea77660dc454bab2f9"
+  ]
+}

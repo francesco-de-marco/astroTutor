@@ -1,0 +1,154 @@
+[
+  {
+    "label": "R01",
+    "setting": "zero",
+    "item_id": "dev07_D",
+    "judge": {
+      "faithfulness": 4,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+        "correctness": "La risposta è corretta e non contiene errori.",
+        "level_adequacy": "Il livello di formalismo è adatto a un profilo universitario, ma le spiegazioni potrebbero essere più concise.",
+        "clarity": "La risposta è chiara e coerente, ma contiene alcune frasi冗余，可以简化。"
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R02",
+    "setting": "zero",
+    "item_id": "dev02_C",
+    "judge": {
+      "faithfulness": 3,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "La risposta contiene elementi non presenti nei chunk, come l'espansione in stella gigante e l'esplodere in supernova, nonostante il contesto parli di un buco nero.",
+        "correctness": "La spiegazione è corretta, ma potrebbe essere più concisa e diretta.",
+        "level_adequacy": "Il livello di formalismo è adatto a un profilo C, ma l'uso di termini tecnici come 'sequenza principale' potrebbe essere difficile per un alunno di scuola superiore.",
+        "clarity": "La risposta è chiara e coerente, ma potrebbe essere migliorata con una struttura più lineare."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R03",
+    "setting": "zero",
+    "item_id": "dev01_A",
+    "judge": {
+      "faithfulness": 3,
+      "correctness": 4,
+      "level_adequacy": 4,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "La risposta contiene elementi corretti ma non tutti i chunk sono supportati.",
+        "correctness": "La spiegazione è corretta, ma potrebbe essere più precisa.",
+        "level_adequacy": "Il livello di formalismo e la profondità sono adatti al profilo A.",
+        "clarity": "La risposta è chiara e coerente, ma potrebbe essere un po' più dettagliata."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R04",
+    "setting": "original",
+    "item_id": "dev05_B",
+    "judge": {
+      "faithfulness": 4,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+        "correctness": "La spiegazione è corretta e non contiene errori.",
+        "level_adequacy": "Il livello di dettaglio è adatto per la scuola media, ma potrebbe essere più preciso.",
+        "clarity": "La risposta è chiara e coerente."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R05",
+    "setting": "zero",
+    "item_id": "dev05_B",
+    "judge": {
+      "faithfulness": 4,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+        "correctness": "La spiegazione è corretta e non contiene errori.",
+        "level_adequacy": "Il livello di dettaglio è adatto per la scuola media, ma potrebbe essere più approfondito.",
+        "clarity": "La risposta è chiara e coerente."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R06",
+    "setting": "original",
+    "item_id": "dev07_D",
+    "judge": {
+      "faithfulness": 3,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "La risposta contiene elementi non presenti nei chunk, come l'ipotesi di particelle o oggetti che comprendono la materia oscura e l'uso dell'evoluzione delle galassie. Inoltre, l'uso di termini come 'aria' e 'metallo' non è appropriato per il profilo D.",
+        "correctness": "Nessun errore identificato.",
+        "level_adequacy": "Il livello di formalismo è eccessivo per il profilo D, con l'inserimento di equazioni e termini complessi.",
+        "clarity": "La risposta è chiara e coerente, ma potrebbe essere più semplice per il profilo D."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R07",
+    "setting": "original",
+    "item_id": "dev01_A",
+    "judge": {
+      "faithfulness": 4,
+      "correctness": 4,
+      "level_adequacy": 4,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "La risposta sostiene tutte le affermazioni chiave presenti nei chunk, come la contrazione delle nubi di gas e polvere, la formazione di idrogeno e elio, e la produzione di energia attraverso processi nucleari.",
+        "correctness": "La spiegazione è corretta e non contiene errori significativi.",
+        "level_adequacy": "Il linguaggio è adatto a un profilo A, con esempi semplici e un linguaggio comprensibile.",
+        "clarity": "La risposta è chiara e coerente, senza divagazioni o passaggi confusi."
+      },
+      "source_concern": ""
+    }
+  },
+  {
+    "label": "R08",
+    "setting": "original",
+    "item_id": "dev02_C",
+    "judge": {
+      "faithfulness": 3,
+      "correctness": 4,
+      "level_adequacy": 3,
+      "clarity": 4,
+      "refusal": false,
+      "explanation": {
+        "faithfulness": "La risposta contiene elementi non presenti nei chunk, come l'esplosione nucleare e la formazione di buchi neri o nuove stelle.",
+        "correctness": "Nessun errore identificato.",
+        "level_adequacy": "Il livello di formalismo è adatto a un profilo C, ma ci sono alcuni concetti avanzati come la fusione nucleare e l'esplosione nucleare che potrebbero essere troppo complessi per un profilo C.",
+        "clarity": "La risposta è chiara e coerente, ma potrebbe essere un po' troppo tecnica per un profilo C."
+      },
+      "source_concern": ""
+    }
+  }
+]

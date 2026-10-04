@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "db2fa1f5f252e2e5116601677df281bd98d5f0365ab94b31d545ff2b9faab96f",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che la radiazione nasce dal gas esterno all'orizzonte."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.051562762,
+      "prompt_tokens": 2030,
+      "prompt_time": 0.347778343,
+      "completion_tokens": 750,
+      "completion_time": 2.153923718,
+      "total_tokens": 2780,
+      "total_time": 2.501702061,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 221
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-c912d2fe-1f81-42d0-884f-9a5b5eaa7ac7",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "4d2fffe9ebb6839f405796ab28fcd4c68f05f067e1c002bf349936b355dfbe48",
+    "db2fa1f5f252e2e5116601677df281bd98d5f0365ab94b31d545ff2b9faab96f",
+    "748967d866e4f3afadc57ad5d6621316b659284e7b5bb7aede9299024162f647",
+    "643d53d5cf271b5a9cde8439514f1bc6e95a0b50b4700dca26d8a7af24d6bb03",
+    "26f2ecf3dba7e5f44d8c071322e022fa617e7e80576e2828dd2bd9e62136f3ea",
+    "ef92969588db1a9c2c8cd74ce6f025c510bca827113e518c89bc1e16e84c51e4"
+  ]
+}

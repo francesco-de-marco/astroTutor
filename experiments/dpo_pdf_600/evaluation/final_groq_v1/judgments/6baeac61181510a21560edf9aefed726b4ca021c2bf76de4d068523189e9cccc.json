@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6baeac61181510a21560edf9aefed726b4ca021c2bf76de4d068523189e9cccc",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive erroneamente la riga come emissione dominante e afferma che la stella assorbe la luce circostante."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.154730496,
+      "prompt_tokens": 1660,
+      "prompt_time": 0.205572445,
+      "completion_tokens": 808,
+      "completion_time": 1.706602492,
+      "total_tokens": 2468,
+      "total_time": 1.912174937,
+      "completion_tokens_details": {
+        "reasoning_tokens": 258
+      }
+    },
+    "system_fingerprint": "fp_6fb4303df4",
+    "response_id": "chatcmpl-d0b5dd5e-76b1-4319-9e95-6628143c22d6",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5ca7258f24fe28e61ef21dcc6f1440f4ca499bad468b9600b3e6bb452d860626",
+    "9b56740ad29f3f99e268702955d933496d30c3636a94c797c9631e8f8a2de555",
+    "e8191df3cb481c61ed21870f215a6ee19dbb966a0042589878913c6cddc645c7",
+    "2f02c7410eb7840010b503c662b176466a02b745e07891d92de06069508ae733",
+    "defba91b9fc561d1fde1b8be0773b8cf704f2b7858b323af114dfe9adca410c6",
+    "6baeac61181510a21560edf9aefed726b4ca021c2bf76de4d068523189e9cccc"
+  ]
+}

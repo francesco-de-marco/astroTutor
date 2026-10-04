@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-5fa63906-1188-4a51-92f4-3260919f6b22",
+  "object": "chat.completion",
+  "created": 1790377335,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"usable\":true,\"question\":\"Come può una grande massa aiutare a osservare una galassia lontana?\",\"fact_ids\":[1,2,3,6]}",
+        "reasoning": "We need to output JSON with usable true and question and fact_ids. Choose sentences that support question and answer. Question: \"Come può una grande massa aiutare a osservare una galassia lontana?\" Use facts 1,2,3,6 maybe. Provide IDs list."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.300033185,
+    "prompt_tokens": 682,
+    "prompt_time": 0.031794071,
+    "completion_tokens": 104,
+    "completion_time": 0.214562656,
+    "total_tokens": 786,
+    "total_time": 0.246356727,
+    "completion_tokens_details": {
+      "reasoning_tokens": 59
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_27194a498a",
+  "x_groq": {
+    "id": "req_01m3dcw5r7e69tmn5arvy17z1d",
+    "seed": 1797668116
+  },
+  "service_tier": "on_demand"
+}

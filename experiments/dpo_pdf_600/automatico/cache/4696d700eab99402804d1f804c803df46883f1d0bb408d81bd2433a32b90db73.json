@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-e8fc40e2-5a72-4fdd-9314-b9f2377a55b8",
+  "object": "chat.completion",
+  "created": 1790375235,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"answer\": \"I giganti gassosi non possiedono una superficie solida perché la loro composizione è quasi interamente costituita da gas (idrogeno, elio e tracce di acqua, metano e ammoniaca). La loro enorme massa ha tratto questi gas in un involucro continuo, senza formare uno strato roccioso o metallico che possa fungere da superficie definita.\",\n  \"evidence_ids\": [2]\n}",
+        "reasoning": "We need to output JSON with usable true and answer. Use evidence ids 2."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.205571444,
+    "prompt_tokens": 691,
+    "prompt_time": 0.027177978,
+    "completion_tokens": 133,
+    "completion_time": 0.277561875,
+    "total_tokens": 824,
+    "total_time": 0.304739853,
+    "completion_tokens_details": {
+      "reasoning_tokens": 18
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_e1a78f200e",
+  "x_groq": {
+    "id": "req_01m3daw2zbedh8z5m71rm0225m",
+    "seed": 1644125003
+  },
+  "service_tier": "on_demand"
+}

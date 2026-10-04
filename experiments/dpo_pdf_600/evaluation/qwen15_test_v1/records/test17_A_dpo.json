@@ -1,0 +1,24 @@
+{
+  "manifest_hash": "38186503203c58adbecb3f175f3a8b4f3562667617dc871b333702f2a11905e0",
+  "id": "test17_A",
+  "setting": "dpo",
+  "answer": "Le due parti del fascio seguono due percorsi paralleli.",
+  "completion_ids": [
+    2304,
+    4152,
+    78888,
+    1594,
+    15195,
+    815,
+    81302,
+    10148,
+    4152,
+    43463,
+    73087,
+    57030,
+    742,
+    13,
+    151645
+  ],
+  "flags": []
+}

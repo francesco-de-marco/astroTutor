@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8e031502976dfd462d91e0100968af0f2a3788fd81b15800d2d0fbaab562e1ba",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiegazione chiara e adatta a scuola media, con esempi comprensibili."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.152116783,
+      "prompt_tokens": 1859,
+      "prompt_time": 0.089451605,
+      "completion_tokens": 761,
+      "completion_time": 1.617078825,
+      "total_tokens": 2620,
+      "total_time": 1.70653043,
+      "completion_tokens_details": {
+        "reasoning_tokens": 232
+      }
+    },
+    "system_fingerprint": "fp_60e4b492db",
+    "response_id": "chatcmpl-356bfb29-a542-4724-8ac8-67eb7348b2fc",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "4452851e355cc4f561ab3cc0d2ba0fe7ef4eb3a819025d74f1de65fd64a98b9f",
+    "6e26b271a7d2e395cd0d6de856758c2f97a84f7da02ec1285f9ba53a11ad2926",
+    "8e031502976dfd462d91e0100968af0f2a3788fd81b15800d2d0fbaab562e1ba",
+    "485e1e6659a1a9e7e4957713e5e4c15d3de76ee02d05c7f6159707e8a83f4463",
+    "1040375908e808b341f4123b5e4c317c75fe130c0a11dc3ab222032f01264867",
+    "7a447c7e09c281e663ba2738530c81cabf842882946d211fcf734f0ebec2c494"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8cf61c67951720333deba8b560e7a03b1924c1a3325a02b9ab12f7a7a5b272fa",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risponde correttamente indicando che la ricombinazione forma atomi di idrogeno neutro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.30548434,
+      "prompt_tokens": 1398,
+      "prompt_time": 0.096720201,
+      "completion_tokens": 599,
+      "completion_time": 1.679490485,
+      "total_tokens": 1997,
+      "total_time": 1.776210686,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 142
+      }
+    },
+    "system_fingerprint": "fp_69334c0be3",
+    "response_id": "chatcmpl-d494f0e3-15ce-4ea1-b3d8-6bf242e4120b",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8cf61c67951720333deba8b560e7a03b1924c1a3325a02b9ab12f7a7a5b272fa",
+    "f8c0f61f36720e079d777164452c5983f43106576e754fee1df003feb3e29299",
+    "d0b1d4bc677e4f9d96f1d515b3e788d0b5d3ebe5682294a08e28e257dcf66a14",
+    "b5be327296993cae4b6b497b281a7afe17b3d30c7aa6f79be259674448ee0edb",
+    "53032d94efa84a6eb97df665203b91c43d7b0c3405e8d8f60d4beaf8279c616f"
+  ]
+}

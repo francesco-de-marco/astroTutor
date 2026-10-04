@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6f55852f142321e004d84f929289940cc9e892d27d3f35ed36936aab34c6b39d",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega in modo corretto che meno elettroni liberi permettono ai fotoni di viaggiare."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.312471439,
+      "prompt_tokens": 1710,
+      "prompt_time": 0.097560744,
+      "completion_tokens": 812,
+      "completion_time": 1.697969256,
+      "total_tokens": 2522,
+      "total_time": 1.7955299999999998,
+      "completion_tokens_details": {
+        "reasoning_tokens": 244
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-51afdea5-0873-46af-879f-cf1b4a227b1d",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6d3ca98389f24c237653fd91b146e893e4f0be3c65295cca7b859cfd360edeec",
+    "0b4e64e401430f8cda4bff1082481675b85a21a50aed8ace71fc18dc111441f1",
+    "b9d746791d939b2732a7393f0115c6e8d0bbd1907ce7876cfc61a6cc8890ccdd",
+    "ea438fc938d42545d02e2244247f8535cf8c35d8a21d04a503437f5324415757",
+    "6f55852f142321e004d84f929289940cc9e892d27d3f35ed36936aab34c6b39d",
+    "3131d50593c212c80c3fbedd2e82214dfc3d7b2e98e9b7388613d11fa6061240"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "e7bcfdb059f45b5453d6a55ad75d4dda9b490de3b20f4b9097db829e1618125b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente l'interazione delle particelle con l'atmosfera, senza errori sostanziali."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.089830772,
+      "prompt_tokens": 1882,
+      "prompt_time": 0.078736638,
+      "completion_tokens": 847,
+      "completion_time": 1.760926334,
+      "total_tokens": 2729,
+      "total_time": 1.839662972,
+      "completion_tokens_details": {
+        "reasoning_tokens": 302
+      }
+    },
+    "system_fingerprint": "fp_7a4ab09ae4",
+    "response_id": "chatcmpl-a9a6b11c-a31c-4d53-bdda-7be45e047fe3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "e7bcfdb059f45b5453d6a55ad75d4dda9b490de3b20f4b9097db829e1618125b",
+    "b3655b3fb582b3db8d6e70566a3bfadc69b89f46acb38169dc29e96c02ef7c21",
+    "4f461d82b0611cbf746155e41f0494fa5b632edc70f2cbceb3b2b602923d0f00",
+    "0fe220f4e4f73b3fc3bebfdc3dda5babcfc3d806bf3c65469fc12f2fed93dee9",
+    "feab0d4378e7df1150d5abad5d6c2bbf9c332343858da9e52b7b1a05d6c0d726",
+    "850d563c2ec84189d74ef860db0caccce7ee174e70414d76515283da967886f6"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "0b269eb5d9463a71313c778b864e82a052c287e77b8f96e768b10c1dd82cd314",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che è visibile nello stesso punto da qualsiasi luogo è errato; copre solo una zona."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.054828056,
+      "prompt_tokens": 1630,
+      "prompt_time": 0.147751974,
+      "completion_tokens": 776,
+      "completion_time": 1.639112409,
+      "total_tokens": 2406,
+      "total_time": 1.786864383,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 326
+      }
+    },
+    "system_fingerprint": "fp_8ea50c0161",
+    "response_id": "chatcmpl-d09a7536-8041-4ff4-9518-885d9c3c028d",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8d49b95e11ab80366da4623af309e48544ce9245bd4c4a6640144ed94acf431b",
+    "898dc9c2b243c5a9e6694eb67a9bcde51593d82ec78435b5c501475f58a92614",
+    "f8b2b26d3028301af3bea5df0a6a209e5580b1d5e5f9c997c25b2c47d0f20a1f",
+    "030aac9508db3fa1d6d479fd8c74dff434ef901ffb5523a91f32903fac2f8a21",
+    "0b269eb5d9463a71313c778b864e82a052c287e77b8f96e768b10c1dd82cd314"
+  ]
+}

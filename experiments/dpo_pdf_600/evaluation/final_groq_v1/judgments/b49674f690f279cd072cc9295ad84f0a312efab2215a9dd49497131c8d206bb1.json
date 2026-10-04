@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b49674f690f279cd072cc9295ad84f0a312efab2215a9dd49497131c8d206bb1",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Fornisce spiegazione corretta del processo di eccitazione/emmisione, adeguata al livello richiesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022760479,
+      "prompt_tokens": 2448,
+      "prompt_time": 0.115118772,
+      "completion_tokens": 637,
+      "completion_time": 1.357934939,
+      "total_tokens": 3085,
+      "total_time": 1.473053711,
+      "completion_tokens_details": {
+        "reasoning_tokens": 67
+      }
+    },
+    "system_fingerprint": "fp_87b3c396db",
+    "response_id": "chatcmpl-bc97aad4-ccce-488b-8692-4e00b479d1b3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "36f177038d1bfe65369a8eb535d926380bfb0f420642cc97a09b8c10fa93d734",
+    "e2168df4ccd88e9e880df4c41affef622a40d1b38384a8cea8591420208f32a5",
+    "b49674f690f279cd072cc9295ad84f0a312efab2215a9dd49497131c8d206bb1",
+    "98085351942a6c70f40c89adccad958c351fa19148beba67ebcd5da655b98453",
+    "b4bce7604a91a80a32946c62b12f9c2d6739f557e5de06040961938cfabcdf9c",
+    "64fd46bbece6a5ee389f4fa523ff794351c17d07ec0cb3fac94d4aee06bdd503"
+  ]
+}

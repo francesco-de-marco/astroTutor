@@ -1,0 +1,23 @@
+{
+  "response_hash": "3e85cf1f1c21417e161f655dd6e70468dc3ddb3935734a9cf197e712a70f07ed",
+  "judgment": {
+    "faithfulness": 3,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta contiene elementi corretti ma non risponde completamente alla domanda. Menziona correttamente che entrambe sono residui stellari, ma non distingue tra le due tipologie di stelle in modo adeguato.",
+      "correctness": "La descrizione è corretta, ma potrebbe essere più precisa. Ad esempio, le nane bianche non si allungano e diventano più calde, ma si raffreddano e si contraono.",
+      "level_adequacy": "Il livello di dettaglio è adatto per la scuola media, ma potrebbe essere migliorato con ulteriori informazioni su come le stelle di neutroni differiscono dalle nane bianche.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere più chiara se si specificasse che le nane bianche sono meno massive delle stelle di neutroni."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2272,
+    "eval_count": 273,
+    "total_duration": 8256426500,
+    "done_reason": "stop"
+  }
+}

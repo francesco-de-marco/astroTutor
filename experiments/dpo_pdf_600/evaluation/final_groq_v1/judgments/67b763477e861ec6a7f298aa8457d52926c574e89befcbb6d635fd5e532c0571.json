@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "67b763477e861ec6a7f298aa8457d52926c574e89befcbb6d635fd5e532c0571",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente e in modo semplice il ruolo delle concentrazioni di materia oscura."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.213546845,
+      "prompt_tokens": 2295,
+      "prompt_time": 1.48945237,
+      "completion_tokens": 899,
+      "completion_time": 2.050785285,
+      "total_tokens": 3194,
+      "total_time": 3.540237655,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 351
+      }
+    },
+    "system_fingerprint": "fp_e1a78f200e",
+    "response_id": "chatcmpl-72feaae4-a88e-484a-aed9-d2755ac48a6b",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "bf112cce139249cecd3f50a940f1106024cc9ed1234754a3840888d229abddda",
+    "cc42717910258d3cbb780877dd61a3508f30a104ef873ac2327fc02639dca05d",
+    "90510eef1cdcf93f4a16547c715709a375ca095e54d912414967b55e9ee1c111",
+    "44a2b068b1fda50dc072bf3d69333ab313df2ae43378f0be4e6c598091c9a8ee",
+    "67b763477e861ec6a7f298aa8457d52926c574e89befcbb6d635fd5e532c0571",
+    "94c51d7e12c5528f3cea476a87d6c55e5bc673588df93fcf0d415dd58971b764"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "59f42e5b6e84e552a1cd5fde805702c9edda2749368f91ef4f44e67c2083aa95",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Fornisce spiegazione corretta e completa sulla formazione degli atomi di idrogeno."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.062344097,
+      "prompt_tokens": 1470,
+      "prompt_time": 0.152471661,
+      "completion_tokens": 536,
+      "completion_time": 1.1405517920000001,
+      "total_tokens": 2006,
+      "total_time": 1.293023453,
+      "completion_tokens_details": {
+        "reasoning_tokens": 94
+      }
+    },
+    "system_fingerprint": "fp_fe269835c7",
+    "response_id": "chatcmpl-b48863a9-0e9f-49f8-a1c4-1a52980312a6",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "2eae61857cb94f00e1de4122a5b4c4168292717c99f166f2ebd7583e856ad8a4",
+    "118067c0fd3de9c91eed3fdb1f28275c412b29c3c3f5bb73932c3f191c985314",
+    "59f42e5b6e84e552a1cd5fde805702c9edda2749368f91ef4f44e67c2083aa95",
+    "f69724db925f29ea4418fe43dcc0c82e8e6c7021c36dd72d88459cc494c2f31a",
+    "31f794cf3897725697a6ddd84d3a53135892c9dc81122c6e9f33376d75465e10"
+  ]
+}

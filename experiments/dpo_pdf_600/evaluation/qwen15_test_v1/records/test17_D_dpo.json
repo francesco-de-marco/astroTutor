@@ -1,0 +1,29 @@
+{
+  "manifest_hash": "38186503203c58adbecb3f175f3a8b4f3562667617dc871b333702f2a11905e0",
+  "id": "test17_D",
+  "setting": "dpo",
+  "answer": "Le due parti del fascio seguono i percorsi inversi rispetto al divisore.",
+  "completion_ids": [
+    2304,
+    4152,
+    78888,
+    1594,
+    15195,
+    815,
+    81302,
+    10148,
+    600,
+    43463,
+    73087,
+    64583,
+    72,
+    9824,
+    82243,
+    452,
+    49368,
+    460,
+    13,
+    151645
+  ],
+  "flags": []
+}

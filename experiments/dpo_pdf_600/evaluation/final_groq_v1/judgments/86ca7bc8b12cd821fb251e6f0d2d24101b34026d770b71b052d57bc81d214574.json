@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "86ca7bc8b12cd821fb251e6f0d2d24101b34026d770b71b052d57bc81d214574",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermando che la Luna orbita attorno alla Terra introduce un errore concettuale."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209820572,
+      "prompt_tokens": 1831,
+      "prompt_time": 0.37150092,
+      "completion_tokens": 844,
+      "completion_time": 2.485691075,
+      "total_tokens": 2675,
+      "total_time": 2.857191995,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 318
+      }
+    },
+    "system_fingerprint": "fp_803c0ba83d",
+    "response_id": "chatcmpl-46f35a9c-290e-48c6-8070-04212bd361ec",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8638d11362cbd7deccf182eeea791fc725ef207a03397f8973cb9cc4a54535d6",
+    "86ca7bc8b12cd821fb251e6f0d2d24101b34026d770b71b052d57bc81d214574",
+    "849c5d9496fac1177d5471676aed2ab32aa52f3da656e8654aaf16ba65951cc7",
+    "35a9a2082c3e9dc9dc119132936e11b357debec0a51203b70ed17633da5e6da0",
+    "f653f1a9202b5d767e6e4cf661b8211e871bfb1e2f2b943771aba0a66ec4c202",
+    "542be59353113c2d574635161140bb49d290d7a556d45b14b1cf420cf60d4b37"
+  ]
+}

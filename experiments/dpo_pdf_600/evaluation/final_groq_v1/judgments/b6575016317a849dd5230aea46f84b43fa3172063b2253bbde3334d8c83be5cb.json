@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b6575016317a849dd5230aea46f84b43fa3172063b2253bbde3334d8c83be5cb",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che le simulazioni sono costose e giustifica l'uso di modelli analitici."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.602419123,
+      "prompt_tokens": 1975,
+      "prompt_time": 0.191127091,
+      "completion_tokens": 914,
+      "completion_time": 1.943280337,
+      "total_tokens": 2889,
+      "total_time": 2.134407428,
+      "completion_tokens_details": {
+        "reasoning_tokens": 378
+      }
+    },
+    "system_fingerprint": "fp_be28f5c9f2",
+    "response_id": "chatcmpl-7917547a-2924-4534-9157-b89157f084e1",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "b6575016317a849dd5230aea46f84b43fa3172063b2253bbde3334d8c83be5cb",
+    "d170612fc6251278164841b787f7ff1b8a68316a79e702a05ca13c7281b18566",
+    "2817a3fd0204864a87058f8e0dcf98faf1e070ed12854818ce0806e3c1e6297b",
+    "8ebb56e6a7fd5fe4b0c3e3fa2d0cf1d70b8a4f9ebe1b4c0250fec25156c721b5",
+    "2d5f9cc465d37122812e849c80933a3a99c8d54b14897648c1e739c4d0414d28",
+    "494460b8b20acec5531f6608b55f7913c0f047a642df213ffd20b3e4484a1079"
+  ]
+}

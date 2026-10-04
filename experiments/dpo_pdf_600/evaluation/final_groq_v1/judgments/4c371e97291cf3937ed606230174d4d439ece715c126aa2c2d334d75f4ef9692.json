@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "4c371e97291cf3937ed606230174d4d439ece715c126aa2c2d334d75f4ef9692",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il deficit di luce a specifiche lunghezze d'onda."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.300080926,
+      "prompt_tokens": 1751,
+      "prompt_time": 0.092950014,
+      "completion_tokens": 615,
+      "completion_time": 1.288316013,
+      "total_tokens": 2366,
+      "total_time": 1.3812660270000001,
+      "completion_tokens_details": {
+        "reasoning_tokens": 103
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-504530f2-85fa-44aa-ae36-04a31f086bf2",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "7dd9b71d1d3fa0c6549d45829ed57a0cb94eec72a53c6afad6e4c07d7aba050a",
+    "440a2031d14c70c3e7c03a861e119e081aa4dcbae67c0fb62a1506ccb1f22896",
+    "0e3d374d183e8ef641991414941b49d517c103e0f9c6590b90f17fc5df176c7e",
+    "f1cfdeed774d5b7f2f7548e85299bf28f66a8b62c3d65cd610c934eea8c8319e",
+    "6f11063dca14eb383b51f8aeafd9f561163072bce055ea49e040a2349b9b420d",
+    "4c371e97291cf3937ed606230174d4d439ece715c126aa2c2d334d75f4ef9692"
+  ]
+}

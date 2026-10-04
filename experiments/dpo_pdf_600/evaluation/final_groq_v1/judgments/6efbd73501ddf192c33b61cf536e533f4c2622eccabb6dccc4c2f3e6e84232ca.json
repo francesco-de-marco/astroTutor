@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6efbd73501ddf192c33b61cf536e533f4c2622eccabb6dccc4c2f3e6e84232ca",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente conversione di energia potenziale gravitazionale in calore e radiazione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.208263918,
+      "prompt_tokens": 1720,
+      "prompt_time": 0.090381367,
+      "completion_tokens": 815,
+      "completion_time": 1.705441129,
+      "total_tokens": 2535,
+      "total_time": 1.795822496,
+      "completion_tokens_details": {
+        "reasoning_tokens": 280
+      }
+    },
+    "system_fingerprint": "fp_e5b4e54fbb",
+    "response_id": "chatcmpl-ede239ea-ad99-4ad7-a3e8-d598706a83ad",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "1c223ce6e1ca37f1544f93e03ff9d6d91e98e2d557da9f32dc11deea430460d5",
+    "6efbd73501ddf192c33b61cf536e533f4c2622eccabb6dccc4c2f3e6e84232ca",
+    "e3025c5a07975bce9398eaf19ed384cf43a3a5bee208eb1fa07596819eab0510",
+    "73747fe6b01d5c95ca9cf3f0a5f07dd94c0eacd69b7ab5711e3c828f45e7c8a8",
+    "6d045c36d04eddc05b15bad4a457000bd40b98a0034093a81794bbcb960ba2d0",
+    "095d5fc74897866684046d5eee7351ccd1ef13f2ae80fdc348b9561930351e75"
+  ]
+}

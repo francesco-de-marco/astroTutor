@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "3625144057a85fd78c3a2ae668edb10e21e382b8799dd553e59ea8a66988e67c",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive adeguatamente perché l'IR penetra la polvere, senza errori né omissioni rilevanti."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.144007896,
+      "prompt_tokens": 1899,
+      "prompt_time": 0.169907424,
+      "completion_tokens": 650,
+      "completion_time": 2.036527429,
+      "total_tokens": 2549,
+      "total_time": 2.206434853,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 83
+      }
+    },
+    "system_fingerprint": "fp_6fb4303df4",
+    "response_id": "chatcmpl-8b7b758c-92fb-4589-a35b-c655cd433486",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "1f4251107c6d2d40d40c6173caa68bc910f60e0ace3f0de632b85cb91872c753",
+    "e99ccfa1466ed246ad4595897903141e16452b27604ed86d45e7f848641b88ef",
+    "4c234f6c560dd3317deabf383c1ee40aa17287356ce0b1d2abce02581b617cea",
+    "3625144057a85fd78c3a2ae668edb10e21e382b8799dd553e59ea8a66988e67c",
+    "c4661d24171a1a7ff9102c0bae66cb498de9f44c2cafec0ecbff1ff89aae089d",
+    "7df24f066d3108df298931640b46962fde60184401debf0e802ea85659d51a58"
+  ]
+}

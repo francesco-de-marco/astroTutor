@@ -1,0 +1,23 @@
+{
+  "response_hash": "c72297c6cc4b5e22f8bf5350ac9afe253ecca98dfdba5369c387873db0fda6a6",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+      "correctness": "Nessun errore identificato.",
+      "level_adequacy": "Il livello di formalismo è adatto a un profilo B, ma ci sono alcuni termini tecnici come 'onda gravitazionale' che potrebbero essere difficili per un bambino di 6-10 anni.",
+      "clarity": "La risposta è chiara e coerente, ma include alcuni dettagli avanzati."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2347,
+    "eval_count": 179,
+    "total_duration": 7646639700,
+    "done_reason": "stop"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "prompts": 32,
+  "unique_questions": 8,
+  "generations": 64,
+  "review_type": "AI assisted, not independent human validation",
+  "quality_counts": {
+    "base": {
+      "I": 13,
+      "C": 6,
+      "P": 13
+    },
+    "dpo": {
+      "I": 7,
+      "P": 12,
+      "C": 13
+    }
+  },
+  "pairwise_preference": {
+    "tie": 17,
+    "dpo": 14,
+    "base": 1
+  },
+  "mean_words": {
+    "base": 125.1,
+    "dpo": 52.8
+  },
+  "generation_flags": {
+    "base": {},
+    "dpo": {}
+  },
+  "review_sha256": "dfa3298f899fcde4436331ae58f6547a4969ff752179b47ae5670fb96de9c96e"
+}

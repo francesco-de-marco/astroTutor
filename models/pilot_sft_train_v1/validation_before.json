@@ -1,0 +1,10 @@
+{
+  "before_loss": 1.6424106359481812,
+  "before_model_preparation_time": 0.008,
+  "before_runtime": 3.5523,
+  "before_samples_per_second": 1.689,
+  "before_steps_per_second": 1.689,
+  "eval_entropy": 1.499291479587555,
+  "eval_num_tokens": 0.0,
+  "eval_mean_token_accuracy": 0.6515334149201711
+}

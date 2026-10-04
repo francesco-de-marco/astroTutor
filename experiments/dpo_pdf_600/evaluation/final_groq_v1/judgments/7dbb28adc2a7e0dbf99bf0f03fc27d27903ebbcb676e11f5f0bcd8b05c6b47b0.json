@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7dbb28adc2a7e0dbf99bf0f03fc27d27903ebbcb676e11f5f0bcd8b05c6b47b0",
+    "correctness": "I",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che la luce indica materiale che sfugge dall’interno è errato rispetto al riferimento."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.301778515,
+      "prompt_tokens": 2204,
+      "prompt_time": 0.164534726,
+      "completion_tokens": 932,
+      "completion_time": 2.304994129,
+      "total_tokens": 3136,
+      "total_time": 2.469528855,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 377
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-43687dbc-acb0-4c4f-8233-eae33bcb470b",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "d55666b37c13ff6467848d2b94ef6564e52e6471d12c0354e32366093d977e2b",
+    "7dbb28adc2a7e0dbf99bf0f03fc27d27903ebbcb676e11f5f0bcd8b05c6b47b0",
+    "40ad187ee28e52d0d09032f944e3a22bfeb1bac8e30253dc6115bbd0eba45ef2",
+    "15723b8f3007cac6a747361d7c68bf4a610096874806e9a9facbfabdb37629cc",
+    "3685206f01e25d34c04ba36fe656af404e3947fd0b7c0b8c38c17b113835db2a",
+    "387a835e90ca7d31591b38135383c678cbc07f99c85b69bad5976484c4455939"
+  ]
+}

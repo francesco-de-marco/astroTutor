@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "76e6fa743f860003398dd2a8c2712968e940bba7ab8c60a1d11748aa2632245b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermazione corretta e aggiunge motivo della velocità orbitale, adatto al livello A."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.298917488,
+      "prompt_tokens": 1695,
+      "prompt_time": 0.087612948,
+      "completion_tokens": 862,
+      "completion_time": 2.367889483,
+      "total_tokens": 2557,
+      "total_time": 2.455502431,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 323
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-b8a5d350-a0f9-463d-8ee5-ad1e11c9db08",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "fafb1212de76259cf44580418df84c1c3477713a760811fa54928b712490e018",
+    "76e6fa743f860003398dd2a8c2712968e940bba7ab8c60a1d11748aa2632245b",
+    "79a100c88b2eb9aa2b8b8c3f1e4df398eb328adcddfcc3624f360fe71194b188",
+    "e9fef6f309dcfa52abdf0b999394a238694798146b4c00e0a964c69ec8a9d597",
+    "e4f5c125305d6947d0df724a9f8400dc25f6ba758c0582af85921367d5d8bb01",
+    "fa187d0dac1fc2a519f4bb8a659bd9eb55b32973e358796c4f81f2a73fdf0da7"
+  ]
+}

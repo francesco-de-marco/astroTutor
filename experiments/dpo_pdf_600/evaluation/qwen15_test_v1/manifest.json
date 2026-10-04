@@ -1,0 +1,1673 @@
+{
+  "schema": 1,
+  "training_hash": "500573bb3db51b1205aae74ee14b95e624050537f5c8e2fa33a519e51bebfe21",
+  "inputs": [
+    {
+      "id": "test01_A",
+      "question_id": "test01",
+      "topic": "Osservazioni infrarosse",
+      "question": "Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "La polvere ostacola maggiormente il visibile; l’infrarosso è meno attenuato e consente di studiare la regione. Non attribuire il fenomeno alla scomparsa della polvere.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?"
+        }
+      ]
+    },
+    {
+      "id": "test01_B",
+      "question_id": "test01",
+      "topic": "Osservazioni infrarosse",
+      "question": "Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "La polvere ostacola maggiormente il visibile; l’infrarosso è meno attenuato e consente di studiare la regione. Non attribuire il fenomeno alla scomparsa della polvere.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?"
+        }
+      ]
+    },
+    {
+      "id": "test01_C",
+      "question_id": "test01",
+      "topic": "Osservazioni infrarosse",
+      "question": "Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "La polvere ostacola maggiormente il visibile; l’infrarosso è meno attenuato e consente di studiare la regione. Non attribuire il fenomeno alla scomparsa della polvere.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?"
+        }
+      ]
+    },
+    {
+      "id": "test01_D",
+      "question_id": "test01",
+      "topic": "Osservazioni infrarosse",
+      "question": "Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "La polvere ostacola maggiormente il visibile; l’infrarosso è meno attenuato e consente di studiare la regione. Non attribuire il fenomeno alla scomparsa della polvere.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: Perché una stella nascosta dalla polvere nella luce visibile può essere studiata nell’infrarosso?"
+        }
+      ]
+    },
+    {
+      "id": "test02_A",
+      "question_id": "test02",
+      "topic": "Osservazioni infrarosse",
+      "question": "L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "No: la polvere può riemettere energia nell’infrarosso. Distinguere assorbimento e riemissione dalla distruzione dell’energia.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?"
+        }
+      ]
+    },
+    {
+      "id": "test02_B",
+      "question_id": "test02",
+      "topic": "Osservazioni infrarosse",
+      "question": "L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "No: la polvere può riemettere energia nell’infrarosso. Distinguere assorbimento e riemissione dalla distruzione dell’energia.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?"
+        }
+      ]
+    },
+    {
+      "id": "test02_C",
+      "question_id": "test02",
+      "topic": "Osservazioni infrarosse",
+      "question": "L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "No: la polvere può riemettere energia nell’infrarosso. Distinguere assorbimento e riemissione dalla distruzione dell’energia.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?"
+        }
+      ]
+    },
+    {
+      "id": "test02_D",
+      "question_id": "test02",
+      "topic": "Osservazioni infrarosse",
+      "question": "L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "aac5247b74c8c4c3ddc7a744",
+      "reference_points": "No: la polvere può riemettere energia nell’infrarosso. Distinguere assorbimento e riemissione dalla distruzione dell’energia.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLe stelle appena formate possono essere nascoste nelle nubi di gas e polvere rimaste dalla loro formazione. La polvere assorbe gran parte della luce visibile e riemette energia nell’infrarosso. La radiazione infrarossa attraversa queste nubi con attenuazione minore rispetto al visibile. Osservare nell’infrarosso è quindi utile per studiare regioni di formazione stellare oscurate alla vista.\n\nDomanda: L’energia della luce visibile assorbita dalla polvere viene semplicemente distrutta?"
+        }
+      ]
+    },
+    {
+      "id": "test03_A",
+      "question_id": "test03",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "Conversione di energia potenziale gravitazionale in calore e radiazione del gas. Non confondere con luce che esce dall’interno dell’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?"
+        }
+      ]
+    },
+    {
+      "id": "test03_B",
+      "question_id": "test03",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "Conversione di energia potenziale gravitazionale in calore e radiazione del gas. Non confondere con luce che esce dall’interno dell’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?"
+        }
+      ]
+    },
+    {
+      "id": "test03_C",
+      "question_id": "test03",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "Conversione di energia potenziale gravitazionale in calore e radiazione del gas. Non confondere con luce che esce dall’interno dell’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?"
+        }
+      ]
+    },
+    {
+      "id": "test03_D",
+      "question_id": "test03",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "Conversione di energia potenziale gravitazionale in calore e radiazione del gas. Non confondere con luce che esce dall’interno dell’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: Quale trasformazione energetica può rendere luminoso il gas che si avvicina a un buco nero?"
+        }
+      ]
+    },
+    {
+      "id": "test04_A",
+      "question_id": "test04",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "No. Nel meccanismo descritto la radiazione nasce nel materiale ancora esterno all’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?"
+        }
+      ]
+    },
+    {
+      "id": "test04_B",
+      "question_id": "test04",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "No. Nel meccanismo descritto la radiazione nasce nel materiale ancora esterno all’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?"
+        }
+      ]
+    },
+    {
+      "id": "test04_C",
+      "question_id": "test04",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "No. Nel meccanismo descritto la radiazione nasce nel materiale ancora esterno all’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?"
+        }
+      ]
+    },
+    {
+      "id": "test04_D",
+      "question_id": "test04",
+      "topic": "Gas vicino ai buchi neri",
+      "question": "La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "4d7d0668ba9cfe537a40abc6",
+      "reference_points": "No. Nel meccanismo descritto la radiazione nasce nel materiale ancora esterno all’orizzonte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nUn buco nero può disgregare una stella che passa troppo vicino attraverso le forze di marea, prima che il materiale attraversi l’orizzonte degli eventi. Il gas proveniente da stelle disgregate o da nubi non cade necessariamente in modo indisturbato: interagisce con altro materiale. Durante l’accrescimento, energia potenziale gravitazionale può essere convertita in calore e radiazione. La radiazione considerata qui è prodotta dal materiale esterno all’orizzonte.\n\nDomanda: La luce del gas attorno a un buco nero dimostra che qualcosa sta sfuggendo dall’interno dell’orizzonte?"
+        }
+      ]
+    },
+    {
+      "id": "test05_A",
+      "question_id": "test05",
+      "topic": "Centro di massa",
+      "question": "Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "No: entrambe orbitano attorno al baricentro comune. Il fatto che esso sia interno alla Terra non lo rende il suo centro né annulla il moto terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?"
+        }
+      ]
+    },
+    {
+      "id": "test05_B",
+      "question_id": "test05",
+      "topic": "Centro di massa",
+      "question": "Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "No: entrambe orbitano attorno al baricentro comune. Il fatto che esso sia interno alla Terra non lo rende il suo centro né annulla il moto terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?"
+        }
+      ]
+    },
+    {
+      "id": "test05_C",
+      "question_id": "test05",
+      "topic": "Centro di massa",
+      "question": "Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "No: entrambe orbitano attorno al baricentro comune. Il fatto che esso sia interno alla Terra non lo rende il suo centro né annulla il moto terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?"
+        }
+      ]
+    },
+    {
+      "id": "test05_D",
+      "question_id": "test05",
+      "topic": "Centro di massa",
+      "question": "Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "No: entrambe orbitano attorno al baricentro comune. Il fatto che esso sia interno alla Terra non lo rende il suo centro né annulla il moto terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Nel sistema Terra-Luna, la Terra rimane perfettamente ferma mentre soltanto la Luna orbita?"
+        }
+      ]
+    },
+    {
+      "id": "test06_A",
+      "question_id": "test06",
+      "topic": "Centro di massa",
+      "question": "Che cosa rappresenta il baricentro del sistema Terra-Luna?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "Il centro di massa comune attorno a cui si muovono entrambi i corpi; è interno alla Terra ma distinto dal suo centro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Che cosa rappresenta il baricentro del sistema Terra-Luna?"
+        }
+      ]
+    },
+    {
+      "id": "test06_B",
+      "question_id": "test06",
+      "topic": "Centro di massa",
+      "question": "Che cosa rappresenta il baricentro del sistema Terra-Luna?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "Il centro di massa comune attorno a cui si muovono entrambi i corpi; è interno alla Terra ma distinto dal suo centro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Che cosa rappresenta il baricentro del sistema Terra-Luna?"
+        }
+      ]
+    },
+    {
+      "id": "test06_C",
+      "question_id": "test06",
+      "topic": "Centro di massa",
+      "question": "Che cosa rappresenta il baricentro del sistema Terra-Luna?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "Il centro di massa comune attorno a cui si muovono entrambi i corpi; è interno alla Terra ma distinto dal suo centro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Che cosa rappresenta il baricentro del sistema Terra-Luna?"
+        }
+      ]
+    },
+    {
+      "id": "test06_D",
+      "question_id": "test06",
+      "topic": "Centro di massa",
+      "question": "Che cosa rappresenta il baricentro del sistema Terra-Luna?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "14105d95ad8e68c235dff254",
+      "reference_points": "Il centro di massa comune attorno a cui si muovono entrambi i corpi; è interno alla Terra ma distinto dal suo centro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLa Terra e la Luna orbitano entrambe attorno al loro centro di massa comune, chiamato baricentro. Nel sistema Terra-Luna questo punto si trova all’interno della Terra, ma non coincide con il suo centro. Per descrivere con maggiore precisione il moto del sistema intorno al Sole si considera il baricentro Terra-Luna. Il moto della Terra comprende quindi anche il suo movimento attorno a questo punto comune.\n\nDomanda: Che cosa rappresenta il baricentro del sistema Terra-Luna?"
+        }
+      ]
+    },
+    {
+      "id": "test07_A",
+      "question_id": "test07",
+      "topic": "Periodi delle orbite",
+      "question": "Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "No: gli esempi di orbita bassa impiegano circa novanta minuti; il periodo di circa un giorno appartiene a una diversa distanza orbitale.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test07_B",
+      "question_id": "test07",
+      "topic": "Periodi delle orbite",
+      "question": "Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "No: gli esempi di orbita bassa impiegano circa novanta minuti; il periodo di circa un giorno appartiene a una diversa distanza orbitale.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test07_C",
+      "question_id": "test07",
+      "topic": "Periodi delle orbite",
+      "question": "Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "No: gli esempi di orbita bassa impiegano circa novanta minuti; il periodo di circa un giorno appartiene a una diversa distanza orbitale.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test07_D",
+      "question_id": "test07",
+      "topic": "Periodi delle orbite",
+      "question": "Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "No: gli esempi di orbita bassa impiegano circa novanta minuti; il periodo di circa un giorno appartiene a una diversa distanza orbitale.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Un satellite in orbita bassa impiega necessariamente un giorno per girare attorno alla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test08_A",
+      "question_id": "test08",
+      "topic": "Periodi delle orbite",
+      "question": "Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "Può servire da ripetitore mantenendo la stessa posizione apparente rispetto alla superficie. Apparire fermo non significa smettere di orbitare.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?"
+        }
+      ]
+    },
+    {
+      "id": "test08_B",
+      "question_id": "test08",
+      "topic": "Periodi delle orbite",
+      "question": "Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "Può servire da ripetitore mantenendo la stessa posizione apparente rispetto alla superficie. Apparire fermo non significa smettere di orbitare.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?"
+        }
+      ]
+    },
+    {
+      "id": "test08_C",
+      "question_id": "test08",
+      "topic": "Periodi delle orbite",
+      "question": "Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "Può servire da ripetitore mantenendo la stessa posizione apparente rispetto alla superficie. Apparire fermo non significa smettere di orbitare.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?"
+        }
+      ]
+    },
+    {
+      "id": "test08_D",
+      "question_id": "test08",
+      "topic": "Periodi delle orbite",
+      "question": "Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "db6c38c2de6b59a887429abf",
+      "reference_points": "Può servire da ripetitore mantenendo la stessa posizione apparente rispetto alla superficie. Apparire fermo non significa smettere di orbitare.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIl brano confronta i tempi di percorrenza di orbite intorno alla Terra: una bassa orbita, come quelle citate per la Stazione spaziale internazionale e Hubble, richiede circa novanta minuti; alla distanza della Luna il periodo è circa un mese. A una distanza intermedia si può avere un periodo pari alla rotazione terrestre, approssimativamente ventiquattro ore. Un satellite geostazionario opportunamente collocato appare fermo rispetto alla superficie ed è utile come ripetitore di comunicazioni. Il solo valore del periodo, senza le altre condizioni orbitali, non è qui una descrizione completa di qualsiasi orbita.\n\nDomanda: Perché un satellite che appare fermo rispetto al terreno è utile per le comunicazioni?"
+        }
+      ]
+    },
+    {
+      "id": "test09_A",
+      "question_id": "test09",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Come possiamo stimare la temperatura di una stella senza distinguerne il disco?",
+      "level": "A",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "Analizzando la distribuzione dell’intensità nei colori del suo spettro termico. Non occorre misurarne direttamente la forma.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Come possiamo stimare la temperatura di una stella senza distinguerne il disco?"
+        }
+      ]
+    },
+    {
+      "id": "test09_B",
+      "question_id": "test09",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Come possiamo stimare la temperatura di una stella senza distinguerne il disco?",
+      "level": "B",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "Analizzando la distribuzione dell’intensità nei colori del suo spettro termico. Non occorre misurarne direttamente la forma.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Come possiamo stimare la temperatura di una stella senza distinguerne il disco?"
+        }
+      ]
+    },
+    {
+      "id": "test09_C",
+      "question_id": "test09",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Come possiamo stimare la temperatura di una stella senza distinguerne il disco?",
+      "level": "C",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "Analizzando la distribuzione dell’intensità nei colori del suo spettro termico. Non occorre misurarne direttamente la forma.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Come possiamo stimare la temperatura di una stella senza distinguerne il disco?"
+        }
+      ]
+    },
+    {
+      "id": "test09_D",
+      "question_id": "test09",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Come possiamo stimare la temperatura di una stella senza distinguerne il disco?",
+      "level": "D",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "Analizzando la distribuzione dell’intensità nei colori del suo spettro termico. Non occorre misurarne direttamente la forma.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Come possiamo stimare la temperatura di una stella senza distinguerne il disco?"
+        }
+      ]
+    },
+    {
+      "id": "test10_A",
+      "question_id": "test10",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?",
+      "level": "A",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "No: indica una riduzione a una specifica lunghezza d’onda, non l’assenza di emissione in tutto lo spettro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?"
+        }
+      ]
+    },
+    {
+      "id": "test10_B",
+      "question_id": "test10",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?",
+      "level": "B",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "No: indica una riduzione a una specifica lunghezza d’onda, non l’assenza di emissione in tutto lo spettro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?"
+        }
+      ]
+    },
+    {
+      "id": "test10_C",
+      "question_id": "test10",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?",
+      "level": "C",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "No: indica una riduzione a una specifica lunghezza d’onda, non l’assenza di emissione in tutto lo spettro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?"
+        }
+      ]
+    },
+    {
+      "id": "test10_D",
+      "question_id": "test10",
+      "topic": "Spettro e temperatura stellare",
+      "question": "Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?",
+      "level": "D",
+      "group": "dal big bang ai buchi neri breve storia del tempo",
+      "source_id": "67204f86fa1d36ca2e7a9980",
+      "reference_points": "No: indica una riduzione a una specifica lunghezza d’onda, non l’assenza di emissione in tutto lo spettro.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nLa luce di una stella può essere separata nelle sue componenti di colore, ottenendo uno spettro. Per la componente termica della radiazione, la distribuzione relativa dell’intensità nei diversi colori è legata alla temperatura dell’oggetto che emette. Lo spettro permette quindi di stimare la temperatura di una stella anche quando essa appare come un punto non risolto. Negli spettri stellari possono inoltre comparire righe di assorbimento, cioè deficit di luce a specifiche lunghezze d’onda. Questa descrizione distingue la distribuzione termica dalle singole righe.\n\nDomanda: Nello spettro di una stella, una riga di assorbimento significa che manca tutta la sua luce?"
+        }
+      ]
+    },
+    {
+      "id": "test11_A",
+      "question_id": "test11",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?",
+      "level": "A",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "L’accoppiamento ai fotoni e la pressione della radiazione ostacolano il collasso della materia ordinaria; la materia oscura non ha lo stesso vincolo.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test11_B",
+      "question_id": "test11",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?",
+      "level": "B",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "L’accoppiamento ai fotoni e la pressione della radiazione ostacolano il collasso della materia ordinaria; la materia oscura non ha lo stesso vincolo.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test11_C",
+      "question_id": "test11",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?",
+      "level": "C",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "L’accoppiamento ai fotoni e la pressione della radiazione ostacolano il collasso della materia ordinaria; la materia oscura non ha lo stesso vincolo.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test11_D",
+      "question_id": "test11",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?",
+      "level": "D",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "L’accoppiamento ai fotoni e la pressione della radiazione ostacolano il collasso della materia ordinaria; la materia oscura non ha lo stesso vincolo.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Perché la materia ordinaria non può inizialmente collassare nello stesso modo della materia oscura nel quadro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test12_A",
+      "question_id": "test12",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?",
+      "level": "A",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "Creano concentrazioni gravitazionali in cui può cadere la materia ordinaria. Non significa che materia oscura e ordinaria siano la stessa sostanza.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?"
+        }
+      ]
+    },
+    {
+      "id": "test12_B",
+      "question_id": "test12",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?",
+      "level": "B",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "Creano concentrazioni gravitazionali in cui può cadere la materia ordinaria. Non significa che materia oscura e ordinaria siano la stessa sostanza.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?"
+        }
+      ]
+    },
+    {
+      "id": "test12_C",
+      "question_id": "test12",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?",
+      "level": "C",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "Creano concentrazioni gravitazionali in cui può cadere la materia ordinaria. Non significa che materia oscura e ordinaria siano la stessa sostanza.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?"
+        }
+      ]
+    },
+    {
+      "id": "test12_D",
+      "question_id": "test12",
+      "topic": "Formazione delle strutture cosmiche",
+      "question": "Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?",
+      "level": "D",
+      "group": "cosmology david tong",
+      "source_id": "c50039b4433ac77bf5934e25",
+      "reference_points": "Creano concentrazioni gravitazionali in cui può cadere la materia ordinaria. Non significa che materia oscura e ordinaria siano la stessa sostanza.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nNel quadro cosmologico descritto, piccole differenze iniziali di densità crescono fino a formare strutture. All’inizio la materia ordinaria è fortemente accoppiata ai fotoni: la pressione della radiazione ostacola il suo collasso gravitazionale. La materia oscura non subisce lo stesso ostacolo e può cominciare prima a formare concentrazioni gravitazionali. La materia ordinaria può successivamente cadere in queste concentrazioni. Le due componenti non hanno quindi la stessa evoluzione iniziale.\n\nDomanda: Che ruolo possono avere le concentrazioni di materia oscura nella successiva distribuzione della materia ordinaria?"
+        }
+      ]
+    },
+    {
+      "id": "test13_A",
+      "question_id": "test13",
+      "topic": "Trasparenza dell’universo",
+      "question": "Perché la formazione di atomi neutri rende l’universo più trasparente?",
+      "level": "A",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "Diminuisce l’interazione frequente della radiazione con il plasma di cariche libere; i fotoni possono propagarsi più liberamente. Non perché cominci a esistere la luce.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: Perché la formazione di atomi neutri rende l’universo più trasparente?"
+        }
+      ]
+    },
+    {
+      "id": "test13_B",
+      "question_id": "test13",
+      "topic": "Trasparenza dell’universo",
+      "question": "Perché la formazione di atomi neutri rende l’universo più trasparente?",
+      "level": "B",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "Diminuisce l’interazione frequente della radiazione con il plasma di cariche libere; i fotoni possono propagarsi più liberamente. Non perché cominci a esistere la luce.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: Perché la formazione di atomi neutri rende l’universo più trasparente?"
+        }
+      ]
+    },
+    {
+      "id": "test13_C",
+      "question_id": "test13",
+      "topic": "Trasparenza dell’universo",
+      "question": "Perché la formazione di atomi neutri rende l’universo più trasparente?",
+      "level": "C",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "Diminuisce l’interazione frequente della radiazione con il plasma di cariche libere; i fotoni possono propagarsi più liberamente. Non perché cominci a esistere la luce.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: Perché la formazione di atomi neutri rende l’universo più trasparente?"
+        }
+      ]
+    },
+    {
+      "id": "test13_D",
+      "question_id": "test13",
+      "topic": "Trasparenza dell’universo",
+      "question": "Perché la formazione di atomi neutri rende l’universo più trasparente?",
+      "level": "D",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "Diminuisce l’interazione frequente della radiazione con il plasma di cariche libere; i fotoni possono propagarsi più liberamente. Non perché cominci a esistere la luce.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: Perché la formazione di atomi neutri rende l’universo più trasparente?"
+        }
+      ]
+    },
+    {
+      "id": "test14_A",
+      "question_id": "test14",
+      "topic": "Trasparenza dell’universo",
+      "question": "La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?",
+      "level": "A",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "La formazione di atomi prevalentemente di idrogeno neutro dall’unione di elettroni e protoni, favorita dal raffreddamento.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?"
+        }
+      ]
+    },
+    {
+      "id": "test14_B",
+      "question_id": "test14",
+      "topic": "Trasparenza dell’universo",
+      "question": "La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?",
+      "level": "B",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "La formazione di atomi prevalentemente di idrogeno neutro dall’unione di elettroni e protoni, favorita dal raffreddamento.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?"
+        }
+      ]
+    },
+    {
+      "id": "test14_C",
+      "question_id": "test14",
+      "topic": "Trasparenza dell’universo",
+      "question": "La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?",
+      "level": "C",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "La formazione di atomi prevalentemente di idrogeno neutro dall’unione di elettroni e protoni, favorita dal raffreddamento.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?"
+        }
+      ]
+    },
+    {
+      "id": "test14_D",
+      "question_id": "test14",
+      "topic": "Trasparenza dell’universo",
+      "question": "La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?",
+      "level": "D",
+      "group": "cosmology david tong",
+      "source_id": "01d57b3e9e7dda8ffa4e101f",
+      "reference_points": "La formazione di atomi prevalentemente di idrogeno neutro dall’unione di elettroni e protoni, favorita dal raffreddamento.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nNell’universo primordiale caldo, elettroni e protoni non sono ancora legati in atomi neutri. La radiazione interagisce frequentemente con il plasma, perciò la luce non viaggia liberamente per grandi distanze. Con il raffreddamento, elettroni e protoni possono combinarsi formando soprattutto idrogeno neutro: questa fase è chiamata ricombinazione. L’universo diventa molto più trasparente e la radiazione può propagarsi più liberamente. La radiazione cosmica di fondo osservata oggi risale a questa fase di disaccoppiamento.\n\nDomanda: La ricombinazione indica la distruzione degli atomi di idrogeno oppure la loro formazione?"
+        }
+      ]
+    },
+    {
+      "id": "test15_A",
+      "question_id": "test15",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?",
+      "level": "A",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "Perché occorrono molti modelli e il costo delle simulazioni complete è elevato. Ciò non rende le simulazioni inutili o scientificamente scorrette.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?"
+        }
+      ]
+    },
+    {
+      "id": "test15_B",
+      "question_id": "test15",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?",
+      "level": "B",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "Perché occorrono molti modelli e il costo delle simulazioni complete è elevato. Ciò non rende le simulazioni inutili o scientificamente scorrette.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?"
+        }
+      ]
+    },
+    {
+      "id": "test15_C",
+      "question_id": "test15",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?",
+      "level": "C",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "Perché occorrono molti modelli e il costo delle simulazioni complete è elevato. Ciò non rende le simulazioni inutili o scientificamente scorrette.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?"
+        }
+      ]
+    },
+    {
+      "id": "test15_D",
+      "question_id": "test15",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?",
+      "level": "D",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "Perché occorrono molti modelli e il costo delle simulazioni complete è elevato. Ciò non rende le simulazioni inutili o scientificamente scorrette.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Perché non costruire ogni modello di segnale gravitazionale usando soltanto una simulazione numerica completa?"
+        }
+      ]
+    },
+    {
+      "id": "test16_A",
+      "question_id": "test16",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?",
+      "level": "A",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "No: i risultati numerici possono guidare e controllare i modelli analitici; i due approcci sono complementari.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?"
+        }
+      ]
+    },
+    {
+      "id": "test16_B",
+      "question_id": "test16",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?",
+      "level": "B",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "No: i risultati numerici possono guidare e controllare i modelli analitici; i due approcci sono complementari.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?"
+        }
+      ]
+    },
+    {
+      "id": "test16_C",
+      "question_id": "test16",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?",
+      "level": "C",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "No: i risultati numerici possono guidare e controllare i modelli analitici; i due approcci sono complementari.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?"
+        }
+      ]
+    },
+    {
+      "id": "test16_D",
+      "question_id": "test16",
+      "topic": "Riconoscimento dei segnali gravitazionali",
+      "question": "Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?",
+      "level": "D",
+      "group": "gravitational waves lectures alessandra buonanno arxiv",
+      "source_id": "1560a2cdb66264e6db96e858",
+      "reference_points": "No: i risultati numerici possono guidare e controllare i modelli analitici; i due approcci sono complementari.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nPer estrarre un segnale di onde gravitazionali dal rumore si possono confrontare i dati con molti modelli di forma d’onda. Simulazioni complete di relatività numerica sono importanti per descrivere la fusione dei buchi neri, ma produrre un numero enorme di modelli usando soltanto queste simulazioni è molto costoso. Il brano propone di usare i risultati numerici per guidare e controllare la costruzione di modelli analitici, combinando descrizioni delle diverse fasi del segnale.\n\nDomanda: Usare modelli analitici dei segnali gravitazionali significa rinunciare ai risultati delle simulazioni numeriche?"
+        }
+      ]
+    },
+    {
+      "id": "test17_A",
+      "question_id": "test17",
+      "topic": "Percorsi nell’interferometro",
+      "question": "Quale percorso seguono le due parti del fascio nell’interferometro descritto?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "Si separano, percorrono direzioni perpendicolari, vengono riflesse dagli specchi e tornano a ricombinarsi nel divisore.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: Quale percorso seguono le due parti del fascio nell’interferometro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test17_B",
+      "question_id": "test17",
+      "topic": "Percorsi nell’interferometro",
+      "question": "Quale percorso seguono le due parti del fascio nell’interferometro descritto?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "Si separano, percorrono direzioni perpendicolari, vengono riflesse dagli specchi e tornano a ricombinarsi nel divisore.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: Quale percorso seguono le due parti del fascio nell’interferometro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test17_C",
+      "question_id": "test17",
+      "topic": "Percorsi nell’interferometro",
+      "question": "Quale percorso seguono le due parti del fascio nell’interferometro descritto?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "Si separano, percorrono direzioni perpendicolari, vengono riflesse dagli specchi e tornano a ricombinarsi nel divisore.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: Quale percorso seguono le due parti del fascio nell’interferometro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test17_D",
+      "question_id": "test17",
+      "topic": "Percorsi nell’interferometro",
+      "question": "Quale percorso seguono le due parti del fascio nell’interferometro descritto?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "Si separano, percorrono direzioni perpendicolari, vengono riflesse dagli specchi e tornano a ricombinarsi nel divisore.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: Quale percorso seguono le due parti del fascio nell’interferometro descritto?"
+        }
+      ]
+    },
+    {
+      "id": "test18_A",
+      "question_id": "test18",
+      "topic": "Percorsi nell’interferometro",
+      "question": "In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "No: riflettono due parti della stessa luce iniziale verso il divisore, dove esse si ricombinano.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?"
+        }
+      ]
+    },
+    {
+      "id": "test18_B",
+      "question_id": "test18",
+      "topic": "Percorsi nell’interferometro",
+      "question": "In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "No: riflettono due parti della stessa luce iniziale verso il divisore, dove esse si ricombinano.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?"
+        }
+      ]
+    },
+    {
+      "id": "test18_C",
+      "question_id": "test18",
+      "topic": "Percorsi nell’interferometro",
+      "question": "In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "No: riflettono due parti della stessa luce iniziale verso il divisore, dove esse si ricombinano.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?"
+        }
+      ]
+    },
+    {
+      "id": "test18_D",
+      "question_id": "test18",
+      "topic": "Percorsi nell’interferometro",
+      "question": "In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "dfead31d24e27a07ad19d1a0",
+      "reference_points": "No: riflettono due parti della stessa luce iniziale verso il divisore, dove esse si ricombinano.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIn una versione dell’interferometro, un divisore separa un fascio luminoso in due parti e le invia in direzioni perpendicolari. Ciascuna parte raggiunge uno specchio, torna al divisore e viene ricombinata con l’altra. La luce ricombinata viene analizzata per rilevare piccole differenze fra i due percorsi. Il brano presenta questo apparato nel contesto storico della ricerca dell’etere, senza che descrivere l’ipotesi storica significhi dimostrarne l’esistenza.\n\nDomanda: In questo apparato, gli specchi servono a creare due nuove sorgenti luminose indipendenti?"
+        }
+      ]
+    },
+    {
+      "id": "test19_A",
+      "question_id": "test19",
+      "topic": "Vento solare e aurore",
+      "question": "Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è un flusso di particelle cariche emesso dal Sole; non un movimento di aria terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test19_B",
+      "question_id": "test19",
+      "topic": "Vento solare e aurore",
+      "question": "Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è un flusso di particelle cariche emesso dal Sole; non un movimento di aria terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test19_C",
+      "question_id": "test19",
+      "topic": "Vento solare e aurore",
+      "question": "Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è un flusso di particelle cariche emesso dal Sole; non un movimento di aria terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test19_D",
+      "question_id": "test19",
+      "topic": "Vento solare e aurore",
+      "question": "Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è un flusso di particelle cariche emesso dal Sole; non un movimento di aria terrestre.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: Il vento solare è un vento d’aria come quello che sentiamo sulla Terra?"
+        }
+      ]
+    },
+    {
+      "id": "test20_A",
+      "question_id": "test20",
+      "topic": "Vento solare e aurore",
+      "question": "La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?",
+      "level": "A",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è prodotta dall’interazione di particelle energetiche con l’atmosfera e dalle emissioni delle specie coinvolte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola primaria, 6-10 anni: usa parole comuni, spiega i concetti necessari senza infantilizzare.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?"
+        }
+      ]
+    },
+    {
+      "id": "test20_B",
+      "question_id": "test20",
+      "topic": "Vento solare e aurore",
+      "question": "La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?",
+      "level": "B",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è prodotta dall’interazione di particelle energetiche con l’atmosfera e dalle emissioni delle specie coinvolte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di primo grado: conoscenze scientifiche elementari; spiega il meccanismo e i termini nuovi.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?"
+        }
+      ]
+    },
+    {
+      "id": "test20_C",
+      "question_id": "test20",
+      "topic": "Vento solare e aurore",
+      "question": "La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?",
+      "level": "C",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è prodotta dall’interazione di particelle energetiche con l’atmosfera e dalle emissioni delle specie coinvolte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Scuola secondaria di secondo grado: basi di fisica; esplicita i passaggi causali e usa termini tecnici pertinenti.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?"
+        }
+      ]
+    },
+    {
+      "id": "test20_D",
+      "question_id": "test20",
+      "topic": "Vento solare e aurore",
+      "question": "La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?",
+      "level": "D",
+      "group": "death by black hole and other cosmic quandaries neil degrasse tyson",
+      "source_id": "1335abb14617ce136f84d9b8",
+      "reference_points": "No: è prodotta dall’interazione di particelle energetiche con l’atmosfera e dalle emissioni delle specie coinvolte.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda dello studente, adattando la spiegazione al profilo indicato. Usa il contesto fornito e non inventare informazioni. Se non basta, dichiara il limite. Rispondi direttamente, senza aggiungere quiz o piani di studio non richiesti."
+        },
+        {
+          "role": "user",
+          "content": "Profilo: Università: basi di fisica e astronomia; usa terminologia precisa, relazioni causali e limiti delle affermazioni.\n\nContesto:\nIl Sole emette nello spazio un flusso di particelle cariche, tra cui elettroni, protoni e nuclei di elio. Questo flusso è chiamato vento solare. L’interazione di particelle energetiche con l’atmosfera terrestre, soprattutto vicino alle regioni polari magnetiche, può produrre aurore. La luce emessa dall’atmosfera presenta colori legati alle specie coinvolte e alle loro transizioni energetiche. Il vento solare è dunque un flusso di particelle, distinto dalla sola luce visibile del Sole.\n\nDomanda: La luce di un’aurora nasce semplicemente dalla riflessione della luce solare su una nuvola?"
+        }
+      ]
+    }
+  ],
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "source_file_sha256": "ded9e91355fca7f177e9881c17bfe592b5c14265ba0614146994b6e58067d6aa",
+  "adapter_hashes": {
+    "adapter_model.safetensors": "76ead4e1bb2d56cad7372703141ed5bfd504a97baa86c5e65bb060105d4e97e0"
+  },
+  "adapter_config": {
+    "alpha_pattern": {},
+    "auto_mapping": null,
+    "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+    "bias": "none",
+    "corda_config": null,
+    "eva_config": null,
+    "exclude_modules": null,
+    "fan_in_fan_out": false,
+    "inference_mode": true,
+    "init_lora_weights": true,
+    "layer_replication": null,
+    "layers_pattern": null,
+    "layers_to_transform": null,
+    "loftq_config": {},
+    "lora_alpha": 16,
+    "lora_bias": false,
+    "lora_dropout": 0.0,
+    "megatron_config": null,
+    "megatron_core": "megatron.core",
+    "modules_to_save": null,
+    "peft_type": "LORA",
+    "qalora_group_size": 16,
+    "r": 8,
+    "rank_pattern": {},
+    "revision": null,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "target_parameters": null,
+    "task_type": "CAUSAL_LM",
+    "trainable_token_indices": null,
+    "use_dora": false,
+    "use_qalora": false,
+    "use_rslora": false
+  },
+  "tokenizer_files": {
+    "adapter_config.json": "32cbc769e5e5a153f30aed2345a8d765c1654c9cc840bd5c420763f652c114c4",
+    "added_tokens.json": "f0acedf99e19ec0a5b797ffbd0b94328172ccd90f7f385bbc521cda2701b03ab",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "special_tokens_map.json": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+    "tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+    "tokenizer_config.json": "5fd4cea2574beb6b70ba31582179880d331b723f5b5119ee67c29d45b983f7be",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "num_beams": 1
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.17.1",
+    "bitsandbytes": "0.48.1"
+  },
+  "note": "NF4 in entrambi i casi. Base = adapter disattivato. DPO = adapter attivo. Nessun guardrail, retrieval, riscrittura o giudizio automatico."
+}

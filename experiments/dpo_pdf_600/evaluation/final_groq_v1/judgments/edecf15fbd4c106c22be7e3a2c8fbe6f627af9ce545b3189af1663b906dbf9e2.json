@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "edecf15fbd4c106c22be7e3a2c8fbe6f627af9ce545b3189af1663b906dbf9e2",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Affermare che la luce dimostra fuga è sbagliato e aggiunge concetti non supportati."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.395466772,
+      "prompt_tokens": 1724,
+      "prompt_time": 0.221329076,
+      "completion_tokens": 1076,
+      "completion_time": 2.447981181,
+      "total_tokens": 2800,
+      "total_time": 2.6693102570000002,
+      "completion_tokens_details": {
+        "reasoning_tokens": 545
+      }
+    },
+    "system_fingerprint": "fp_8655ddce88",
+    "response_id": "chatcmpl-a5d1f9e4-323f-4984-9748-c3cc678b1cd5",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "dd0215a8d6dd05728059588b5bc2b6e0aa5dab01d08ed46c070a94f19ca56ce3",
+    "edecf15fbd4c106c22be7e3a2c8fbe6f627af9ce545b3189af1663b906dbf9e2",
+    "27e1a7806e724470af8a2375863270ba49dcea7ad3510e0851a56c915299b906",
+    "e37b82235e5f2cce12cbc38c54f4c75cf0fc9a2d88059f688405f90d04d2382a",
+    "afb81bf83c9ea321ac5a22fad06881ce284d01ae1d727b39e2914307765bcde0",
+    "42aff39fff87e92a23e2b4f30c0fce363858468d9ed9972592230c88afd548c6"
+  ]
+}

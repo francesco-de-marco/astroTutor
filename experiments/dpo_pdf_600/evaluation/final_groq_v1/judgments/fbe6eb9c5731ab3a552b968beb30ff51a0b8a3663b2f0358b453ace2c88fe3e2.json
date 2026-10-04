@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "fbe6eb9c5731ab3a552b968beb30ff51a0b8a3663b2f0358b453ace2c88fe3e2",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente l'uso dello spettro, ma il testo è troncato e poco chiaro alla fine."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.208268529,
+      "prompt_tokens": 2191,
+      "prompt_time": 0.499291219,
+      "completion_tokens": 823,
+      "completion_time": 3.057775703,
+      "total_tokens": 3014,
+      "total_time": 3.5570669219999997,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 279
+      }
+    },
+    "system_fingerprint": "fp_93703442d9",
+    "response_id": "chatcmpl-be75015e-c781-4912-83e9-ce3efce96602",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "fbe6eb9c5731ab3a552b968beb30ff51a0b8a3663b2f0358b453ace2c88fe3e2",
+    "4e0f424904b854a6f7b50f3da3c8b9060c4409ba898d328c2655a011853e9d02",
+    "4c8d5c1867500e04c3cb803309ca401b123744d39ab504019bd0af21bda67331",
+    "5e6e906677eb3b9a6c40f06dd0bce1b21f0fe9e1ca5b154423561894296cf4af",
+    "3ab240409371387213c888548e36b10b5a3e50956d913318e6073e6ea3fe7569",
+    "0ce1cde760f8590d5f3d58e687d5303019e3815703966600b078fdd083150b80"
+  ]
+}

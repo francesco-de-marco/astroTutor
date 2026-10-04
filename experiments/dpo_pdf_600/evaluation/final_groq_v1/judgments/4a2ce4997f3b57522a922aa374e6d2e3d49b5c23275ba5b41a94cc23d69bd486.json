@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "4a2ce4997f3b57522a922aa374e6d2e3d49b5c23275ba5b41a94cc23d69bd486",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Indica correttamente la formazione di idrogeno neutro durante la ricombinazione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.205631417,
+      "prompt_tokens": 1612,
+      "prompt_time": 0.080035975,
+      "completion_tokens": 635,
+      "completion_time": 1.338810149,
+      "total_tokens": 2247,
+      "total_time": 1.4188461239999999,
+      "completion_tokens_details": {
+        "reasoning_tokens": 106
+      }
+    },
+    "system_fingerprint": "fp_9241e9962b",
+    "response_id": "chatcmpl-e3c8be86-1358-4d1f-8e3d-8544c0333b2f",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "539a8318a0816a9c10696fba35c5f868cd5cf2b2653608a10886ad10fa71fb54",
+    "4a2ce4997f3b57522a922aa374e6d2e3d49b5c23275ba5b41a94cc23d69bd486",
+    "72fdf43796b6df8e6a552b59580a831c5188011748356e0c6899046959462e9d",
+    "d3ae5b285692e003b5118708b1c5f029830d45476622296c2f4c4622c367139c",
+    "132ed0769b5b6597515fa9ada8de26630fba1847304d2811162a2089f67eb7f3",
+    "bddf372866d537026fb4afb15b09735e07c9db2d5a1d0e0d94198315ab25fb78"
+  ]
+}

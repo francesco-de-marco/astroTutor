@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "3766610e25c441b014f91639810c334a96399ac489e208dfa1f090da8b9ebd14",
+    "correctness": "C",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Sottolinea la differenza di accoppiamento, ma non menziona esplicitamente la pressione della radiazione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.061404859,
+      "prompt_tokens": 1701,
+      "prompt_time": 0.103867487,
+      "completion_tokens": 627,
+      "completion_time": 1.321139968,
+      "total_tokens": 2328,
+      "total_time": 1.425007455,
+      "completion_tokens_details": {
+        "reasoning_tokens": 61
+      }
+    },
+    "system_fingerprint": "fp_dee443f41b",
+    "response_id": "chatcmpl-3455cb86-c3f3-4fd9-9acb-1371a3682fb1",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "2e6634e046773d76784df74520c05b5f6412593595294d99b26792ce6412c2d0",
+    "f3b0dc102cdcc9a3dd42e626c9f4e6995bf21cc4295fc3dbd3d313c2f2885961",
+    "b5fe5da570cbfb8067ba03b4972d620f7585409696b1c0b13536892ac33ea987",
+    "c363d9e1e03b58683b748b05fb7f7e1f5b6efd99fe26a2e9250b685486b9f7b5",
+    "3766610e25c441b014f91639810c334a96399ac489e208dfa1f090da8b9ebd14",
+    "636b546c624b4a37f36d0e49b0ff7599647514fd44278204bfc263f50983f780"
+  ]
+}

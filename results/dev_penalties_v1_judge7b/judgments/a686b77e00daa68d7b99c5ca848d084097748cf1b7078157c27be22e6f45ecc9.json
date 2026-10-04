@@ -1,0 +1,23 @@
+{
+  "response_hash": "a686b77e00daa68d7b99c5ca848d084097748cf1b7078157c27be22e6f45ecc9",
+  "judgment": {
+    "faithfulness": 3,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta contiene informazioni aggiuntive non richieste e non presenti nei chunk, come la massa iniziale delle stelle e la loro classificazione come oggetti relativamente piccoli.",
+      "correctness": "La descrizione è corretta, ma manca l'informazione sulla densità delle stelle di neutroni.",
+      "level_adequacy": "Il livello di formalismo è adatto, ma la descrizione potrebbe essere più concisa per un profilo D.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere migliorata con una struttura più lineare."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2575,
+    "eval_count": 206,
+    "total_duration": 6350275500,
+    "done_reason": "stop"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+  "data": {
+    "counts": {
+      "train": 600
+    },
+    "unique_questions": 75,
+    "hashes": {
+      "train": "ad47fe07bc869f1700d3c7d2b0c4ff42876816228fbc67e27000cebaaeb4bef5"
+    },
+    "provenance_hash": "12c0846f58dce35dea0035b9122f42a667a0813fa230ca56c13380aa9b38531c",
+    "human_validated": false,
+    "validation_available": false,
+    "rows_used_this_run": 600
+  },
+  "environment": {
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "datasets": "5.0.1",
+      "accelerate": "1.15.0",
+      "trl": "0.24.0",
+      "peft": "0.17.1",
+      "bitsandbytes": "0.48.1"
+    },
+    "python": "3.14.3",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "vram_gib": 7.99560546875,
+    "free_gib_at_start": 6.90234375,
+    "cuda_build": "12.8"
+  },
+  "dpo": {
+    "output_dir": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\meta-llama__Llama-3.2-3B-Instruct_train_v1",
+    "beta": 0.1,
+    "loss_type": "sigmoid",
+    "learning_rate": 5e-06,
+    "num_train_epochs": 2,
+    "max_steps": -1,
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {
+      "use_reentrant": false
+    },
+    "bf16": true,
+    "fp16": false,
+    "optim": "adamw_torch",
+    "lr_scheduler_type": "constant",
+    "warmup_steps": 0,
+    "max_grad_norm": 1.0,
+    "weight_decay": 0.0,
+    "max_length": 533,
+    "max_prompt_length": null,
+    "max_completion_length": null,
+    "precompute_ref_log_probs": true,
+    "precompute_ref_batch_size": 1,
+    "use_logits_to_keep": true,
+    "use_liger_kernel": false,
+    "disable_dropout": true,
+    "logging_steps": 1,
+    "logging_nan_inf_filter": false,
+    "report_to": "none",
+    "save_strategy": "epoch",
+    "save_total_limit": 2,
+    "eval_strategy": "no",
+    "dataloader_num_workers": 0,
+    "dataset_num_proc": 1,
+    "seed": 42,
+    "data_seed": 42,
+    "push_to_hub": false
+  },
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "quantization": "NF4 double quant BF16",
+  "chat_template_kwargs": {},
+  "message_policy": "native_roles",
+  "token_lengths": {
+    "min": 270,
+    "max": 525
+  },
+  "script_sha256": "74464bea6a2686ba2965b7e2e8ceeab36cd68934cab7253412a67e48b6552609",
+  "mode": "train",
+  "note": "600 confronti sintetici, 75 domande, 300 prompt. Nessuna validation o test. Obiettivo correttezza e pertinenza; nessuna revisione umana indipendente."
+}

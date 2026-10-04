@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "418ec34bdeae5dbb3e333d6b953c81aedd99f002f934df65d7da3bac5d5b5ef0",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Ripete l'idea base ma afferma che gli atomi neutri non interagiscono con la radiazione, impreciso; manca spiegazione del ruolo degli elettroni liberi."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.297646456,
+      "prompt_tokens": 2133,
+      "prompt_time": 0.152626137,
+      "completion_tokens": 704,
+      "completion_time": 1.57002888,
+      "total_tokens": 2837,
+      "total_time": 1.7226550170000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 94
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-33f9bbdf-a9bf-450a-9408-0d04f3ede965",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "adfde611255476ed40c70be3e3435fdaca55139aea677a11e1f5fa6f7fc2767b",
+    "5436d9f9ebc2458f9cab91a39061d6a1c63880a81dbfe8a7f22e9a581575b86f",
+    "f99596cd15f7fafc0dd3161358cfc658a15b6776e57f4479f6df5140d9afa52c",
+    "8d386f063a32fcf80df01bef74e1165fb95a1ed6adcbbdfc81cb7df6502b6863",
+    "418ec34bdeae5dbb3e333d6b953c81aedd99f002f934df65d7da3bac5d5b5ef0",
+    "8bf0cf46043c139470ce9fe036c3d549334a51d54c01d95d6e5b672c0e07685a"
+  ]
+}

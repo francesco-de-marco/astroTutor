@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9d2c82e5-9ffe-4a59-8983-2197e4716c4d",
+  "object": "chat.completion",
+  "created": 1790375782,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché le comete a lungo periodo provengono dalla nube di Oort?\",\n  \"answer\": \"Le comete a lungo periodo sono oggetti ghiacciati che orbitano il Sole vicino al limite della sua sfera di influenza, circa 50 000 AU. A queste distanze la gravità di stelle vicine può perturbare le loro orbite. Quando un passaggio stellare altera l'orbita di un oggetto della nube, quest'ultimo può essere spinto verso il Sole, diventando visibile come cometa, oppure può essere espulso dal sistema solare. Questo meccanismo di perturbazione stellare è alla base della formazione delle comete osservate, ed è per questo che la sorgente di queste comete è identificata con la nube di Oort. (Evidenza: [1],[2])\",\n  \"evidence_ids\": [1, 2]\n}",
+        "reasoning": "We need to produce JSON. The passage gives concept: sphere of influence and perturbation causing comets. Question: e.g., \"Perché le comete a lungo periodo provengono dalla nube di Oort?\" Answer using passage. Provide evidence ids [1,2]. usable true."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.220900103,
+    "prompt_tokens": 664,
+    "prompt_time": 0.042716822,
+    "completion_tokens": 271,
+    "completion_time": 0.563003145,
+    "total_tokens": 935,
+    "total_time": 0.605719967,
+    "completion_tokens_details": {
+      "reasoning_tokens": 60
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_803c0ba83d",
+  "x_groq": {
+    "id": "req_01m3dbcsk6eqwv7129d22rbhyn",
+    "seed": 1282273070
+  },
+  "service_tier": "on_demand"
+}

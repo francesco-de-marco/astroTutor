@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8da58a2cbf14450890fdf6d06e14e69de7b2a830b0528094850fe5578ac915c6",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che Terra e Luna orbitano attorno al baricentro interno alla Terra."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209428479,
+      "prompt_tokens": 2094,
+      "prompt_time": 1.205968531,
+      "completion_tokens": 860,
+      "completion_time": 1.795516959,
+      "total_tokens": 2954,
+      "total_time": 3.00148549,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 316
+      }
+    },
+    "system_fingerprint": "fp_bb691ea66b",
+    "response_id": "chatcmpl-0f3d27ac-2765-4b46-b5e7-efa9273eb8cc",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8da58a2cbf14450890fdf6d06e14e69de7b2a830b0528094850fe5578ac915c6",
+    "dfffa7f176ef8396ca4e0f51bd7910da78ec5308f1df7b25982902916604179a",
+    "23567e9f4b192b39d60fa2860a3135f56202403b5b9f10058a91a0bc27421790",
+    "4f2799e73c8abf294d85cf33501295a525832b300ef9cc2c636e07e4c715e73a",
+    "192499a24a9239f622c661997036487a5ce415d9a55641149f0d17696e13e30c",
+    "0fb84535d484c914fd51f14531a24c1729a855393893e0d6b720b23f6878cd46"
+  ]
+}

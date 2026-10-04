@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-7fbc7b9b-4f69-4d58-8214-f9a2ec1efc1f",
+  "object": "chat.completion",
+  "created": 1790375437,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché, secondo il brano, la transizione tra un disco geometrico sottile e otticamente spesso e un ADAF non può avvenire in modo continuo?\",\n  \"answer\": \"Il brano spiega che, nei diagrammi teorici, le soluzioni per un disco standard (geometricamente sottile, otticamente spesso) e quelle per un flusso ad accrescimento radiativamente inefficiente (ADAF, otticamente sottile) sono separate per tutti i valori del parametro di viscosità. Questa separazione persiste anche a distanze maggiori dal centro, il che implica che non esiste un percorso continuo tra le due soluzioni all'interno del modello considerato. Di conseguenza, la transizione deve dipendere da fisica aggiuntiva non inclusa nei diagrammi, come l'evaporazione graduale del disco che forma una corona e poi un ADAF più interno. In sintesi, la mancanza di una soluzione intermedia continua nel modello base rende necessaria un meccanismo extra, ad esempio l'evaporazione, per spiegare il passaggio.\",\n  \"evidence_ids\": [1, 2]\n}",
+        "reasoning": "We need to produce JSON. The passage talks about transition from thin disk to ADAF via evaporation. Question: \"Perché la transizione tra disco sottile e ADAF non può avvenire in modo continuo secondo il brano?\" Answer using evidence. Use IDs 1 and 2. Provide usable true."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.050019056,
+    "prompt_tokens": 656,
+    "prompt_time": 0.030766643,
+    "completion_tokens": 329,
+    "completion_time": 0.683481853,
+    "total_tokens": 985,
+    "total_time": 0.714248496,
+    "completion_tokens_details": {
+      "reasoning_tokens": 65
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_02b0d31eca",
+  "x_groq": {
+    "id": "req_01m3db28v8ecjv1tq67ww15tn8",
+    "seed": 148320717
+  },
+  "service_tier": "on_demand"
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "0cdeb50c54a276ee9b5bb36f4db91f652f8877e14c31c3077c8e4d308976c7d6",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente l'assorbimento e la riconversione in calore e infrarosso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 1.874480733,
+      "prompt_tokens": 1589,
+      "prompt_time": 0.078313113,
+      "completion_tokens": 625,
+      "completion_time": 1.323324222,
+      "total_tokens": 2214,
+      "total_time": 1.401637335,
+      "completion_tokens_details": {
+        "reasoning_tokens": 90
+      }
+    },
+    "system_fingerprint": "fp_4140daa9c2",
+    "response_id": "chatcmpl-dc2d362e-fdc7-4b54-a411-20dc6adede3e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "7ad07a433a2b5b8955877ad47db7cf8b581dede8b2774971510cda1bdc6965fc",
+    "0cdeb50c54a276ee9b5bb36f4db91f652f8877e14c31c3077c8e4d308976c7d6",
+    "f2b10840d8eebd8890f73f9a081ceb12d1af1a81ad20235eb758e58043a44c4e",
+    "19ea1a4284d456aa6900fffd103928bc69593e0e51896951b1e0f23f58ba889e",
+    "99e5a4a5f00e83bcad7fe3063dcc6dedf3272cdb462fe36af981bbebf2b23e7f",
+    "a6adba5ba7f4d014ca803e856270a10d26d0ed8190219e18591ef0c5614864a7"
+  ]
+}

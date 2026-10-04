@@ -1,0 +1,23 @@
+{
+  "response_hash": "6c421a394aa7b6b9e3c8b1bf8a26ab6f1050af8691d8683a7564f62d17d36534",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+      "correctness": "La descrizione è corretta e non contiene errori.",
+      "level_adequacy": "Il livello di formalismo è adatto a un profilo C, ma l'uso di espressioni come 'astronauti imprudenti' potrebbe confondere un ascoltatore più giovane.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere ulteriormente esplicativa per un ascoltatore più giovane."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2149,
+    "eval_count": 189,
+    "total_duration": 6156761100,
+    "done_reason": "stop"
+  }
+}

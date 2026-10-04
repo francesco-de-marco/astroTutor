@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a8722eb493b4e81a02a523e0746c7ad5cee8dad1dcd256638b0387e239f524da",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Definisce il baricentro come punto di equilibrio di massa, corretto e sufficiente."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209513222,
+      "prompt_tokens": 1456,
+      "prompt_time": 0.073693931,
+      "completion_tokens": 726,
+      "completion_time": 1.5423302159999999,
+      "total_tokens": 2182,
+      "total_time": 1.616024147,
+      "completion_tokens_details": {
+        "reasoning_tokens": 203
+      }
+    },
+    "system_fingerprint": "fp_9241e9962b",
+    "response_id": "chatcmpl-71ced8ad-4847-4f25-9079-7c248ae5aca8",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "eee8c4e4ec75844886e0b6025971b33804bb233cd01ecf93bf61e5e91a893cc6",
+    "d962160dd3f23459c5dcf9d355bf423152959d2b3e33371ac1dd38441d457ba9",
+    "a8722eb493b4e81a02a523e0746c7ad5cee8dad1dcd256638b0387e239f524da",
+    "3b6cf4c1abf91ff95ae386a19a2439dee950eb908c6af2d4a52c96a0602d362f",
+    "9d9f1e87f730af17863e046f69101a06e290033a02bfada2fe47eb40069d1907",
+    "bbb9a62933dc4683f526044f228b41db9d6277c9050fbe136bef0e7f4d057288"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "f065f8a0850e02e55cb25ebd9dc63ec307ef24d6b595128d74d8075afb7c3d2c",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermazione sull'attenuazione infrarossa è ambigua e potenzialmente errata."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.264383632,
+      "prompt_tokens": 1894,
+      "prompt_time": 0.118235541,
+      "completion_tokens": 855,
+      "completion_time": 1.837372287,
+      "total_tokens": 2749,
+      "total_time": 1.955607828,
+      "completion_tokens_details": {
+        "reasoning_tokens": 311
+      }
+    },
+    "system_fingerprint": "fp_6c36ac20de",
+    "response_id": "chatcmpl-fca55160-d54e-4888-adc2-59b3f96985b7",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "17578ea243df4d1ca22a70d3782ef3d4bb2925453f72f867d0dc8102c7f160d7",
+    "504ccd6f59201a52f0262afea607cb07267aaadeda9eaa202a14b77506a70c5c",
+    "7d5f39340f6b8efd397d85b8a64b868bb8bd7f1b4c20a4c2759c9224b8cb1c5f",
+    "17b1c85fa84dcc18cbcce2411151f227ab176a614a21d09de068b6b2d532acf1",
+    "1280cf56c3accb24c2d92459420338291bf51a7c6747f873538114d50ca260a2",
+    "f065f8a0850e02e55cb25ebd9dc63ec307ef24d6b595128d74d8075afb7c3d2c"
+  ]
+}

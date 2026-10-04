@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7db8d4364e409783e7e45dab293001c5e6ff679eba046f2c0c5300e0b749b630",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta corretta, copre tutti gli elementi richiesti in modo chiaro e adeguato al livello C."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.221427436,
+      "prompt_tokens": 2266,
+      "prompt_time": 0.099763738,
+      "completion_tokens": 853,
+      "completion_time": 1.7941765140000001,
+      "total_tokens": 3119,
+      "total_time": 1.8939402520000002,
+      "completion_tokens_details": {
+        "reasoning_tokens": 288
+      }
+    },
+    "system_fingerprint": "fp_47082602e2",
+    "response_id": "chatcmpl-314ce754-cdcf-49de-8601-3fabd0c21627",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "c0fdbaa34575677566411b15c28512969b2cebc0e9159ecf2075527b477cc3a9",
+    "7db8d4364e409783e7e45dab293001c5e6ff679eba046f2c0c5300e0b749b630",
+    "8eaf5e415c05caf3b5c16e631cf36ee5432b2dc2739c5d4493d24244b0c5127e",
+    "6d809b7890fe168ded41c2124ae058686720b207974980850dbb7a5d3bb9f2ff",
+    "5b17948e47ba57cb4648aa5a328fc9e2272f0c7f385fae7ee158b357afbc1eea",
+    "79231a8ef000050cfefd8e51a464e256203072003d8bf1334b69297709c58845"
+  ]
+}

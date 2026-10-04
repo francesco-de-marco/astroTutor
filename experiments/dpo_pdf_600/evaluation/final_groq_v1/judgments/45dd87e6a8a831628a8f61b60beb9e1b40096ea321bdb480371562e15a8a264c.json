@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "45dd87e6a8a831628a8f61b60beb9e1b40096ea321bdb480371562e15a8a264c",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive in modo corretto il ruolo gravitazionale della materia oscura nella caduta della materia ordinaria."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.051973326,
+      "prompt_tokens": 2043,
+      "prompt_time": 0.118954353,
+      "completion_tokens": 835,
+      "completion_time": 1.758648221,
+      "total_tokens": 2878,
+      "total_time": 1.877602574,
+      "completion_tokens_details": {
+        "reasoning_tokens": 259
+      }
+    },
+    "system_fingerprint": "fp_4200b3f836",
+    "response_id": "chatcmpl-0b4a9ad2-99a7-4fdd-811d-a23db71b1102",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "be5189a8d4a7e4f8b157d26f901e032f6130f40e3f4757f6f5a57b88430f37c3",
+    "cc9a17c86545a6f1b59a3b37d4b8c3ea706349d462b98da8502c9ae7be360b36",
+    "45dd87e6a8a831628a8f61b60beb9e1b40096ea321bdb480371562e15a8a264c",
+    "9fe1d4092146ab9373ec97acfd30e5759eea0c8d05fadbe48eaeb47d8b957456",
+    "f60deeef2651ea54864520fdf21a860250eddc17c733ec6d8c89d0d5099dc511",
+    "51bf673aceb163f7d02b991e4781e54de8a45e886cb8261a2a105d83bf55096f"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "response_hash": "a57486fa55fa3df457da7559b427fa24800275f1953fb575baddc11ba49c3f9b",
+  "judgment": {
+    "faithfulness": 3,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta contiene elementi corretti ma non tutti i chunk sono supportati. Ad esempio, non viene menzionata la massa delle nane bianche.",
+      "correctness": "La descrizione è corretta, ma non è del tutto accurata. Le stelle di neutroni non sono necessariamente molto più pesanti di una nana bianca, ma piuttosto molto più densi.",
+      "level_adequacy": "Il livello di adeguazione è buono, ma potrebbe essere migliorato con un po' di formalismo e termini più precisi.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere un po' più precisa."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2177,
+    "eval_count": 221,
+    "total_duration": 7176914600,
+    "done_reason": "stop"
+  }
+}

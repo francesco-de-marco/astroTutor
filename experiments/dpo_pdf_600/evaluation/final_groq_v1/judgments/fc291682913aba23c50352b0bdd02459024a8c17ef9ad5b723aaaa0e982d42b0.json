@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "fc291682913aba23c50352b0bdd02459024a8c17ef9ad5b723aaaa0e982d42b0",
+    "correctness": "C",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermazione corretta ma priva di spiegazione del meccanismo."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.052499065,
+      "prompt_tokens": 1453,
+      "prompt_time": 0.076447155,
+      "completion_tokens": 705,
+      "completion_time": 1.4862612020000001,
+      "total_tokens": 2158,
+      "total_time": 1.562708357,
+      "completion_tokens_details": {
+        "reasoning_tokens": 179
+      }
+    },
+    "system_fingerprint": "fp_dee443f41b",
+    "response_id": "chatcmpl-684562ad-0413-4309-aaf3-5a0e5a81f35a",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "0e0df379a3986d6964454c1e1eb717bd6d2d32b0aa23d8b411eb5f15ec63ab39",
+    "28cf4b6b32965eb65f5ff08af00abff91b26890923e367987644eb7422dd1563",
+    "a8efa72e54c461ebe65d67bfbce655f57b799bf8269ed44be767252bab168a3b",
+    "34653e8cc10021ab83c6f8fa37ce1d27a74965fae204b0f2c1270542bcefc371",
+    "fc291682913aba23c50352b0bdd02459024a8c17ef9ad5b723aaaa0e982d42b0",
+    "25d628e5dac900b53a1877a8b4c19a3b94538d96f3fcb93e6835143b791dda25"
+  ]
+}

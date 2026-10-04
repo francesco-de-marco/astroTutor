@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "dbefb3a3ba9a519429ef293f0b6bcd5a37f37ff9b52927cb55eb8830ce529106",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che l'energia non è distrutta ma riemessa nell'infrarosso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305428156,
+      "prompt_tokens": 1412,
+      "prompt_time": 0.801734923,
+      "completion_tokens": 614,
+      "completion_time": 1.297567693,
+      "total_tokens": 2026,
+      "total_time": 2.099302616,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 90
+      }
+    },
+    "system_fingerprint": "fp_4a7bb72c24",
+    "response_id": "chatcmpl-9517982d-6fa2-4aad-b476-7f37eebe8eec",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "dbefb3a3ba9a519429ef293f0b6bcd5a37f37ff9b52927cb55eb8830ce529106",
+    "d69aa6bafccc6bb72bd3b2fea4d299890956ba2eb12ac31b9ee187b08e1dd828",
+    "ab7b70e64e3220ce3b0ec281d1ae8fdf45ab45acb2dbf747aa7ad5e65e63e317",
+    "0a7ef2ed156d88f91888431be8b817ef7d502507115a93701b79ae5e723168d9",
+    "7ac5e86c7331e964bb448a91f1550ba6c45c2bf2ce5e1603f49b957c318f538f",
+    "ce9faf20894ce0bc25f84010ec3bf04f31e7c153ee17a039e4fca6a763d4e29d"
+  ]
+}

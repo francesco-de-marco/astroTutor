@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "413273bebfd12bbdc1c8f9d3b1bbd1efdcc69a3fa673299be6d267d30b545c07",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Attribuisce la riga a un oggetto interposto, non all'atmosfera stellare; spiegazione parziale."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.304133281,
+      "prompt_tokens": 1851,
+      "prompt_time": 0.582873798,
+      "completion_tokens": 845,
+      "completion_time": 1.832788866,
+      "total_tokens": 2696,
+      "total_time": 2.415662664,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 286
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-5fd332ed-d6fa-49aa-b522-f7e380b500a7",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "374338c3d7f7789f45de59942a9fd9988b595823a464a7fe3ee642d49341d414",
+    "b450c6cee2654ec3fb3e5ab68cc7d9fad56fad659714541d6793274da036e9d5",
+    "413273bebfd12bbdc1c8f9d3b1bbd1efdcc69a3fa673299be6d267d30b545c07",
+    "713f93d3e07506e8c0007eb005f30362ce5ad3ce5c6e57728c0b1f607e0c8a37",
+    "9d2cbc60fe966a8bb083fc830a56dc64e8b313fdc77c68e512531acc4778d8ec",
+    "93a8f6df4baf4923d1aea65dc60d547dafc662927061584acbab51720d37ff2f"
+  ]
+}

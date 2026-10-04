@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev03_C",
+    "group_id": "dev03",
+    "topic": "Buchi neri",
+    "question": "Che cosa significa orizzonte degli eventi?",
+    "level": "C",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "L'orizzonte di eventi, la frontiera della regione dell'espaciotiempo dalla che non è possibile scappare, agisce come una membrana unidirezionale attorno al buco nero: gli oggetti, tali come astronauti imprudenti, possono cadere nel buco nero attraverso l'orizzonte di eventi, ma niente può scappare dal buco nero attraverso l'orizzonte di eventi. , Ricordiamo che l'orizzonte di eventi è la strada nello spazio-tempo della luce che sta tentando di scappare dal buco nero, e niente può viaggiare più rapido della luce. Uno potrebbe dire dell'orizzonte di eventi quello che il poeta Dante disse all'entrata dell'inferno: \"Perdete ogni speranza oltrepassandomi.\" Qualunque cosa o persona che cade attraverso l'orizzonte di eventi pronto raggiungerà la regione di densità infinita ed il fine del tempo.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.499438464641571
+    },
+    {
+      "text": "Un buco nero ha un bordo, chiamato orizzonte degli eventi, costituito dall’insieme dei punti in cui la gravità raggiunge la forza sufficiente a trascinare indietro la luce e a impedirne la fuga. Ora, dato che nulla può viaggiare più velocemente della luce, anche tutte le altre cose saranno a loro volta trascinate indietro. Cadere attraverso l’orizzonte degli eventi è un ${ \\mathsf { p o } } ^ { \\prime }$ come affrontare le cascate del Niagara in canoa: se siete sopra le cascate, potete ancora salvarvi a patto di remare con sufficiente forza, ma una volta raggiunto il bordo siete perduti e non ${ \\bf c } ^ { , } \\dot { \\bf e }$ modo di tornare indietro. Man mano che vi avvicinate alle cascate, la corrente diventa più veloce. Ciò significa che la parte anteriore della canoa è sottoposta a un’attrazione maggiore rispetto alla parte posteriore, quindi ${ \\bf c } ^ { , } \\dot { \\bf e }$ il rischio che l’imbarcazione si spezzi. Lo stesso vale per i buchi neri. Se precipitate verso un buco nero tenendo davanti i piedi, questi ultimi saranno soggetti a un’attrazione gravitazionale maggiore rispetto alla testa, proprio in quanto più vicini alla singolarità; di conseguenza, il vostro corpo verrà allungato verticalmente e schiacciato lateralmente. Se la massa del buco nero supera solo di poche volte quella del Sole, verrete trasformati in spaghetti prima ancora di raggiungere l’orizzonte degli eventi",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking).pdf",
+      "title": "Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4907140731811523
+    },
+    {
+      "text": "I buchi neri dunque non possono essere visti direttamente, ossia non posso vedere l’eventuale singolarità al centro. Tutto ciò che raggiunge una certa distanza dal buco nero, detta “orizzonte degli eventi”, infatti, è destinato a essere inghiottito per sempre, luce compresa. L’orizzonte degli eventi rappresenta una specie di linea di demarcazione oltre la quale non sappiamo bene cosa accade, si perde tutta l’informazione riguardante ciò che è stato inghiottito. Per quanto ne sappiamo, tutto quello che cade in un buco nero finisce semplicemente ad aumentare la sua massa.  \nPrima di proseguire vale la pena spendere due parole su uno dei modi indiretti con cui osserviamo i buchi neri, cui abbiamo accennato sopra, e che ha permesso anche di realizzare la famosa foto. La materia che cade in un buco nero spesso lo fa spiraleggiando intorno all’orizzonte degli eventi. La forza di gravità la accelera incredibilmente, al contempo riscaldandola. Si formano dunque delle specie di “ciambelle” intorno al buco nero, composte di materia molto calda che emette radiazioni di vario tipo, tipicamente raggi X e gamma, ma anche onde radio. Sono queste che vediamo e “fotografiamo”; tutto ciò che è al di là dell’orizzonte degli eventi, la natura più intima di un buco nero, invece, ci è del tutto preclusa.  \nIn base a questa descrizione, è facile capire quale possa essere il rischio per noi rappresentato da un buco nero: potrebbe inghiottirci. In questo caso, cosa succederebbe?",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.490555226802826
+    }
+  ],
+  "queries": [
+    "Che cosa significa orizzonte degli eventi?"
+  ]
+}

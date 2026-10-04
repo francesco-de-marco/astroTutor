@@ -1,0 +1,23 @@
+{
+  "response_hash": "da95825e30e40dd52eeceaa550cea4bae83cf05f368481df54a600129e06585e",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "La descrizione è corretta e segue la sequenza di eventi corretta.",
+      "level_adequacy": "Il livello di formalismo è adatto a un profilo C, ma ci sono alcune frasi che potrebbero essere un po' confuse per un bambino di 6-10 anni.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe beneficiare di una maggiore chiarezza in alcune parti."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2213,
+    "eval_count": 194,
+    "total_duration": 6397856600,
+    "done_reason": "stop"
+  }
+}

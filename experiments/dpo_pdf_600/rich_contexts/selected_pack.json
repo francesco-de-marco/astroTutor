@@ -1,0 +1,278 @@
+[
+  {
+    "id": "0b000b835d3967e6acb9def6",
+    "level": "B",
+    "alternate_level": "D",
+    "question": "Come possono gli astronomi mettere alla prova le loro ipotesi senza portare le stelle in laboratorio?",
+    "context": "When you read about experiments, you probably have a mental picture of a scientist in a laboratory conducting tests or taking careful measurements. This is certainly the case for a biologist or a chemist, but what can astronomers do when our laboratory is the universe? It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company.  \nAs a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary. New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail. Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment.  \nMuch of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it. In the same way, a geologist cannot alter what has happened to our planet, and a paleontologist cannot bring an ancient animal back to life. While this can make astronomy challenging, it also gives us fascinating opportunities to discover the secrets of our cosmic past.",
+    "source": {
+      "context": "When you read about experiments, you probably have a mental picture of a scientist in a laboratory conducting tests or taking careful measurements. This is certainly the case for a biologist or a chemist, but what can astronomers do when our laboratory is the universe? It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company.  \nAs a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary. New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail. Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment.  \nMuch of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it. In the same way, a geologist cannot alter what has happened to our planet, and a paleontologist cannot bring an ancient animal back to life. While this can make astronomy challenging, it also gives us fascinating opportunities to discover the secrets of our cosmic past.",
+      "context_hash": "4c37525f93fe0114a815b56ebbd2ed801980e18053358d4e9f791f0a4394f303",
+      "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+      "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+      "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+      "source_level": "B",
+      "topic": "6",
+      "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+      "chunk_line": 22,
+      "split": "train",
+      "level": "C",
+      "id": "0b000b835d3967e6acb9def6"
+    },
+    "core_fact_ids": [
+      3,
+      4,
+      6
+    ],
+    "facts": [
+      {
+        "id": 3,
+        "text": "It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company."
+      },
+      {
+        "id": 4,
+        "text": "As a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary."
+      },
+      {
+        "id": 6,
+        "text": "Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment."
+      },
+      {
+        "id": 5,
+        "text": "New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail."
+      },
+      {
+        "id": 7,
+        "text": "Much of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it."
+      },
+      {
+        "id": 8,
+        "text": "In the same way, a geologist cannot alter what has happened to our planet, and a paleontologist cannot bring an ancient animal back to life."
+      }
+    ],
+    "didactic_note": "Esplicitare confronto fra osservazioni e ipotesi; definire scienza osservativa con le azioni descritte.",
+    "status": "assistant_selected_diagnostic_not_independently_validated"
+  },
+  {
+    "id": "1582ab7cf75219683ecb4e0e",
+    "level": "A",
+    "alternate_level": "C",
+    "question": "Che cosa accade durante un’eclissi di Sole?",
+    "context": "One of the coincidences of living on Earth at the present time is that the two most prominent astronomica objects, the Sun and the Moon, have nearly the same apparent size in the sky. Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°. As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature.  \nAny solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it. This shadow in space becomes apparent whenever another object moves into it. In general, an ecli p se occurs whenever any part of either Earth or the Moon enters the shadow of the other. When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse. When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse. Let’s look at how these happen in more detail.",
+    "source": {
+      "context": "Describe what causes lunar and solar eclipses Diferentiate between a total and partial solar eclipse Explain why lunar eclipses are much more common than solar eclipses One of the coincidences of living on Earth at the present time is that the two most prominent astronomica objects, the Sun and the Moon, have nearly the same apparent size in the sky. Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°. As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature.  \nAny solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it. This shadow in space becomes apparent whenever another object moves into it. In general, an ecli p se occurs whenever any part of either Earth or the Moon enters the shadow of the other. When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse. When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse. Let’s look at how these happen in more detail.",
+      "context_hash": "742fa95133bbaf281cad2bfdaee067605ad68477b154f64367ec5421566ff7f5",
+      "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+      "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+      "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+      "source_level": "B",
+      "topic": "6",
+      "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+      "chunk_line": 270,
+      "split": "train",
+      "level": "C",
+      "id": "1582ab7cf75219683ecb4e0e"
+    },
+    "core_fact_ids": [
+      4,
+      7
+    ],
+    "facts": [
+      {
+        "id": 4,
+        "text": "Any solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it."
+      },
+      {
+        "id": 7,
+        "text": "When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse."
+      },
+      {
+        "id": 1,
+        "text": "One of the coincidences of living on Earth at the present time is that the two most prominent astronomica objects, the Sun and the Moon, have nearly the same apparent size in the sky."
+      },
+      {
+        "id": 2,
+        "text": "Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°."
+      },
+      {
+        "id": 3,
+        "text": "As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature."
+      },
+      {
+        "id": 8,
+        "text": "When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse."
+      }
+    ],
+    "didactic_note": "Per A descrivere Sole, Luna, ombra e osservatore; per C sono possibili dimensioni apparenti e confronto con eclissi lunare.",
+    "status": "assistant_selected_diagnostic_not_independently_validated"
+  },
+  {
+    "id": "119e441957b10b1d16451244",
+    "level": "C",
+    "alternate_level": "A",
+    "question": "Per un osservatore a 38 gradi di latitudine nord, quali stelle non tramontano e come si chiama questa regione del cielo?",
+    "context": "For an observer at 38° N latitude, the south celestial pole is 38° below the southern horizon and, thus, never visible. As Earth turns, the whole sky seems to pivot about the north celestial pole. For this observer, stars within 38° of the North Pole can never set. They are always above the horizon, day and night. This part of the sky is called the north circumpolar zone. For observers in the continental United States, the Big Dipper, Little Dipper, and Cassiopeia are examples of star groups in the north circumpolar zone. On the other hand, stars within 38° of the south celestial pole never rise. That part of the sky is the south circumpolar zone. To most U.S. observers, the Southern Cross is in that zone. (Don’t worry if you are not familiar with the star groups just mentioned; we will introduce them more formally later on.)  \nAt this particular time in Earth’s history, there happens to be a star very close to the north celestial pole. It is called Polaris, the pole star, and has the distinction of being the star that moves the least amount as the northern sky turns each day. Because it moved so little while the other stars moved much more, it played a special role in the mythology of several Native American tribes, for example (some called it the “fastener of the sky”).",
+    "source": {
+      "context": "For an observer at 38° N latitude, the south celestial pole is 38° below the southern horizon and, thus, never visible. As Earth turns, the whole sky seems to pivot about the north celestial pole. For this observer, stars within 38° of the North Pole can never set. They are always above the horizon, day and night. This part of the sky is called the north circumpolar zone. For observers in the continental United States, the Big Dipper, Little Dipper, and Cassiopeia are examples of star groups in the north circumpolar zone. On the other hand, stars within 38° of the south celestial pole never rise. That part of the sky is the south circumpolar zone. To most U.S. observers, the Southern Cross is in that zone. (Don’t worry if you are not familiar with the star groups just mentioned; we will introduce them more formally later on.)  \nAt this particular time in Earth’s history, there happens to be a star very close to the north celestial pole. It is called Polaris, the pole star, and has the distinction of being the star that moves the least amount as the northern sky turns each day. Because it moved so little while the other stars moved much more, it played a special role in the mythology of several Native American tribes, for example (some called it the “fastener of the sky”).",
+      "context_hash": "124feb19a7a64877e4e2bb4d9d8649f354e49eb1fc01dc5bb10483f33d3c2c2f",
+      "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+      "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+      "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+      "source_level": "B",
+      "topic": "6",
+      "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+      "chunk_line": 60,
+      "split": "train",
+      "level": "D",
+      "id": "119e441957b10b1d16451244"
+    },
+    "core_fact_ids": [
+      3,
+      4,
+      5
+    ],
+    "facts": [
+      {
+        "id": 3,
+        "text": "For this observer, stars within 38° of the North Pole can never set."
+      },
+      {
+        "id": 4,
+        "text": "They are always above the horizon, day and night."
+      },
+      {
+        "id": 5,
+        "text": "This part of the sky is called the north circumpolar zone."
+      },
+      {
+        "id": 1,
+        "text": "For an observer at 38° N latitude, the south celestial pole is 38° below the southern horizon and, thus, never visible."
+      },
+      {
+        "id": 2,
+        "text": "As Earth turns, the whole sky seems to pivot about the north celestial pole."
+      },
+      {
+        "id": 6,
+        "text": "For observers in the continental United States, the Big Dipper, Little Dipper, and Cassiopeia are examples of star groups in the north circumpolar zone."
+      },
+      {
+        "id": 7,
+        "text": "On the other hand, stars within 38° of the south celestial pole never rise."
+      },
+      {
+        "id": 8,
+        "text": "That part of the sky is the south circumpolar zone."
+      }
+    ],
+    "didactic_note": "Mantenere esplicita la condizione sulla latitudine; non dire che sopra l’orizzonte significhi visibili a occhio nudo anche di giorno.",
+    "status": "assistant_selected_diagnostic_not_independently_validated"
+  },
+  {
+    "id": "ca5e70f47cd57b9f3659c2f0",
+    "level": "D",
+    "alternate_level": "C",
+    "question": "Quali metodi descrive il brano per superare la teoria linearizzata nello studio della fusione di oggetti compatti?",
+    "context": "The most powerful GW sources, and therefore those most likley to be detected, are the merger of two compact objects, but this case does not satisfy the conditions of the quadrupole approximation and there is a need to go beyond linearized theory. This can be achieved by means of a series expansion, adding terms of quadratic, cubic and higher orders to the linearized expressions. This approach was considered in the early years of GR [11, 12], and in the 1980s formalized as the Post-Newtonian method. For the actual merger, a numerical simulation of the full Einstein equations is needed, normally with the spacetime foliated into a sequence of spacelike hypersurfaces [13]. In 1977, the GWs from a head-on collision of two Schwarzschild black holes were computed [14], but it was only in 2005 that codes were able to make a stable evolution of the physically realistic problem of the inspiral and merger of two black holes [15]. Since then, many other groups have successfully evolved black hole spacetimes, as well as neutron star mergers and supernovae, often using a combination of Post-Newtonian and numerical methods.",
+    "source": {
+      "context": "The most powerful GW sources, and therefore those most likley to be detected, are the merger of two compact objects, but this case does not satisfy the conditions of the quadrupole approximation and there is a need to go beyond linearized theory. This can be achieved by means of a series expansion, adding terms of quadratic, cubic and higher orders to the linearized expressions. This approach was considered in the early years of GR [11, 12], and in the 1980s formalized as the Post-Newtonian method. For the actual merger, a numerical simulation of the full Einstein equations is needed, normally with the spacetime foliated into a sequence of spacelike hypersurfaces [13]. In 1977, the GWs from a head-on collision of two Schwarzschild black holes were computed [14], but it was only in 2005 that codes were able to make a stable evolution of the physically realistic problem of the inspiral and merger of two black holes [15]. Since then, many other groups have successfully evolved black hole spacetimes, as well as neutron star mergers and supernovae, often using a combination of Post-Newtonian and numerical methods.",
+      "context_hash": "c3b0087667d8fe2b2539ad6f4541762f8a0f166127ced11fe0b7b9d5dc384a15",
+      "source_group": "introduction to gravitational wave astronomy arxiv 2103 07675",
+      "source_file": "data/raw/TOPIC 7 - Onde gravitazionali e astronomia multi-messaggero/C - Introduction to Gravitational Wave Astronomy (arXiv 2103.07675).pdf",
+      "source_title": "Introduction to Gravitational Wave Astronomy (arXiv 2103.07675)",
+      "source_level": "C",
+      "topic": "7",
+      "chunk_file": "TOPIC 7 - Onde gravitazionali e astronomia multi-messaggero\\C - Introduction to Gravitational Wave Astronomy (arXiv 2103.07675).jsonl",
+      "chunk_line": 3,
+      "split": "train",
+      "level": "A",
+      "id": "ca5e70f47cd57b9f3659c2f0"
+    },
+    "core_fact_ids": [
+      1,
+      2,
+      4
+    ],
+    "facts": [
+      {
+        "id": 1,
+        "text": "The most powerful GW sources, and therefore those most likley to be detected, are the merger of two compact objects, but this case does not satisfy the conditions of the quadrupole approximation and there is a need to go beyond linearized theory."
+      },
+      {
+        "id": 2,
+        "text": "This can be achieved by means of a series expansion, adding terms of quadratic, cubic and higher orders to the linearized expressions."
+      },
+      {
+        "id": 4,
+        "text": "For the actual merger, a numerical simulation of the full Einstein equations is needed, normally with the spacetime foliated into a sequence of spacelike hypersurfaces [13]."
+      },
+      {
+        "id": 3,
+        "text": "This approach was considered in the early years of GR [11, 12], and in the 1980s formalized as the Post-Newtonian method."
+      },
+      {
+        "id": 6,
+        "text": "Since then, many other groups have successfully evolved black hole spacetimes, as well as neutron star mergers and supernovae, often using a combination of Post-Newtonian and numerical methods."
+      }
+    ],
+    "didactic_note": "Per D distinguere correzioni di ordine superiore e simulazione della fusione; non aggiungere formule o definizioni assenti.",
+    "status": "assistant_selected_diagnostic_not_independently_validated"
+  },
+  {
+    "id": "5623316c734837de3658cf6a",
+    "level": "B",
+    "alternate_level": "D",
+    "question": "Perché conviene osservare l’ultravioletto astronomico dallo spazio?",
+    "context": "Radiation intermediate between X-rays and visible light is ultraviolet (meaning higher energy than violet). Outside the world of science, ultraviolet light is sometimes called “black light” because our eyes cannot see it. Ultraviolet radiation is mostly blocked by the ozone layer of Earth’s atmosphere, but a small fraction of ultraviolet rays from our Sun do penetrate to cause sunburn or, in extreme cases of overexposure, skin cancer in human beings. Ultraviolet astronomy is also best done from space.  \nElectromagnetic radiation with wavelengths between roughly 400 and 700 nm is called visible light because these are the waves that human vision can perceive. This is also the band of the electromagnetic spectrum that most readily reaches Earth’s surface. These two observations are not coincidental: human eyes evolved to see the kinds of waves that arrive from the Sun most efectively. Visible light penetrates Earth’s atmosphere efectively, except when it is temporarily blocked by clouds.",
+    "source": {
+      "context": "Radiation intermediate between X-rays and visible light is ultraviolet (meaning higher energy than violet). Outside the world of science, ultraviolet light is sometimes called “black light” because our eyes cannot see it. Ultraviolet radiation is mostly blocked by the ozone layer of Earth’s atmosphere, but a small fraction of ultraviolet rays from our Sun do penetrate to cause sunburn or, in extreme cases of overexposure, skin cancer in human beings. Ultraviolet astronomy is also best done from space.  \nElectromagnetic radiation with wavelengths between roughly 400 and 700 nm is called visible light because these are the waves that human vision can perceive. This is also the band of the electromagnetic spectrum that most readily reaches Earth’s surface. These two observations are not coincidental: human eyes evolved to see the kinds of waves that arrive from the Sun most efectively. Visible light penetrates Earth’s atmosphere efectively, except when it is temporarily blocked by clouds.",
+      "context_hash": "8089c301753ba8347b1710438b3518e63ab6eba183fe75cb77ed9f044a7690d4",
+      "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+      "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+      "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+      "source_level": "B",
+      "topic": "6",
+      "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+      "chunk_line": 320,
+      "split": "train",
+      "level": "A",
+      "id": "5623316c734837de3658cf6a"
+    },
+    "core_fact_ids": [
+      3,
+      4
+    ],
+    "facts": [
+      {
+        "id": 3,
+        "text": "Ultraviolet radiation is mostly blocked by the ozone layer of Earth’s atmosphere, but a small fraction of ultraviolet rays from our Sun do penetrate to cause sunburn or, in extreme cases of overexposure, skin cancer in human beings."
+      },
+      {
+        "id": 4,
+        "text": "Ultraviolet astronomy is also best done from space."
+      },
+      {
+        "id": 1,
+        "text": "Radiation intermediate between X-rays and visible light is ultraviolet (meaning higher energy than violet)."
+      },
+      {
+        "id": 2,
+        "text": "Outside the world of science, ultraviolet light is sometimes called “black light” because our eyes cannot see it."
+      },
+      {
+        "id": 5,
+        "text": "Electromagnetic radiation with wavelengths between roughly 400 and 700 nm is called visible light because these are the waves that human vision can perceive."
+      },
+      {
+        "id": 6,
+        "text": "This is also the band of the electromagnetic spectrum that most readily reaches Earth’s surface."
+      },
+      {
+        "id": 8,
+        "text": "Visible light penetrates Earth’s atmosphere efectively, except when it is temporarily blocked by clouds."
+      }
+    ],
+    "didactic_note": "Per B rendere esplicito il ruolo dell’atmosfera; eventuale confronto con luce visibile resta facoltativo.",
+    "status": "assistant_selected_diagnostic_not_independently_validated"
+  }
+]

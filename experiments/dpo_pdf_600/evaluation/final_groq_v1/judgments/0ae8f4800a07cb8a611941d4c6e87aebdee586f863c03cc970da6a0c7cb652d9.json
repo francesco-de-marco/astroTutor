@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "0ae8f4800a07cb8a611941d4c6e87aebdee586f863c03cc970da6a0c7cb652d9",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente l’assorbimento e la riemissione infrarossa in modo chiaro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022323568,
+      "prompt_tokens": 1830,
+      "prompt_time": 0.760659034,
+      "completion_tokens": 928,
+      "completion_time": 2.34782907,
+      "total_tokens": 2758,
+      "total_time": 3.108488104,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 394
+      }
+    },
+    "system_fingerprint": "fp_c800245357",
+    "response_id": "chatcmpl-159d97cb-688a-483e-939d-b94fc53fbcdc",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "af12e4119e739f83f9ceb80d41ee31101154b15e9aed5f3f8cc2118a6b6c90bd",
+    "80a0f47d6f286b20e3417021ce2059b0e8f49ced71dcbee830dc6be08efd654d",
+    "1d1d6cd1ca16b8da71d20512e8b3553f38d8f5272652aacf78d31bf792a2a5d1",
+    "6499a973de5ec2cde20b95ab9977fa760ffccd5fe813b19d42e94c7765a2c732",
+    "66d132f45714863dd7dcea8730286799c624e8b336dd9b18201c2d2a3cf1d03d",
+    "0ae8f4800a07cb8a611941d4c6e87aebdee586f863c03cc970da6a0c7cb652d9"
+  ]
+}

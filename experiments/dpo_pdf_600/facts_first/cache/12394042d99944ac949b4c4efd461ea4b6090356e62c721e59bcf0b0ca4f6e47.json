@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-36441db1-787e-44e3-b282-1acad7ecaaf0",
+  "object": "chat.completion",
+  "created": 1790377430,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"usable\":true,\"question\":\"Come si può rilevare un pianeta che non orbita intorno a una stella?\",\"fact_ids\":[1,2]}",
+        "reasoning": "We need to output JSON with usable true, question, fact_ids. We have two sentences, IDs 1 and 2. They support question about detecting a planet not orbiting a star. Provide question maybe rephrased. Provide fact_ids [1,2]."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.090562099,
+    "prompt_tokens": 413,
+    "prompt_time": 0.01779151,
+    "completion_tokens": 98,
+    "completion_time": 0.203259337,
+    "total_tokens": 511,
+    "total_time": 0.221050847,
+    "completion_tokens_details": {
+      "reasoning_tokens": 55
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_a4be3b0989",
+  "x_groq": {
+    "id": "req_01m3dcz3h4e55vbsjz4dk961hk",
+    "seed": 248921811
+  },
+  "service_tier": "on_demand"
+}

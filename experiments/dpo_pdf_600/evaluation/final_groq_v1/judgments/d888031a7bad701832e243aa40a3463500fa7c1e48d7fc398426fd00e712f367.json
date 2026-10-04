@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d888031a7bad701832e243aa40a3463500fa7c1e48d7fc398426fd00e712f367",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Indica in modo corretto l'uso dello spettro per stimare la temperatura senza distinguere il disco."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209109058,
+      "prompt_tokens": 2254,
+      "prompt_time": 0.102062579,
+      "completion_tokens": 710,
+      "completion_time": 1.481571228,
+      "total_tokens": 2964,
+      "total_time": 1.583633807,
+      "completion_tokens_details": {
+        "reasoning_tokens": 148
+      }
+    },
+    "system_fingerprint": "fp_8655ddce88",
+    "response_id": "chatcmpl-56b12a7f-0dae-40b2-84c6-060759c7251e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "7865aa74e267dd03e4fdf2dc7c5b92be72785925b65d132aa1067f7ea72f82da",
+    "d888031a7bad701832e243aa40a3463500fa7c1e48d7fc398426fd00e712f367",
+    "2fa159249654bd4912773d7350f6704125bc580b65da75cdc2228d200a87fd4f",
+    "79cfcd47e99ab6d551f188d9e03f5b870891994420b36163455021f28d9cebc7",
+    "9dbb275ba32ed732d0b790bd00edb1b98d9e9e024268defac39074602c69baee",
+    "cac4c243fdcabcb756e36e553d230358dc0d69f79ca1c1ad7ba00e6099ff4a12"
+  ]
+}

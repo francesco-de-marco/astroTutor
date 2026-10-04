@@ -1,0 +1,33 @@
+{
+  "id": "chatcmpl-467a1647-190a-485d-8d92-dbb7a0d9559f",
+  "object": "chat.completion",
+  "created": 1790375426,
+  "model": "qwen/qwen3.8-27b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question_answerable\": true,\n  \"answer1_correct\": true,\n  \"answer2_correct\": true,\n  \"answer1_grounded\": true,\n  \"answer2_grounded\": true,\n  \"preferred\": 2,\n  \"substantial_pedagogical_difference\": true,\n  \"preferred_appropriate\": true,\n  \"both_natural\": true,\n  \"question_conceptual\": true,\n  \"evidence_supports_both\": true,\n  \"reason\": \"Entrambe le risposte sono corrette e supportate dal testo. La Risposta 2 è didatticamente superiore per il profilo della scuola secondaria di primo grado perché esplicita il meccanismo causale (l'analogia con le colonizzazioni terrestri) che giustifica la paura di Hawking, collegando direttamente la premessa (civiltà avanzate che colonizzano quelle meno difese) alla conclusione (necessità di mantenere un basso profilo). La Risposta 1 è corretta ma più descrittiva e meno analitica nel spiegare il 'perché' logico dietro la raccomandazione, limitandosi a citare il rischio senza approfondire l'analogia presente nel contesto.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.196532142,
+    "prompt_tokens": 1444,
+    "prompt_time": 0.156330268,
+    "completion_tokens": 259,
+    "completion_time": 0.593804056,
+    "total_tokens": 1703,
+    "total_time": 0.750134324
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_43dd1ea4ee",
+  "x_groq": {
+    "id": "req_01m3db1x3qew7t6yhyrte2q6tt",
+    "seed": 890217726
+  },
+  "service_tier": "on_demand"
+}

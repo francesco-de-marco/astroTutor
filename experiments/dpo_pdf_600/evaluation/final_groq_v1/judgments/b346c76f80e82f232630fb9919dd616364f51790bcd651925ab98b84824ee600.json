@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b346c76f80e82f232630fb9919dd616364f51790bcd651925ab98b84824ee600",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive in modo semplice che i \"gruoli\" di materia oscura attirano la materia ordinaria."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.094736635,
+      "prompt_tokens": 1763,
+      "prompt_time": 0.05723997,
+      "completion_tokens": 747,
+      "completion_time": 1.611097112,
+      "total_tokens": 2510,
+      "total_time": 1.6683370819999999,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 206
+      }
+    },
+    "system_fingerprint": "fp_05e76be18c",
+    "response_id": "chatcmpl-ad819262-698f-472e-a031-62989b03db8c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "1f7380f3dd8df3c51c704ef3bf1797b2ca1a19d48b04f93ea2f0946379a0a610",
+    "b346c76f80e82f232630fb9919dd616364f51790bcd651925ab98b84824ee600",
+    "e122456e9f0fc5bc44bfd9e20d8327dd0bd2b513b7570511e4a58eff712ef9df",
+    "76edc7006fed161679b8cf7d15f8a564f5e3d242e41dc2efb1ae3d934c597b13",
+    "27fcd292c7ad715d2cef4eb5e4531184feea0ce1e41589888413e9a61b85df22",
+    "d889222abb637481a598d9a66cb8a2285d381d98e1dd448db0234caa64c19055"
+  ]
+}

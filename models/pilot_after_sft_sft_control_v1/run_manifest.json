@@ -1,0 +1,99 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "data": {
+    "counts": {
+      "train": 22,
+      "validation": 6
+    },
+    "hashes": {
+      "train": "bc79823360d121cdd74713cff992d7434febbbbf35abd0fb3e5e2f9215c1c310",
+      "validation": "1b518dcd7957caa51efdd13f06c64372cd515673b858fc8229a0d5595efcb952"
+    },
+    "source_groups": {
+      "train": [
+        "black_holes",
+        "interferometer",
+        "pulsars"
+      ],
+      "validation": [
+        "galaxy_collisions"
+      ]
+    },
+    "provenance_hash": "56e36da18d8efb1686c0cbed4537810e05e1a59c9a9e4d83415ec8a1a3d8bb61",
+    "review_kinds": {
+      "ai_assisted": 28
+    }
+  },
+  "environment": {
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.57.6",
+      "datasets": "5.0.1",
+      "accelerate": "1.15.0",
+      "trl": "0.24.0",
+      "peft": "0.17.1",
+      "bitsandbytes": "0.48.1"
+    },
+    "python": "3.14.3",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "vram_gib": 7.99560546875,
+    "free_gib_at_start": 6.90234375,
+    "cuda_build": "12.8"
+  },
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "settings": {
+    "output_dir": "models\\pilot_after_sft_sft_control_v1",
+    "max_steps": 12,
+    "learning_rate": 5e-06,
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_kwargs": {
+      "use_reentrant": false
+    },
+    "bf16": true,
+    "fp16": false,
+    "optim": "adamw_torch",
+    "lr_scheduler_type": "constant",
+    "warmup_steps": 0,
+    "max_grad_norm": 1.0,
+    "weight_decay": 0.0,
+    "logging_steps": 1,
+    "logging_nan_inf_filter": false,
+    "eval_strategy": "no",
+    "save_strategy": "no",
+    "report_to": "none",
+    "dataloader_num_workers": 0,
+    "seed": 42,
+    "data_seed": 42,
+    "push_to_hub": false,
+    "use_liger_kernel": false,
+    "max_length": null,
+    "packing": false,
+    "completion_only_loss": true,
+    "dataset_kwargs": {
+      "skip_prepare_dataset": true
+    },
+    "prediction_loss_only": true
+  },
+  "objective": "sft_control",
+  "parent_adapter_hashes": {
+    "adapter_model.safetensors": "42570ebd52380d41032e0588a1dde8a05d81c84c7c81e679c9b65135717ca84f"
+  },
+  "reference": null,
+  "note": "Stesso checkpoint, seed, LR, batch e 12 aggiornamenti; costo e token elaborati diversi. Optimizer riavviato in entrambi i rami. Nessuna scelta del checkpoint sulla validation."
+}

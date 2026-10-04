@@ -1,0 +1,5 @@
+# Preserve the bytes used by historical dataset and run SHA256 manifests.
+experiments/dpo_pdf_600/** -text
+models/pilot*/** -text
+results/** -text
+data/splits/pilot* -text

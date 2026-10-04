@@ -1,0 +1,39 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7f25ca8cb5189be4ee09273d3d795526f67d2ce54db5895b8a8775664613abf7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega il processo con dettagli su temperatura, densità e conseguenze, adeguato al livello C."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.317320774,
+      "prompt_tokens": 1449,
+      "prompt_time": 0.58246189,
+      "completion_tokens": 582,
+      "completion_time": 1.233913497,
+      "total_tokens": 2031,
+      "total_time": 1.816375387,
+      "completion_tokens_details": {
+        "reasoning_tokens": 117
+      }
+    },
+    "system_fingerprint": "fp_93703442d9",
+    "response_id": "chatcmpl-8e541f99-b635-42d5-8c7f-6c15bc1ffa06",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "78f3b780863687146af19c91b466e7ad5e03e5371c261a0eb2a5c588eacd5edc",
+    "0edeccf544a84a89e1119ca8e476b7baa7ff2ce009e02325e1619e5aea48f367",
+    "ad4d7b1fc71ed6737ee65697081cdf7aedf15bfe73047e9b351e84adc80d1d9c",
+    "7f25ca8cb5189be4ee09273d3d795526f67d2ce54db5895b8a8775664613abf7",
+    "109543c26723bd52a8f3d11a6cfeb00a8290025053c94fe148192fdffd397ec9"
+  ]
+}

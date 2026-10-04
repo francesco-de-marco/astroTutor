@@ -1,0 +1,23 @@
+{
+  "response_hash": "9274881dea331a4f26b43d1d7e88ae1df4de51e9a2e10ab208ffc2d5bb22c792",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "La spiegazione è corretta e concorda con le informazioni scientifiche.",
+      "level_adequacy": "Il livello di formalismo è adatto a un profilo B, ma le espressioni come 'brillare per sempre' potrebbero essere più chiare.",
+      "clarity": "La risposta è chiara e coerente, rispondendo alla domanda."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 1832,
+    "eval_count": 175,
+    "total_duration": 5400138900,
+    "done_reason": "stop"
+  }
+}

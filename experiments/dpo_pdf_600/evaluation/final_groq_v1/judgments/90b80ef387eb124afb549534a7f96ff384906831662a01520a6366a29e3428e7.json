@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "90b80ef387eb124afb549534a7f96ff384906831662a01520a6366a29e3428e7",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Conclude che la luce indica materia che sfugge dall'interno, affermazione falsa."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.210526837,
+      "prompt_tokens": 2224,
+      "prompt_time": 0.118738449,
+      "completion_tokens": 922,
+      "completion_time": 1.916960969,
+      "total_tokens": 3146,
+      "total_time": 2.035699418,
+      "completion_tokens_details": {
+        "reasoning_tokens": 371
+      }
+    },
+    "system_fingerprint": "fp_bb691ea66b",
+    "response_id": "chatcmpl-400750d0-f82c-4127-9be5-fa94e6f29bf7",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "59e9a1a85fa54ea559d0584b7f30985fcd4d0aeb5bc8f59fe50c1fecf2221d68",
+    "fec9bb0571ebe6d2c5203286da34761eedae6850ee46e2547b4b5ff120539435",
+    "b3320ad767b8670538fcc12905462778a1a6d90999053252a80992494018d87d",
+    "44f442a4b9330e0f479f2484735b3c9842c3a0b8866cc889d75d57562efd249a",
+    "b6e6b74e699e53a16c5c3a8ea0e129360a96db9327f86d5feb2a5bbfe2b2fe99",
+    "90b80ef387eb124afb549534a7f96ff384906831662a01520a6366a29e3428e7"
+  ]
+}

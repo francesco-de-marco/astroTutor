@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "599d9916ad5c63c23c81c83c1c52702dc0c623e6af47b07131713cb16ff873d6",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Fornisce spiegazione chiara e completa sulla formazione di idrogeno, coerente col contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.210675982,
+      "prompt_tokens": 1345,
+      "prompt_time": 0.611569344,
+      "completion_tokens": 422,
+      "completion_time": 0.886193399,
+      "total_tokens": 1767,
+      "total_time": 1.497762743,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 142
+      }
+    },
+    "system_fingerprint": "fp_bb691ea66b",
+    "response_id": "chatcmpl-616bf183-cb6a-4fa7-927f-34759b49a7ad",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5c5d5c592d769aca3679f0d0c8b8a61d0e5b9276250f76dbe0b6ccedeb5def8c",
+    "e8bc506ec2a1018a127b2b47ac8635f687f4aac71c20230a05927d7408e680c5",
+    "599d9916ad5c63c23c81c83c1c52702dc0c623e6af47b07131713cb16ff873d6"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "evaluation_hash": "3ab2b34bc7813b5be436c0284142cc36a83a25027d39244f7270fa1346c93c94",
+  "judgment": {
+    "id": "63524955ecf7599c931ea0b1de0c1215105964b75606427da97b34da6e3c0dee",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "La risposta è chiara e corretta, spiega bene la complementarietà tra modelli analitici e numerici."
+  },
+  "runtime_batch": {
+    "total_duration": 6765078800,
+    "prompt_eval_count": 1266,
+    "eval_count": 318,
+    "done_reason": "stop"
+  },
+  "batch_ids": [
+    "63524955ecf7599c931ea0b1de0c1215105964b75606427da97b34da6e3c0dee",
+    "6d019abf68f51db09e3701ecfc0e678589c5b57db0f33a722f964276b1ceb9b5"
+  ]
+}

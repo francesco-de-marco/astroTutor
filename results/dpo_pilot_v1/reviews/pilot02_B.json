@@ -1,0 +1,9 @@
+{
+  "pair_hash": "b4755d9aefa7e04df668c034e2fd61887f5b08e74a72e01d58bebcd5dfcdf5f5",
+  "decision": "r",
+  "quality_checks_passed": false,
+  "reason": "La risposta 1 confonde la distanza del disco con l'impossibilità della luce di uscire dall'orizzonte. La risposta 2 aggiunge una spiegazione del riscaldamento non supportata dal contesto. La coppia non isola l'adeguatezza al livello.",
+  "reviewer": "matti",
+  "review_kind": "ai_assisted",
+  "reviewed_at": "2026-09-10T20:12:31.496282+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "chatcmpl-0c941ee7-3555-4c42-9129-c93db1613957",
+  "object": "chat.completion",
+  "created": 1790375461,
+  "model": "qwen/qwen3.8-27b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question_answerable\": true,\n  \"answer1_correct\": true,\n  \"answer2_correct\": true,\n  \"answer1_grounded\": true,\n  \"answer2_grounded\": true,\n  \"preferred\": 2,\n  \"substantial_pedagogical_difference\": false,\n  \"preferred_appropriate\": true,\n  \"both_natural\": true,\n  \"question_conceptual\": true,\n  \"evidence_supports_both\": true,\n  \"reason\": \"Entrambe le risposte sono corrette, ben supportate dal testo e rispondono alla domanda. La Risposta 2 è leggermente preferita perché definisce esplicitamente l'acronimo ADAF (flusso ad accrescimento radiativamente inefficiente) e chiarisce la natura delle soluzioni (otticamente sottile vs spesso), il che è più adatto al profilo di 'Scuola secondaria di secondo grado' che richiede la spiegazione dei termini pertinenti. Tuttavia, la differenza didattica è minima poiché entrambe spiegano chiaramente il concetto di separazione delle soluzioni e la necessità di fisica aggiuntiva (evaporazione).\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.017953959,
+    "prompt_tokens": 1179,
+    "prompt_time": 0.083850082,
+    "completion_tokens": 244,
+    "completion_time": 0.494871066,
+    "total_tokens": 1423,
+    "total_time": 0.578721148
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_8999620a6e",
+  "x_groq": {
+    "id": "req_01m3db308yerqsw0jywykd8b0f",
+    "seed": 148320719
+  },
+  "service_tier": "on_demand"
+}

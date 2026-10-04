@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "53a12ef378dc15eedd109357340ccb5cda8a706ef9bbb02d2188682fba405a05",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Contiene affermazioni imprecise su “energia elettrica” e transizioni di elio non supportate dal contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.537624124,
+      "prompt_tokens": 2049,
+      "prompt_time": 0.11988424,
+      "completion_tokens": 656,
+      "completion_time": 1.383167907,
+      "total_tokens": 2705,
+      "total_time": 1.503052147,
+      "completion_tokens_details": {
+        "reasoning_tokens": 108
+      }
+    },
+    "system_fingerprint": "fp_fe269835c7",
+    "response_id": "chatcmpl-841ec6ef-9cde-4d37-a2ba-0833e833a24a",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "df218b9a328371ba0c79b567d3f9cbd1378da104aa13e05bfd05181cedb92ef5",
+    "4a7d541b476e103d080fc540180edc0e89875e274c533af2a230ab7c6e353f50",
+    "76b91dcdffb4073a72b994996979ada3db0e4e03e9d63b7f367c73514a765933",
+    "7ecfd9cbb104f56895b3191ba48b97a54f60782a2d9081d95cdba54b23405953",
+    "53a12ef378dc15eedd109357340ccb5cda8a706ef9bbb02d2188682fba405a05",
+    "1758806f4fb121a463298bd79598ed828ad39fa6f4021d1489b1aa8290c396c6"
+  ]
+}

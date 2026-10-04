@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "2c417129836d9bef5f2b45106c5011db44430b1de19ac09f4f961e8466a24852",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Aggiunge concetti non supportati (\"pressione gravitazionale all'interno del buco nero\", \"luminosità di fondo\") e usa termini imprecisi."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.089495377,
+      "prompt_tokens": 1843,
+      "prompt_time": 0.094632031,
+      "completion_tokens": 801,
+      "completion_time": 1.8505361040000001,
+      "total_tokens": 2644,
+      "total_time": 1.9451681349999999,
+      "completion_tokens_details": {
+        "reasoning_tokens": 216
+      }
+    },
+    "system_fingerprint": "fp_267e812a3a",
+    "response_id": "chatcmpl-6242885b-f2d4-4807-8281-f446ef58a0f3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "c56f6b985b50dc2271e6948801afb008dbd54b5ec5f0b46deb35cff6f13f45ec",
+    "2c417129836d9bef5f2b45106c5011db44430b1de19ac09f4f961e8466a24852",
+    "c15838b8592b7ea5dc39d5b4dfad1f369418233d760f5f46dd29e38160d35d2d",
+    "c71662321a0238f6b7d669bba39b09240a7488e2614413090a3943c3507601a5",
+    "433c279c578c6982c2636f09a1e79443a913035b6d2ec0a73a9ec768a3528dac",
+    "168c0aee94387fbda554a3bf39ad0d32312821da74cebb5b82856c06162afc7e"
+  ]
+}

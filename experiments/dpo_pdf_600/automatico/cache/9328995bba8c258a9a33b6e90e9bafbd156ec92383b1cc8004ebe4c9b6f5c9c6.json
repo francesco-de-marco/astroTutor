@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-2d1015b0-a455-43dc-8075-79d7f060511e",
+  "object": "chat.completion",
+  "created": 1790375401,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché Stephen Hawking consigliava di non rispondere ai segnali alieni e di mantenere un basso profilo?\",\n  \"answer\": \"Nel brano si spiega che la paura di una minaccia aliena nasce dall'idea che una civiltà tecnologicamente avanzata possa arrivare sulla Terra con intenti non pacifici, ma per colonizzarla, come mostrato in molti film di fantascienza. Hawking, preoccupato da questo rischio, riteneva che fosse più sicuro non rispondere a eventuali segnali provenienti da forme di vita intelligenti e, se possibile, evitare di inviare messaggi radio nello spazio, per non attirare l'attenzione di una civiltà potenzialmente ostile.\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to extract a conceptual question. From text: why Hawking suggests low profile? Could ask: Qual è il motivo per cui Stephen Hawking consigliava di non rispondere ai segnali alieni? Answer based on text: because alien invasion risk. Provide answer. evidence id 1. Return JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.205679213,
+    "prompt_tokens": 811,
+    "prompt_time": 0.034448704,
+    "completion_tokens": 254,
+    "completion_time": 0.542038604,
+    "total_tokens": 1065,
+    "total_time": 0.576487308,
+    "completion_tokens_details": {
+      "reasoning_tokens": 65
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_bb691ea66b",
+  "x_groq": {
+    "id": "req_01m3db15ndepa9ve336d0nyqzy",
+    "seed": 890217724
+  },
+  "service_tier": "on_demand"
+}

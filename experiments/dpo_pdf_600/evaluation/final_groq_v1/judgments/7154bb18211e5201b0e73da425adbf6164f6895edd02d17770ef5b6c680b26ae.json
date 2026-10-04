@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7154bb18211e5201b0e73da425adbf6164f6895edd02d17770ef5b6c680b26ae",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta corretta, ma spiega solo il confronto dei tempi senza approfondire meccanismi orbitali."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.021956301,
+      "prompt_tokens": 1758,
+      "prompt_time": 0.089255984,
+      "completion_tokens": 890,
+      "completion_time": 1.881009967,
+      "total_tokens": 2648,
+      "total_time": 1.970265951,
+      "completion_tokens_details": {
+        "reasoning_tokens": 339
+      }
+    },
+    "system_fingerprint": "fp_854fa9be4c",
+    "response_id": "chatcmpl-925519f4-c067-4e7a-b249-a0dfae177fd5",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "7154bb18211e5201b0e73da425adbf6164f6895edd02d17770ef5b6c680b26ae",
+    "27b4b1e7a1578009e00c18e8c86845579ebbd63da6106e734c8793b6c5e0af22",
+    "d6d2dc436503980a0afe33331f2f2c84ddaa1b94f04103b8cdc768770d83019a",
+    "af08829995d7d6df7d05d201bcfc169bb147eb9b36d1433a6f8a4965cb3ac3cb",
+    "07df9d86b42be10f08f0b3a23977798b2b911e86e4b61aad38f06f30bf1be717",
+    "c34d81a76b2b3bc7824a4b12cbc308c2db98127e42669708b53c8a45a3ef8a8f"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "56846f050df277da37c05d13c2fcafb1457bd9b2ff2e600f8603c2d986942e2b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermazione corretta e concisa sul diverso tipo di particelle."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209904256,
+      "prompt_tokens": 1581,
+      "prompt_time": 0.074203134,
+      "completion_tokens": 694,
+      "completion_time": 1.477646498,
+      "total_tokens": 2275,
+      "total_time": 1.5518496320000001,
+      "completion_tokens_details": {
+        "reasoning_tokens": 159
+      }
+    },
+    "system_fingerprint": "fp_9241e9962b",
+    "response_id": "chatcmpl-9b2c178f-448a-48f4-aa9a-dfeb30ace692",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "224615e9d00d8d1b3d57270a6203ae016df33abcc54f809a478149d40f80d314",
+    "16d0249d487a3aa6b3761dd44d3e7f20df9f6e88caf937883911fff9760d6a6a",
+    "9bb3bc72f24f23fed394ac73fb9ac852bc6509d36c52a39f67212672e5ea9f01",
+    "cef7afaff9347a7b8a8f22cad3d89a29cf9ba120925e4991e32608ba10bdfff2",
+    "368279fbe629796ef9d7b26e0064a171d02066f88c4518a9bc93da0bf01ed232",
+    "56846f050df277da37c05d13c2fcafb1457bd9b2ff2e600f8603c2d986942e2b"
+  ]
+}

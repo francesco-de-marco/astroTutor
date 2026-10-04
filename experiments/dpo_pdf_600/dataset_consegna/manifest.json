@@ -1,0 +1,25 @@
+{
+  "version": "assistant_pdf_600_v1",
+  "created": "2026-09-26",
+  "generation": "Offline, assistant-authored; no API calls",
+  "purpose": "Controlled synthetic DPO training: factual correctness and relevance",
+  "test_set_included": false,
+  "counts": {
+    "dpo": 600,
+    "sft": 300,
+    "questions": 75
+  },
+  "sha256": {
+    "build.py": "b6d92174bbc7d550248b94f1a4954793921eeae54d95f28a2a28ae73d076d282",
+    "content.py": "7bfe2032cefa421597a41587736579f240214dec67027727170d09d4c16464ba",
+    "contexts.json": "0637de5c1ed278e2bf884cb7467edfbac8abe519c5d662bb7cc64590b396c8e7",
+    "LEGGIMI_DOMANDE.md": "0f3a3412439ee1b735d07ec988c87fd8ca385862211b45f18013cccf58ef005a",
+    "provenance.jsonl": "2b6c20c633ddeb46487cb2f54be88fce1724312345321d164258484f152f8cc3",
+    "questions.json": "1221736f961e8eb18db168fdf7567076e25794d90738abeb6f344c7965f38318",
+    "README.md": "513b4bc422662046bb2d106889c874c0066b079f3390e935eafe41286973bc1d",
+    "source_snapshot.json": "20016e8d997f4994577cef101931c22025c909ff4ace56b7bd12905f483aea6c",
+    "train_dpo.jsonl": "b0195912b1d24095eab940cd466e414f85c07935d238a575458cd0776641f7aa",
+    "train_sft.jsonl": "bafa12d2301cfe941a12fa7e167ad357efe71685b099e3f91ed81533735d11f2",
+    "validation_report.json": "abf049d3f4e1a0eaa4b0580bb7ab97900c065c01f85e60264c75282ed74fb5c2"
+  }
+}

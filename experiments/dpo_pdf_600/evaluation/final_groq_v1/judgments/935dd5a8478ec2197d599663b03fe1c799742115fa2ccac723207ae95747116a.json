@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "935dd5a8478ec2197d599663b03fe1c799742115fa2ccac723207ae95747116a",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Indica costi, tempo e uso combinato di modelli, copre tutti gli elementi richiesti."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022586938,
+      "prompt_tokens": 2561,
+      "prompt_time": 0.108209231,
+      "completion_tokens": 590,
+      "completion_time": 1.2547907139999999,
+      "total_tokens": 3151,
+      "total_time": 1.3629999449999999,
+      "completion_tokens_details": {
+        "reasoning_tokens": 46
+      }
+    },
+    "system_fingerprint": "fp_96d96a151c",
+    "response_id": "chatcmpl-b9376b50-281a-41d1-a70c-51e153d650ab",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "18f236580d9764e5d585a76f4a7481f8d82dc3bc569ae62c94e07d6dcbee7584",
+    "fa60f6f050f5fb8032b93e87b4f06382fe58881a9de4307cb6ad95e775f94f71",
+    "935dd5a8478ec2197d599663b03fe1c799742115fa2ccac723207ae95747116a",
+    "9d37f2ca7384dc474d171015a199bc8642239b2d41735d188c985c53b6143644",
+    "3dc06a3fdc3a22689e332c722e5a33edf2046bc23c82c6d42db75aa966ba9bc0",
+    "27f3d1ff0b2b526adc113ef69e67cfd10df286927a2e9b0fef1e345aade664cc"
+  ]
+}

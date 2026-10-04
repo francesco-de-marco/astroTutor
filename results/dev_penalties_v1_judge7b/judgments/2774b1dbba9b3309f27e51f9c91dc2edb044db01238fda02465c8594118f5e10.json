@@ -1,0 +1,23 @@
+{
+  "response_hash": "2774b1dbba9b3309f27e51f9c91dc2edb044db01238fda02465c8594118f5e10",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "La descrizione è corretta, anche se non specifica che la stella di neutroni supera il limite di massa di una nana bianca.",
+      "level_adequacy": "Il livello di dettaglio è adatto a un profilo C, ma manca la distinzione tra il limite di massa di una nana bianca e quello di una stella di neutroni.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere più chiara specificando che la stella di neutroni supera il limite di massa di una nana bianca."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2238,
+    "eval_count": 220,
+    "total_duration": 7586261300,
+    "done_reason": "stop"
+  }
+}

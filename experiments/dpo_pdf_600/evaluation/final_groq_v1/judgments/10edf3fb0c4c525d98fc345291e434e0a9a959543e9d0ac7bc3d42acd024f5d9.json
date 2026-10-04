@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "10edf3fb0c4c525d98fc345291e434e0a9a959543e9d0ac7bc3d42acd024f5d9",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega in modo corretto che Terra e Luna si muovono attorno al baricentro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 1.526117831,
+      "prompt_tokens": 1853,
+      "prompt_time": 0.675079681,
+      "completion_tokens": 823,
+      "completion_time": 3.501239965,
+      "total_tokens": 2676,
+      "total_time": 4.176319646,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 294
+      }
+    },
+    "system_fingerprint": "fp_e1a78f200e",
+    "response_id": "chatcmpl-d531fa12-363d-42c2-9fee-d26f04a98a1b",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "c391e2c15e8f8fc1061ca807efa3ac5f17f8ec6e20314bd117aa7ad4fdb2f6a3",
+    "6e307c9baf437c2f034dab59c86b3856f9703de43789f25b3e9b74586378a422",
+    "858109e79feb256b5dbcd0a9b4689282ca2038815545ab70e0224f97e6f8ca9e",
+    "91d0cfa3e09ea70b59426679dcc11b7f9c28b3bbdb9788c5351f133e804de815",
+    "d0061cbb223b388564ae8d18981c0c3f77fb5add4216073076ea93959e8af5fe",
+    "10edf3fb0c4c525d98fc345291e434e0a9a959543e9d0ac7bc3d42acd024f5d9"
+  ]
+}

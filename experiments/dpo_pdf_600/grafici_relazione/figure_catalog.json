@@ -1,0 +1,110 @@
+[
+  {
+    "id": "01_training_loss",
+    "title": "Loss DPO durante il training",
+    "caption": "La loss misura l'obiettivo di preferenza sul training. Una loss più bassa non prova correttezza, qualità didattica o generalizzazione; le scale tra modelli non costituiscono una classifica di qualità. Linea tenue: dati grezzi; linea piena: media mobile retrospettiva di 20 step (finestra ridotta all'inizio). Linea verticale: fine prima epoca.",
+    "kind": "train"
+  },
+  {
+    "id": "02_training_preference_accuracy",
+    "title": "Accuratezza delle preferenze sul training",
+    "caption": "Quota di esempi per cui il reward implicito della risposta preferita supera quello della rifiutata. Non è accuratezza scientifica sul test. Linea tenue: dati grezzi; linea piena: media mobile retrospettiva di 20 step (finestra ridotta all'inizio). Linea verticale: fine prima epoca.",
+    "kind": "train"
+  },
+  {
+    "id": "03_training_margin",
+    "title": "Margine di preferenza durante il training",
+    "caption": "Il margine confronta i reward impliciti rispetto al modello di riferimento. Valori positivi indicano maggiore preferenza per chosen; non sono voti di un docente. Linea tenue: dati grezzi; linea piena: media mobile retrospettiva di 20 step (finestra ridotta all'inizio). Linea verticale: fine prima epoca.",
+    "kind": "train"
+  },
+  {
+    "id": "04_training_gradients",
+    "title": "Norma dei gradienti registrata",
+    "caption": "Diagnostica dell'ottimizzazione: non è una misura di qualità delle risposte. Il valore registrato può precedere il clipping e superarne la soglia. Linea tenue: dati grezzi; linea piena: media mobile retrospettiva di 20 step (finestra ridotta all'inizio). Linea verticale: fine prima epoca.",
+    "kind": "train"
+  },
+  {
+    "id": "05_training_rewards",
+    "title": "Reward impliciti: chosen e rejected",
+    "caption": "Dati grezzi e media mobile di 20 step. Reward relativi al riferimento, non giudizi esterni di correttezza.",
+    "kind": "train"
+  },
+  {
+    "id": "06_learning_rate",
+    "title": "Learning rate: controllo della configurazione",
+    "caption": "Il learning rate è uguale e costante nei sei run. Non è stata effettuata una ricerca degli iperparametri separata per ciascun modello.",
+    "kind": "train"
+  },
+  {
+    "id": "07_correctness",
+    "title": "Correttezza stimata: base e DPO",
+    "caption": "80 risposte per condizione e modello. C indica nucleo corretto e assenza di errori sostanziali secondo il giudice IA. Non sono 80 domande indipendenti.",
+    "kind": "test"
+  },
+  {
+    "id": "08_correct_partial_incorrect",
+    "title": "Distribuzione dei giudizi C / P / I",
+    "caption": "Altezza delle barre in percentuale; numeri interni = conteggi su 80. Le piccole categorie senza etichetta restano incluse.",
+    "kind": "test"
+  },
+  {
+    "id": "09_quality_dimensions",
+    "title": "Qualità delle risposte oltre la correttezza",
+    "caption": "Medie descrittive di voti ordinali da 0 a 2. Correttezza e adattamento didattico sono dimensioni diverse: un miglioramento della prima non implica quello della seconda.",
+    "kind": "test"
+  },
+  {
+    "id": "10_adequacy_by_level",
+    "title": "Adeguatezza per livello scolastico",
+    "caption": "A: primaria; B: medie; C: superiori; D: università. 20 risposte per cella. A destra differenza dei voti medi (scala 0-2); non è una misura di apprendimento.",
+    "kind": "test"
+  },
+  {
+    "id": "11_correctness_by_level",
+    "title": "Correttezza per livello scolastico",
+    "caption": "Percentuale di risposte C su 20 per cella. A destra differenza in punti percentuali. Le quattro versioni della stessa domanda sono dipendenti.",
+    "kind": "test"
+  },
+  {
+    "id": "12_preferences",
+    "title": "Preferenze derivate dai voti",
+    "caption": "Regola lessicografica: correttezza, completezza, adeguatezza, chiarezza. Non è una seconda valutazione indipendente; sono mantenute le parità.",
+    "kind": "test"
+  },
+  {
+    "id": "13_response_length",
+    "title": "Distribuzione della lunghezza delle risposte",
+    "caption": "Box: quartili 25-75%; linea: mediana; baffi: 1,5 IQR; punti: valori esterni. Sono incluse le risposte al limite di token. La brevità non è di per sé un miglioramento.",
+    "kind": "test"
+  },
+  {
+    "id": "14_token_limits",
+    "title": "Risposte che raggiungono il limite di token",
+    "caption": "Flag limite_token_senza_EOS: possibile troncamento, non certezza di errore. Limite comune: 384 nuovi token. Tutti questi casi sono inclusi nella valutazione.",
+    "kind": "test"
+  },
+  {
+    "id": "15_correctness_uncertainty",
+    "title": "Differenze di correttezza e incertezza esplorativa",
+    "caption": "Intervalli bootstrap percentili al 95%, 5.000 ricampionamenti di 10 brani. Non includono errore del giudice, variabilità tra seed o dipendenze tra brani dello stesso PDF. Nessuna correzione per confronti multipli: non etichettare come prova definitiva di significatività.",
+    "kind": "test"
+  },
+  {
+    "id": "16_training_resources",
+    "title": "Risorse registrate durante il training",
+    "caption": "Tempi del trainer: escludono download e possono escludere preparazione/precalcolo. VRAM allocata da PyTorch, non memoria totale della GPU. Stessa RTX 4070 Laptop, ma condizioni operative non controllate: confronto descrittivo, non benchmark di velocità.",
+    "kind": "train"
+  },
+  {
+    "id": "17_correctness_transitions",
+    "title": "Come cambiano i giudizi sulle stesse domande",
+    "caption": "Conteggi appaiati su 80 prompt per modello. Righe: base; colonne: DPO. La diagonale indica classe invariata; C/P/I indicano corretto/parziale/errato secondo il giudice.",
+    "kind": "test"
+  },
+  {
+    "id": "18_topic_differences",
+    "title": "Variazioni di correttezza per argomento",
+    "caption": "Solo 8 risposte per condizione e argomento: due domande a quattro livelli. Un singolo caso vale 12,5 punti percentuali. Usare per descrivere eterogeneità, non per classificare la competenza su interi argomenti.",
+    "kind": "test"
+  }
+]

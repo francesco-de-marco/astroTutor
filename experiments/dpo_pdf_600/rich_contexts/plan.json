@@ -1,0 +1,13 @@
+{
+  "hashes": {
+    "rich_contexts\\run_rich.py": "ae0d7005004ea092350349ad4c84f58ec4d0e2e63782cd739c09f22654ad92d6",
+    "rich_contexts\\selected_pack.json": "9b12a6bb9c319167cfe58dbc31a35b40397af6eb226f07762e1ae95f760c4ec9",
+    "facts_first\\pipeline_facts.py": "2ea7e5e993478ebf635b4eaa76394a9edda781130d71213bf49900195de82b14",
+    "automatico\\pipeline.py": "e6adb0c5602979a9117d297bf5b207536bd65514427c05f686409a5bb4854654",
+    "build_dataset.py": "9e67984a477a40f996d1015dbc9e3f566d60f9db89228f799ddf4c3a828b31f8"
+  },
+  "max_requests": 30,
+  "planned": 5,
+  "author": "openai/gpt-oss-120b",
+  "judge": "qwen/qwen3.8-27b"
+}

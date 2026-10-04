@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "train",
+  "steps": 300,
+  "train_metrics": {
+    "train_runtime": 1042.5827,
+    "train_samples_per_second": 1.151,
+    "train_steps_per_second": 0.288,
+    "total_flos": 0.0,
+    "train_loss": 0.42700586071858804,
+    "epoch": 2.0
+  },
+  "max_adapter_parameter_change": 0.0022287191823124886,
+  "peak_vram_allocated_gib": 2.8479843139648438,
+  "peak_vram_reserved_gib": 4.0703125,
+  "adapter": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\Qwen__Qwen2.5-3B-Instruct_train_v1\\adapter",
+  "before": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "after": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "interpretation": "Loss e reward margin misurano la preferenza relativa al riferimento. Non sono voti di correttezza o di efficacia didattica."
+}

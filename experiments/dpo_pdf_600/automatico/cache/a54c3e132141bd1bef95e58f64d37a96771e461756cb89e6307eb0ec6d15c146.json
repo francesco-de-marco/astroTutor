@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-78f50ce1-6ec8-4ef5-9b4f-117d3825ad59",
+  "object": "chat.completion",
+  "created": 1790376011,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché il campo magnetico di una stella diventa molto più intenso quando la stella collassa formando un buco nero?\",\n  \"answer\": \"Il campo magnetico di una stella è legato al flusso di linee magnetiche che attraversano la sua superficie. Quando la stella si contrae, la sua superficie diminuisce di volume, ma le linee magnetiche rimangono legate al materiale stellare (conservazione del flusso magnetico). Per mantenere lo stesso numero di linee su una superficie più piccola, la densità di linee – cioè l’intensità del campo – deve aumentare. Così, comprimendo una stella da milioni di miglia di diametro a pochi chilometri, il campo magnetico si amplifica di miliardi o trilioni di volte, diventando estremamente forte. Questo è descritto nel brano, dove si afferma che “se prendi una stella… e la schiacci in una palla… il magnetismo aumenta enormemente”.\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to produce JSON. The passage gives concept of magnetic field amplification when star collapses. Question: why does magnetic field become stronger when star collapses? Answer using flux conservation. Provide. evidence_ids [1]."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.204759941,
+    "prompt_tokens": 700,
+    "prompt_time": 0.048345378,
+    "completion_tokens": 297,
+    "completion_time": 0.813675131,
+    "total_tokens": 997,
+    "total_time": 0.862020509,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 45
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_90620edd96",
+  "x_groq": {
+    "id": "req_01m3dbkr8vez89ceddr82b3wbb",
+    "seed": 1877991322
+  },
+  "service_tier": "on_demand"
+}

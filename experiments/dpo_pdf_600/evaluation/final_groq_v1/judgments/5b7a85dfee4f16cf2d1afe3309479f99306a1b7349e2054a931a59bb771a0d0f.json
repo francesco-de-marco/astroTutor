@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "5b7a85dfee4f16cf2d1afe3309479f99306a1b7349e2054a931a59bb771a0d0f",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riassume correttamente il concetto di “seme” gravitazionale fornito dalla materia oscura."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.051550595,
+      "prompt_tokens": 2440,
+      "prompt_time": 0.171288946,
+      "completion_tokens": 665,
+      "completion_time": 1.560160082,
+      "total_tokens": 3105,
+      "total_time": 1.7314490280000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 100
+      }
+    },
+    "system_fingerprint": "fp_fe269835c7",
+    "response_id": "chatcmpl-e184c92b-a535-4f6f-a9f1-a46d305768e4",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "88d355006fc8938c5f77ae6b8b14413693b2389fb8bbca04bedf51679b5bb0b3",
+    "35fb91205be3a32bdc016de2798743a1e930798fc3a489c248c1cd20686aebd4",
+    "5b7a85dfee4f16cf2d1afe3309479f99306a1b7349e2054a931a59bb771a0d0f",
+    "5f83906f6f702ca96718daf8466823134ce695fbd963555461064126de65db07",
+    "2169fd4997d8b6d662893cbda4bfcd6a04a8749c596f10a40e9ace2b1b4cb551",
+    "5592395019b0d30a0aacfcdb2c2aba1c7f755521094657b060e15a8e26de2dbd"
+  ]
+}

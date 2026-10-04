@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-4dcbf854-9562-4c18-a2b0-6082a388780d",
+  "object": "chat.completion",
+  "created": 1790375473,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché le maree contribuiscono alla stabilizzazione del clima terrestre?\",\n  \"answer\": \"Le maree, generando variazioni nei livelli dell’acqua, influenzano le correnti oceaniche. Queste correnti mescolano e spostano masse d’acqua calda e fredda, favorendo un rimescolamento termico globale. Poiché l’acqua ha una grande capacità termica, può accumulare e rilasciare calore lentamente: di notte cede il calore accumulato durante il giorno, di giorno ne assorbe di nuovo, attenuando le escursioni termiche sia giornaliere che stagionali. Questo meccanismo riduce le variazioni di temperatura nelle regioni costiere, contribuendo così alla stabilizzazione del clima terrestre.\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to output JSON. The passage talks about tides and climate stabilization. Question: e.g., \"Perché le maree influenzano il clima?\" Answer based on passage. Provide evidence id 1."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.090097765,
+    "prompt_tokens": 698,
+    "prompt_time": 0.031761538,
+    "completion_tokens": 242,
+    "completion_time": 0.508243999,
+    "total_tokens": 940,
+    "total_time": 0.540005537,
+    "completion_tokens_details": {
+      "reasoning_tokens": 44
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_4de1d6a1ee",
+  "x_groq": {
+    "id": "req_01m3db3c0tepfb6gmg718g5dfa",
+    "seed": 2024073326
+  },
+  "service_tier": "on_demand"
+}

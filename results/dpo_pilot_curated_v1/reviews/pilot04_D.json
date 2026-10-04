@@ -1,0 +1,9 @@
+{
+  "pair_hash": "2bdd146f975e79c7d25306474a967e3fd9484c7ad0ff11bfa5ef0a0c6573fe46",
+  "decision": "2",
+  "quality_checks_passed": true,
+  "reason": "Preferisco la risposta 2 perché esplicita la condizione geometrica di mancata intersezione e distingue l'orientamento del fascio da quello dell'osservatore. Precisa inoltre che il solo disallineamento degli assi non determina la visibilità e che possono esistere altri limiti osservativi, offrendo una profondità adatta al livello D.",
+  "reviewer": "matti",
+  "review_kind": "ai_assisted",
+  "reviewed_at": "2026-09-14T14:37:27.315796+00:00"
+}

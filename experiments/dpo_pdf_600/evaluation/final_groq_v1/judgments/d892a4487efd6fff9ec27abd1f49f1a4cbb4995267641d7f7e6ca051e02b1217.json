@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d892a4487efd6fff9ec27abd1f49f1a4cbb4995267641d7f7e6ca051e02b1217",
+    "correctness": "C",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta breve ma corretta: gli specchi riflettono la stessa luce, senza creare nuove sorgenti."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.155637286,
+      "prompt_tokens": 1647,
+      "prompt_time": 0.082042713,
+      "completion_tokens": 934,
+      "completion_time": 1.9733633720000001,
+      "total_tokens": 2581,
+      "total_time": 2.055406085,
+      "completion_tokens_details": {
+        "reasoning_tokens": 369
+      }
+    },
+    "system_fingerprint": "fp_0708ac49a5",
+    "response_id": "chatcmpl-6680552f-d8d2-4ef5-937e-713e835927e0",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6cce7766e9796f2b158c3b5044a1ac51b876059025920546c7e176170df634cf",
+    "3562331f63da17c91701780bfa4bf258f6d3cdbc12c78072c17c06530c52c187",
+    "9ce03b02cdbe792e8a48858c9d2b2a8ca715fdb07c8d8e00d4b244d272c45724",
+    "d892a4487efd6fff9ec27abd1f49f1a4cbb4995267641d7f7e6ca051e02b1217",
+    "a66aab2ee791f404653667dd4363147ad31c0baa4b8890840d673a9d9aaaa8cc",
+    "fd32fd96c6ac77e1fd81198ce5d49b4b2e9e24eb7f7d1fb8cb4e518b58e685ee"
+  ]
+}

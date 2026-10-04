@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "2b1f372ccad7145b01f55b81e24c3a1d202974ca1dfcef6f362b7808fb901593",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che inclinazione zero implica orbita sopra il polo è errato."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.053854575,
+      "prompt_tokens": 1903,
+      "prompt_time": 0.105238085,
+      "completion_tokens": 829,
+      "completion_time": 2.475132362,
+      "total_tokens": 2732,
+      "total_time": 2.580370447,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 290
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-756134f1-020f-4267-973b-12408d41f06a",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5b6ea1cac6d5a20737d8a6b6a27f725ef341245f04478dc8c67b9febd072f941",
+    "5cd59405af93593227f1bc0f8b7e1724e9de9667852b5e360ea3d861e0de6823",
+    "f01b214359c24413e47455062f13be1be57f5c9144f8169cb52fecdf89edc9e3",
+    "240256f79d6c6dad310369afa0b0ac3ea86baa6b7ae378346b391ed94040866f",
+    "516e379b7dd882d06eecd4189246dc3d1e71eccd429f876863d7a82c1e65cadf",
+    "2b1f372ccad7145b01f55b81e24c3a1d202974ca1dfcef6f362b7808fb901593"
+  ]
+}

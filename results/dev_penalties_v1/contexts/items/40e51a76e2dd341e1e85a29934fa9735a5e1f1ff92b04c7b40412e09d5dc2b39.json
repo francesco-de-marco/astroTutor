@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev06_D",
+    "group_id": "dev06",
+    "topic": "Cosmologia",
+    "question": "Che cosa significa che l'universo si espande?",
+    "level": "D",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "Of all the disturbing implications of \"the expansion of the universe,\" none is more upsetting to many a student on first encounter than the nonsense of this idea. The universe expands, the distance between one cluster of galaxies and another cluster expands, the distance between sun and earth expands, the length of a meter stick expands, the atom expands? Then how can it make any sense to speak of any expansion at all? Expansion relative to what? Expansion relative to nonsense! Only later does he realize that the atom does not expand, the meter stick does not expand, the distance between sun and earth does not expand. Only distances between clusters scale of averaging does the notion of homogeneity make sense. Not so at smaller distances. No model more quickly illustrates the actual situation than a rubber balloon with pennies affixed to it, each by a drop of glue. As the balloon is inflated (Figure 27.2) the pennies increase their separation one from another but not a single one of them expands! [For mathematical detail see, e.g., Noerdlinger and Petrosian (1971).]  \nWhatexpandsinthe universe，andwhatdoesnot 2  \nEXERCISE  \nRiemann tensor for homogeneous, isotropic hypersurfaces",
+      "source": "TOPIC 2 - Wormhole, viaggi nel tempo e spazio-tempo/D - Gravitation (Physics Series) (Charles W. Misner, Kip S. Thorne etc.).pdf",
+      "title": "Gravitation (Physics Series) (Charles W. Misner, Kip S. Thorne etc.)",
+      "level": "D",
+      "level_match": "exact",
+      "score": 1.10123872756958
+    },
+    {
+      "text": "Dunque, da questo rapidissimo e incompleto riassunto della storia dell’Universo viene fuori una prima notizia importante: l’Universo è in espansione, sta diventando sempre più grande.  \nOra, comprendere cosa significhi che si sta espandendo non è facile: non esiste uno spazio all’interno del quale si espande, perché, come abbiamo già detto, l’Universo è “tutto quello che c’è”. Occorre allora immaginare l’espansione in questo modo: è come un palloncino sul quale siano stati disegnati dei pallini. Man mano che il palloncino si gonfia, i puntini si allontanano, ma non perché fisicamente si spostino sulla superficie: è la superficie stessa che si sta ingrandendo. La stessa cosa accade con l’Universo. A questo punto, la domanda è abbastanza scontata: continuerà a espandersi per sempre? Dipende. Tutto è legato alla massa. Questa espansione, infatti, può essere fermata solo dalla forza di gravità che si esercita tra tutte le masse presenti nell’Universo: se ce ne sono abbastanza, l’espansione andrà man mano a rallentare, eventualmente a fermarsi, magari addirittura a invertirsi.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.9990803003311157
+    },
+    {
+      "text": "Quando la maggior parte della gente credeva in un universo essenzialmente statico ed immobile, la domanda di se questo aveva, o no, un principio era realmente una questione di carattere metafisico o teologico. Potevano spiegarsi altrettanto bene tutte le osservazioni tanto con la teoria che l'universo era esistito sempre, come con la teoria che era stato messo in funzionamento in un determinato tempo finito, di tale forma che sembrasse come se fosse esistito da sempre. Ma, in 1929, Edwin Hubble fece l'osservazione cruciale che, dove voglia che uno guardi, le galassie distanti si stanno allontanando da noi. O in altre parole, l'universo si sta espandendo. Questo significa che in epoche anteriori gli oggetti sarebbero dovuti essere più insieme tra sé. In realtà, sembra essere che ci fu un tempo, fa circa dieci o venti mille milioni di anni, in cui tutti gli oggetti stavano esattamente nello stesso posto, e nel che, pertanto, la densità dell'universo era infinita. Fu detta scoperta quello che finalmente portò la questione del principio dell'universo ai domini della scienza.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.9958393573760986
+    }
+  ],
+  "queries": [
+    "Che cosa significa che l'universo si espande?"
+  ]
+}

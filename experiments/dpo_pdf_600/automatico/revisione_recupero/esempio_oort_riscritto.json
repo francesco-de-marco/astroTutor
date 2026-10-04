@@ -1,0 +1,27 @@
+{
+  "id": "4c6def2ee58e2bcfc687d285_rewrite01",
+  "parent_id": "4c6def2ee58e2bcfc687d285",
+  "user_level": "C",
+  "question": "Come può il passaggio di una stella portare un oggetto della nube di Oort vicino al Sole?",
+  "chosen": "La nube di Oort è una riserva di antichi oggetti ghiacciati che orbitano lontano dal Sole, vicino al limite della sua sfera di influenza: la regione in cui la sua gravità può mantenere oggetti in orbita. A quelle distanze, la gravità di una stella di passaggio può perturbare, cioè modificare, la loro orbita. Alcune delle nuove orbite portano gli oggetti molto più vicino al Sole, dove possiamo osservarli come comete. Non tutti hanno questo destino: altri possono essere allontanati definitivamente dal sistema solare.",
+  "rejected": "La gravità di una stella di passaggio può cambiare il percorso di un oggetto ghiacciato della nube di Oort. Il nuovo percorso può portarlo vicino al Sole, dove possiamo vederlo come cometa. Altri oggetti possono invece lasciare il sistema solare.",
+  "context": "It is possible to calculate that a star’s gravitational s p here of influence—the distance within which it can exert suficient gravitation to hold onto orbiting objects—is about one third of its distance to the nearest other stars. Stars in the vicinity of the Sun are spaced in such a way that the Sun’s sphere of influence extends a little beyond 50,000 AU, or about 1 light-year. At such great distances, however, objects in orbit about the Sun can be perturbed by the gravity of passing stars. Some of the perturbed objects can then take on orbits that bring them much closer to the Sun (while others might be lost to the solar system forever).  \nOort suggested, therefore, that the new comets we were seeing were examples of objects orbiting the Sun near the edge of its sphere of influence, whose orbits had been disturbed by nearby stars, eventually bringing them close to the Sun where we can see them. The reservoir of ancient icy objects from which such comets are derived is now called the Oort cloud.",
+  "source": {
+    "context": "It is possible to calculate that a star’s gravitational s p here of influence—the distance within which it can exert suficient gravitation to hold onto orbiting objects—is about one third of its distance to the nearest other stars. Stars in the vicinity of the Sun are spaced in such a way that the Sun’s sphere of influence extends a little beyond 50,000 AU, or about 1 light-year. At such great distances, however, objects in orbit about the Sun can be perturbed by the gravity of passing stars. Some of the perturbed objects can then take on orbits that bring them much closer to the Sun (while others might be lost to the solar system forever).  \nOort suggested, therefore, that the new comets we were seeing were examples of objects orbiting the Sun near the edge of its sphere of influence, whose orbits had been disturbed by nearby stars, eventually bringing them close to the Sun where we can see them. The reservoir of ancient icy objects from which such comets are derived is now called the Oort cloud.",
+    "context_hash": "38330c0dadedc590f2987d55807395440ca509fcf5a78093bf0c3265ff709dc1",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_title": "Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff)",
+    "source_level": "B",
+    "topic": "6",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 994,
+    "split": "train",
+    "level": "C",
+    "id": "4c6def2ee58e2bcfc687d285",
+    "original_assigned_level": "C"
+  },
+  "contrast": "La prima esplicita il ruolo della posizione periferica e definisce sfera di influenza e perturbazione; la seconda riporta solo la sequenza essenziale. Preferenza proposta per C, non misurata.",
+  "status": "assistant_rewritten_reference_not_independently_validated",
+  "training_ready": false
+}

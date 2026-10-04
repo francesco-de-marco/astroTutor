@@ -1,0 +1,13 @@
+{
+  "sha256": "717e90c98958607ee975e8c90d0298fb49b04a405423413261c888a52d91ef7f",
+  "questions": 8,
+  "prompts": 32,
+  "generations": 64,
+  "source_groups": [
+    "exploring black holes introduction to general relativity 2nd edition edwin f taylor john archibald wheeler etc",
+    "lecture notes on general relativity sean carroll arxiv",
+    "prospettive cosmiche neil degrasse tyson"
+  ],
+  "frozen_before_generation": true,
+  "test_final_used": false
+}

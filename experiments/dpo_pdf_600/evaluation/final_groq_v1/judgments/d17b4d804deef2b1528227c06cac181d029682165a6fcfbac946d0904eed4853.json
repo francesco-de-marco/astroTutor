@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d17b4d804deef2b1528227c06cac181d029682165a6fcfbac946d0904eed4853",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Contiene affermazioni errate (es. “orbita intorno al polo opposto”, copertura globale)."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.545527168,
+      "prompt_tokens": 2128,
+      "prompt_time": 0.280966394,
+      "completion_tokens": 931,
+      "completion_time": 1.955857132,
+      "total_tokens": 3059,
+      "total_time": 2.2368235260000002,
+      "completion_tokens_details": {
+        "reasoning_tokens": 376
+      }
+    },
+    "system_fingerprint": "fp_77b12279f9",
+    "response_id": "chatcmpl-a09d969b-6174-439b-9081-36d9896901ef",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "9e000a438b4525793f71f83a67a92b1f34ead04b8a51a1b12e2cba142169a703",
+    "b40090e7431e95b89d7f61e870f0eaaf6c292c1ca0376e5f56db247602b87997",
+    "d17b4d804deef2b1528227c06cac181d029682165a6fcfbac946d0904eed4853",
+    "f9fde1a932f75a97a2f8b3686068b062c319ba0835b1320b4954ebf4121a9437",
+    "79889a4f94999cb8fa8fc109748ecfec59d6219c4a1cba37b49bac109a9cc144",
+    "ea7f12335dc7d2f228811f9c3290c5d4a1e9a9d8e231432033cf6de60b0cb295"
+  ]
+}

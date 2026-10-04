@@ -1,0 +1,23 @@
+{
+  "response_hash": "ca77e16eb4a78971cab48ce91cef4c270198ebab7715b05954dcb019a3ded72b",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "La spiegazione è corretta e non contiene errori.",
+      "level_adequacy": "Il livello di formalismo e la profondità sono adatti a un profilo B, ma ci sono alcune frasi che potrebbero essere più chiare.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe beneficiare di una formulazione più semplice."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2110,
+    "eval_count": 177,
+    "total_duration": 6207780800,
+    "done_reason": "stop"
+  }
+}

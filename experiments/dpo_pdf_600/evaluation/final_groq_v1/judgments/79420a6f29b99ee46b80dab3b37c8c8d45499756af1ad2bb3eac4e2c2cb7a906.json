@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "79420a6f29b99ee46b80dab3b37c8c8d45499756af1ad2bb3eac4e2c2cb7a906",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega solo che il satellite non deve muoversi molto, ma non chiarisce il vantaggio della posizione fissa."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.05232254,
+      "prompt_tokens": 1676,
+      "prompt_time": 0.055151479,
+      "completion_tokens": 928,
+      "completion_time": 2.401914307,
+      "total_tokens": 2604,
+      "total_time": 2.457065786,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 362
+      }
+    },
+    "system_fingerprint": "fp_4200b3f836",
+    "response_id": "chatcmpl-2affd933-b11b-4343-b025-7ce6f1094f93",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6c47acffd1792b1f7eaf29e0330ad31a513293266e4655eab643f8de6bd79f6d",
+    "79420a6f29b99ee46b80dab3b37c8c8d45499756af1ad2bb3eac4e2c2cb7a906",
+    "9a89ea3874c009d44882403c12e08951532454c83e97622782d9b7c8a28923d0",
+    "383f9846301f9437427e7be5db8afd477c5e28f99a2f093b9ccd68afc91010a4",
+    "ff38bf21a154cda1ca330ce120ba9f59c99770355e26f8ae028776c8ed386f87",
+    "78974056790aaa48c7065845adcb0843b7ec4b01bd5905179e17e9dac549572a"
+  ]
+}

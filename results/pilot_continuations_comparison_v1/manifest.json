@@ -1,0 +1,457 @@
+{
+  "inputs": [
+    {
+      "id": "pilot07_A",
+      "question": "Se due galassie si attraversano, perché le loro stelle raramente si scontrano?",
+      "level": "A",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo A: Scuola primaria, 6-10 anni: nessun prerequisito astronomico. Usa parole comuni e spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Se due galassie si attraversano, perché le loro stelle raramente si scontrano?"
+        }
+      ]
+    },
+    {
+      "id": "pilot07_B",
+      "question": "Se due galassie si attraversano, perché le loro stelle raramente si scontrano?",
+      "level": "B",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo B: Scuola secondaria di primo grado: conoscenze scientifiche elementari. Spiega il meccanismo e definisci i termini nuovi.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Se due galassie si attraversano, perché le loro stelle raramente si scontrano?"
+        }
+      ]
+    },
+    {
+      "id": "pilot07_C",
+      "question": "Se due galassie si attraversano, perché le loro stelle raramente si scontrano?",
+      "level": "C",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo C: Scuola secondaria di secondo grado: basi di fisica. Esplicita i passaggi causali e usa termini tecnici pertinenti spiegandoli quando necessario.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Se due galassie si attraversano, perché le loro stelle raramente si scontrano?"
+        }
+      ]
+    },
+    {
+      "id": "pilot07_D",
+      "question": "Se due galassie si attraversano, perché le loro stelle raramente si scontrano?",
+      "level": "D",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo D: Università: basi di fisica e astronomia. Usa terminologia precisa, relazioni causali e limiti delle affermazioni; evita premesse elementari superflue.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Se due galassie si attraversano, perché le loro stelle raramente si scontrano?"
+        }
+      ]
+    },
+    {
+      "id": "pilot08_A",
+      "question": "Perché una collisione tra galassie può favorire la nascita di nuove stelle?",
+      "level": "A",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo A: Scuola primaria, 6-10 anni: nessun prerequisito astronomico. Usa parole comuni e spiega i concetti necessari senza infantilizzare.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Perché una collisione tra galassie può favorire la nascita di nuove stelle?"
+        }
+      ]
+    },
+    {
+      "id": "pilot08_B",
+      "question": "Perché una collisione tra galassie può favorire la nascita di nuove stelle?",
+      "level": "B",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo B: Scuola secondaria di primo grado: conoscenze scientifiche elementari. Spiega il meccanismo e definisci i termini nuovi.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Perché una collisione tra galassie può favorire la nascita di nuove stelle?"
+        }
+      ]
+    },
+    {
+      "id": "pilot08_C",
+      "question": "Perché una collisione tra galassie può favorire la nascita di nuove stelle?",
+      "level": "C",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo C: Scuola secondaria di secondo grado: basi di fisica. Esplicita i passaggi causali e usa termini tecnici pertinenti spiegandoli quando necessario.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Perché una collisione tra galassie può favorire la nascita di nuove stelle?"
+        }
+      ]
+    },
+    {
+      "id": "pilot08_D",
+      "question": "Perché una collisione tra galassie può favorire la nascita di nuove stelle?",
+      "level": "D",
+      "group": "galaxy_collisions",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Sei AstroTutor. Rispondi in italiano alla domanda astronomica adattando la spiegazione alle conoscenze dello studente. Usa il contesto come base fattuale; non inventare dati, formule o fenomeni. Se il contesto non basta, dichiara il limite. Puoi riformulare e spiegare le relazioni presenti. Usa analogie solo se presenti nel contesto, segnalando che sono analogie. Rispondi direttamente: non aggiungere quiz, piani di studio o domande allo studente. La precisione scientifica vale a tutti i livelli. Scegli la lunghezza necessaria: il livello non impone una quota di parole. Non menzionare il codice del livello nella risposta. Produci soltanto la risposta finale, senza simulare turni user/assistant o commenti sulle istruzioni. Evita introduzioni generiche, ripetizioni e riepiloghi duplicati. Non aggiungere cause fisiche o nomi di effetti che il contesto non fornisce. Distingui condizioni necessarie e sufficienti: non trasformare un possibile disallineamento o una correlazione in una causa sufficiente. Per i livelli avanzati privilegia precisione e limiti, senza inventare dettagli per rendere la risposta apparentemente piu tecnica."
+        },
+        {
+          "role": "user",
+          "content": "Profilo D: Università: basi di fisica e astronomia. Usa terminologia precisa, relazioni causali e limiti delle affermazioni; evita premesse elementari superflue.\n\nContesto:\nLe galassie possono interagire e scontrarsi. Contengono però moltissimo spazio vuoto: uno scontro fra galassie non implica normalmente urti diretti fra le singole stelle. Le nubi di gas possono invece essere compresse durante l'interazione, favorendo episodi di formazione di nuove stelle. Occorre quindi distinguere la collisione dei sistemi galattici dagli urti fra i loro componenti stellari. La formazione stellare favorita dalla compressione del gas non richiede che due stelle si scontrino. La collisione può stimolare questa attività, ma non significa che ogni interazione produca necessariamente lo stesso aumento di nuove stelle.\n\nDomanda: Perché una collisione tra galassie può favorire la nascita di nuove stelle?"
+        }
+      ]
+    }
+  ],
+  "training": {
+    "initial_sft": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "data": {
+        "counts": {
+          "train": 22,
+          "validation": 6
+        },
+        "hashes": {
+          "train": "bc79823360d121cdd74713cff992d7434febbbbf35abd0fb3e5e2f9215c1c310",
+          "validation": "1b518dcd7957caa51efdd13f06c64372cd515673b858fc8229a0d5595efcb952"
+        },
+        "source_groups": {
+          "train": [
+            "black_holes",
+            "interferometer",
+            "pulsars"
+          ],
+          "validation": [
+            "galaxy_collisions"
+          ]
+        },
+        "provenance_hash": "56e36da18d8efb1686c0cbed4537810e05e1a59c9a9e4d83415ec8a1a3d8bb61",
+        "review_kinds": {
+          "ai_assisted": 28
+        }
+      },
+      "environment": {
+        "versions": {
+          "torch": "2.11.0+cu128",
+          "transformers": "4.57.6",
+          "datasets": "5.0.1",
+          "accelerate": "1.15.0",
+          "trl": "0.24.0",
+          "peft": "0.17.1",
+          "bitsandbytes": "0.48.1"
+        },
+        "python": "3.14.3",
+        "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "vram_gib": 7.99560546875,
+        "free_gib_at_start": 6.90234375,
+        "cuda_build": "12.8"
+      },
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "task_type": "CAUSAL_LM",
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "sft": {
+        "output_dir": "models\\pilot_sft_train_v1",
+        "num_train_epochs": 10,
+        "learning_rate": 5e-05,
+        "per_device_train_batch_size": 1,
+        "per_device_eval_batch_size": 1,
+        "gradient_accumulation_steps": 4,
+        "gradient_checkpointing": true,
+        "gradient_checkpointing_kwargs": {
+          "use_reentrant": false
+        },
+        "bf16": true,
+        "fp16": false,
+        "optim": "adamw_torch",
+        "lr_scheduler_type": "constant",
+        "warmup_steps": 0,
+        "max_grad_norm": 1.0,
+        "weight_decay": 0.0,
+        "max_length": null,
+        "packing": false,
+        "completion_only_loss": true,
+        "dataset_kwargs": {
+          "skip_prepare_dataset": true
+        },
+        "dataloader_num_workers": 0,
+        "prediction_loss_only": true,
+        "eval_strategy": "no",
+        "logging_steps": 1,
+        "logging_nan_inf_filter": false,
+        "save_strategy": "epoch",
+        "save_total_limit": 2,
+        "report_to": "none",
+        "seed": 42,
+        "data_seed": 42,
+        "push_to_hub": false,
+        "use_liger_kernel": false
+      },
+      "quantization": "NF4 double quant BF16",
+      "objective": "SFT chosen response tokens only",
+      "note": "Esplorativo: budget e learning rate diversi dal DPO. Non confronto causale fra obiettivi. Nessuna selezione del checkpoint sulla validation; si usa l ultima epoca."
+    },
+    "after_dpo": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "data": {
+        "counts": {
+          "train": 22,
+          "validation": 6
+        },
+        "hashes": {
+          "train": "bc79823360d121cdd74713cff992d7434febbbbf35abd0fb3e5e2f9215c1c310",
+          "validation": "1b518dcd7957caa51efdd13f06c64372cd515673b858fc8229a0d5595efcb952"
+        },
+        "source_groups": {
+          "train": [
+            "black_holes",
+            "interferometer",
+            "pulsars"
+          ],
+          "validation": [
+            "galaxy_collisions"
+          ]
+        },
+        "provenance_hash": "56e36da18d8efb1686c0cbed4537810e05e1a59c9a9e4d83415ec8a1a3d8bb61",
+        "review_kinds": {
+          "ai_assisted": 28
+        }
+      },
+      "environment": {
+        "versions": {
+          "torch": "2.11.0+cu128",
+          "transformers": "4.57.6",
+          "datasets": "5.0.1",
+          "accelerate": "1.15.0",
+          "trl": "0.24.0",
+          "peft": "0.17.1",
+          "bitsandbytes": "0.48.1"
+        },
+        "python": "3.14.3",
+        "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "vram_gib": 7.99560546875,
+        "free_gib_at_start": 6.90234375,
+        "cuda_build": "12.8"
+      },
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "task_type": "CAUSAL_LM",
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "settings": {
+        "output_dir": "models\\pilot_after_sft_dpo_v1",
+        "max_steps": 12,
+        "learning_rate": 5e-06,
+        "per_device_train_batch_size": 1,
+        "per_device_eval_batch_size": 1,
+        "gradient_accumulation_steps": 4,
+        "gradient_checkpointing": true,
+        "gradient_checkpointing_kwargs": {
+          "use_reentrant": false
+        },
+        "bf16": true,
+        "fp16": false,
+        "optim": "adamw_torch",
+        "lr_scheduler_type": "constant",
+        "warmup_steps": 0,
+        "max_grad_norm": 1.0,
+        "weight_decay": 0.0,
+        "logging_steps": 1,
+        "logging_nan_inf_filter": false,
+        "eval_strategy": "no",
+        "save_strategy": "no",
+        "report_to": "none",
+        "dataloader_num_workers": 0,
+        "seed": 42,
+        "data_seed": 42,
+        "push_to_hub": false,
+        "use_liger_kernel": false,
+        "beta": 0.1,
+        "loss_type": "sigmoid",
+        "max_prompt_length": null,
+        "max_completion_length": null,
+        "max_length": 749,
+        "dataset_num_proc": 1,
+        "precompute_ref_log_probs": true,
+        "precompute_ref_batch_size": 1,
+        "use_logits_to_keep": true,
+        "model_adapter_name": "default",
+        "ref_adapter_name": "reference",
+        "disable_dropout": true
+      },
+      "objective": "dpo",
+      "parent_adapter_hashes": {
+        "adapter_model.safetensors": "42570ebd52380d41032e0588a1dde8a05d81c84c7c81e679c9b65135717ca84f"
+      },
+      "reference": "frozen SFT adapter",
+      "note": "Stesso checkpoint, seed, LR, batch e 12 aggiornamenti; costo e token elaborati diversi. Optimizer riavviato in entrambi i rami. Nessuna scelta del checkpoint sulla validation."
+    },
+    "after_sft": {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "data": {
+        "counts": {
+          "train": 22,
+          "validation": 6
+        },
+        "hashes": {
+          "train": "bc79823360d121cdd74713cff992d7434febbbbf35abd0fb3e5e2f9215c1c310",
+          "validation": "1b518dcd7957caa51efdd13f06c64372cd515673b858fc8229a0d5595efcb952"
+        },
+        "source_groups": {
+          "train": [
+            "black_holes",
+            "interferometer",
+            "pulsars"
+          ],
+          "validation": [
+            "galaxy_collisions"
+          ]
+        },
+        "provenance_hash": "56e36da18d8efb1686c0cbed4537810e05e1a59c9a9e4d83415ec8a1a3d8bb61",
+        "review_kinds": {
+          "ai_assisted": 28
+        }
+      },
+      "environment": {
+        "versions": {
+          "torch": "2.11.0+cu128",
+          "transformers": "4.57.6",
+          "datasets": "5.0.1",
+          "accelerate": "1.15.0",
+          "trl": "0.24.0",
+          "peft": "0.17.1",
+          "bitsandbytes": "0.48.1"
+        },
+        "python": "3.14.3",
+        "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "vram_gib": 7.99560546875,
+        "free_gib_at_start": 6.90234375,
+        "cuda_build": "12.8"
+      },
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "task_type": "CAUSAL_LM",
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "settings": {
+        "output_dir": "models\\pilot_after_sft_sft_control_v1",
+        "max_steps": 12,
+        "learning_rate": 5e-06,
+        "per_device_train_batch_size": 1,
+        "per_device_eval_batch_size": 1,
+        "gradient_accumulation_steps": 4,
+        "gradient_checkpointing": true,
+        "gradient_checkpointing_kwargs": {
+          "use_reentrant": false
+        },
+        "bf16": true,
+        "fp16": false,
+        "optim": "adamw_torch",
+        "lr_scheduler_type": "constant",
+        "warmup_steps": 0,
+        "max_grad_norm": 1.0,
+        "weight_decay": 0.0,
+        "logging_steps": 1,
+        "logging_nan_inf_filter": false,
+        "eval_strategy": "no",
+        "save_strategy": "no",
+        "report_to": "none",
+        "dataloader_num_workers": 0,
+        "seed": 42,
+        "data_seed": 42,
+        "push_to_hub": false,
+        "use_liger_kernel": false,
+        "max_length": null,
+        "packing": false,
+        "completion_only_loss": true,
+        "dataset_kwargs": {
+          "skip_prepare_dataset": true
+        },
+        "prediction_loss_only": true
+      },
+      "objective": "sft_control",
+      "parent_adapter_hashes": {
+        "adapter_model.safetensors": "42570ebd52380d41032e0588a1dde8a05d81c84c7c81e679c9b65135717ca84f"
+      },
+      "reference": null,
+      "note": "Stesso checkpoint, seed, LR, batch e 12 aggiornamenti; costo e token elaborati diversi. Optimizer riavviato in entrambi i rami. Nessuna scelta del checkpoint sulla validation."
+    }
+  },
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "repetition_penalty": 1.0,
+    "num_beams": 1
+  },
+  "adapter_hashes": {
+    "initial_sft": {
+      "adapter_model.safetensors": "42570ebd52380d41032e0588a1dde8a05d81c84c7c81e679c9b65135717ca84f"
+    },
+    "after_dpo": {
+      "adapter_model.safetensors": "90e2d8a58c30435c474cfe69dbe36a7e83432e5ba1fbac37c1599be8f256c0f5"
+    },
+    "after_sft": {
+      "adapter_model.safetensors": "83e310c84990b022a54e8d61f31e7458610c746c226ef6c90e72de54d70ae3a2"
+    }
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.17.1",
+    "bitsandbytes": "0.48.1"
+  }
+}

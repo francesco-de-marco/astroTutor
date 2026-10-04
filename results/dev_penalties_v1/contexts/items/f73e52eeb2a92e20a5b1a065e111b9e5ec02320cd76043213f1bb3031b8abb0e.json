@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev05_A",
+    "group_id": "dev05",
+    "topic": "Galassie",
+    "question": "Che cosa tiene insieme le stelle di una galassia?",
+    "level": "A",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "Esempi di com'è l'universo Le stelle sono enormi sfere di gas caldissime.  \nLe galassie sono insiemi di stelle, sistemi planetari, gas e polveri.  \nLe galassie a loro volta formano ammassi e superammassi, separati da grandi vuoti.  \nI confini tra i grandi vuoti dell'Universo sono formati dai filamenti, che collegano gli ammassi e i superammassi di galassie. I filamenti sono tra le più grandi strutture dell'Universo.  \nBlibiografia Scienze Focus - Fisica e chimica, Luigi Leopardi - Francesca Bolognani - Chiara Cateni - Massimo Temporelli, DeA Scuola - Garzanti, 2014, Novara.",
+      "source": "A - api_vikidia_universo.json",
+      "title": "Spiegazione di Universo (Vikidia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 1.1476973295211792
+    },
+    {
+      "text": "Indice 1 Descrizione 2 Formazione 3 Tipi di galassie 3.1 Galassie ellittiche 3.2 Galasie spirali 3.3 Galassie spirali barrate Descrizionemodifica | modifica sorgente]\nLe galassie sono oggetti dalle vastissime dimensioni; variano dalle più piccole galassie nane, contenenti poche decine di milioni di stelle, alle galassie giganti, che hanno anche mille miliardi di stelle, orbitanti attorno ad un comune centro di massa. Il centro di una galassia è chiamato bulge, ed è un gruppo di notevoli dimensioni formato da un gran numero di stelle. Si pensa che la maggior parte dei bulge ospiti al suo interno un buco nero. La galassia contenente il nostro Sistema solare è la Via Lattea.  \nFormazionemodifica | modifica sorgente]\nCirca 300.000 anni dopo il Big Bang, la temperatura del cosmo si abbassò sino a consentire la formazione degli atomi di idrogeno ed elio, in un evento chiamato ricombinazione. Fu dalle irregolarità di densità della materia primordiale che iniziarono ad apparire le prime strutture a grande scala. Queste strutture primordiali sarebbero poi diventate le galassie che oggi osserviamo.  \nTipi di galassiemodifica | modifica sorgente]\nLa distinzione dei vari tipi di galassie nella sequenza di Hubble. Con la lettera «E» sono contrassegnate le galassie di tipo ellittico, con la lettera «S» le galassie a spirale e con le lettere «SB» le galassie a spirale barrata.\nGalassie ellittichemodifica | modifica sorgente]",
+      "source": "api_vikidia_galassia.json",
+      "title": "Spiegazione di Galassia (Vikidia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 0.988910436630249
+    },
+    {
+      "text": "Gravity holds galaxies together against the general expansion of the universe. In effect, the expansion of the universe takes place between groups of galaxies, not inside those groups. Gravity holds the galaxy together. The same applies to groups and clusters of galaxies, such as our Local Group where the Milky Way is, and the Virgo Cluster, a collection of more than 1,000 (might even be 2,000) galaxies. The gravitation is produced by the matter and energy in a galaxy or group of galaxies. Everything in a galaxy moves around a centre of mass, which is also an effect of gravity.  \nThere are various types of galaxies: elliptical, spiral and lenticular galaxies, which can all be with or without bars. There are also irregular galaxies.  \nAll galaxies exist inside the universe. The observable Universe contains more than 2 trillion (1012) galaxies and, overall, as many as an estimated 1×1024 stars (more stars than all the grains of sand on planet Earth).  \nDescription There are galaxies of different sizes and type. Typical galaxies range from dwarfs with as few as ten million (107) stars up to giants with a hundred trillion (1014) stars, all orbiting the galaxy's center of mass. Galaxies may contain many multiple star systems, star clusters, and various interstellar clouds. The Sun is one of the stars in the Milky Way galaxy; the Solar System includes the Earth and all the other objects that orbit the Sun.",
+      "source": "A - api_simplewiki_galaxy.json",
+      "title": "Spiegazione di Galaxy (Simple Wikipedia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 0.7466719895601273
+    }
+  ],
+  "queries": [
+    "Che cosa tiene insieme le stelle di una galassia?"
+  ]
+}

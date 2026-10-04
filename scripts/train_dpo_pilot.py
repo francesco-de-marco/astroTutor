@@ -1,0 +1,248 @@
+"""Training diagnostico DPO, Qwen2.5-3B-Instruct + NF4 + LoRA.
+
+Eseguire dalla root del progetto: check -> smoke -> train.
+Non usa Ollama, non modifica i vecchi modelli e non pubblica dati o pesi.
+"""
+import argparse
+from collections import Counter
+import hashlib
+import importlib.metadata
+import json
+import math
+import os
+from pathlib import Path
+import platform
+import sys
+import uuid
+
+BASE = 'Qwen/Qwen2.5-3B-Instruct'
+PINS = {'trl': '0.24.0', 'peft': '0.17.1', 'bitsandbytes': '0.48.1',
+        'transformers': '4.57.6'}
+
+
+def read(path):
+    return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+
+
+def hashed(value):
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False,
+                                    allow_nan=False).encode('utf-8')).hexdigest()
+
+
+def save(path, value):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.name + '.' + uuid.uuid4().hex + '.tmp')
+    try:
+        tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False), encoding='utf-8')
+        os.replace(tmp, path)
+    finally:
+        tmp.unlink(missing_ok=True)
+
+
+def load_data(directory):
+    directory = Path(directory)
+    rows = {s: [json.loads(line) for line in (directory / (s + '.jsonl')).read_text(
+        encoding='utf-8-sig').splitlines() if line.strip()] for s in ['train', 'validation']}
+    provenance = read(directory / 'provenance.json')
+    summary = read(directory / 'summary.json')
+    counters = Counter()
+    source_groups = {'train': set(), 'validation': set()}
+    prompt_sets = {}
+    for entry in provenance:
+        split = entry['split']
+        if split not in rows:
+            raise ValueError('Split sconosciuto nella provenienza.')
+        counters[split] += 1
+        source_groups[split].add(entry['source_id'])
+        review = entry['review']
+        if review['decision'] not in ('1', '2') or review['quality_checks_passed'] is not True:
+            raise ValueError('Coppia non approvata nella provenienza.')
+    for split, values in rows.items():
+        if not values or len(values) != counters[split] or len(values) != summary['counts'][split]:
+            raise ValueError('Conteggi o dati non coerenti: ' + split)
+        prompt_sets[split] = set()
+        for row in values:
+            if set(row) != {'prompt', 'chosen', 'rejected'}:
+                raise ValueError('Colonne inattese nel dataset.')
+            if [m['role'] for m in row['prompt']] != ['system', 'user']:
+                raise ValueError('Formato prompt non valido.')
+            for key in ['chosen', 'rejected']:
+                if len(row[key]) != 1 or row[key][0]['role'] != 'assistant' or not row[key][0]['content'].strip():
+                    raise ValueError('Risposta non valida.')
+            if row['chosen'] == row['rejected']:
+                raise ValueError('Preferenza con risposte identiche.')
+            key = hashed(row['prompt'])
+            if key in prompt_sets[split]:
+                raise ValueError('Prompt duplicato nello split.')
+            prompt_sets[split].add(key)
+    if source_groups['train'] & source_groups['validation'] or prompt_sets['train'] & prompt_sets['validation']:
+        raise ValueError('Sovrapposizione tra train e validation.')
+    return rows, {'counts': {s: len(r) for s, r in rows.items()},
+                  'hashes': {s: hashed(r) for s, r in rows.items()},
+                  'source_groups': {s: sorted(g) for s, g in source_groups.items()},
+                  'provenance_hash': hashed(provenance),
+                  'review_kinds': dict(Counter(e['review']['review_kind'] for e in provenance))}
+
+
+def environment():
+    versions = {}
+    for name in ['torch', 'transformers', 'datasets', 'accelerate', 'trl', 'peft', 'bitsandbytes']:
+        try:
+            versions[name] = importlib.metadata.version(name)
+        except importlib.metadata.PackageNotFoundError:
+            raise ValueError(f'Manca {name}. Installa requirements-dpo-pilot.txt.')
+    for name, expected in PINS.items():
+        if versions[name] != expected:
+            raise ValueError(f'{name}: atteso {expected}, trovato {versions[name]}.')
+    import torch
+    import bitsandbytes as bnb
+    from peft import LoraConfig
+    from trl import DPOConfig, DPOTrainer
+    if not torch.cuda.is_available():
+        raise ValueError('CUDA non disponibile in questo interprete.')
+    if not torch.cuda.is_bf16_supported():
+        raise ValueError('Questa configurazione richiede BF16; GPU diversa da quella prevista.')
+    free, total = torch.cuda.mem_get_info()
+    if free < 5 * 2**30:
+        raise ValueError('Meno di 5 GiB GPU liberi. Scarica i modelli Ollama e chiudi altri lavori GPU.')
+    layer = bnb.nn.Linear4bit(64, 64, bias=False, compute_dtype=torch.bfloat16,
+                             quant_type='nf4').to('cuda')
+    x = torch.randn(2, 64, device='cuda', dtype=torch.bfloat16, requires_grad=True)
+    layer(x).float().square().mean().backward()
+    if x.grad is None or not torch.isfinite(x.grad).all():
+        raise ValueError('Test forward/backward NF4 fallito.')
+    del layer, x
+    torch.cuda.empty_cache()
+    return {'versions': versions, 'python': platform.python_version(),
+            'gpu': torch.cuda.get_device_name(0), 'vram_gib': total / 2**30,
+            'free_gib_at_start': free / 2**30, 'cuda_build': torch.version.cuda}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('mode', choices=['check', 'smoke', 'train'])
+    parser.add_argument('--data-dir', default='results/dpo_pilot_curated_v1/export')
+    parser.add_argument('--output-dir')
+    parser.add_argument('--revision', help='Commit HF del modello; altrimenti risolto e registrato.')
+    args = parser.parse_args()
+    rows, data_report = load_data(args.data_dir)
+    print('Dataset:', data_report['counts'], flush=True)
+    env = environment()
+    print('Ambiente:', json.dumps(env, ensure_ascii=False), flush=True)
+    if args.mode == 'check':
+        print('CHECK OK: import, CUDA e forward/backward NF4. Nessun modello scaricato.')
+        return
+
+    out = Path(args.output_dir or ('models/pilot_dpo_' + args.mode + '_v1'))
+    if out.exists() and any(out.iterdir()):
+        raise ValueError('Output gia presente. Per una nuova prova usa --output-dir con un nuovo nome.')
+    import torch
+    from datasets import Dataset
+    from huggingface_hub import model_info
+    from peft import LoraConfig
+    from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainerCallback, set_seed
+    from trl import DPOConfig, DPOTrainer
+    from trl.data_utils import maybe_apply_chat_template
+
+    set_seed(42)
+    revision = model_info(BASE, revision=args.revision or 'main').sha
+    tokenizer = AutoTokenizer.from_pretrained(BASE, revision=revision)
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    prepared = {}
+    lengths = []
+    for split, values in rows.items():
+        prepared[split] = []
+        for row in values:
+            rendered = maybe_apply_chat_template(row, tokenizer)
+            tokenized = DPOTrainer.tokenize_row(rendered, tokenizer, add_special_tokens=False)
+            lengths.extend(len(tokenized['prompt_input_ids']) + len(tokenized[k])
+                           for k in ['chosen_input_ids', 'rejected_input_ids'])
+            # Testo gia formattato: TRL non deve applicare un secondo chat template.
+            prepared[split].append(rendered)
+    longest = max(lengths)
+    if longest > 1536:
+        raise ValueError(f'Sequenza di {longest} token: supera il limite prudente del pilota. Nessun troncamento eseguito.')
+    print(f'Sequenza massima: {longest} token. Nessun troncamento.', flush=True)
+    smoke = args.mode == 'smoke'
+    settings = dict(output_dir=str(out), beta=0.1, loss_type='sigmoid',
+        learning_rate=5e-6, num_train_epochs=2, max_steps=3 if smoke else -1,
+        per_device_train_batch_size=1, per_device_eval_batch_size=1,
+        gradient_accumulation_steps=1 if smoke else 4,
+        gradient_checkpointing=True, gradient_checkpointing_kwargs={'use_reentrant': False},
+        bf16=True, fp16=False, optim='adamw_torch', lr_scheduler_type='constant',
+        warmup_steps=0, max_grad_norm=1.0, weight_decay=0.0,
+        max_length=longest + 8, max_prompt_length=None, max_completion_length=None,
+        precompute_ref_log_probs=True, precompute_ref_batch_size=1,
+        use_logits_to_keep=True, use_liger_kernel=False, disable_dropout=True,
+        logging_steps=1, logging_nan_inf_filter=False, report_to='none',
+        save_strategy='no' if smoke else 'epoch', save_total_limit=2,
+        eval_strategy='no', dataloader_num_workers=0, dataset_num_proc=1,
+        seed=42, data_seed=42, push_to_hub=False)
+    lora = dict(r=8, lora_alpha=16, lora_dropout=0.0, bias='none', task_type='CAUSAL_LM',
+                target_modules=['q_proj', 'k_proj', 'v_proj', 'o_proj'])
+    save(out / 'run_manifest.json', {'model': BASE, 'revision': revision, 'data': data_report,
+         'environment': env, 'dpo': settings, 'lora': lora, 'quantization': 'NF4 double quant BF16',
+         'token_lengths': {'min': min(lengths), 'max': longest},
+         'script_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+         'mode': args.mode, 'note': 'Solo pilota tecnico. 8 domande, 4 gruppi fonte; giudizi assistiti da IA. '
+         'La validation non e un test finale e le coppie non sono indipendenti.'})
+    quant = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type='nf4',
+                               bnb_4bit_use_double_quant=True, bnb_4bit_compute_dtype=torch.bfloat16)
+    print('Caricamento Qwen 3B da Hugging Face; il primo download occupa diversi GB.', flush=True)
+    model = AutoModelForCausalLM.from_pretrained(BASE, revision=revision,
+        quantization_config=quant, torch_dtype=torch.bfloat16, device_map={'': 0},
+        attn_implementation='sdpa')
+    model.config.use_cache = False
+
+    class FiniteLogs(TrainerCallback):
+        def on_log(self, args, state, control, logs=None, **kwargs):
+            for key, value in (logs or {}).items():
+                if isinstance(value, (int, float)) and not math.isfinite(value):
+                    raise ValueError('Metrica non finita: ' + key)
+
+    trainer = DPOTrainer(model=model, ref_model=None, args=DPOConfig(**settings),
+        train_dataset=Dataset.from_list(prepared['train']),
+        eval_dataset=Dataset.from_list(prepared['validation']), processing_class=tokenizer,
+        peft_config=LoraConfig(**lora), callbacks=[FiniteLogs()])
+    trainer.model.print_trainable_parameters()
+    before = {n: v.detach().cpu().clone() for n, v in trainer.model.named_parameters() if v.requires_grad}
+    if not before or any('lora_' not in n for n in before):
+        raise ValueError('Parametri addestrabili inattesi: previsto solo LoRA.')
+    torch.cuda.reset_peak_memory_stats()
+    # Con adapter inizializzati a zero, policy e riferimento coincidono: loss iniziale ~log(2).
+    initial = trainer.evaluate(metric_key_prefix='before')
+    save(out / 'validation_before.json', initial)
+    result = trainer.train()
+    deltas = [float((v.detach().float().cpu() - before[n].float()).abs().max())
+              for n, v in trainer.model.named_parameters() if n in before]
+    changed = max(deltas)
+    if not math.isfinite(changed) or changed <= 0:
+        raise ValueError('Nessun aggiornamento LoRA finito rilevato.')
+    final = trainer.evaluate(metric_key_prefix='after')
+    adapter = out / 'adapter'
+    trainer.save_model(str(adapter))
+    tokenizer.save_pretrained(str(adapter))
+    trainer.save_state()
+    save(out / 'validation_after.json', final)
+    save(out / 'training_history.json', trainer.state.log_history)
+    save(out / 'result.json', {'status': 'completed', 'mode': args.mode,
+        'steps': trainer.state.global_step, 'train_metrics': result.metrics,
+        'max_adapter_parameter_change': changed,
+        'peak_vram_allocated_gib': torch.cuda.max_memory_allocated() / 2**30,
+        'peak_vram_reserved_gib': torch.cuda.max_memory_reserved() / 2**30,
+        'adapter': str(adapter), 'before': initial, 'after': final,
+        'interpretation': 'Loss e reward margin misurano la preferenza relativa al riferimento. '
+                          'Non sono voti di correttezza o di efficacia didattica.'})
+    print(f'\n{args.mode.upper()} OK: {trainer.state.global_step} step, adapter aggiornato e salvato.')
+    print(f'Picco VRAM allocata: {torch.cuda.max_memory_allocated() / 2**30:.2f} GiB')
+    print('Risultati:', out / 'result.json')
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except (ValueError, OSError, ImportError) as exc:
+        print(f'ERRORE: {exc}', file=sys.stderr)
+        sys.exit(1)

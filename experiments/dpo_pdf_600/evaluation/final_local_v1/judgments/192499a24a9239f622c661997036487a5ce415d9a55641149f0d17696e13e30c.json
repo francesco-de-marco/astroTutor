@@ -1,0 +1,23 @@
+{
+  "evaluation_hash": "3ab2b34bc7813b5be436c0284142cc36a83a25027d39244f7270fa1346c93c94",
+  "judgment": {
+    "id": "192499a24a9239f622c661997036487a5ce415d9a55641149f0d17696e13e30c",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "La risposta contiene un errore nel dire che la Terra si muove in un'orbita ellittica attorno al baricentro, mentre in realtà orbita intorno al Sole. Inoltre, la spiegazione è un po' troppo complessa per il profilo richiesto."
+  },
+  "runtime_batch": {
+    "total_duration": 7718011100,
+    "prompt_eval_count": 1425,
+    "eval_count": 364,
+    "done_reason": "stop"
+  },
+  "batch_ids": [
+    "192499a24a9239f622c661997036487a5ce415d9a55641149f0d17696e13e30c",
+    "0fb84535d484c914fd51f14531a24c1729a855393893e0d6b720b23f6878cd46"
+  ]
+}

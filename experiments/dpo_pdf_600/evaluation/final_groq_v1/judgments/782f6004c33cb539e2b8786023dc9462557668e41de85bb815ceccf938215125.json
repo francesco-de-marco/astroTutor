@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "782f6004c33cb539e2b8786023dc9462557668e41de85bb815ceccf938215125",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente che la materia oscura collassa prima e guida la materia ordinaria."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.019984222,
+      "prompt_tokens": 2061,
+      "prompt_time": 0.089342775,
+      "completion_tokens": 1027,
+      "completion_time": 2.151850933,
+      "total_tokens": 3088,
+      "total_time": 2.241193708,
+      "completion_tokens_details": {
+        "reasoning_tokens": 474
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-a59ee7d1-b517-481a-a2d5-e3cbe2f0a6ac",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "dc80ea9bb8d962f3b4ec6265f361b2971ac93f0b3e28dc157f7f0e846094da56",
+    "8eee6852db3a591a8aeb4935c56ef72b9c287148062c27be4b110b7dc7f88732",
+    "a40fab5cd93d28b2759f2114a84462bc68a9f1c9463556bdf1724d744d484ec8",
+    "782f6004c33cb539e2b8786023dc9462557668e41de85bb815ceccf938215125",
+    "c9d7220e4af37e2f53d0ba7bc79757e78a40b472fb7e7f606df96edc95f6d015",
+    "ad29a00c43f3b25d9b5e667572fb53be1cf374eb358532763e81acee0f6c766a"
+  ]
+}

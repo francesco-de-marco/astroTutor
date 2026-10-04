@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "ce114a1852636f086c113509af36a2e065c079e08397c0cc724efe40e6039c44",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente l’eliminazione degli elettroni liberi e la conseguente trasparenza."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 1.069143011,
+      "prompt_tokens": 1940,
+      "prompt_time": 0.091462605,
+      "completion_tokens": 1018,
+      "completion_time": 2.150882976,
+      "total_tokens": 2958,
+      "total_time": 2.242345581,
+      "completion_tokens_details": {
+        "reasoning_tokens": 462
+      }
+    },
+    "system_fingerprint": "fp_df9620fe21",
+    "response_id": "chatcmpl-79274a2c-cccc-443e-ae3b-37d3f50a15a8",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "221b598f8dd38c0edd6706d5f41c1a49aa2d81d93677801bd687211619b21be5",
+    "88bae5d46da631a87977aa231684acc3a008be392db26dfa42c35d0884663970",
+    "46fb05b25ce60deeb79281454cbeef15565dc84d2b0d768d350439b1ce7d0573",
+    "ce114a1852636f086c113509af36a2e065c079e08397c0cc724efe40e6039c44",
+    "a05e79d250aa6031b74db27b6c3cbbf1bb61c8b49108da45e927d9026d8963bc",
+    "dd00a0be97856505cbd0de4308120e11628c6a9a6d05a0a45864239eeb5f3cd6"
+  ]
+}

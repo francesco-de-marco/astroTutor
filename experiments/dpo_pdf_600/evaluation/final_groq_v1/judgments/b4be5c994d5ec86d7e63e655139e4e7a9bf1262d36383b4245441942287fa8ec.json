@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b4be5c994d5ec86d7e63e655139e4e7a9bf1262d36383b4245441942287fa8ec",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente il processo di assorbimento e riemissione infrarossa."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.052913671,
+      "prompt_tokens": 1671,
+      "prompt_time": 0.176014733,
+      "completion_tokens": 723,
+      "completion_time": 1.6136527489999999,
+      "total_tokens": 2394,
+      "total_time": 1.789667482,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 189
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-b699a725-c0b3-481b-8829-e971bfdf76fc",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "08d6e9b658da1fec7a8ed53fab126d63acaae1020bab41dee0fd47b304e0a4f7",
+    "2be1b8594a5ffab2099220bede8521a4be045ebf0738a38dac1dd436dcb46262",
+    "b4be5c994d5ec86d7e63e655139e4e7a9bf1262d36383b4245441942287fa8ec",
+    "95e9dd9d5e3d03a50e38fd1e947d79d91f800a085af0766ed25338a45c131623",
+    "bb81c3ceb40259f8c85210c410e83d958d440d24504d112a54f93e28f5ddfa5f",
+    "e91c105555df5038aac0a78a04818fed30e743e8725bb2b716941098d4fc2a27"
+  ]
+}

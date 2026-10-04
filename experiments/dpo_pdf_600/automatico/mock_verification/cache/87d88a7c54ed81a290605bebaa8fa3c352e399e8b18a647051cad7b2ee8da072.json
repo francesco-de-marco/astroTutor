@@ -1,0 +1,10 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "message": {
+        "content": "{\"usable\":false}"
+      }
+    }
+  ]
+}

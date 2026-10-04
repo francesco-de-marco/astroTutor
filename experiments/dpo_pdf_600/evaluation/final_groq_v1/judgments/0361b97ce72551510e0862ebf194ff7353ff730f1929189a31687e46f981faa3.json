@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "0361b97ce72551510e0862ebf194ff7353ff730f1929189a31687e46f981faa3",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega bene la copertura ampia e l'utilità per comunicazioni intercontinentali."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.154956222,
+      "prompt_tokens": 1743,
+      "prompt_time": 0.083497669,
+      "completion_tokens": 852,
+      "completion_time": 1.810682854,
+      "total_tokens": 2595,
+      "total_time": 1.894180523,
+      "completion_tokens_details": {
+        "reasoning_tokens": 325
+      }
+    },
+    "system_fingerprint": "fp_0708ac49a5",
+    "response_id": "chatcmpl-3a83b779-2d2c-4415-b960-e118213724a6",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "48187cce78fc185b332cbf3805c3fbd5c0fe575f5774b275f4c1be0d6108ce9a",
+    "572740738f9d48d5afa6fa4da89b8d5a2b1cf32e02448334741113dc3c4a8317",
+    "4d0bd19eb95fdddaaed5db5a51a25321878373c0e6602dabf51cb3768c73a54c",
+    "a52e299d17018277dc1a465b298cb7d8ae37436b517be6710fc58a77d500903b",
+    "0361b97ce72551510e0862ebf194ff7353ff730f1929189a31687e46f981faa3",
+    "610e7110e25dca7b66d52dee493c0d5198c8405770eb3ec7dbe2724e75d3c81f"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "236c85827b4f5c8fc81d23e9b1c50f6e7b78d4a9e3e365691df4879543ad2b28",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega chiaramente il concetto di riga di assorbimento e la sua causa chimica."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.09398529,
+      "prompt_tokens": 1743,
+      "prompt_time": 0.077055588,
+      "completion_tokens": 598,
+      "completion_time": 1.273906138,
+      "total_tokens": 2341,
+      "total_time": 1.350961726,
+      "completion_tokens_details": {
+        "reasoning_tokens": 49
+      }
+    },
+    "system_fingerprint": "fp_267e812a3a",
+    "response_id": "chatcmpl-fe782847-a117-4760-981f-b79e1de2541c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "d652a5a0090c5f37ea0176a336e5cdd19c48c39291a81f991f8895e3beb6edd8",
+    "bb48a933816410b787e969be64bc09460d03d8198b8b4b7c86a5bd68418f3731",
+    "ef230a2720cdbe0582ced179862ecabf3dab724d1c0d10fb106c252f5b8d2317",
+    "8ab091d810d0bcc3d3d141e42d4a96b297e8afd92dc7a9061422c892872c23ba",
+    "752801a369197c029ce1bdea6b612b6648f844bbad99af2ed21bbe4add1444b1",
+    "236c85827b4f5c8fc81d23e9b1c50f6e7b78d4a9e3e365691df4879543ad2b28"
+  ]
+}

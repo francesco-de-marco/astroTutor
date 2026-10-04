@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "2a2bc75fabede22af9f9efc302485c25420e320eb6f9762069255e2373a1dc67",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta concisa ma corretta, indica particelle e interazione con atmosfera."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022214885,
+      "prompt_tokens": 1644,
+      "prompt_time": 0.153118867,
+      "completion_tokens": 643,
+      "completion_time": 2.456235792,
+      "total_tokens": 2287,
+      "total_time": 2.609354659,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 113
+      }
+    },
+    "system_fingerprint": "fp_c800245357",
+    "response_id": "chatcmpl-3a3ad6ea-035b-491e-aab8-2625352a7717",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "be82840564cd90a49866daa8a9f95d413fd7addb8da71dddf6c3de34758909ee",
+    "0ac408fefe14c2b74a1de2696e5c1c06f5b39673d902ca14dd6c1e3d9b7cac1a",
+    "9c0ebcb3918c8c3e38cbdbc86b476a8b2ffc4d5783d5fd807f5a9eef27781fed",
+    "58c818105076826c1091f08b0d503030dc5cc1c8712b31366d28a11bb07a22fb",
+    "0f617ee78dac5dd9c55d34ac7f239fe678aca054f292736c7c2864c8bb539baa",
+    "2a2bc75fabede22af9f9efc302485c25420e320eb6f9762069255e2373a1dc67"
+  ]
+}

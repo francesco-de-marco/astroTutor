@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev01_D",
+    "group_id": "dev01",
+    "topic": "Formazione stellare",
+    "question": "Come nasce una stella?",
+    "level": "D",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "Per capire come potrebbe formarsi un buco nero, dobbiamo avere certe conoscenze circa il ciclo vitale di una stella. Una stella si forma quando una gran quantità di gas, principalmente idrogeno, comincia a collassare su sé stesso dovuto alla sua attrazione gravitazionale. Come si contrarsi, il suo átotnos incomincia ad urtare tra sé, ogni volta con maggiore frequenza ed a maggiori velocità: il gas si riscalda. Col tempo, il gas sarà tanto caldo che quando gli atomi di idrogeno sbattano oramai non usciranno spaesati, ma si fonderanno formando elio. Il caldo staccato per la reazione che è come un'esplosione controllata di una bomba di idrogeno, fa che la stella brilli. Anche questo caldo addizionale aumenta la pressione del gas fino a che questa è sufficiente per equilibrare l'attrazione gravitazionale, ed il gas smette di contrarsisi. Somiglia in una certa misura ad un globo. Esiste un equilibrio tra la pressione dell'aria di dentro che tratta di fare che il globo si rimpinza, e la tensione della gomma che tratta di diminuire il volume del globo. Le stelle rimarranno stabili in questa forma per un lungo periodo, col caldo delle reazioni nucleari equilibrando l'attrazione gravitazionale. Finalmente, tuttavia, la stella consumerà tutto il suo idrogeno e gli altri combustibili nucleari. Paradossalmente, combustibile possiede quanto più all'inizio una stella, più pronto gli è finito",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.993897020816803
+    },
+    {
+      "text": "Una domanda che da subito si sono posti gli scienziati è come si siano formati. Le ipotesi sono sostanzialmente due: la prima è che siano nati come qualsiasi altro corpo celeste che osserviamo nell’Universo, ossia grazie all’addensarsi di gas e polvere sparsi in giro. È lo stesso meccanismo che porta alla formazione delle stelle e, in seconda battuta, dei pianeti che vi orbitano intorno. In genere i sistemi stellari nascono da nubi di materiale che prima formano un disco, al cui centro la materia si addensa fino a formare la stella. Dal materiale risultante, sempre per addensamento, si formano i pianeti. Ebbene, un pianeta errante si sarebbe formato da solo, e non dal disco da cui nascono i sistemi stellari.  \nL’altra ipotesi è forse quella che ci interessa di più: un pianeta errante sarebbe un pianeta normalissimo, che gira quindi intorno a una stella, e che a causa di una qualche perturbazione – il passaggio nei dintorni di un corpo più grande, come una stella o un pianeta – esce dalla sua orbita e inizia a vagare per lo spazio.  \nUn ansioso, a questo punto, ha la domanda pronta: la Terra potrebbe diventare un pianeta errante? Magari perché uno di questi oggetti ci passa vicino a perturbare la nostra orbita?",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.7322792410850525
+    },
+    {
+      "text": "Per capire meglio occorre partire dal principio. E il principio, come spesso abbiamo visto, è una stella. Abbiamo già avuto modo di capire a grandi linee quali siano le sue fasi evolutive, e abbiamo detto che le più grandi concludono la loro esistenza con uno dei fenomeni più violenti che si possano osservare nell’Universo, ossia un’esplosione di supernova. Quel che resta è una stella di neutroni o un buco nero. Occorre a questo punto comprendere un ${ \\mathsf { p o } } ^ { \\prime }$ meglio cosa siano questi due oggetti.  \nPiù volte abbiamo citato il fatto che nelle stelle vige un sottile equilibrio tra la forza di gravità, che tende a farle contrarre, e la pressione di radiazione esercitata dalle reazioni termonucleari, che tende invece a farle espandere. Tutti gli oggetti in cui si trasformano le stelle una volta completato il loro ciclo evolutivo non producono alcuna reazione termonucleare, quindi devono esserci altri meccanismi che contrastano la forza di gravità.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.5949231386184692
+    }
+  ],
+  "queries": [
+    "Come nasce una stella?"
+  ]
+}

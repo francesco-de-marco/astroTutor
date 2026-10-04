@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "91e99300c496bfdf83943c2647ab99526d4d34cfdd9a384e58618f8f7f36b712",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 0,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Afferma percorsi non‑lineari e interferenza di Beer‑Lambert, non supportato dal contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.208189996,
+      "prompt_tokens": 2170,
+      "prompt_time": 0.57112265,
+      "completion_tokens": 842,
+      "completion_time": 2.3116518,
+      "total_tokens": 3012,
+      "total_time": 2.88277445,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 308
+      }
+    },
+    "system_fingerprint": "fp_0708ac49a5",
+    "response_id": "chatcmpl-250a216e-9323-47bc-a47a-3fbf30c5a728",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "d782cb93a5e00b2ccb17ea718f4afcab3c902a00fa921be011be62a65ba89ac1",
+    "cb9350dd2546632a3d41b1f41456f4c934e26ffede54a4ecf9c30b5e987f0598",
+    "5308a249d8e58a9e4d89abb9a8dd6c8b5c8936b8ed3964701a60d5360e8a92f1",
+    "91e99300c496bfdf83943c2647ab99526d4d34cfdd9a384e58618f8f7f36b712",
+    "acba4b64870664106b00a9737bb4fcf1afe7c4fe15bdebfce262d486bfeef8ce",
+    "fa23205787fb0a1f1f27426eec0c298e4ee7c3e7b0f713c95f0882e162dd62c3"
+  ]
+}

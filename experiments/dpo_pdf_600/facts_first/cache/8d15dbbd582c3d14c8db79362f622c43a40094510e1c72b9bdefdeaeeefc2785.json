@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-097303be-e28a-430f-8429-e2f5160aaaaf",
+  "object": "chat.completion",
+  "created": 1790377443,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"sentences\":[{\"text\":\"Un pianeta senza una stella non emette luce propria, ma conserva un po’ di calore residuo dalla sua formazione, producendo una debole emissione infrarossa.\",\"fact_ids\":[1]},{\"text\":\"Questa debole emissione infrarossa costituisce uno dei metodi con cui è possibile osservare indirettamente un pianeta errante.\",\"fact_ids\":[2]}]}",
+        "reasoning": "We need produce JSON with sentences covering both facts. Two facts: 1 about planet emits infrared; 2 about this is a system to see indirectly a rogue planet. Combine into sentences. Must be Italian, max 160 words. Provide sentences array.\n\nWe can make two sentences: one covering fact1, second covering fact2 maybe referencing fact1. Include fact_ids.\n\nReturn compact JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.047472904,
+    "prompt_tokens": 453,
+    "prompt_time": 0.010089937,
+    "completion_tokens": 178,
+    "completion_time": 0.448022155,
+    "total_tokens": 631,
+    "total_time": 0.458112092,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 80
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_64b2f1c926",
+  "x_groq": {
+    "id": "req_01m3dczf84ef6bvpvwmprt1kfd",
+    "seed": 248921812
+  },
+  "service_tier": "on_demand"
+}

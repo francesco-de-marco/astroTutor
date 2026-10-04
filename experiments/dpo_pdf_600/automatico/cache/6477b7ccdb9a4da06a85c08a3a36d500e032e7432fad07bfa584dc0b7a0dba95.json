@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b134b024-55f4-4b5f-a843-6b0765b368b0",
+  "object": "chat.completion",
+  "created": 1790375902,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"usable\":true,\"answer\":\"Quando una stella molto massiccia esaurisce il suo combustibile nucleare, la pressione termica che contrasta la gravità scompare. Senza alcuna pressione di supporto, la gravità fa collassare la stella in modo estremamente rapido. Secondo gli studi di Oppenheimer, Volkoff e Snyder, una stella di massa superiore al limite per nane bianche o stelle di neutroni non può trovare alcuna forza di pressione sufficiente a fermare il collasso; quindi continua a contrarsi fino a diventare un punto di densità infinita, cioè una singolarità. Questo processo porta alla formazione di un buco nero, dove la curvatura dello spaziotempo diventa così intensa da non permettere a nulla, nemmeno alla luce, di sfuggire.\",\"evidence_ids\":[1]}",
+        "reasoning": "We need to output JSON. Use evidence_ids [1]. Answer within 200 words."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.018345135,
+    "prompt_tokens": 694,
+    "prompt_time": 0.070288517,
+    "completion_tokens": 214,
+    "completion_time": 0.448192438,
+    "total_tokens": 908,
+    "total_time": 0.518480955,
+    "completion_tokens_details": {
+      "reasoning_tokens": 19
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_87b3c396db",
+  "x_groq": {
+    "id": "req_01m3dbges8ed1rcsnqt63mfttp",
+    "seed": 1799122650
+  },
+  "service_tier": "on_demand"
+}

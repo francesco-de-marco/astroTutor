@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev05_D",
+    "group_id": "dev05",
+    "topic": "Galassie",
+    "question": "Che cosa tiene insieme le stelle di una galassia?",
+    "level": "D",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": ". Ricordiamo che il comportamento delle stelle durante la fusione di due galassie a disco è mostrato nella colonna destra della figura. A parte capire quale possa essere l’origine di una galassia a disco, il comportamento delle stelle non ci dice molto di più. Dopotutto le stelle sono sì costituite da gas, ma sono tenute insieme dalla loro autogravità e le possiamo considerare a tutti gli effetti delle sfere rigide: pertanto risentono quasi esclusivamente della forza di gravità.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi).pdf",
+      "title": "I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi)",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.9912848472595215
+    },
+    {
+      "text": "What does all this tell us about the Universe? For one thing, it is very lumpy. On every scale: from stars to galaxies to clusters to superclusters, matter tends to clump together unevenly. This is, of course, due to the all conquering force of gravity which dictates the structure of the whole Universe. The mutual gravitational attraction of all the stars in the Galaxy keep them bound together. It is gravity that causes galaxies to clump into clusters and superclusters, and the gravitational pull of all the matter in the Universe that dictates its overall shape.",
+      "source": "data/raw/TOPIC 2 - Wormhole, viaggi nel tempo e spazio-tempo/D - Black holes wormholes time machines.pdf",
+      "title": "Black holes wormholes time machines",
+      "level": "D",
+      "level_match": "exact",
+      "score": 0.7841529548168182
+    },
+    {
+      "text": "Finora ci siamo limitati a considerare la nostra galassia, la Via Lattea. Le galassie sono insiemi di stelle, più o meno grandi. Il numero di stelle che le compongono varia da poche centinaia di milioni a centinaia di miliardi. Per esempio, si pensa che la Via Lattea conti 200 miliardi di stelle, ma alcune stime si spingono fino a 400 miliardi. Non sappiamo quante galassie ci siano in tutto l’Universo, ma nella porzione di esso che riusciamo a osservare ce ne sono almeno 100 miliardi.  \nNe esistono di vari tipi, classificate per forma e dimensione; senza scendere troppo nei dettagli, le più grandi hanno una forma a spirale o a ellisse – la Via Lattea è una galassia a spirale barrata, ossia il nucleo è attraversato da una barra, forse addirittura due, dalla quale partono i bracci della spirale – mentre le più piccole sono di forma irregolare o sferoidale. Le galassie, inoltre, tendono a raggrupparsi e quelle più grandi hanno spesso delle galassie satelliti. La Via Lattea ne conta una ventina almeno, ma sono oggetti piuttosto sfuggenti, e quindi spesso se ne scoprono di nuove o si conclude che alcune di esse in realtà sono sovradensità di stelle all’interno della nostra galassia.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "fallback",
+      "score": 0.6845897436141968
+    }
+  ],
+  "queries": [
+    "Che cosa tiene insieme le stelle di una galassia?"
+  ]
+}

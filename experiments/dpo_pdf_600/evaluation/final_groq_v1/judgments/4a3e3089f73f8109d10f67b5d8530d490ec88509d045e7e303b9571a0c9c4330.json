@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "4a3e3089f73f8109d10f67b5d8530d490ec88509d045e7e303b9571a0c9c4330",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Aggiunge l'affermazione errata che Terra e Luna hanno velocità uguali in modulo."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.22756321,
+      "prompt_tokens": 1550,
+      "prompt_time": 0.155742972,
+      "completion_tokens": 854,
+      "completion_time": 1.8024237950000002,
+      "total_tokens": 2404,
+      "total_time": 1.958166767,
+      "completion_tokens_details": {
+        "reasoning_tokens": 318
+      }
+    },
+    "system_fingerprint": "fp_47082602e2",
+    "response_id": "chatcmpl-e6b339a0-0f21-4d04-80a1-46d0c8f6f351",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "c20178a087c364fce61a882f5aa8c9045035d522590acfc12dfca3a17f296be3",
+    "e93e69202373c62e52a06a3a2ff8583ac57bb07d6122d5b5f1a817781fd83454",
+    "f7e21886531822e0d83542239c6bad3cabe29d8bf228a8aa9b8ad6b93b6364e9",
+    "924a457577a89aa6515a138ebe0db4764b5f3f0c5077056586a85fc08ec62f1f",
+    "4a3e3089f73f8109d10f67b5d8530d490ec88509d045e7e303b9571a0c9c4330",
+    "21d0229f4d3fb3be614867ade20ea92309c2d7f5ab25a014f256166a8ad8d230"
+  ]
+}

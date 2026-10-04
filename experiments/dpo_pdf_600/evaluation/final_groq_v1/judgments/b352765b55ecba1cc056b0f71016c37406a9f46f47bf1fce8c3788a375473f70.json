@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b352765b55ecba1cc056b0f71016c37406a9f46f47bf1fce8c3788a375473f70",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che gli specchi creano nuove sorgenti è errato; la risposta non spiega il vero ruolo dei riflettori."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.099366442,
+      "prompt_tokens": 1633,
+      "prompt_time": 0.096760691,
+      "completion_tokens": 833,
+      "completion_time": 1.757879955,
+      "total_tokens": 2466,
+      "total_time": 1.854640646,
+      "completion_tokens_details": {
+        "reasoning_tokens": 252
+      }
+    },
+    "system_fingerprint": "fp_5e2577217c",
+    "response_id": "chatcmpl-af556b57-706f-4e45-a82f-03ca18ab59be",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "b352765b55ecba1cc056b0f71016c37406a9f46f47bf1fce8c3788a375473f70",
+    "0712c01fd845a3b2ab20ebabf43e2da619155496ba854cdb2d611395e9008fac",
+    "f2a22e3a164718f0e1b7b7e7bd3aac723591c90369d1f6dd0d15874ac61c7223",
+    "4f88605f606d3ea25c7e51edc7dd499fe3e70d76a222fe3c6a3134a2fe28aa83",
+    "45000be3162b2364b9403ecaf09e4bbfa669e15be0ef45623f8dac35fb329699",
+    "ee1904b7783a14b498dd4f046ee0d9afddac88b46681fe954c82c662e33428e8"
+  ]
+}

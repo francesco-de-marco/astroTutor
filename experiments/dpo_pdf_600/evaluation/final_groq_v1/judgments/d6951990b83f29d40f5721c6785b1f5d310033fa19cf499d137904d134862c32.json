@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "d6951990b83f29d40f5721c6785b1f5d310033fa19cf499d137904d134862c32",
+    "correctness": "C",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riassume il concetto di apparire fermo e l'utilità per le comunicazioni, senza approfondire l'orbita."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.207137092,
+      "prompt_tokens": 1810,
+      "prompt_time": 0.29127422,
+      "completion_tokens": 877,
+      "completion_time": 1.835212257,
+      "total_tokens": 2687,
+      "total_time": 2.126486477,
+      "completion_tokens_details": {
+        "reasoning_tokens": 317
+      }
+    },
+    "system_fingerprint": "fp_bb691ea66b",
+    "response_id": "chatcmpl-be952e63-086a-4229-acf2-0cdcdc9e5b77",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "765ddd04428297a765508c46f660e1792d376c73c286f69c4b06e716f3268c1c",
+    "ab9988e4207eb9f1d7c3e2091ddf10b691b7d0b3fb85e90c9667a56bcffd13b3",
+    "d6951990b83f29d40f5721c6785b1f5d310033fa19cf499d137904d134862c32",
+    "47eb24d4edbe74dbf294f2b03b384236bd629cc575b581983e00cfdaab09e572",
+    "1a406a0bb988daa86db6f2f6a2b3b6b9b480189ebe49663722beb9dd1120e325",
+    "defc4283803766cf824395e6103d9e0fa06a4edf9ebefc820c0a3195c7b0c710"
+  ]
+}

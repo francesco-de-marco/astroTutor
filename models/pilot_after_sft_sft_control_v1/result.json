@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "objective": "sft_control",
+  "steps": 12,
+  "before": {
+    "before_loss": 1.2717095613479614,
+    "before_model_preparation_time": 0.0079,
+    "before_runtime": 3.5745,
+    "before_samples_per_second": 1.679,
+    "before_steps_per_second": 1.679,
+    "eval_entropy": 1.6677520076433818,
+    "eval_num_tokens": 0.0,
+    "eval_mean_token_accuracy": 0.6911816696325938
+  },
+  "after": {
+    "after_loss": 1.2715809345245361,
+    "after_model_preparation_time": 0.0079,
+    "after_runtime": 3.1385,
+    "after_samples_per_second": 1.912,
+    "after_steps_per_second": 1.912,
+    "eval_entropy": 1.6595165133476257,
+    "eval_num_tokens": 30870.0,
+    "eval_mean_token_accuracy": 0.6950996120770773,
+    "epoch": 2.0
+  },
+  "train_metrics": {
+    "train_runtime": 67.2063,
+    "train_samples_per_second": 0.714,
+    "train_steps_per_second": 0.179,
+    "total_flos": 514626390835200.0,
+    "train_loss": 1.043471872806549,
+    "epoch": 2.0
+  },
+  "max_adapter_parameter_change": 6.038881838321686e-05,
+  "reference_unchanged": null,
+  "note": "Loss SFT e DPO non confrontabili direttamente; confrontare le generazioni."
+}

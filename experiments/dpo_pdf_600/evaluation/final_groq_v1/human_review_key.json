@@ -1,0 +1,290 @@
+{
+  "1": [
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "dpo",
+      "prompt_id": "test03_A"
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "base",
+      "prompt_id": "test03_A"
+    }
+  ],
+  "2": [
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test05_C"
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "base",
+      "prompt_id": "test05_C"
+    }
+  ],
+  "3": [
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "base",
+      "prompt_id": "test15_A"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "dpo",
+      "prompt_id": "test15_A"
+    }
+  ],
+  "4": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test19_D"
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test19_D"
+    }
+  ],
+  "5": [
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "base",
+      "prompt_id": "test06_D"
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test06_D"
+    }
+  ],
+  "6": [
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "dpo",
+      "prompt_id": "test18_D"
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "base",
+      "prompt_id": "test18_D"
+    }
+  ],
+  "7": [
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "dpo",
+      "prompt_id": "test13_C"
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "base",
+      "prompt_id": "test13_C"
+    }
+  ],
+  "8": [
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test17_B"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test17_B"
+    }
+  ],
+  "9": [
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "base",
+      "prompt_id": "test01_A"
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "dpo",
+      "prompt_id": "test01_A"
+    }
+  ],
+  "10": [
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "base",
+      "prompt_id": "test11_A"
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test11_A"
+    }
+  ],
+  "11": [
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test14_B"
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "setting": "base",
+      "prompt_id": "test14_B"
+    }
+  ],
+  "12": [
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "base",
+      "prompt_id": "test17_B"
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "dpo",
+      "prompt_id": "test17_B"
+    }
+  ],
+  "13": [
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "base",
+      "prompt_id": "test17_D"
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "setting": "dpo",
+      "prompt_id": "test17_D"
+    }
+  ],
+  "14": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test19_C"
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test19_C"
+    }
+  ],
+  "15": [
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "base",
+      "prompt_id": "test04_C"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "dpo",
+      "prompt_id": "test04_C"
+    }
+  ],
+  "16": [
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test12_D"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test12_D"
+    }
+  ],
+  "17": [
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "dpo",
+      "prompt_id": "test14_D"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "base",
+      "prompt_id": "test14_D"
+    }
+  ],
+  "18": [
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test09_A"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test09_A"
+    }
+  ],
+  "19": [
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "base",
+      "prompt_id": "test06_B"
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "setting": "dpo",
+      "prompt_id": "test06_B"
+    }
+  ],
+  "20": [
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test12_C"
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test12_C"
+    }
+  ],
+  "21": [
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "dpo",
+      "prompt_id": "test01_C"
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "base",
+      "prompt_id": "test01_C"
+    }
+  ],
+  "22": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test18_A"
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test18_A"
+    }
+  ],
+  "23": [
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "base",
+      "prompt_id": "test17_B"
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "setting": "dpo",
+      "prompt_id": "test17_B"
+    }
+  ],
+  "24": [
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "dpo",
+      "prompt_id": "test08_B"
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "setting": "base",
+      "prompt_id": "test08_B"
+    }
+  ]
+}

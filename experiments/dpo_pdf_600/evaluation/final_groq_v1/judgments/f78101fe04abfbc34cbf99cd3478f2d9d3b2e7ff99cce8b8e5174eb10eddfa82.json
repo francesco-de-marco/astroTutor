@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "f78101fe04abfbc34cbf99cd3478f2d9d3b2e7ff99cce8b8e5174eb10eddfa82",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Affermare che la materia oscura è strettamente legata ai fotoni è errato e contraddice il contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.461499381,
+      "prompt_tokens": 2219,
+      "prompt_time": 0.123126221,
+      "completion_tokens": 876,
+      "completion_time": 1.85007814,
+      "total_tokens": 3095,
+      "total_time": 1.973204361,
+      "completion_tokens_details": {
+        "reasoning_tokens": 332
+      }
+    },
+    "system_fingerprint": "fp_9241e9962b",
+    "response_id": "chatcmpl-4a1900e2-05f0-4854-be51-0c559f7e8d32",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5b7666f8fda49b4d2802aa86226238271e5e4d236192269840f8a055a7315d6d",
+    "be9533f5f6178efb78e97e5e76edf25c9c009dcaf45192764d5d3d4e16971fa5",
+    "f78101fe04abfbc34cbf99cd3478f2d9d3b2e7ff99cce8b8e5174eb10eddfa82",
+    "eb2d1e8c0f9e6207db614549778940364794f9d49c5620b77900b47b3fac4065",
+    "4212f343593098180022b3ce7ded5c0ac7765418728269de1044081fcd41cfbe",
+    "27d694de300d989a7df7d8ace7f18b88407503224f90efe3409d6197a008ec41"
+  ]
+}

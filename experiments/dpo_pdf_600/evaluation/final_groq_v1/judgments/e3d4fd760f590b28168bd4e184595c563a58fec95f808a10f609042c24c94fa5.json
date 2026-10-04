@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "e3d4fd760f590b28168bd4e184595c563a58fec95f808a10f609042c24c94fa5",
+    "correctness": "I",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Fornisce formula di Planck errata e affermazioni imprecise sulla dipendenza dell'intensità."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.22121445,
+      "prompt_tokens": 2384,
+      "prompt_time": 0.113108819,
+      "completion_tokens": 865,
+      "completion_time": 1.8176852430000001,
+      "total_tokens": 3249,
+      "total_time": 1.930794062,
+      "completion_tokens_details": {
+        "reasoning_tokens": 322
+      }
+    },
+    "system_fingerprint": "fp_77b12279f9",
+    "response_id": "chatcmpl-84048375-a3a2-4793-b241-e4a7e9ad9ae0",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "af10b7d819d9c8ebcad60abafe0acfa1a82f267d093d3668d03016cab7f8d600",
+    "64660955cbbebc49738bd72222a566e2390f6e64f8e5ff6763e10956eca35b99",
+    "e3d4fd760f590b28168bd4e184595c563a58fec95f808a10f609042c24c94fa5",
+    "abb9e538fef553c6b6b89ab1699b036f8f1d1cf835f0e3602e83c55f02cbf4f0",
+    "35de93feba931bba4ebc674082aa7c568f4af086746250b6e748dc97aa6bb064",
+    "59d8718501c899251dc48014ec154d0e6e0735418b950f4a07ddbe7d09d1f3d8"
+  ]
+}

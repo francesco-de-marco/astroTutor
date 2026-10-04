@@ -1,0 +1,121 @@
+{
+  "correct": 6,
+  "total": 6,
+  "controls": [
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "0",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 2,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "La risposta è chiara e corretta, spiega che la luce che vediamo dal disco viene da gas esterno all'orizzonte degli eventi."
+      },
+      "runtime": {
+        "total_duration": 10484730500,
+        "prompt_eval_count": 678,
+        "eval_count": 117,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "1",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 1,
+        "unsupported_addition": true,
+        "uncertain": true,
+        "reason": "L'affermazione che il disco prova che la luce esce dall'interno dell'orizzonte degli eventi è contraddittoria con il contesto fornito."
+      },
+      "runtime": {
+        "total_duration": 2510074800,
+        "prompt_eval_count": 676,
+        "eval_count": 117,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "2",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 2,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "La risposta copre gli elementi essenziali richiesti e spiega correttamente la ragione dell'infrequenza degli urti tra stelle."
+      },
+      "runtime": {
+        "total_duration": 2510016600,
+        "prompt_eval_count": 679,
+        "eval_count": 116,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "3",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 1,
+        "unsupported_addition": true,
+        "uncertain": true,
+        "reason": "La risposta menziona una forza antigravitazionale che non esiste, e non spiega perché le stelle si urtano raramente."
+      },
+      "runtime": {
+        "total_duration": 2526798700,
+        "prompt_eval_count": 677,
+        "eval_count": 116,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "4",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 2,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "La risposta corretta e completa, spiega che il vento solare e composto da particelle cariche."
+      },
+      "runtime": {
+        "total_duration": 2293400100,
+        "prompt_eval_count": 667,
+        "eval_count": 106,
+        "done_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "5",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 1,
+        "unsupported_addition": false,
+        "uncertain": true,
+        "reason": "La risposta sostiene che il vento solare sia composto esclusivamente di fotoni visibili, che non è corretto. Inoltre, non risponde alla domanda se il vento solare sia soltanto luce visibile."
+      },
+      "runtime": {
+        "total_duration": 2839429700,
+        "prompt_eval_count": 662,
+        "eval_count": 134,
+        "done_reason": "stop"
+      }
+    }
+  ],
+  "note": "Simple sanity checks, not validation of scientific or pedagogical reliability."
+}

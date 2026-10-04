@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "69b5a955edbf8c638f9552810546795e2274cb71d0b41b414783ae974f689851",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente accoppiamento fotoni‑materia ordinaria e sua pressione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.306536815,
+      "prompt_tokens": 2173,
+      "prompt_time": 0.635398287,
+      "completion_tokens": 660,
+      "completion_time": 1.390226546,
+      "total_tokens": 2833,
+      "total_time": 2.025624833,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 146
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-5b5b22bc-a536-4fac-9c64-b145a1e105ba",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "96dda2156971453c65cff5f65a8605803f647e1072871c11f36bf29227d8cb7c",
+    "1f457420ab2ed2e2beaeb627cef1d4d8a3886e7b2c684c2e53e629af39e16ebe",
+    "56e06f32cebb3a210598fe9d77b43c5baa22341ef72d7784438bfb9220a414a5",
+    "c114407efa45bad2c02b6046287f9eedff08d95a59fee65323c86d1514ff0aa2",
+    "69b5a955edbf8c638f9552810546795e2274cb71d0b41b414783ae974f689851",
+    "810d3a4e18c1397a27ca24781239f7894f882cf8d24fd66f78b8abb82088eb5d"
+  ]
+}

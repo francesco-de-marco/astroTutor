@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a3fb26e7704df197d4847a4159811e92d06474580dc31512fa1d9b8ab2720178",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente la differenza tra particelle subatomiche e molecole d'aria."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.155813794,
+      "prompt_tokens": 1718,
+      "prompt_time": 0.098206489,
+      "completion_tokens": 726,
+      "completion_time": 1.5308291760000001,
+      "total_tokens": 2444,
+      "total_time": 1.629035665,
+      "completion_tokens_details": {
+        "reasoning_tokens": 194
+      }
+    },
+    "system_fingerprint": "fp_0adba2bb92",
+    "response_id": "chatcmpl-862a8914-6138-4c10-871e-502b6bc83948",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "9792110fd4e2330ef6b61e22226764e0a852f47dd0bab4629876661e407a4155",
+    "a3fb26e7704df197d4847a4159811e92d06474580dc31512fa1d9b8ab2720178",
+    "c1592014638ccdaa981d73c52597e52cfbf48ec7196288dc0692c0950807bc2f",
+    "e02e82216480ea2b1f8b2f072ec7f4c099cee4a79d2f6910486f378a12b91545",
+    "9293e086249560e576635691993a582d02aa2a049bdd7f6a39d95223704411fc",
+    "0a1f1da770fed91c82a0a4a48ed6da06fafbfd5b81698664cb8b9df4ac206ba3"
+  ]
+}

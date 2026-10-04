@@ -1,0 +1,23 @@
+{
+  "response_hash": "a3e526c8f7d780e217caf3fbf3119b86a7a10a10153ddd2c511e1244761656dc",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 4,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "La spiegazione è corretta e non contiene errori.",
+      "level_adequacy": "Il livello di dettaglio è adatto al profilo universitario, con termini tecnici appropriati.",
+      "clarity": "La risposta è chiara e coerente, senza divagazioni."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2237,
+    "eval_count": 158,
+    "total_duration": 5348059500,
+    "done_reason": "stop"
+  }
+}

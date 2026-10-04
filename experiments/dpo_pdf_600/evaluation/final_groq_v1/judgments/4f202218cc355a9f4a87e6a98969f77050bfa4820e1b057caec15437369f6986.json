@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "4f202218cc355a9f4a87e6a98969f77050bfa4820e1b057caec15437369f6986",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega in modo chiaro e completo come le strutture di materia oscura guidano la distribuzione della materia ordinaria."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.220676246,
+      "prompt_tokens": 2697,
+      "prompt_time": 0.260397137,
+      "completion_tokens": 902,
+      "completion_time": 1.9039645360000002,
+      "total_tokens": 3599,
+      "total_time": 2.164361673,
+      "completion_tokens_details": {
+        "reasoning_tokens": 337
+      }
+    },
+    "system_fingerprint": "fp_93703442d9",
+    "response_id": "chatcmpl-c61ab567-a5e3-49ad-a44e-42d81a7b743c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "574a2afde0b8627865fa573cc0b6aa0aa50f84fe46497e7e6fb6484beed2c8dd",
+    "8eb75c03051ea42f812c06873e4a54ac69ae14975e9c74291c14d9f841a712e7",
+    "30e604134587cec98fcc176d2171fbcb02445bee6c7b1ea86f73a43f34b15c9c",
+    "abf6c72e17c92bbaf780bbe4f51dc411b917f605041b9f3d93c345bb468ffda8",
+    "6bb87ff7c95e95e0b05c4294a598263ee64013f95fa669822d7518c8d1852b7c",
+    "4f202218cc355a9f4a87e6a98969f77050bfa4820e1b057caec15437369f6986"
+  ]
+}

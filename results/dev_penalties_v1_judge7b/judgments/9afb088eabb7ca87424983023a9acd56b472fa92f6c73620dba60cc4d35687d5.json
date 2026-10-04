@@ -1,0 +1,23 @@
+{
+  "response_hash": "9afb088eabb7ca87424983023a9acd56b472fa92f6c73620dba60cc4d35687d5",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Le affermazioni principali sono tutte supportate dai chunk.",
+      "correctness": "La spiegazione è corretta e completa.",
+      "level_adequacy": "Il livello di formalismo è adatto a un profilo C, ma ci sono alcuni concetti avanzati come l'energia oscura.",
+      "clarity": "La risposta è chiara e coerente."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2566,
+    "eval_count": 153,
+    "total_duration": 7061562700,
+    "done_reason": "stop"
+  }
+}

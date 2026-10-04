@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "fca021aa038a26d7168b65ac6885b3d116e9b76b381e8cb5ccb67b6beb6144f1",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente assorbimento e riemissione in infrarosso con parole semplici."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.020929025,
+      "prompt_tokens": 1759,
+      "prompt_time": 0.069465278,
+      "completion_tokens": 644,
+      "completion_time": 1.3903811560000001,
+      "total_tokens": 2403,
+      "total_time": 1.4598464340000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 115
+      }
+    },
+    "system_fingerprint": "fp_c800245357",
+    "response_id": "chatcmpl-ddb85f53-6251-4430-93bc-1860ccc55a86",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "fca021aa038a26d7168b65ac6885b3d116e9b76b381e8cb5ccb67b6beb6144f1",
+    "d318b7acdc2d03f20858afefdbb1ca2217fd1d0823d19858f20cf7cea9752f78",
+    "bf48163c433f804182e9dab0951f57c49d953b1e040c240718c70f4da809a788",
+    "2c67f002e88929322ef8490e7f71fd6cf21069a4cc0d4497b09ec0521475873d",
+    "9a2b012990bda1eb75ebeb2418de7356b5e35ed90a6cdae01d2d03d913fd154e",
+    "6c5263b67b45f194d0efef975da222a983d152a8727d4ad62c31a43c5e8985d5"
+  ]
+}

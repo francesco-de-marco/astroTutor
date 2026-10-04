@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "db6cea8fbd5208c4a9b13a25f2b44f51ce86e8d19f24a4675147f601d05eaae7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il legame tra periodo orbitale e copertura costante."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.089605209,
+      "prompt_tokens": 2257,
+      "prompt_time": 0.088649596,
+      "completion_tokens": 886,
+      "completion_time": 1.873284726,
+      "total_tokens": 3143,
+      "total_time": 1.9619343219999998,
+      "completion_tokens_details": {
+        "reasoning_tokens": 368
+      }
+    },
+    "system_fingerprint": "fp_69dbc96c74",
+    "response_id": "chatcmpl-9defaf88-5a3d-44b9-bb13-74192ca7886c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "aaca8eeb9eee2ec130d74963426a5eb5dc9edc2b6b0f0890b6f9b652e0c80090",
+    "41a49e185420d33dc8597a13000d4996d1b6fde33b99a4a529e54773df887b2a",
+    "db6cea8fbd5208c4a9b13a25f2b44f51ce86e8d19f24a4675147f601d05eaae7",
+    "dce290994fc6db2bbef19e66b5c6e797d5a21e66af04596e41d291506c6921aa",
+    "65937f20e286d54cb86044677f3bd2aaaed8fae9c56d26c4e4f9547cbffbf41a",
+    "e5b34b2ec85693fa88f02890f2ad09df2041d08bf4fa07f7cb0725eb48a33bb4"
+  ]
+}

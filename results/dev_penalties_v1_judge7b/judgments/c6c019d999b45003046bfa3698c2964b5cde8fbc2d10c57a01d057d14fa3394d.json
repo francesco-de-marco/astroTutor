@@ -1,0 +1,23 @@
+{
+  "response_hash": "c6c019d999b45003046bfa3698c2964b5cde8fbc2d10c57a01d057d14fa3394d",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Le affermazioni sono tutte supportate dai chunk.",
+      "correctness": "La spiegazione è corretta e concorda con la fisica cosmologica.",
+      "level_adequacy": "Il livello di formalismo è adatto a B, ma manca qualche dettaglio tecnico.",
+      "clarity": "La risposta è chiara e coerente, con un esempio facile da comprendere."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2077,
+    "eval_count": 160,
+    "total_duration": 5710575900,
+    "done_reason": "stop"
+  }
+}

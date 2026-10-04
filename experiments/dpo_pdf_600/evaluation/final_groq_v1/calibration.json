@@ -1,0 +1,298 @@
+{
+  "correct": 9,
+  "total": 9,
+  "controls": [
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "0",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 1,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "Affermazione corretta e risponde alla domanda, ma spiegazione molto breve per livello C."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.050583472,
+          "prompt_tokens": 850,
+          "prompt_time": 0.037424008,
+          "completion_tokens": 203,
+          "completion_time": 0.42500682,
+          "total_tokens": 1053,
+          "total_time": 0.462430828,
+          "completion_tokens_details": {
+            "reasoning_tokens": 92
+          }
+        },
+        "system_fingerprint": "fp_fe269835c7",
+        "response_id": "chatcmpl-fe996014-8c87-4c48-bc56-cf472994f422",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "1",
+        "correctness": "I",
+        "completeness": 1,
+        "adequacy": 0,
+        "clarity": 2,
+        "unsupported_addition": true,
+        "uncertain": false,
+        "reason": "Affermare che la luce esce dall'interno dell'orizzonte è errato e non supportato dal contesto."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.254194711,
+          "prompt_tokens": 848,
+          "prompt_time": 0.168667124,
+          "completion_tokens": 234,
+          "completion_time": 0.492271734,
+          "total_tokens": 1082,
+          "total_time": 0.660938858,
+          "completion_tokens_details": {
+            "reasoning_tokens": 116
+          }
+        },
+        "system_fingerprint": "fp_803c0ba83d",
+        "response_id": "chatcmpl-b5847423-3567-4051-a1f5-cf40bc5c7380",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "2",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 2,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "Spiega correttamente che le stelle sono piccole rispetto alle enormi distanze interstellari, rendendo gli urti diretti molto rari."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.308293023,
+          "prompt_tokens": 850,
+          "prompt_time": 0.117036776,
+          "completion_tokens": 204,
+          "completion_time": 0.427241479,
+          "total_tokens": 1054,
+          "total_time": 0.544278255,
+          "completion_tokens_details": {
+            "reasoning_tokens": 81
+          }
+        },
+        "system_fingerprint": "fp_69334c0be3",
+        "response_id": "chatcmpl-5014048e-5b3f-472b-8363-b4a6d5d90443",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "3",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 1,
+        "unsupported_addition": true,
+        "uncertain": false,
+        "reason": "Affermare una forza antigravitazionale è errato e non supportato dal contesto; le stelle non si respingono, gli urti sono rari per le grandi distanze."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.093784069,
+          "prompt_tokens": 848,
+          "prompt_time": 0.039889962,
+          "completion_tokens": 230,
+          "completion_time": 0.490668781,
+          "total_tokens": 1078,
+          "total_time": 0.530558743,
+          "completion_tokens_details": {
+            "reasoning_tokens": 99
+          }
+        },
+        "system_fingerprint": "fp_a4be3b0989",
+        "response_id": "chatcmpl-e0716d97-2417-478e-8c3e-a9d4648d46c7",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "4",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 2,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "Risponde correttamente spiegando che il vento solare è un flusso di particelle cariche, non luce visibile."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.053997033,
+          "prompt_tokens": 838,
+          "prompt_time": 0.046737523,
+          "completion_tokens": 211,
+          "completion_time": 0.448007522,
+          "total_tokens": 1049,
+          "total_time": 0.494745045,
+          "completion_tokens_details": {
+            "reasoning_tokens": 92
+          }
+        },
+        "system_fingerprint": "fp_8ea50c0161",
+        "response_id": "chatcmpl-c79276d5-bd6f-4727-9197-d04f2ee54a42",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "I",
+      "judgment": {
+        "id": "5",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 2,
+        "unsupported_addition": true,
+        "uncertain": false,
+        "reason": "Affermare che il vento solare è solo luce visibile è errato; è un flusso di particelle cariche, non di fotoni."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.215692797,
+          "prompt_tokens": 835,
+          "prompt_time": 0.048933555,
+          "completion_tokens": 214,
+          "completion_time": 0.449191431,
+          "total_tokens": 1049,
+          "total_time": 0.498124986,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "system_fingerprint": "fp_bb691ea66b",
+        "response_id": "chatcmpl-d1cc3ab5-689c-4975-bef0-731f3cb47af6",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": [
+        "P",
+        "I"
+      ],
+      "judgment": {
+        "id": "6",
+        "correctness": "I",
+        "completeness": 0,
+        "adequacy": 0,
+        "clarity": 2,
+        "unsupported_addition": true,
+        "uncertain": false,
+        "reason": "Affermando che i modelli analitici guidano le simulazioni, contraddice il contesto che dice che le simulazioni guidano i modelli."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.051986354,
+          "prompt_tokens": 842,
+          "prompt_time": 0.045748621,
+          "completion_tokens": 308,
+          "completion_time": 0.64994099,
+          "total_tokens": 1150,
+          "total_time": 0.695689611,
+          "completion_tokens_details": {
+            "reasoning_tokens": 183
+          }
+        },
+        "system_fingerprint": "fp_64b2f1c926",
+        "response_id": "chatcmpl-f9b70243-04f8-4879-9451-78dd41499da7",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "7",
+        "correctness": "C",
+        "completeness": 1,
+        "adequacy": 1,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "Risponde correttamente ma fornisce solo una descrizione generale, senza dettagli sul processo costruttivo."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.211540162,
+          "prompt_tokens": 840,
+          "prompt_time": 0.041348768,
+          "completion_tokens": 195,
+          "completion_time": 0.412906655,
+          "total_tokens": 1035,
+          "total_time": 0.454255423,
+          "completion_tokens_details": {
+            "reasoning_tokens": 80
+          }
+        },
+        "system_fingerprint": "fp_e1a78f200e",
+        "response_id": "chatcmpl-6f064c6a-5a99-4c8d-9eac-0d398bdebb4d",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "expected": "C",
+      "judgment": {
+        "id": "8",
+        "correctness": "C",
+        "completeness": 2,
+        "adequacy": 1,
+        "clarity": 2,
+        "unsupported_addition": false,
+        "uncertain": false,
+        "reason": "Spiega correttamente che il basso fattore di riempimento stellare rende rare le collisioni."
+      },
+      "runtime": {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "usage": {
+          "queue_time": 0.303680243,
+          "prompt_tokens": 850,
+          "prompt_time": 0.040949967,
+          "completion_tokens": 208,
+          "completion_time": 0.436822837,
+          "total_tokens": 1058,
+          "total_time": 0.477772804,
+          "completion_tokens_details": {
+            "reasoning_tokens": 95
+          }
+        },
+        "system_fingerprint": "fp_27194a498a",
+        "response_id": "chatcmpl-0818cc38-a02e-492e-b220-41d425c3e4ef",
+        "finish_reason": "stop"
+      }
+    }
+  ],
+  "note": "Simple sanity checks, not validation of scientific or pedagogical reliability."
+}

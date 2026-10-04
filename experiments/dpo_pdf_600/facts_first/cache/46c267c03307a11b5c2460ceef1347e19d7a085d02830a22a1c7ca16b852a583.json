@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a27d5ca9-25da-4616-b4b1-af24c98d182f",
+  "object": "chat.completion",
+  "created": 1790377287,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"usable\":true,\"question\":\"Perché non si verifica un’eclissi di Luna ogni volta che c’è la Luna piena?\",\"fact_ids\":[5,6,7,8]}",
+        "reasoning": "We need to output JSON with usable true and question and fact_ids. Choose sentences that support answer. Use IDs: 5,6,7,8 maybe. Provide question rephrased. JSON compact."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.090125896,
+    "prompt_tokens": 611,
+    "prompt_time": 0.029188565,
+    "completion_tokens": 92,
+    "completion_time": 0.189960693,
+    "total_tokens": 703,
+    "total_time": 0.219149258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 43
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_5e2577217c",
+  "x_groq": {
+    "id": "req_01m3dctq4ne8z902dfeyx1ff6m",
+    "seed": 1260375764
+  },
+  "service_tier": "on_demand"
+}

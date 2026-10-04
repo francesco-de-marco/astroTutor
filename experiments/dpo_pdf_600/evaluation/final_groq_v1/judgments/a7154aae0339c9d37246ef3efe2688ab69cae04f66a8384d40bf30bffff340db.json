@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a7154aae0339c9d37246ef3efe2688ab69cae04f66a8384d40bf30bffff340db",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta concisa e corretta: orbita bassa ≈90 min, non un giorno."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.304771815,
+      "prompt_tokens": 1917,
+      "prompt_time": 0.104765853,
+      "completion_tokens": 853,
+      "completion_time": 1.803444,
+      "total_tokens": 2770,
+      "total_time": 1.908209853,
+      "completion_tokens_details": {
+        "reasoning_tokens": 316
+      }
+    },
+    "system_fingerprint": "fp_c3da0d4bb9",
+    "response_id": "chatcmpl-30c62c17-a204-469a-a721-febe076c1f10",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5be72ff1afeb3093f761918d7377e99ae70eed300c7a02917b38b9e1451859f0",
+    "6d5d19402a16e720565423fb60b0eab5b054ee514cc0a66c175cc0cd744d28c1",
+    "019eca843460668af91a576a563eb0468cdd6ce2353676df6d3a82a2dba31d3b",
+    "0eaeceb767934156976e6b12b34c9f41ce8c697138de02500dc0e07a01c5c196",
+    "a7154aae0339c9d37246ef3efe2688ab69cae04f66a8384d40bf30bffff340db",
+    "f3459e0b0b85c9c03f960655059d420ddd20e7601f5fe0cf4b8ae7d0bde55917"
+  ]
+}

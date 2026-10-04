@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "35559a9a47d2b052eb60864071d1f4674c0290b4d4694c4cc912d14b793b0261",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Affermare che l'aurora nasce dalla luce solare che colpisce le nuvole è impreciso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.161266251,
+      "prompt_tokens": 1815,
+      "prompt_time": 0.159174366,
+      "completion_tokens": 918,
+      "completion_time": 1.943902509,
+      "total_tokens": 2733,
+      "total_time": 2.103076875,
+      "completion_tokens_details": {
+        "reasoning_tokens": 363
+      }
+    },
+    "system_fingerprint": "fp_6b677c2caf",
+    "response_id": "chatcmpl-b95f8e9c-9e25-43d2-8dd6-dd04d245bb71",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "032697cbcbe1ee15f5dc861b6841edae44ff41314d1e39c416b0eaa928b312ae",
+    "fb29c61799d440971170a6abdc81d2da9e56a709ec160fd87eaf42127883d3e5",
+    "573c2c2987199b140e9d082413aa195f47543b276c9a501bd8fa60962c3b0a72",
+    "518d80d4b5fdd1c13066114ecdaf83f38c767ce411ac44dcef10873a3aeeb892",
+    "35559a9a47d2b052eb60864071d1f4674c0290b4d4694c4cc912d14b793b0261",
+    "b623e06f2c0cf82719cad28f7dfeb6bf097937e959e52b59e2b1f5c6bdc91eea"
+  ]
+}

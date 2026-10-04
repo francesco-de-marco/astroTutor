@@ -1,0 +1,23 @@
+{
+  "response_hash": "ee68a5ea097a299298467a4d0bf59bf512f969b1d3a9590212ff8570d5168b6e",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 4,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta copre correttamente i punti essenziali sulla formazione di una stella, come l'addensamento di gas, la fusione nucleare e l'equilibrio tra gravità e pressione di radiazione.",
+      "correctness": "La descrizione è corretta e non contiene errori scientifici.",
+      "level_adequacy": "Il livello di dettaglio è adatto a un profilo universitario, fornendo informazioni dettagliate senza eccessiva complessità.",
+      "clarity": "La risposta è chiara e coerente, senza divagazioni o passaggi confusi."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2131,
+    "eval_count": 209,
+    "total_duration": 7008946400,
+    "done_reason": "stop"
+  }
+}

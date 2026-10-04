@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "908a7d30fa83d423f6cad6626469231fb5db9caebf65f3b01f9acbeb81b0c49e",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riporta correttamente l'accoppiamento con i fotoni come motivo del ritardo del collasso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305290094,
+      "prompt_tokens": 1987,
+      "prompt_time": 0.140212434,
+      "completion_tokens": 639,
+      "completion_time": 1.8801571510000001,
+      "total_tokens": 2626,
+      "total_time": 2.020369585,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 83
+      }
+    },
+    "system_fingerprint": "fp_4a7bb72c24",
+    "response_id": "chatcmpl-e25609d7-365e-4888-8f95-0118337b8aa8",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "c73201adc7058fd6c14569fd955a24e5ca1403eb87128dc6ec1c517f4c62fbd2",
+    "32e84c133af1fed59a37465451dad63b22720f481d905c97c504aeee09ac3c25",
+    "908a7d30fa83d423f6cad6626469231fb5db9caebf65f3b01f9acbeb81b0c49e",
+    "b763ce2f530da807e1064a3d577f519cf12b489c534f49e927ae79cef0aa6d1c",
+    "5c45582c55876064e49b87c528c1c3065c2ef6273bfd6d2ae88071356129a73e",
+    "d4979fb8cbe15509f71f910786d8263d0f097adafe04a54b6a0a6a6ed69c06c9"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "295a82fb6b92bb6280104a6b1583c9d6a14beb15c9aab7862cd23532e423e966",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive l'accoppiamento ai fotoni e la pressione radiante, evidenziando differenza con materia oscura."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.090328966,
+      "prompt_tokens": 2295,
+      "prompt_time": 0.123564654,
+      "completion_tokens": 633,
+      "completion_time": 1.357065474,
+      "total_tokens": 2928,
+      "total_time": 1.480630128,
+      "completion_tokens_details": {
+        "reasoning_tokens": 83
+      }
+    },
+    "system_fingerprint": "fp_998410db10",
+    "response_id": "chatcmpl-e4efb485-0714-46bb-82ab-22f010429274",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "db0bd1d9e6f5b2ef19256e7ee03fa86709b7c3d5bf5127f20d73bf436649d299",
+    "295a82fb6b92bb6280104a6b1583c9d6a14beb15c9aab7862cd23532e423e966",
+    "558514bb572618dfd04ee6d04686d2030999030873c0be3a9f1d073e78740d9a",
+    "5ebb886780c6c4ef35a3080bb97c9de6ac221f3ad2f253500ffe0f02e33f2fdf",
+    "a21b48ac42d5c160e52e80b75e42c10fe8a1a0c3c1bcd76115cd1b9591d89765",
+    "fbf29bb43c6c342d5d4266e8ec969311015246bc4a33908575e38aea9dda499b"
+  ]
+}

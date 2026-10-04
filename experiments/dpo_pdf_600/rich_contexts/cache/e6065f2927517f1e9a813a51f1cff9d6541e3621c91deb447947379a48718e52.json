@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-34036167-bc26-4a85-bf9a-820ba64b8a0d",
+  "object": "chat.completion",
+  "created": 1790378282,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"sentences\":[{\"text\":\"È impossibile mettere un gruppo di stelle in una provetta o ordinare un cometa da un fornitore scientifico.\",\"fact_ids\":[3]},{\"text\":\"Per questo l'astronomia è definita una scienza osservazionale: gli astronomi studiano molti campioni di oggetti celesti e confrontano le loro differenze.\",\"fact_ids\":[4]},{\"text\":\"Le ipotesi vengono poi valutate alla luce di queste nuove osservazioni e, come in un esperimento di laboratorio, possono essere confermate o smentite.\",\"fact_ids\":[6]}]}",
+        "reasoning": "We need produce JSON with sentences, each with text and fact_ids. Use only required IDs 3,4,6 and optional others if useful but keep facts relevant. Max 180 words. Provide Italian answer. Let's craft maybe 3 sentences.\n\nSentence1 uses fact 3: impossibile mettere stelle in provetta.\n\nSentence2 uses fact 4: astronomia è scienza osservazionale, osserviamo molti campioni.\n\nSentence3 uses fact 6: ipotesi giudicate con nuove informazioni, passano o falliscono come esperimento.\n\nInclude fact_ids arrays.\n\nReturn compact JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.090001748,
+    "prompt_tokens": 600,
+    "prompt_time": 0.026136251,
+    "completion_tokens": 255,
+    "completion_time": 0.5260209,
+    "total_tokens": 855,
+    "total_time": 0.552157151,
+    "completion_tokens_details": {
+      "reasoning_tokens": 121
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_998410db10",
+  "x_groq": {
+    "id": "req_01m3dds2vyea9rpz01gvht4tn0",
+    "seed": 184552323
+  },
+  "service_tier": "on_demand"
+}

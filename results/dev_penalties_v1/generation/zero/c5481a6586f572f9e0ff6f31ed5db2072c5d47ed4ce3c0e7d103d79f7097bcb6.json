@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-10T14:01:56.420160+00:00",
+  "question": "Che cosa sono le onde gravitazionali e come vengono rilevate?",
+  "level": "C",
+  "model": "qwen2.5:3b",
+  "config": {
+    "model": "qwen2.5:3b",
+    "base_url": "http://localhost:11434/v1",
+    "translation_model": "qwen2.5:3b",
+    "generation": {
+      "temperature": 0.0,
+      "seed": 42,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0
+    },
+    "initial_k": 15,
+    "final_k": 3,
+    "use_rag": true,
+    "guardrails_enabled": false
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Sei un assistente didattico scientifico. Il tuo compito è estrarre informazioni dai documenti forniti.\n\n⚠️ REGOLE ASSOLUTE E INVIOLABILI:\n1. Cerca la risposta SOLO all'interno del CONTESTO fornito.\n2. Se il CONTESTO non contiene la risposta esatta o non ne parla, DEVI rispondere ESATTAMENTE con: 'Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione.' Non aggiungere altre spiegazioni, scuse o storielle.\n3. NON INVENTARE nulla. Non usare la tua conoscenza pregressa. Non creare analogie o metafore che non siano già scritte nel testo.\n\nSTILE DI RISPOSTA:\nSe (e SOLO SE) trovi la risposta nel contesto, esponila seguendo questa regola di stile: Spiega come se parlassi a uno studente delle superiori. Usa un linguaggio tecnico corretto e approfondisci i nessi logici.\n\nCONTESTO RECUPERATO:\n[Fonte 1 - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi)]:\nL’esistenza delle onde gravitazionali fu predetta da Einstein proprio partendo dalla sua teoria della relatività generale ma si rese subito conto che gli effetti delle onde gravitazionali sarebbero stati troppo piccoli per essere misurati, almeno con la tecnologia dei suoi tempi. Supponiamo di avere due masse in caduta libera, ovvero non soggette ad alcuna forza, poste a una determinata distanza L: il passaggio di un’onda gravitazionale determina un’oscillazione della distanza L nel tempo e questo è quello che è stato misurato il 14 settembre 2015. Gli osservatori della collaborazione LIGO, posti a Livingston e Hanford negli Stati Uniti, hanno misurato per la prima volta un segnale generato da un’onda gravitazionale corrispondente a un’oscillazione di circa $4 \\times 1 0 ^ { - 1 6 }$ cm della distanza di 4 km tra due masse test. Per avere un’idea dell’accuratezza di questa misura basti notare che riguarda una variazione pari a circa 1/10 del diametro di un protone per una lunghezza di 4 km: una misura con una precisione quasi incredibile, non per niente Einstein la riteneva impossibile. L’analisi del segnale ha permesso altre importanti scoperte. Innanzitutto, il segnale non è stato rivelato in contemporanea tra i due osservatori: Hanford ha rivelato l’onda con un ritardo rispetto a Livingston pari a circa 10 millisecondi, ovvero il tempo necessario per andare da un osservatorio all’altro muovendosi alla velocità della luce, proprio come previsto per le onde gravitazionali\n\n[Fonte 2 - Astrofisica per ansiosi (Licia Troisi)]:\nNe esiste infatti un nuovo tipo, che è stato osservato per la prima volta grazie alle onde gravitazionali. Queste ultime sono delle increspature generate nello spazio-tempo da masse che collassano o oggetti molto massicci che si fondono. Per capire meglio, in genere si usa l’esempio del laghetto; se lancio un sasso in un lago si formano delle onde. Ecco, la stessa cosa accade nello spazio-tempo, solo che lo spazio tempo ha quattro dimensioni, mentre il laghetto è una superficie bidimensionale che si increspa in una terza dimensione. È una cosa assolutamente impossibile da visualizzare perché il nostro cervello non riesce a immaginare oggetti che abbiano più di tre dimensioni, ma l’importante è capire il concetto.  \nLe onde gravitazionali erano state previste dalla teoria della relatività generale e sono state cercate per più di sessant’anni, prima di venire osservate nel 2015 da due gigantesche antenne che si trovano negli Stati Uniti. La scoperta fruttò anche un premio Nobel alle persone che avevano progettato lo strumento che le ha osservate, tra cui Kip Thorne, che è noto anche per essere stato il consulente scientifico per il film Interstellar.\n\n[Fonte 3 - Dal big bang ai buchi neri. Breve storia del tempo]:\nLa relatività generale predice che gli oggetti pesanti in movimento produrranno l'emissione di onde gravitazionali, riccioli nella curvatura dello spazio che viaggiano alla velocità della luce. Dette onde sono simili alle onde luminose che sono riccioli del campo elettromagnetico, ma molto più difficili da scoprire. Come la luce, si portano con sé energia degli oggetti che li emettono. Uno spererebbe, pertanto, che un sistema di oggetti massicci si stabilizzasse finalmente in un stato stazionario, poiché l'energia di qualunque movimento si perderebbe nell'emissione di onde gravitazionali. , È sembrato a lasciare cadere un sughero nell'acqua: all'inizio si muove bruscamente verso l'alto e verso il basso, ma quando le onde si portano la sua energia, rimane finalmente in un stato stazionario. Per esempio, il movimento della Terra nella sua orbita attorno al Sole produce onde gravitazionali. L'effetto della perdita di energia sarà cambiare l'orbita la Terra, in modo che gradualmente si andrà avvicinando sempre di più al sole; col tempo urterà con lui, e rimarrà in un stato stazionario. Il ritmo di perdita di energia nel caso della Terra ed il Sole è molto lento, approssimativamente la sufficienza per fare funzionare un piccolo scaldabagno elettrico"
+    },
+    {
+      "role": "user",
+      "content": "Che cosa sono le onde gravitazionali e come vengono rilevate?"
+    }
+  ],
+  "prompt_hash": "533855ef4b8c223a3cd0e06c1a831f0ab3e7d95c76b93c405d262ad58aa7ee33",
+  "retrieved_docs": [
+    {
+      "text": "L’esistenza delle onde gravitazionali fu predetta da Einstein proprio partendo dalla sua teoria della relatività generale ma si rese subito conto che gli effetti delle onde gravitazionali sarebbero stati troppo piccoli per essere misurati, almeno con la tecnologia dei suoi tempi. Supponiamo di avere due masse in caduta libera, ovvero non soggette ad alcuna forza, poste a una determinata distanza L: il passaggio di un’onda gravitazionale determina un’oscillazione della distanza L nel tempo e questo è quello che è stato misurato il 14 settembre 2015. Gli osservatori della collaborazione LIGO, posti a Livingston e Hanford negli Stati Uniti, hanno misurato per la prima volta un segnale generato da un’onda gravitazionale corrispondente a un’oscillazione di circa $4 \\times 1 0 ^ { - 1 6 }$ cm della distanza di 4 km tra due masse test. Per avere un’idea dell’accuratezza di questa misura basti notare che riguarda una variazione pari a circa 1/10 del diametro di un protone per una lunghezza di 4 km: una misura con una precisione quasi incredibile, non per niente Einstein la riteneva impossibile. L’analisi del segnale ha permesso altre importanti scoperte. Innanzitutto, il segnale non è stato rivelato in contemporanea tra i due osservatori: Hanford ha rivelato l’onda con un ritardo rispetto a Livingston pari a circa 10 millisecondi, ovvero il tempo necessario per andare da un osservatorio all’altro muovendosi alla velocità della luce, proprio come previsto per le onde gravitazionali",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi).pdf",
+      "title": "I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4446982741355896
+    },
+    {
+      "text": "Ne esiste infatti un nuovo tipo, che è stato osservato per la prima volta grazie alle onde gravitazionali. Queste ultime sono delle increspature generate nello spazio-tempo da masse che collassano o oggetti molto massicci che si fondono. Per capire meglio, in genere si usa l’esempio del laghetto; se lancio un sasso in un lago si formano delle onde. Ecco, la stessa cosa accade nello spazio-tempo, solo che lo spazio tempo ha quattro dimensioni, mentre il laghetto è una superficie bidimensionale che si increspa in una terza dimensione. È una cosa assolutamente impossibile da visualizzare perché il nostro cervello non riesce a immaginare oggetti che abbiano più di tre dimensioni, ma l’importante è capire il concetto.  \nLe onde gravitazionali erano state previste dalla teoria della relatività generale e sono state cercate per più di sessant’anni, prima di venire osservate nel 2015 da due gigantesche antenne che si trovano negli Stati Uniti. La scoperta fruttò anche un premio Nobel alle persone che avevano progettato lo strumento che le ha osservate, tra cui Kip Thorne, che è noto anche per essere stato il consulente scientifico per il film Interstellar.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4265981316566467
+    },
+    {
+      "text": "La relatività generale predice che gli oggetti pesanti in movimento produrranno l'emissione di onde gravitazionali, riccioli nella curvatura dello spazio che viaggiano alla velocità della luce. Dette onde sono simili alle onde luminose che sono riccioli del campo elettromagnetico, ma molto più difficili da scoprire. Come la luce, si portano con sé energia degli oggetti che li emettono. Uno spererebbe, pertanto, che un sistema di oggetti massicci si stabilizzasse finalmente in un stato stazionario, poiché l'energia di qualunque movimento si perderebbe nell'emissione di onde gravitazionali. , È sembrato a lasciare cadere un sughero nell'acqua: all'inizio si muove bruscamente verso l'alto e verso il basso, ma quando le onde si portano la sua energia, rimane finalmente in un stato stazionario. Per esempio, il movimento della Terra nella sua orbita attorno al Sole produce onde gravitazionali. L'effetto della perdita di energia sarà cambiare l'orbita la Terra, in modo che gradualmente si andrà avvicinando sempre di più al sole; col tempo urterà con lui, e rimarrà in un stato stazionario. Il ritmo di perdita di energia nel caso della Terra ed il Sole è molto lento, approssimativamente la sufficienza per fare funzionare un piccolo scaldabagno elettrico",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.3544021248817444
+    }
+  ],
+  "context_origin": "provided",
+  "retrieval_queries": null,
+  "model_called": true,
+  "raw_answer": "Le onde gravitazionali sono una conseguenza della teoria della relatività generale, proposta da Albert Einstein nel 1915. Questa teoria predice che gli oggetti pesanti in movimento generano l'emissione di onde gravitazionali, simili alle onde luminose, ma molto più difficili da osservare a causa della loro velocità di propagazione, pari alla velocità della luce.\n\nLe onde gravitazionali si formano quando masse in movimento, come due masse che si stanno avvicinando o separando, generano piccole oscillazioni nel campo gravitazionale dello spazio-tempo. Queste oscillazioni si propagano attraverso lo spazio-tempo, trasmettendo energia e momentum.\n\nPer rilevare le onde gravitazionali, è necessario un strumento molto preciso e sensibile. Questi strumenti, come le antenne LIGO (Laser Interferometer Gravitational-Wave Observatory), sono costruiti in modo da rilevare piccole distorsioni nel campo gravitazionale. LIGO è composto da due antenne principali poste a distanza di circa 3000 km l'una dall'altra, in stati di Washington e Maryland negli Stati Uniti. \n\nLe onde gravitazionali causano piccole oscillazioni nella distanza tra le antenne, che possono essere misurate con una precisione sorprendente. Per esempio, nel 2015, LIGO rilevò un segnale generato da un’onda gravitazionale, con un’oscillazione di circa $4 \\times 10^{-16}$ cm della distanza di 4 km tra due masse test. Questa misura è stata possibile grazie al ritardo di 10 millisecondi che il segnale ha avuto rispetto alla misurazione effettuata in un altro osservatorio, che corrisponde al tempo necessario per la luce a percorrere la distanza tra le due antenne.\n\nLa scoperta delle onde gravitazionali è stata un evento scientifico di grande importanza, non solo per la sua capacità di rilevare fenomeni fisici che fino a quel momento erano inaccessibili, ma anche per la conferma della teoria della relatività generale di Einstein.",
+  "final_answer": "Le onde gravitazionali sono una conseguenza della teoria della relatività generale, proposta da Albert Einstein nel 1915. Questa teoria predice che gli oggetti pesanti in movimento generano l'emissione di onde gravitazionali, simili alle onde luminose, ma molto più difficili da osservare a causa della loro velocità di propagazione, pari alla velocità della luce.\n\nLe onde gravitazionali si formano quando masse in movimento, come due masse che si stanno avvicinando o separando, generano piccole oscillazioni nel campo gravitazionale dello spazio-tempo. Queste oscillazioni si propagano attraverso lo spazio-tempo, trasmettendo energia e momentum.\n\nPer rilevare le onde gravitazionali, è necessario un strumento molto preciso e sensibile. Questi strumenti, come le antenne LIGO (Laser Interferometer Gravitational-Wave Observatory), sono costruiti in modo da rilevare piccole distorsioni nel campo gravitazionale. LIGO è composto da due antenne principali poste a distanza di circa 3000 km l'una dall'altra, in stati di Washington e Maryland negli Stati Uniti. \n\nLe onde gravitazionali causano piccole oscillazioni nella distanza tra le antenne, che possono essere misurate con una precisione sorprendente. Per esempio, nel 2015, LIGO rilevò un segnale generato da un’onda gravitazionale, con un’oscillazione di circa $4 \\times 10^{-16}$ cm della distanza di 4 km tra due masse test. Questa misura è stata possibile grazie al ritardo di 10 millisecondi che il segnale ha avuto rispetto alla misurazione effettuata in un altro osservatorio, che corrisponde al tempo necessario per la luce a percorrere la distanza tra le due antenne.\n\nLa scoperta delle onde gravitazionali è stata un evento scientifico di grande importanza, non solo per la sua capacità di rilevare fenomeni fisici che fino a quel momento erano inaccessibili, ma anche per la conferma della teoria della relatività generale di Einstein.",
+  "guardrails": {
+    "enabled": false,
+    "attempted": false,
+    "changed": false,
+    "issues_before": [],
+    "issues_after": [],
+    "retry_answer": null,
+    "retry_issues": null,
+    "retry_error": null,
+    "final_answer": "Le onde gravitazionali sono una conseguenza della teoria della relatività generale, proposta da Albert Einstein nel 1915. Questa teoria predice che gli oggetti pesanti in movimento generano l'emissione di onde gravitazionali, simili alle onde luminose, ma molto più difficili da osservare a causa della loro velocità di propagazione, pari alla velocità della luce.\n\nLe onde gravitazionali si formano quando masse in movimento, come due masse che si stanno avvicinando o separando, generano piccole oscillazioni nel campo gravitazionale dello spazio-tempo. Queste oscillazioni si propagano attraverso lo spazio-tempo, trasmettendo energia e momentum.\n\nPer rilevare le onde gravitazionali, è necessario un strumento molto preciso e sensibile. Questi strumenti, come le antenne LIGO (Laser Interferometer Gravitational-Wave Observatory), sono costruiti in modo da rilevare piccole distorsioni nel campo gravitazionale. LIGO è composto da due antenne principali poste a distanza di circa 3000 km l'una dall'altra, in stati di Washington e Maryland negli Stati Uniti. \n\nLe onde gravitazionali causano piccole oscillazioni nella distanza tra le antenne, che possono essere misurate con una precisione sorprendente. Per esempio, nel 2015, LIGO rilevò un segnale generato da un’onda gravitazionale, con un’oscillazione di circa $4 \\times 10^{-16}$ cm della distanza di 4 km tra due masse test. Questa misura è stata possibile grazie al ritardo di 10 millisecondi che il segnale ha avuto rispetto alla misurazione effettuata in un altro osservatorio, che corrisponde al tempo necessario per la luce a percorrere la distanza tra le due antenne.\n\nLa scoperta delle onde gravitazionali è stata un evento scientifico di grande importanza, non solo per la sua capacità di rilevare fenomeni fisici che fino a quel momento erano inaccessibili, ma anche per la conferma della teoria della relatività generale di Einstein."
+  },
+  "elapsed_seconds": 5.299244499998167,
+  "run_key": "c5481a6586f572f9e0ff6f31ed5db2072c5d47ed4ce3c0e7d103d79f7097bcb6",
+  "item_id": "dev08_C",
+  "group_id": "dev08",
+  "experiment_setting": "zero",
+  "model_identity": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "split": "development"
+}

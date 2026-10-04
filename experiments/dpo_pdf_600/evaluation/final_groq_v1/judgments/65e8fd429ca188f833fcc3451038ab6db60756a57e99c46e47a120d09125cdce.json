@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "65e8fd429ca188f833fcc3451038ab6db60756a57e99c46e47a120d09125cdce",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente la riemissione IR e il concetto di riscaldamento."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.154493457,
+      "prompt_tokens": 1806,
+      "prompt_time": 0.090862414,
+      "completion_tokens": 795,
+      "completion_time": 1.677998198,
+      "total_tokens": 2601,
+      "total_time": 1.768860612,
+      "completion_tokens_details": {
+        "reasoning_tokens": 270
+      }
+    },
+    "system_fingerprint": "fp_4140daa9c2",
+    "response_id": "chatcmpl-f4aee89e-0000-4a25-92d8-c265f7c452ac",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "a190a327565bd9ed2cd79435a331522d35037788c07a3b0b921f53178ba49cde",
+    "65e8fd429ca188f833fcc3451038ab6db60756a57e99c46e47a120d09125cdce",
+    "a646fa81dc4900c1d3d10a4b9bc61b341c6d4d1dc6b7a5becf65f2e40ec85007",
+    "66fd3b07a4db8cd7892943d0f4e947c3483ecadeec38434501140f8cd43c52b0",
+    "414d34f92d14625d5412a05c26102a8398c970de3f686a6ef6770a7bee854709",
+    "e34c347d9c40d96cbc23ee72d3f2cb489c507e050c032d9d8a7e0a2bfddbca3b"
+  ]
+}

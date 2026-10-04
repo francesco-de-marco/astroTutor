@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "547b2d8b28df6f3cfc38ce63b8df24e5c3d9390228f5b669ae786a485c99f21d",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Attribuisce la luminosità al fenomeno di radiazione di Hawking, non pertinente."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.019919826,
+      "prompt_tokens": 1922,
+      "prompt_time": 0.084082359,
+      "completion_tokens": 794,
+      "completion_time": 3.548567083,
+      "total_tokens": 2716,
+      "total_time": 3.632649442,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 254
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-f35c7ddf-a7e7-4d51-9330-9b15ebbec0fa",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "51e89dc361d3ca5ac863ae485967a91b7710196bf941b8d1c4136e847278bc47",
+    "67465d01ef0ccf9427c9e68599655c2dd5c272eead46a5830b44e29f9068ca98",
+    "1b1deaf3b1145bd2a3d781bcc317a24824f118af4256a36f5a0a4d2b7d62ea55",
+    "c86c34e25ee9034c432679eb502689eba3d3653da059cdbd1289f61100550168",
+    "547b2d8b28df6f3cfc38ce63b8df24e5c3d9390228f5b669ae786a485c99f21d",
+    "5152ed9308981e7aefda52c13c1a630537043109bcdfb331e90c17c0dcb28fff"
+  ]
+}

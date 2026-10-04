@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "f9c614dad8d0705adb6496fa364eb4f3dc4aeec2816bd48b71d6c400ac9e62de",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risponde correttamente, spiega il ruolo complementare dei modelli analitici e numerici in modo chiaro per scuola media."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.049804376,
+      "prompt_tokens": 1896,
+      "prompt_time": 0.08901913,
+      "completion_tokens": 648,
+      "completion_time": 1.700694227,
+      "total_tokens": 2544,
+      "total_time": 1.7897133570000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 94
+      }
+    },
+    "system_fingerprint": "fp_dee443f41b",
+    "response_id": "chatcmpl-e0789250-ebfe-47aa-855b-0e3cf795b4df",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "f9c614dad8d0705adb6496fa364eb4f3dc4aeec2816bd48b71d6c400ac9e62de",
+    "89eec2a2f9da6537ea74af8aeadf528f50260281724b6b8f1c3a5c19caa04054",
+    "e89b376e1e3b0665d0f24e6c5906997f390d9f11d94d2de4b9aa77324c580355",
+    "67fb732d427647a09fc879f49305c238599915134342f8c7f4992beffe5f107c",
+    "63fc8d52fa33396a4e8a7e1d08e467f15729ba9130a22c44fa72f74855de9b78",
+    "8e1bc147802cd7e8a7032b961fcfec3a1219c5d0be7fd1991fe614ad23fafd3e"
+  ]
+}

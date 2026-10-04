@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "13e3c58497b422e064256873ac30f95b6e0dc15c131f3509fa99b8057233cee2",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega in modo semplice che l'infrarosso attraversa le nubi di polvere senza essere assorbito."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.307896125,
+      "prompt_tokens": 1634,
+      "prompt_time": 0.123230058,
+      "completion_tokens": 791,
+      "completion_time": 1.725876083,
+      "total_tokens": 2425,
+      "total_time": 1.849106141,
+      "completion_tokens_details": {
+        "reasoning_tokens": 231
+      }
+    },
+    "system_fingerprint": "fp_27194a498a",
+    "response_id": "chatcmpl-d133a773-3f01-439e-b81d-a86d5e49fb88",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "f62633e43d069dc0ae4a72e988949b14e008d63a86e5b2940eacb1505635420d",
+    "118bb5ad4da8bfaa349acb4eaa1cbf6fcf7c30c8047c97d87dfc7d3e18900288",
+    "6458790bb0f5cd2ea7fc0460af9ca722b5efbd4d4993cd56ce2a58968bfbc877",
+    "c370137e0b8b0b68f940d59515c75de7192be7a531342338ad332709ceeac841",
+    "c264f89cd8789cf78589eb6ff6846ed9c4875e4c4ab7b8f5ae99a65958aeabb4",
+    "13e3c58497b422e064256873ac30f95b6e0dc15c131f3509fa99b8057233cee2"
+  ]
+}

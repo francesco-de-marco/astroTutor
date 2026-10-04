@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6649e72167a78916a30f06bd9961f70a44451bf91990e781482fbc1a06ece5d1",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Definisce correttamente il baricentro come centro di massa interno alla Terra."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.305696332,
+      "prompt_tokens": 1480,
+      "prompt_time": 0.04702378,
+      "completion_tokens": 946,
+      "completion_time": 2.950937716,
+      "total_tokens": 2426,
+      "total_time": 2.997961496,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 416
+      }
+    },
+    "system_fingerprint": "fp_4a7bb72c24",
+    "response_id": "chatcmpl-e0936d92-fd15-47ac-9f65-a99a4e2e9939",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6649e72167a78916a30f06bd9961f70a44451bf91990e781482fbc1a06ece5d1",
+    "18e19dcc0ce8612048588e9d3e08ef8ab774e6c9a79125e9accc394b4ee5730c",
+    "5be37d7c2c5a5d847fc45a45864a860f8944551f72fe0e7b41999f72bb210719",
+    "fb4bf49d58fa2aa33e9a3260c2d93fde44910e03292d049bfa3cf06142e7c256",
+    "21a47f281b22daf0fd1e36e77e2eaf2a7bc5c465b4e350b929bc665a9663335c",
+    "c02f16e0c4fe1c8983e3cb66ed0b84326094fa853b3764fff17553b9678c47df"
+  ]
+}

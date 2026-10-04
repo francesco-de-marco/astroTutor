@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "0db1470e2572a2b28777800f36bfe83a55aa46f6c04c637ed6ac6265fedf9b2f",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Affermare copertura globale da un singolo GEO è errato; manca precisione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.227973,
+      "prompt_tokens": 2049,
+      "prompt_time": 0.76865153,
+      "completion_tokens": 908,
+      "completion_time": 2.360104962,
+      "total_tokens": 2957,
+      "total_time": 3.128756492,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 357
+      }
+    },
+    "system_fingerprint": "fp_47082602e2",
+    "response_id": "chatcmpl-cf7aa8ab-d6a7-4dbf-8094-e40c3335ef55",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "39d707a6991c4b12d1bfb3c3098765e592156e1ae81e0443f2c6db5284587d6c",
+    "8bfa5e0f15363ae597db162c08b027cd829f472598ffa69bf4e7a071a860478b",
+    "24a311fbbdc80592f7e1d2c7b0932bc4eef9649b44dd8446e261b8c98d1962cb",
+    "0db1470e2572a2b28777800f36bfe83a55aa46f6c04c637ed6ac6265fedf9b2f",
+    "f3c3d18534659a116c6b3f85fb7c8f8776234f51a91266dc9e12d064b113411f",
+    "ec3ac899bed28cb2c9b999b6a3ab762b13d0a8fcd7d65f76929b4fc38314e22d"
+  ]
+}

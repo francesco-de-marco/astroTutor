@@ -1,0 +1,32 @@
+[
+  {
+    "id": "4b1fced439ffbe5f199f3de1",
+    "provisional_choice": 1,
+    "reason": "La prima esplicita il significato geometrico con parole comuni; la seconda presuppone piano orbitale, plenilunio e transito. Non preferire semplicemente la risposta più corta.",
+    "status": "assistant_opinion_not_independent_review"
+  },
+  {
+    "id": "6b263d14d56e8a7287840924",
+    "provisional_choice": 2,
+    "reason": "La prima identifica concretamente sorgente, massa interposta e osservatore; la seconda presuppone questi ruoli. Preferenza potenzialmente debole: equivalenza ammessa.",
+    "status": "assistant_opinion_not_independent_review"
+  },
+  {
+    "id": "8733473b5275d518d00e1f84",
+    "provisional_choice": 1,
+    "reason": "La prima usa l’analogia della lampadina presente nel brano; la seconda lascia non spiegati apparente, intrinseca e sorgente.",
+    "status": "assistant_opinion_not_independent_review"
+  },
+  {
+    "id": "8ed63ed2cf3c7125d4c126c2",
+    "provisional_choice": "equivalenti",
+    "reason": "Entrambe esplicitano la stessa catena causale e il limite osservativo. Non inventare una preferenza per aumentare il numero delle coppie. Il brano breve non sostiene ulteriori meccanismi.",
+    "status": "assistant_opinion_not_independent_review"
+  },
+  {
+    "id": "f3605615087a7d08df857f33",
+    "provisional_choice": "equivalenti",
+    "reason": "Entrambe esplicitano massa, gravità, contrazione e aumento della temperatura. La diversa formulazione non costituisce una differenza didattica sostanziale.",
+    "status": "assistant_opinion_not_independent_review"
+  }
+]

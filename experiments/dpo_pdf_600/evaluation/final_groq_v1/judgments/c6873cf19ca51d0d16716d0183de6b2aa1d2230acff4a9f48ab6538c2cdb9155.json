@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "c6873cf19ca51d0d16716d0183de6b2aa1d2230acff4a9f48ab6538c2cdb9155",
+    "correctness": "C",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riassume il concetto di costo, ma non fornisce spiegazioni dettagliate per il livello C."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.052016711,
+      "prompt_tokens": 2227,
+      "prompt_time": 0.106308555,
+      "completion_tokens": 862,
+      "completion_time": 1.821559535,
+      "total_tokens": 3089,
+      "total_time": 1.92786809,
+      "completion_tokens_details": {
+        "reasoning_tokens": 301
+      }
+    },
+    "system_fingerprint": "fp_64b2f1c926",
+    "response_id": "chatcmpl-c2f22e5e-8002-4da0-9ff5-9902cfe2f604",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "dc412f9abb5eabd3fda7a2ad79b0fbdd924b03706b1f665669cded2379060f9a",
+    "03287c3a83126882ceceafd8f56a570f74fe1cc6cd20d535f87fffe3d633d300",
+    "96d41b3356f8813356502593d9e0b360049597261f4204a884655358612eac8d",
+    "19eb14ce40b2cdbd4072464260bd22b12369b38216b37df45429f2a010c8d507",
+    "baea7becdfc103d14e4f1212a92830ef27c74280b93dbb1b7c2d9fa3f66946e2",
+    "c6873cf19ca51d0d16716d0183de6b2aa1d2230acff4a9f48ab6538c2cdb9155"
+  ]
+}

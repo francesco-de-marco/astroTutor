@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "655c4f655fc0e24056b18d5d35f290b8aba917d28dede9f6dc5fa523202f6338",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Contiene una frase troncata ma il nucleo della risposta è corretto sulla formazione di idrogeno."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.021916423,
+      "prompt_tokens": 1886,
+      "prompt_time": 0.075974245,
+      "completion_tokens": 636,
+      "completion_time": 1.3729062779999999,
+      "total_tokens": 2522,
+      "total_time": 1.448880523,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 94
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-18efdf55-b00c-4e3c-9a1d-07dc4dc54e89",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "328c7a2a5ea7947ddec85c7c5c6a60c6eda0b77947318b1aaba278d3ddea3192",
+    "d0452a270fcf3be4188765dbd5da172d4cde00e41a2fb74877cb44833992acec",
+    "ad9abb5f8632342dd516b46bf4fe8310b0217aeb977a5de418481631157c8e54",
+    "0c8632d9268948abd6ac4e079e47005117b7f9ee64858fc70bdf7207c712dd9a",
+    "655c4f655fc0e24056b18d5d35f290b8aba917d28dede9f6dc5fa523202f6338",
+    "76fb68af6811949152ce7381abcd7f37bfab27d069dc2cbbdd589313a2d7b65a"
+  ]
+}

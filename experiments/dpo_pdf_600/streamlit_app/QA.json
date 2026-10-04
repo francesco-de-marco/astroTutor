@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "date": "2026-10-03",
+  "ui": "Streamlit 1.64.0; initial page and all six result rows",
+  "backend_live": "Qwen2.5 3B, level B, two retrieved documents; base and DPO actual inference",
+  "ui_interaction_test": "AppTest with saved actual record: comparison, sources, download control, clear conversation",
+  "scope": "No extensive end-to-end testing of the other five UI models; no new scientific evaluation.",
+  "environment_note": "Python 3.14 AppTest temporary-directory cleanup reports a sandbox PermissionError after successful assertions."
+}

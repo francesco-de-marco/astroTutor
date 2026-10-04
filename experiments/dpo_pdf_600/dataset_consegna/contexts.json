@@ -1,0 +1,862 @@
+[
+  {
+    "source_id": "4b1fced439ffbe5f199f3de1",
+    "topic": "Eclissi lunari",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 13,
+    "context": "La Terra gira attorno al Sole e la Luna intorno alla Terra.\n\nQuando la Terra passa tra il Sole e la Luna e i tre corpi celesti sono ben allineati, il Sole illumina la Terra e l’ombra della Terra oscura la Luna.\n\nDurante l’eclissi, la Luna è necessariamente nella fase di Luna piena.\n\nIl motivo è che l’orbita della Luna è inclinata di cinque gradi rispetto all’orbita della Terra attorno al Sole.\n\nQuindi, la maggior parte delle volte in cui la Luna è piena, essa non si trova in linea con la Terra, ma sopra o sotto.\n\nSe l’allineamento tra i tre corpi è buono, ma non perfetto, l’ombra della Terra oscura solo parte della Luna e l’eclissi si dice parziale.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 59,
+        "text": "La Terra gira attorno al Sole e la Luna intorno alla Terra."
+      },
+      {
+        "start": 60,
+        "end": 209,
+        "text": "Quando la Terra passa tra il Sole e la Luna e i tre corpi celesti sono ben allineati, il Sole illumina la Terra e l’ombra della Terra oscura la Luna."
+      },
+      {
+        "start": 238,
+        "end": 308,
+        "text": "Durante l’eclissi, la Luna è necessariamente nella fase di Luna piena."
+      },
+      {
+        "start": 450,
+        "end": 562,
+        "text": "Il motivo è che l’orbita della Luna è inclinata di cinque gradi rispetto all’orbita della Terra attorno al Sole."
+      },
+      {
+        "start": 563,
+        "end": 682,
+        "text": "Quindi, la maggior parte delle volte in cui la Luna è piena, essa non si trova in linea con la Terra, ma sopra o sotto."
+      },
+      {
+        "start": 828,
+        "end": 966,
+        "text": "Se l’allineamento tra i tre corpi è buono, ma non perfetto, l’ombra della Terra oscura solo parte della Luna e l’eclissi si dice parziale."
+      }
+    ]
+  },
+  {
+    "source_id": "1582ab7cf75219683ecb4e0e",
+    "topic": "Eclissi solari",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 270,
+    "context": "Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°.\n\nAs a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature.\n\nAny solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it.\n\nWhen the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse.\n\nWhen the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse.",
+    "evidence": [
+      {
+        "start": 353,
+        "end": 531,
+        "text": "Although the Sun is about 400 times larger in diameter than the Moon, it is also about 400 times farther away, so both the Sun and the Moon have the same angular size—about 1/2°."
+      },
+      {
+        "start": 532,
+        "end": 658,
+        "text": "As a result, the Moon, as seen from Earth, can appear to cover the Sun, producing one of the most impressive events in nature."
+      },
+      {
+        "start": 661,
+        "end": 770,
+        "text": "Any solid object in the solar system casts a shadow by blocking the light of the Sun from a region behind it."
+      },
+      {
+        "start": 958,
+        "end": 1112,
+        "text": "When the Moon’s shadow strikes Earth, people within that shadow see the Sun at least partially covered by the Moon; that is, they witness a solar eclipse."
+      },
+      {
+        "start": 1113,
+        "end": 1248,
+        "text": "When the Moon passes into the shadow of Earth, people on the night side of Earth see the Moon darken in what is called a lunar eclipse."
+      }
+    ]
+  },
+  {
+    "source_id": "8733473b5275d518d00e1f84",
+    "topic": "Luminosità e dimensioni apparenti",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 71,
+    "context": "Luminosità e diametro dei corpi celesti sono definiti “apparenti” perché li misuriamo dalla Terra.\n\nTalvolta siamo in grado di misurare la distanza di alcuni corpi celesti e in questi casi risaliamo alle loro proprietà fisiche intrinseche.\n\nPer esempio, la dimensione apparente del Sole in cielo è mezzo grado.\n\nSe fossimo su Giove che è circa 5 volte più lontano dal Sole rispetto alla Terra, la nostra stella avrebbe un diametro apparente di appena un decimo di grado.\n\nAnche le luminosità degli oggetti che osserviamo sono apparenti: tra due stelle debolmente luminose non sappiamo distinguere quale sia luminosissima ma molto distante e quale sia vicina ma molto più debole.\n\nSi può sperimentare questa caratteristica delle sorgenti luminose allontanandosi man mano da una lampadina accesa.\n\nLa luminosità intrinseca della lampadina non cambia, ma la sua luce apparirà sempre più debole.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 98,
+        "text": "Luminosità e diametro dei corpi celesti sono definiti “apparenti” perché li misuriamo dalla Terra."
+      },
+      {
+        "start": 99,
+        "end": 238,
+        "text": "Talvolta siamo in grado di misurare la distanza di alcuni corpi celesti e in questi casi risaliamo alle loro proprietà fisiche intrinseche."
+      },
+      {
+        "start": 241,
+        "end": 310,
+        "text": "Per esempio, la dimensione apparente del Sole in cielo è mezzo grado."
+      },
+      {
+        "start": 311,
+        "end": 469,
+        "text": "Se fossimo su Giove che è circa 5 volte più lontano dal Sole rispetto alla Terra, la nostra stella avrebbe un diametro apparente di appena un decimo di grado."
+      },
+      {
+        "start": 640,
+        "end": 846,
+        "text": "Anche le luminosità degli oggetti che osserviamo sono apparenti: tra due stelle debolmente luminose non sappiamo distinguere quale sia luminosissima ma molto distante e quale sia vicina ma molto più debole."
+      },
+      {
+        "start": 847,
+        "end": 961,
+        "text": "Si può sperimentare questa caratteristica delle sorgenti luminose allontanandosi man mano da una lampadina accesa."
+      },
+      {
+        "start": 962,
+        "end": 1057,
+        "text": "La luminosità intrinseca della lampadina non cambia, ma la sua luce apparirà sempre più debole."
+      }
+    ]
+  },
+  {
+    "source_id": "f0c2a2a7b8ea2621add88723",
+    "topic": "Spettroscopia",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 89,
+    "context": "Toccò al fisico e matematico tedesco Gustav Robert Kirchhoff capire – grazie a un esperimento – che le righe scure (chiamate righe di assorbimento) erano il risultato dell’assorbimento della luce da parte degli elementi chimici presenti nell’atmosfera solare e che questa doveva essere fatta di gas.\n\nQuindi, ogni gruppo di righe scure è caratteristico di un certo elemento chimico (lo spettro a righe di un elemento è un po’ come l’impronta digitale di una persona: piuttosto complessa e unica).\n\nPer esempio, il sodio ha due righe scure che interrompono il color giallo e nessun altro elemento presenta questa sequenza.\n\nUna volta che Kirchhoff ebbe scoperto il modo di associare a ciascun elemento il suo spettro di righe caratteristico, si iniziò a fare una vera e propria analisi chimica del Sole.\n\nKirchhoff scoprì anche che un gas caldo e poco denso, osservato su uno sfondo scuro, emette delle righe luminose in corrispondenza delle righe nere.",
+    "evidence": [
+      {
+        "start": 108,
+        "end": 407,
+        "text": "Toccò al fisico e matematico tedesco Gustav Robert Kirchhoff capire – grazie a un esperimento – che le righe scure (chiamate righe di assorbimento) erano il risultato dell’assorbimento della luce da parte degli elementi chimici presenti nell’atmosfera solare e che questa doveva essere fatta di gas."
+      },
+      {
+        "start": 408,
+        "end": 603,
+        "text": "Quindi, ogni gruppo di righe scure è caratteristico di un certo elemento chimico (lo spettro a righe di un elemento è un po’ come l’impronta digitale di una persona: piuttosto complessa e unica)."
+      },
+      {
+        "start": 604,
+        "end": 727,
+        "text": "Per esempio, il sodio ha due righe scure che interrompono il color giallo e nessun altro elemento presenta questa sequenza."
+      },
+      {
+        "start": 728,
+        "end": 907,
+        "text": "Una volta che Kirchhoff ebbe scoperto il modo di associare a ciascun elemento il suo spettro di righe caratteristico, si iniziò a fare una vera e propria analisi chimica del Sole."
+      },
+      {
+        "start": 908,
+        "end": 1056,
+        "text": "Kirchhoff scoprì anche che un gas caldo e poco denso, osservato su uno sfondo scuro, emette delle righe luminose in corrispondenza delle righe nere."
+      }
+    ]
+  },
+  {
+    "source_id": "f8786e77d59e562aba0a0d7e",
+    "topic": "Ricerca di esopianeti",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 177,
+    "context": "Per scoprire i pianeti intorno alle stelle, si utilizzano soprattutto due tecniche, quella Doppler e quella dei transiti.\n\nCon la tecnica Doppler si misurano per anni le piccolissime variazioni di velocità di una stella, causate dalla presenza di uno o più pianeti.\n\nCon il metodo dei transiti si misura il debolissimo oscuramento di una stella causato dal passaggio di un pianeta davanti al disco stellare.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 121,
+        "text": "Per scoprire i pianeti intorno alle stelle, si utilizzano soprattutto due tecniche, quella Doppler e quella dei transiti."
+      },
+      {
+        "start": 122,
+        "end": 264,
+        "text": "Con la tecnica Doppler si misurano per anni le piccolissime variazioni di velocità di una stella, causate dalla presenza di uno o più pianeti."
+      },
+      {
+        "start": 267,
+        "end": 407,
+        "text": "Con il metodo dei transiti si misura il debolissimo oscuramento di una stella causato dal passaggio di un pianeta davanti al disco stellare."
+      }
+    ]
+  },
+  {
+    "source_id": "fb5a3624efe1be4f936e085e",
+    "topic": "Nane bianche",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 114,
+    "context": "Quando le stelle simili al Sole perdono gli strati esterni che si disperdono nello spazio, si forma una “nebulosa planetaria”: un oggetto rotondo e lucente fatto di polveri e di gas, con al centro una stellina grande quanto la Terra, poco luminosa e così densa che un cucchiaino della sua materia peserebbe una tonnellata.\n\nInizialmente la stellina è caldissima, ma è  \ndestinata a raffreddarsi e diventare invisibile perché non dispone più di una fonte di energia.\n\nQuesta stellina si chiama nana bianca.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 322,
+        "text": "Quando le stelle simili al Sole perdono gli strati esterni che si disperdono nello spazio, si forma una “nebulosa planetaria”: un oggetto rotondo e lucente fatto di polveri e di gas, con al centro una stellina grande quanto la Terra, poco luminosa e così densa che un cucchiaino della sua materia peserebbe una tonnellata."
+      },
+      {
+        "start": 323,
+        "end": 464,
+        "text": "Inizialmente la stellina è caldissima, ma è  \ndestinata a raffreddarsi e diventare invisibile perché non dispone più di una fonte di energia."
+      },
+      {
+        "start": 465,
+        "end": 503,
+        "text": "Questa stellina si chiama nana bianca."
+      }
+    ]
+  },
+  {
+    "source_id": "f8343cdc086924c1ef32de5c",
+    "topic": "Pulsar",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 120,
+    "context": "La natura delle pulsar venne svelata nel 1967 da Franco Pacini e Thomas Gold, che proposero la teoria che la pulsar fosse una stella di neutroni, cioè un densissimo residuo di un’esplosione di supernova delle dimensioni di qualche decina di chilometri.\n\nLa stella di neutroni in rapida rotazione e con due stretti fasci di radiazione emessi dai poli magnetici genera il segnale pulsante, come fosse un faro cosmico.\n\nLa “lampada del faro” ruota e ogni volta che il suo fascio di luce ci “raggiunge”, vediamo un segnale luminoso.",
+    "evidence": [
+      {
+        "start": 591,
+        "end": 843,
+        "text": "La natura delle pulsar venne svelata nel 1967 da Franco Pacini e Thomas Gold, che proposero la teoria che la pulsar fosse una stella di neutroni, cioè un densissimo residuo di un’esplosione di supernova delle dimensioni di qualche decina di chilometri."
+      },
+      {
+        "start": 844,
+        "end": 1005,
+        "text": "La stella di neutroni in rapida rotazione e con due stretti fasci di radiazione emessi dai poli magnetici genera il segnale pulsante, come fosse un faro cosmico."
+      },
+      {
+        "start": 1008,
+        "end": 1119,
+        "text": "La “lampada del faro” ruota e ogni volta che il suo fascio di luce ci “raggiunge”, vediamo un segnale luminoso."
+      }
+    ]
+  },
+  {
+    "source_id": "433b46f4a2f6710801781c1f",
+    "topic": "Materia oscura",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 128,
+    "context": "Gli elementi della Galassia di cui abbiamo parlato finora sono quelli visibili, ma ce n’è un altro, avvolto nel mistero, che chiamiamo materia oscura perché non emette luce e quindi non è visibile.\n\nSi pensa sia distribuita in un grande alone al cui centro c’è la parte di Galassia che vediamo.\n\nOggi si pensa che la materia oscura sia distribuita in tutto l’Universo, tutte le prove sono però indirette: gli scienziati ne ipotizzano l’esistenza perché, altrimenti, molti fenomeni osservati sarebbero difficilmente spiegabili.\n\nÈ un po’ come entrare in una stanza buia e urtare la gamba contro qualcosa.\n\nNon riesci a vedere contro cosa hai urtato, ma sai che probabilmente si tratta di una sedia lasciata in mezzo alla stanza.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 197,
+        "text": "Gli elementi della Galassia di cui abbiamo parlato finora sono quelli visibili, ma ce n’è un altro, avvolto nel mistero, che chiamiamo materia oscura perché non emette luce e quindi non è visibile."
+      },
+      {
+        "start": 198,
+        "end": 293,
+        "text": "Si pensa sia distribuita in un grande alone al cui centro c’è la parte di Galassia che vediamo."
+      },
+      {
+        "start": 504,
+        "end": 734,
+        "text": "Oggi si pensa che la materia oscura sia distribuita in tutto l’Universo, tutte le prove sono però indirette: gli scienziati ne ipotizzano l’esistenza perché, altrimenti, molti fenomeni osservati sarebbero difficilmente spiegabili."
+      },
+      {
+        "start": 735,
+        "end": 810,
+        "text": "È un po’ come entrare in una stanza buia e urtare la gamba contro qualcosa."
+      },
+      {
+        "start": 811,
+        "end": 933,
+        "text": "Non riesci a vedere contro cosa hai urtato, ma sai che probabilmente si tratta di una sedia lasciata in mezzo alla stanza."
+      }
+    ]
+  },
+  {
+    "source_id": "4c57066f7e4a2c5a3a3b8a87",
+    "topic": "Morfologia delle galassie",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 134,
+    "context": "Le galassie esterne sono piuttosto simili alla Via Lattea e si distinguono in due categorie: quelle che hanno un nucleo e un disco di stelle, gas e polveri con un disegno a spirale, e quelle che sono fatte solo di stelle disposte in un volume rotondeggiante o sferoidale.\n\nLe prime si chiamano galassie a spirale, le seconde galassie ellittiche.\n\nLe galassie a spirale (come la nostra) possono anche avere una barra fatta di stelle che taglia il nucleo centrale.\n\nIn base ai calcoli degli astrofisici, lo scontro tra due galassie a spirale può originare una galassia ellittica, ma si ritiene che ci sia un meccanismo più generale in base al quale si formano galassie di forma differente, strettamente correlato al modo in cui la materia nell’Universo si è condensata in stelle e galassie.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 271,
+        "text": "Le galassie esterne sono piuttosto simili alla Via Lattea e si distinguono in due categorie: quelle che hanno un nucleo e un disco di stelle, gas e polveri con un disegno a spirale, e quelle che sono fatte solo di stelle disposte in un volume rotondeggiante o sferoidale."
+      },
+      {
+        "start": 272,
+        "end": 344,
+        "text": "Le prime si chiamano galassie a spirale, le seconde galassie ellittiche."
+      },
+      {
+        "start": 345,
+        "end": 460,
+        "text": "Le galassie a spirale (come la nostra) possono anche avere una barra fatta di stelle che taglia il nucleo centrale."
+      },
+      {
+        "start": 661,
+        "end": 985,
+        "text": "In base ai calcoli degli astrofisici, lo scontro tra due galassie a spirale può originare una galassia ellittica, ma si ritiene che ci sia un meccanismo più generale in base al quale si formano galassie di forma differente, strettamente correlato al modo in cui la materia nell’Universo si è condensata in stelle e galassie."
+      }
+    ]
+  },
+  {
+    "source_id": "1460cfbcdf6c70f128e20fe4",
+    "topic": "Osservazioni di Galileo",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 53,
+    "context": "Già con il primo telescopio, per quanto semplice, Galileo scoprì che in cielo ci sono molte più stelle di quante se ne vedano a occhio nudo.\n\nOsservando attentamente la debole banda luminosa che solca i nostri cieli notturni, la Via Lattea o Galassia, scoprì con stupore che non era una nuvola e nemmeno un fenomeno dell’atmosfera terrestre, bensì il debole bagliore di tantissime stelle così lontane dalla Terra da non poter essere individuate singolarmente a occhio nudo.\n\nIn realtà le stelline si erano mosse assieme a Giove.\n\nCon il passare delle notti Galileo si rese conto che queste “stelle”, che poi a un certo punto divennero quattro, cambiavano posizione rispetto a Giove senza mai allontanarsene oltre una distanza massima, diversa per ogni stellina ma costante per ciascuna.\n\nGalileo aveva scoperto i primi quattro satelliti di Giove, che chiamò “astri medicei”, in onore di Cosimo II de’ Medici.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 140,
+        "text": "Già con il primo telescopio, per quanto semplice, Galileo scoprì che in cielo ci sono molte più stelle di quante se ne vedano a occhio nudo."
+      },
+      {
+        "start": 141,
+        "end": 472,
+        "text": "Osservando attentamente la debole banda luminosa che solca i nostri cieli notturni, la Via Lattea o Galassia, scoprì con stupore che non era una nuvola e nemmeno un fenomeno dell’atmosfera terrestre, bensì il debole bagliore di tantissime stelle così lontane dalla Terra da non poter essere individuate singolarmente a occhio nudo."
+      },
+      {
+        "start": 698,
+        "end": 751,
+        "text": "In realtà le stelline si erano mosse assieme a Giove."
+      },
+      {
+        "start": 752,
+        "end": 1008,
+        "text": "Con il passare delle notti Galileo si rese conto che queste “stelle”, che poi a un certo punto divennero quattro, cambiavano posizione rispetto a Giove senza mai allontanarsene oltre una distanza massima, diversa per ogni stellina ma costante per ciascuna."
+      },
+      {
+        "start": 1011,
+        "end": 1131,
+        "text": "Galileo aveva scoperto i primi quattro satelliti di Giove, che chiamò “astri medicei”, in onore di Cosimo II de’ Medici."
+      }
+    ]
+  },
+  {
+    "source_id": "93f481dec4f0b2d2977c49b7",
+    "topic": "Zona abitabile",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 168,
+    "context": "La regione intorno a una stella dove l’acqua può esistere allo stato liquido si chiama fascia di abitabilità.\n\nLa posizione della fascia di abitabilità dipende principalmente dalla temperatura e luminosità della stella, ma può essere modificata da altri parametri, come ad esempio il tipo di atmosfera.",
+    "evidence": [
+      {
+        "start": 898,
+        "end": 1007,
+        "text": "La regione intorno a una stella dove l’acqua può esistere allo stato liquido si chiama fascia di abitabilità."
+      },
+      {
+        "start": 1008,
+        "end": 1199,
+        "text": "La posizione della fascia di abitabilità dipende principalmente dalla temperatura e luminosità della stella, ma può essere modificata da altri parametri, come ad esempio il tipo di atmosfera."
+      }
+    ]
+  },
+  {
+    "source_id": "1e339dc73e585fd813a8f300",
+    "topic": "Espansione cosmica",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 151,
+    "context": "L’espansione dell’Universo non è come quella di un petardo: lo scoppio del petardo si espande in uno spazio preesistente, mentre prima del Big Bang non esisteva nessuno spazio in cui l’Universo poteva espandersi.\n\nInoltre, l’espansione dell’Universo non ha un centro e viene vista allo stesso modo ovunque ci si trovi.\n\nL’espansione dell’Universo può essere immaginata come la lievitazione di un panettone con l’uvetta.\n\nLa pasta che si espande è lo spazio, le uvette sono le galassie che si allontanano tra loro.",
+    "evidence": [
+      {
+        "start": 123,
+        "end": 335,
+        "text": "L’espansione dell’Universo non è come quella di un petardo: lo scoppio del petardo si espande in uno spazio preesistente, mentre prima del Big Bang non esisteva nessuno spazio in cui l’Universo poteva espandersi."
+      },
+      {
+        "start": 336,
+        "end": 440,
+        "text": "Inoltre, l’espansione dell’Universo non ha un centro e viene vista allo stesso modo ovunque ci si trovi."
+      },
+      {
+        "start": 1149,
+        "end": 1248,
+        "text": "L’espansione dell’Universo può essere immaginata come la lievitazione di un panettone con l’uvetta."
+      },
+      {
+        "start": 1249,
+        "end": 1341,
+        "text": "La pasta che si espande è lo spazio, le uvette sono le galassie che si allontanano tra loro."
+      }
+    ]
+  },
+  {
+    "source_id": "87bcf7c397d290102cd9f539",
+    "topic": "Astronomia multimessaggera",
+    "source_file": "data/raw/TOPIC 1 - Black Hole/C - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi).pdf",
+    "source_group": "i buchi neri misteriosi protagonisti dellevoluzione delle galassie alessandro marconi",
+    "chunk_file": "TOPIC 1 - Black Hole\\C - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi).jsonl",
+    "chunk_line": 62,
+    "context": "Il 17 agosto 2017 è stato osservato un evento di fusione di due stelle di neutroni per il quale, grazie alla misura della posizione fatta da LIGO e VIRGO, è stato possibile individuare una controparte nella radiazione elettromagnetica, identificata con un evento noto come gamma ray burst, un lampo nei raggi gamma.\n\nQuesto ha di fatto segnato l’inizio dell’astronomia multi-messenger, ovvero lo studio dell’universo utilizzando l’informazione portata da più messaggeri in contemporanea, come la luce e le onde gravitazionali.",
+    "evidence": [
+      {
+        "start": 343,
+        "end": 658,
+        "text": "Il 17 agosto 2017 è stato osservato un evento di fusione di due stelle di neutroni per il quale, grazie alla misura della posizione fatta da LIGO e VIRGO, è stato possibile individuare una controparte nella radiazione elettromagnetica, identificata con un evento noto come gamma ray burst, un lampo nei raggi gamma."
+      },
+      {
+        "start": 659,
+        "end": 868,
+        "text": "Questo ha di fatto segnato l’inizio dell’astronomia multi-messenger, ovvero lo studio dell’universo utilizzando l’informazione portata da più messaggeri in contemporanea, come la luce e le onde gravitazionali."
+      }
+    ]
+  },
+  {
+    "source_id": "4c6def2ee58e2bcfc687d285",
+    "topic": "Nube di Oort",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 994,
+    "context": "At such great distances, however, objects in orbit about the Sun can be perturbed by the gravity of passing stars.\n\nSome of the perturbed objects can then take on orbits that bring them much closer to the Sun (while others might be lost to the solar system forever).\n\nOort suggested, therefore, that the new comets we were seeing were examples of objects orbiting the Sun near the edge of its sphere of influence, whose orbits had been disturbed by nearby stars, eventually bringing them close to the Sun where we can see them.\n\nThe reservoir of ancient icy objects from which such comets are derived is now called the Oort cloud.",
+    "evidence": [
+      {
+        "start": 383,
+        "end": 497,
+        "text": "At such great distances, however, objects in orbit about the Sun can be perturbed by the gravity of passing stars."
+      },
+      {
+        "start": 498,
+        "end": 648,
+        "text": "Some of the perturbed objects can then take on orbits that bring them much closer to the Sun (while others might be lost to the solar system forever)."
+      },
+      {
+        "start": 651,
+        "end": 910,
+        "text": "Oort suggested, therefore, that the new comets we were seeing were examples of objects orbiting the Sun near the edge of its sphere of influence, whose orbits had been disturbed by nearby stars, eventually bringing them close to the Sun where we can see them."
+      },
+      {
+        "start": 911,
+        "end": 1012,
+        "text": "The reservoir of ancient icy objects from which such comets are derived is now called the Oort cloud."
+      }
+    ]
+  },
+  {
+    "source_id": "8ed63ed2cf3c7125d4c126c2",
+    "topic": "Pianeti erranti",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+    "source_group": "astrofisica per ansiosi licia troisi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\C - Astrofisica per ansiosi (Licia Troisi).jsonl",
+    "chunk_line": 86,
+    "context": "Siamo abituati a pensare che i pianeti girino tutti intorno a una stella.\n\nQuesta, però, non è una regola generale.\n\nUn pianeta senza una stella è sostanzialmente un pianeta che non emette luce, se non quel po’ di calore residuo che ancora mantiene dalla sua formazione, e che causa una debole emissione infrarossa.\n\nQuesto, in effetti, è uno dei sistemi con cui possiamo vedere indirettamente un pianeta errante.",
+    "evidence": [
+      {
+        "start": 305,
+        "end": 378,
+        "text": "Siamo abituati a pensare che i pianeti girino tutti intorno a una stella."
+      },
+      {
+        "start": 532,
+        "end": 572,
+        "text": "Questa, però, non è una regola generale."
+      },
+      {
+        "start": 972,
+        "end": 1170,
+        "text": "Un pianeta senza una stella è sostanzialmente un pianeta che non emette luce, se non quel po’ di calore residuo che ancora mantiene dalla sua formazione, e che causa una debole emissione infrarossa."
+      },
+      {
+        "start": 1171,
+        "end": 1267,
+        "text": "Questo, in effetti, è uno dei sistemi con cui possiamo vedere indirettamente un pianeta errante."
+      }
+    ]
+  },
+  {
+    "source_id": "6b263d14d56e8a7287840924",
+    "topic": "Lenti gravitazionali",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 146,
+    "context": "La relazione tra spazio, tempo ed energia scoperta da Einstein prevede che la luce si propaghi in linea retta nello spazio vuoto, ma cambi percorso quando passa vicino a una grande concentrazione di materia.\n\nSi può così verificare la situazione in cui una galassia lontanissima sia allineata con una grande massa, per esempio un gruppo di galassie, e con la Terra.\n\nUna parte dei raggi di luce della galassia lontanissima, la sorgente, vengono “piegati” e fatti convergere dal gruppo di galassie, la lente, verso la Terra.\n\nGrazie all’effetto di lente gravitazionale, gli astronomi hanno potuto osservare galassie lontanissime che, altrimenti, con i telescopi convenzionali non sarebbero riusciti a vedere.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 207,
+        "text": "La relazione tra spazio, tempo ed energia scoperta da Einstein prevede che la luce si propaghi in linea retta nello spazio vuoto, ma cambi percorso quando passa vicino a una grande concentrazione di materia."
+      },
+      {
+        "start": 210,
+        "end": 366,
+        "text": "Si può così verificare la situazione in cui una galassia lontanissima sia allineata con una grande massa, per esempio un gruppo di galassie, e con la Terra."
+      },
+      {
+        "start": 367,
+        "end": 523,
+        "text": "Una parte dei raggi di luce della galassia lontanissima, la sorgente, vengono “piegati” e fatti convergere dal gruppo di galassie, la lente, verso la Terra."
+      },
+      {
+        "start": 1038,
+        "end": 1220,
+        "text": "Grazie all’effetto di lente gravitazionale, gli astronomi hanno potuto osservare galassie lontanissime che, altrimenti, con i telescopi convenzionali non sarebbero riusciti a vedere."
+      }
+    ]
+  },
+  {
+    "source_id": "5623316c734837de3658cf6a",
+    "topic": "Osservazioni ultraviolette",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 320,
+    "context": "Radiation intermediate between X-rays and visible light is ultraviolet (meaning higher energy than violet).\n\nOutside the world of science, ultraviolet light is sometimes called “black light” because our eyes cannot see it.\n\nUltraviolet radiation is mostly blocked by the ozone layer of Earth’s atmosphere, but a small fraction of ultraviolet rays from our Sun do penetrate to cause sunburn or, in extreme cases of overexposure, skin cancer in human beings.\n\nUltraviolet astronomy is also best done from space.\n\nElectromagnetic radiation with wavelengths between roughly 400 and 700 nm is called visible light because these are the waves that human vision can perceive.\n\nVisible light penetrates Earth’s atmosphere efectively, except when it is temporarily blocked by clouds.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 107,
+        "text": "Radiation intermediate between X-rays and visible light is ultraviolet (meaning higher energy than violet)."
+      },
+      {
+        "start": 108,
+        "end": 221,
+        "text": "Outside the world of science, ultraviolet light is sometimes called “black light” because our eyes cannot see it."
+      },
+      {
+        "start": 222,
+        "end": 454,
+        "text": "Ultraviolet radiation is mostly blocked by the ozone layer of Earth’s atmosphere, but a small fraction of ultraviolet rays from our Sun do penetrate to cause sunburn or, in extreme cases of overexposure, skin cancer in human beings."
+      },
+      {
+        "start": 455,
+        "end": 506,
+        "text": "Ultraviolet astronomy is also best done from space."
+      },
+      {
+        "start": 509,
+        "end": 666,
+        "text": "Electromagnetic radiation with wavelengths between roughly 400 and 700 nm is called visible light because these are the waves that human vision can perceive."
+      },
+      {
+        "start": 896,
+        "end": 1000,
+        "text": "Visible light penetrates Earth’s atmosphere efectively, except when it is temporarily blocked by clouds."
+      }
+    ]
+  },
+  {
+    "source_id": "119e441957b10b1d16451244",
+    "topic": "Stelle circumpolari",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 60,
+    "context": "For an observer at 38° N latitude, the south celestial pole is 38° below the southern horizon and, thus, never visible.\n\nAs Earth turns, the whole sky seems to pivot about the north celestial pole.\n\nFor this observer, stars within 38° of the North Pole can never set.\n\nThey are always above the horizon, day and night.\n\nThis part of the sky is called the north circumpolar zone.\n\nOn the other hand, stars within 38° of the south celestial pole never rise.\n\nTo most U.S. observers, the Southern Cross is in that zone. (Don’t worry if you are not familiar with the star groups just mentioned; we will introduce them more formally later on.)  \nAt this particular time in Earth’s history, there happens to be a star very close to the north celestial pole.\n\nIt is called Polaris, the pole star, and has the distinction of being the star that moves the least amount as the northern sky turns each day.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 119,
+        "text": "For an observer at 38° N latitude, the south celestial pole is 38° below the southern horizon and, thus, never visible."
+      },
+      {
+        "start": 120,
+        "end": 196,
+        "text": "As Earth turns, the whole sky seems to pivot about the north celestial pole."
+      },
+      {
+        "start": 197,
+        "end": 265,
+        "text": "For this observer, stars within 38° of the North Pole can never set."
+      },
+      {
+        "start": 266,
+        "end": 315,
+        "text": "They are always above the horizon, day and night."
+      },
+      {
+        "start": 316,
+        "end": 374,
+        "text": "This part of the sky is called the north circumpolar zone."
+      },
+      {
+        "start": 528,
+        "end": 603,
+        "text": "On the other hand, stars within 38° of the south celestial pole never rise."
+      },
+      {
+        "start": 656,
+        "end": 950,
+        "text": "To most U.S. observers, the Southern Cross is in that zone. (Don’t worry if you are not familiar with the star groups just mentioned; we will introduce them more formally later on.)  \nAt this particular time in Earth’s history, there happens to be a star very close to the north celestial pole."
+      },
+      {
+        "start": 951,
+        "end": 1093,
+        "text": "It is called Polaris, the pole star, and has the distinction of being the star that moves the least amount as the northern sky turns each day."
+      }
+    ]
+  },
+  {
+    "source_id": "f3605615087a7d08df857f33",
+    "topic": "Massa ed evoluzione stellare",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+    "source_group": "astrofisica per ansiosi licia troisi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\C - Astrofisica per ansiosi (Licia Troisi).jsonl",
+    "chunk_line": 98,
+    "context": "Stelle più grandi, invece, sono capaci di bruciare progressivamente i prodotti delle precedenti fasi evolutive.\n\nQuesto è possibile proprio grazie alla loro grande massa, che significa anche maggiore forza di gravità.\n\nLe varie reazioni di fusione, infatti, richiedono via via quantitativi di energia, e quindi temperature, sempre più elevate.\n\nQuesta energia è proprio fornita dalla gravità, che tende a far contrarre le parti centrali della stella causando l’innalzamento della densità e della temperatura.",
+    "evidence": [
+      {
+        "start": 807,
+        "end": 918,
+        "text": "Stelle più grandi, invece, sono capaci di bruciare progressivamente i prodotti delle precedenti fasi evolutive."
+      },
+      {
+        "start": 919,
+        "end": 1023,
+        "text": "Questo è possibile proprio grazie alla loro grande massa, che significa anche maggiore forza di gravità."
+      },
+      {
+        "start": 1024,
+        "end": 1148,
+        "text": "Le varie reazioni di fusione, infatti, richiedono via via quantitativi di energia, e quindi temperature, sempre più elevate."
+      },
+      {
+        "start": 1149,
+        "end": 1312,
+        "text": "Questa energia è proprio fornita dalla gravità, che tende a far contrarre le parti centrali della stella causando l’innalzamento della densità e della temperatura."
+      }
+    ]
+  },
+  {
+    "source_id": "367bcd6e244057151734495b",
+    "topic": "Luce e distanze",
+    "source_file": "data/raw/TOPIC 1 - Black Hole/B - Georges Secret Key to the Universe (Hawking Lucy Hawking Stephen).pdf",
+    "source_group": "george_secret_key_book",
+    "chunk_file": "TOPIC 1 - Black Hole\\B - George’s Secret Key to the Universe (Hawking Lucy Hawking Stephen).jsonl",
+    "chunk_line": 208,
+    "context": "Everything in our Universe takes time to travel, even light.\n\nIn space, light always travels at the maximum speed that is possible: 186,000 miles per second (300,000 km per second).\n\nThe light of almost all the stars we can see in the night sky has been travelling for hundreds, thousands or even tens of thousands of years before reaching our eyes.\n\nDistances in space can be measured in terms of light-years, which is the distance light travels in one year.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 60,
+        "text": "Everything in our Universe takes time to travel, even light."
+      },
+      {
+        "start": 63,
+        "end": 182,
+        "text": "In space, light always travels at the maximum speed that is possible: 186,000 miles per second (300,000 km per second)."
+      },
+      {
+        "start": 679,
+        "end": 845,
+        "text": "The light of almost all the stars we can see in the night sky has been travelling for hundreds, thousands or even tens of thousands of years before reaching our eyes."
+      },
+      {
+        "start": 1015,
+        "end": 1123,
+        "text": "Distances in space can be measured in terms of light-years, which is the distance light travels in one year."
+      }
+    ]
+  },
+  {
+    "source_id": "0b000b835d3967e6acb9def6",
+    "topic": "Metodo osservativo",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 22,
+    "context": "It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company.\n\nAs a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary.\n\nNew instruments and technology can let us look at astronomical objects from new perspectives and in greater detail.\n\nOur hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment.\n\nMuch of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it.",
+    "evidence": [
+      {
+        "start": 270,
+        "end": 386,
+        "text": "It’s impossible to put a group of stars into a test tube or to order another comet from a scientific supply company."
+      },
+      {
+        "start": 389,
+        "end": 594,
+        "text": "As a result, astronomy is sometimes called an observational science; we often make our tests by observing many samples of the kind of object we want to study and noting carefully how diferent samples vary."
+      },
+      {
+        "start": 595,
+        "end": 710,
+        "text": "New instruments and technology can let us look at astronomical objects from new perspectives and in greater detail."
+      },
+      {
+        "start": 711,
+        "end": 874,
+        "text": "Our hypotheses are then judged in the light of this new information, and they pass or fail in the same way we would evaluate the result of a laboratory experiment."
+      },
+      {
+        "start": 877,
+        "end": 1025,
+        "text": "Much of astronomy is also a historical science—meaning that what we observe has already happened in the universe and we can do nothing to change it."
+      }
+    ]
+  },
+  {
+    "source_id": "9ced16bdea638d54f963bc3b",
+    "topic": "Nascita delle stelle",
+    "source_file": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+    "source_group": "stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+    "chunk_file": "TOPIC 4 - Evoluzione stellare e supernovae\\B - Stelle_pianeti e galassie viaggio nella storia dell’astronomia dall’antichità ad oggi.jsonl",
+    "chunk_line": 109,
+    "context": "Le stelle nascono continuamente.\n\nPrendono forma in vastissime nubi di gas e polveri.\n\nAll’inizio, una futura stella che avrà caratteristiche simile a quelle del Sole è un frammento di nube di gas cosmico che si contrae.\n\nL’energia a disposizione della stella proviene dalla forza di gravità responsabile della contrazione.\n\nUna parte dell’energia scalda il centro della stella, che inizia a essere luminoso.\n\nTanto più la futura stella si contrae, tanto più si scalda.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 32,
+        "text": "Le stelle nascono continuamente."
+      },
+      {
+        "start": 33,
+        "end": 84,
+        "text": "Prendono forma in vastissime nubi di gas e polveri."
+      },
+      {
+        "start": 85,
+        "end": 218,
+        "text": "All’inizio, una futura stella che avrà caratteristiche simile a quelle del Sole è un frammento di nube di gas cosmico che si contrae."
+      },
+      {
+        "start": 219,
+        "end": 320,
+        "text": "L’energia a disposizione della stella proviene dalla forza di gravità responsabile della contrazione."
+      },
+      {
+        "start": 321,
+        "end": 404,
+        "text": "Una parte dell’energia scalda il centro della stella, che inizia a essere luminoso."
+      },
+      {
+        "start": 405,
+        "end": 464,
+        "text": "Tanto più la futura stella si contrae, tanto più si scalda."
+      }
+    ]
+  },
+  {
+    "source_id": "d64682c67198fc763a2e09b4",
+    "topic": "Spostamento verso il rosso",
+    "source_file": "data/raw/TOPIC 2 - Wormhole, viaggi nel tempo e spazio-tempo/D - Black holes wormholes time machines.pdf",
+    "source_group": "black holes wormholes time machines",
+    "chunk_file": "TOPIC 2 - Wormhole, viaggi nel tempo e spazio-tempo\\D - Black holes, wormholes time machines.jsonl",
+    "chunk_line": 111,
+    "context": "When an object is moving away from us—say a distant galaxy—the waves of light that reach us from it get stretched and the frequency of the light goes down.\n\nAnyway, the wavelength is the distance between two consecutive wave crests.\n\nSo a drop in frequency of light is really due to the stretching of the wavelengths.\n\nThe effect is called a redshift because the wavelength gets stretched as the galaxy recedes, and longer wavelengths of visible light are associated with a redder colour.",
+    "evidence": [
+      {
+        "start": 33,
+        "end": 188,
+        "text": "When an object is moving away from us—say a distant galaxy—the waves of light that reach us from it get stretched and the frequency of the light goes down."
+      },
+      {
+        "start": 424,
+        "end": 499,
+        "text": "Anyway, the wavelength is the distance between two consecutive wave crests."
+      },
+      {
+        "start": 500,
+        "end": 583,
+        "text": "So a drop in frequency of light is really due to the stretching of the wavelengths."
+      },
+      {
+        "start": 1167,
+        "end": 1336,
+        "text": "The effect is called a redshift because the wavelength gets stretched as the galaxy recedes, and longer wavelengths of visible light are associated with a redder colour."
+      }
+    ]
+  },
+  {
+    "source_id": "b23b4ab1691be64de86d18f2",
+    "topic": "Ciclo del gas galattico",
+    "source_file": "data/raw/TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura/B - Astronomy 2e (OpenStax Fraknoi-Morrison-Wolff).pdf",
+    "source_group": "astronomy 2e openstax fraknoi morrison wolff",
+    "chunk_file": "TOPIC 6 - Cosmologia Big Bang, espansione, materia oscura, energia oscura\\B - Astronomy 2e (OpenStax, Fraknoi-Morrison-Wolff).jsonl",
+    "chunk_line": 1508,
+    "context": "Gas from intergalactic space constantly falls onto the Milky Way due to its gravity, adding new gas to the interstellar medium.\n\nConversely, in giant molecular clouds where gas collects together due to gravity, the gas can collapse to form new stars, as discussed in The Birth of Stars and the Discovery of Planets outside the Solar System.\n\nThis process locks interstellar matter into stars.\n\nSupernova explosions have so much energy that they can drive interstellar mass out of the Galaxy and back into intergalactic space.\n\nThus, the total amount of mass of the interstellar medium is set by a competition between the gain of mass from intergalactic space, the conversion of interstellar mass into stars, and the loss of interstellar mass back into intergalactic space due to supernovae.",
+    "evidence": [
+      {
+        "start": 57,
+        "end": 184,
+        "text": "Gas from intergalactic space constantly falls onto the Milky Way due to its gravity, adding new gas to the interstellar medium."
+      },
+      {
+        "start": 185,
+        "end": 396,
+        "text": "Conversely, in giant molecular clouds where gas collects together due to gravity, the gas can collapse to form new stars, as discussed in The Birth of Stars and the Discovery of Planets outside the Solar System."
+      },
+      {
+        "start": 397,
+        "end": 447,
+        "text": "This process locks interstellar matter into stars."
+      },
+      {
+        "start": 685,
+        "end": 816,
+        "text": "Supernova explosions have so much energy that they can drive interstellar mass out of the Galaxy and back into intergalactic space."
+      },
+      {
+        "start": 817,
+        "end": 1080,
+        "text": "Thus, the total amount of mass of the interstellar medium is set by a competition between the gain of mass from intergalactic space, the conversion of interstellar mass into stars, and the loss of interstellar mass back into intergalactic space due to supernovae."
+      }
+    ]
+  },
+  {
+    "source_id": "f956e8a635276512634cec8c",
+    "topic": "Classificazione di Plutone",
+    "source_file": "data/raw/TOPIC 1 - Black Hole/B - Georges Secret Key to the Universe (Hawking Lucy Hawking Stephen).pdf",
+    "source_group": "george_secret_key_book",
+    "chunk_file": "TOPIC 1 - Black Hole\\B - George’s Secret Key to the Universe (Hawking Lucy Hawking Stephen).jsonl",
+    "chunk_line": 212,
+    "context": "Before August 2006 there were said to be nine planets that revolved around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto.\n\nThese nine celestial bodies still exist, of course, and are exactly the same as they were before, but in August 2006 the International Astronomical Union decided not to call Pluto a planet any more.\n\nIt is now called a dwarf planet.\n\nThis is due to a change in the definition of what a planet is.\n\nIt has to be in orbit around the Sun.  \n2.\n\nIt has to be big enough for gravity to make it almost round and stay that way.  \n3.\n\nIts gravity has to have attracted almost everything that is next to it in space as it travels around the Sun, so that its path is cleared.\n\nAccording to this new definition, Pluto is not a planet any more.\n\nSo because it failed the third rule, Pluto has been downgraded from a planet to a dwarf planet.",
+    "evidence": [
+      {
+        "start": 0,
+        "end": 156,
+        "text": "Before August 2006 there were said to be nine planets that revolved around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto."
+      },
+      {
+        "start": 157,
+        "end": 355,
+        "text": "These nine celestial bodies still exist, of course, and are exactly the same as they were before, but in August 2006 the International Astronomical Union decided not to call Pluto a planet any more."
+      },
+      {
+        "start": 356,
+        "end": 388,
+        "text": "It is now called a dwarf planet."
+      },
+      {
+        "start": 391,
+        "end": 453,
+        "text": "This is due to a change in the definition of what a planet is."
+      },
+      {
+        "start": 561,
+        "end": 603,
+        "text": "It has to be in orbit around the Sun.  \n2."
+      },
+      {
+        "start": 604,
+        "end": 687,
+        "text": "It has to be big enough for gravity to make it almost round and stay that way.  \n3."
+      },
+      {
+        "start": 688,
+        "end": 826,
+        "text": "Its gravity has to have attracted almost everything that is next to it in space as it travels around the Sun, so that its path is cleared."
+      },
+      {
+        "start": 829,
+        "end": 894,
+        "text": "According to this new definition, Pluto is not a planet any more."
+      },
+      {
+        "start": 1073,
+        "end": 1168,
+        "text": "So because it failed the third rule, Pluto has been downgraded from a planet to a dwarf planet."
+      }
+    ]
+  }
+]

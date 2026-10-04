@@ -1,0 +1,110 @@
+[
+  {
+    "model": "google/gemma-3-1b-it",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 5
+      }
+    ],
+    "minutes": 10.0,
+    "allocated_vram_gib": 1.64
+  },
+  {
+    "model": "meta-llama/Llama-3.2-3B-Instruct",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 16
+      }
+    ],
+    "minutes": 15.2,
+    "allocated_vram_gib": 3.24
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 3
+      }
+    ],
+    "minutes": 46.0,
+    "allocated_vram_gib": 4.95
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 2
+      }
+    ],
+    "minutes": 31.1,
+    "allocated_vram_gib": 1.74
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 2
+      }
+    ],
+    "minutes": 17.4,
+    "allocated_vram_gib": 2.85
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM3-3B",
+    "training_status": "completed",
+    "steps": 300,
+    "base": 80,
+    "dpo": 80,
+    "unique_prompts": 80,
+    "duplicates": 0,
+    "empty": 0,
+    "flags": [
+      {
+        "Name": "limite_token_senza_EOS",
+        "Count": 12
+      }
+    ],
+    "minutes": 15.4,
+    "allocated_vram_gib": 2.7
+  }
+]

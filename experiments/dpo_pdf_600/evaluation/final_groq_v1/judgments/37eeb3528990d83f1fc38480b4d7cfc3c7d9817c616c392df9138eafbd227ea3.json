@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "37eeb3528990d83f1fc38480b4d7cfc3c7d9817c616c392df9138eafbd227ea3",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Fornisce la risposta corretta e accenna al legame tra altitudine, velocità e tempo, ma senza spiegazioni dettagliate."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.207423971,
+      "prompt_tokens": 1661,
+      "prompt_time": 0.092165496,
+      "completion_tokens": 952,
+      "completion_time": 2.002095067,
+      "total_tokens": 2613,
+      "total_time": 2.094260563,
+      "completion_tokens_details": {
+        "reasoning_tokens": 383
+      }
+    },
+    "system_fingerprint": "fp_e1a78f200e",
+    "response_id": "chatcmpl-1eea8e40-0c89-4aab-947d-d9d8bfcbea95",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "11c416699d6792d04d3da64f8c771cf68d9ba077a0108af3986cc01f0570218c",
+    "197951339b31f696bfd595354c7e33a3ef8405b3e64f05ede2686e33ace88f2a",
+    "d9133f85e6bd453f2037d2864af7f770d1eef7f7a1c141c8f3578416c1d247cd",
+    "37eeb3528990d83f1fc38480b4d7cfc3c7d9817c616c392df9138eafbd227ea3",
+    "2826cb411588482747f4a24b3ecee0b137004f74bb42ca17c44090474c680353",
+    "34670cdef0c5472adbb0f83bdfd757f5e75e2e29184bb4efc2ff2d2c3c66ca50"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "evaluation_hash": "3ab2b34bc7813b5be436c0284142cc36a83a25027d39244f7270fa1346c93c94",
+  "judgment": {
+    "id": "d889222abb637481a598d9a66cb8a2285d381d98e1dd448db0234caa64c19055",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il ruolo della materia oscura e la sua interazione con la materia ordinaria, menzionando esplicitamente la formazione delle concentrazioni gravitazionali."
+  },
+  "runtime_batch": {
+    "total_duration": 7325307700,
+    "prompt_eval_count": 1225,
+    "eval_count": 346,
+    "done_reason": "stop"
+  },
+  "batch_ids": [
+    "27fcd292c7ad715d2cef4eb5e4531184feea0ce1e41589888413e9a61b85df22",
+    "d889222abb637481a598d9a66cb8a2285d381d98e1dd448db0234caa64c19055"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "78451c8a8c3fc630faf28d9bfcf253793e9c10e15674d09985335e2631fd5cb6",
+    "correctness": "I",
+    "completeness": 0,
+    "adequacy": 0,
+    "clarity": 0,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che la Terra è ferma è errato e contraddice il contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.092249317,
+      "prompt_tokens": 1408,
+      "prompt_time": 0.06050332,
+      "completion_tokens": 866,
+      "completion_time": 1.8554447139999999,
+      "total_tokens": 2274,
+      "total_time": 1.915948034,
+      "completion_tokens_details": {
+        "reasoning_tokens": 326
+      }
+    },
+    "system_fingerprint": "fp_4de1d6a1ee",
+    "response_id": "chatcmpl-b917fb0a-a874-4e49-9cb4-78be70f41d0e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "78451c8a8c3fc630faf28d9bfcf253793e9c10e15674d09985335e2631fd5cb6",
+    "57160d2754af6b069fb7a0dbeb20f7a7b43212bc09cbf9b1efd720b255a0925d",
+    "8768fd8dbc06167eddb1d94073ec2dbe3a77cc3909e97dee16500f9f70b64024",
+    "cb348e1d59c4bbd39b91bb5ab3b81fba81d3d4a1655a2d8bf7d7d411de8f36eb",
+    "518c33a30fc8242c70b19e4bb34e36a05bfd9d980f180c22fa2fc5b371ebaaa4",
+    "51c55966e292dc48081369b3a84d7312d27501ae833e33ce4fab319cd0fc4f5a"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a42e2a4adf46dd711708c8a3276d72f1c9e9ff4512ab15e5befa78f3a613a732",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che la Luna orbita attorno alla Terra è impreciso rispetto al baricentro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.093853371,
+      "prompt_tokens": 1662,
+      "prompt_time": 0.068146255,
+      "completion_tokens": 798,
+      "completion_time": 1.796515024,
+      "total_tokens": 2460,
+      "total_time": 1.864661279,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 260
+      }
+    },
+    "system_fingerprint": "fp_a4be3b0989",
+    "response_id": "chatcmpl-1ce2fd9b-792e-4b4a-8a97-721287340b50",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "d12d611f343f740bd1b25d0f4d97c376809423c1d204e9a812a19b6121803c24",
+    "bdbdfa09a5db83bbc84456fa8a7b5d26a3e0061b7408d980e6e7b04e85f71095",
+    "af480b7a76a74060a1a86bdc82d91494402ca61863983823567067de03fff935",
+    "a42e2a4adf46dd711708c8a3276d72f1c9e9ff4512ab15e5befa78f3a613a732",
+    "67d7fe36065a702baddd9a9e7afb0d947435ffa4c232fee1f44f9e8d8637d455",
+    "11dc0510cfd98df6c41ec41c24e28aed664420557ffd7ee0a1ca43f9f65c9515"
+  ]
+}

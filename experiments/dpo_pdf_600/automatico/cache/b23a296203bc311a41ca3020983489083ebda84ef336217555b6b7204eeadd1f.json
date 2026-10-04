@@ -1,0 +1,33 @@
+{
+  "id": "chatcmpl-360f3fff-3442-4db6-a250-1f21ba792bee",
+  "object": "chat.completion",
+  "created": 1790375317,
+  "model": "qwen/qwen3.8-27b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question_answerable\": true,\n  \"answer1_correct\": true,\n  \"answer2_correct\": true,\n  \"answer1_grounded\": true,\n  \"answer2_grounded\": true,\n  \"preferred\": 1,\n  \"substantial_pedagogical_difference\": true,\n  \"preferred_appropriate\": true,\n  \"both_natural\": true,\n  \"question_conceptual\": true,\n  \"evidence_supports_both\": true,\n  \"reason\": \"Entrambe le risposte sono corrette e basate sul testo fornito. La Risposta 1 è pedagogicamente superiore per il profilo richiesto (scuola secondaria di secondo grado) perché definisce esplicitamente le 'nicchie ecologiche' come risorse (cibo, spazio, condizioni), esplicitando meglio il passaggio causale tra la scomparsa delle specie e l'opportunità per i sopravvissuti. Inoltre, cita l'esempio specifico dei mammiferi presente nel contesto, rafforzando la grounding e la completezza didattica rispetto alla Risposta 2, che è più generica.\"\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.043812954,
+    "prompt_tokens": 1014,
+    "prompt_time": 0.071983964,
+    "completion_tokens": 237,
+    "completion_time": 0.464350635,
+    "total_tokens": 1251,
+    "total_time": 0.536334599
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_8999620a6e",
+  "x_groq": {
+    "id": "req_01m3daykm7exzv91gkf0aqgtzq",
+    "seed": 1300784027
+  },
+  "service_tier": "on_demand"
+}

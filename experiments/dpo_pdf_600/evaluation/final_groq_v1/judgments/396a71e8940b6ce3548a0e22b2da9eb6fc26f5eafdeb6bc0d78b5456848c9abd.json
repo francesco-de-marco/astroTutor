@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "396a71e8940b6ce3548a0e22b2da9eb6fc26f5eafdeb6bc0d78b5456848c9abd",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 0,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Dichiara erroneamente che il gas interagisce con materiale dentro l'orizzonte."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.298861761,
+      "prompt_tokens": 2071,
+      "prompt_time": 0.10766982,
+      "completion_tokens": 812,
+      "completion_time": 1.719490572,
+      "total_tokens": 2883,
+      "total_time": 1.8271603920000001,
+      "completion_tokens_details": {
+        "reasoning_tokens": 281
+      }
+    },
+    "system_fingerprint": "fp_4a7bb72c24",
+    "response_id": "chatcmpl-1c031ea0-cf5e-4704-9583-f514bce717eb",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "b8e40b9da129686cd204ba5ba4c3bb1cb031845ee472c660f927ac7d5c053616",
+    "a0ca32fae9ec41cc7bec73807ac9d620d3f66fbd332e7a9436cb5e8ba6eda006",
+    "e9276854066413fb42fc191285c56b75c0ff18af399270723ec2d134de2b8beb",
+    "061c654c3846f1c3f10e9210dbb5c3fe432717e4342bceb7e095ff826aff14d2",
+    "e056acc7f1e5376808400a1f28e98816029da9a42c5bc06a7825b30592a0f967",
+    "396a71e8940b6ce3548a0e22b2da9eb6fc26f5eafdeb6bc0d78b5456848c9abd"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b9795e4cdac582ec44d1277b140767941a6c42cacb16707a992482381750dc07",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente l’integrazione dei due metodi senza contraddizioni."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.020333212,
+      "prompt_tokens": 2346,
+      "prompt_time": 0.076565922,
+      "completion_tokens": 583,
+      "completion_time": 1.710539601,
+      "total_tokens": 2929,
+      "total_time": 1.7871055230000001,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 65
+      }
+    },
+    "system_fingerprint": "fp_c800245357",
+    "response_id": "chatcmpl-52bed435-41ad-484c-be6b-9d73e3b475e9",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "ff6d54a693a9666a5e24f0fe473aa1ca570be2f83ba6b10788d870d925863418",
+    "432e849d02a381f4318764b1df04d47ec36af2d80db33e8bd4cec7d29434ed64",
+    "ed621672ec8bb403a1edce516b9fdc4692c60c46dccd942ab1dbdc87fae867eb",
+    "b9795e4cdac582ec44d1277b140767941a6c42cacb16707a992482381750dc07",
+    "1785d9f9d31e8178f098aa154f83b9ba1cd8e0e6d6b0cc46508247a9b99e00d5",
+    "43475a820e98051100217b943c8b920f0e4a21b562ec6cefeef49a468f1dc637"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-10T13:59:35.370981+00:00",
+  "question": "Che cosa significa orizzonte degli eventi?",
+  "level": "A",
+  "model": "qwen2.5:3b",
+  "config": {
+    "model": "qwen2.5:3b",
+    "base_url": "http://localhost:11434/v1",
+    "translation_model": "qwen2.5:3b",
+    "generation": {
+      "temperature": 0.0,
+      "seed": 42,
+      "frequency_penalty": 0.6,
+      "presence_penalty": 0.5
+    },
+    "initial_k": 15,
+    "final_k": 3,
+    "use_rag": true,
+    "guardrails_enabled": false
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Sei un assistente didattico scientifico. Il tuo compito è estrarre informazioni dai documenti forniti.\n\n⚠️ REGOLE ASSOLUTE E INVIOLABILI:\n1. Cerca la risposta SOLO all'interno del CONTESTO fornito.\n2. Se il CONTESTO non contiene la risposta esatta o non ne parla, DEVI rispondere ESATTAMENTE con: 'Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione.' Non aggiungere altre spiegazioni, scuse o storielle.\n3. NON INVENTARE nulla. Non usare la tua conoscenza pregressa. Non creare analogie o metafore che non siano già scritte nel testo.\n\nSTILE DI RISPOSTA:\nSe (e SOLO SE) trovi la risposta nel contesto, esponila seguendo questa regola di stile: Spiega come se parlassi a un bambino di 6-10 anni. Usa analogie semplici, un tono molto dolce e termini elementari.\n\nCONTESTO RECUPERATO:\n[Fonte 1 - Spiegazione di Buco nero (Vikidia)]:\nIl confine del buco nero si chiama Orizzonte degli eventi o Punto di non ritorno e somiglia un po' al bordo di una cascata. Se non l'hai ancora raggiunto, puoi cavartela se remi abbastanza in fretta. Se superi il bordo invece sei condannato. Più cose cadono in un buco nero, più quello diventa grande e il suo orizzonte avanza. Come nutrire un maiale: più gli dai da mangiare, più lui ingrassa.  \nCome si forma un buco nero?modifica | modifica sorgente]\nLa prima prova visiva della presenza di un buco nero al centro della [[Via Lattea]]. È stata catturata dall'Event Horizon Telescope (EHT): otto radio osservatori esistenti in tutto il pianeta che formano un unico telescopio delle dimensioni della Terra. La foto è stata pubblicata il 12 maggio 2022.Perché si formi un buco nero è necessario che un'enorme quantità di materia venga compressa in uno spazio minuscolo. Soltanto allora la forza di gravità aumenterà al punto da catturare la luce e trascinarla indietro, impedendole di uscire.\nUn buco nero si forma, fra l'altro, quando una stella che ha esaurito tutto il suo carburante interno esplode come una gigantesca bomba atomica, detta supernova. L'esplosione spara lontano gli strati esterni della stella, formando un enorme guscio di gas in espansione che schiaccia verso l'interno le zone centrali. se la stella è molto, molto più grande del nostro Sole, si formerà un buco nero.\n\n[Fonte 2 - Black holes (Than Ker 1980)]:\nAn event horizon is the space around a black hole's singularity where gravity is so strong that even light can't escape. Only objects that cross an event horizon become trapped. Anything outside of an event horizon can still escape—if it travels fast enough. Event horizons are why black holes don't swallow up everything in the universe.\n\n[Fonte 3 - A Black Hole is Not a Hole (Carolyn Cinami DeCristofano)]:\nHave you ever watched the Sun set? After it sinks below the horizon, Earth blocks your view of it. Even though you know it’s still out there in space, you can’t see it. Any and all events on the Sun remain invisible to you for as long as it is below the horizon. If the Sun suddenly turned purple, you wouldn’t see it happen.  \nIn a similar way, once an object enters the extreme gravity zone of a black hole, the object disappears from view. Even though nothing physically blocks our sight, once the object is beyond the boundary of the zone, we cannot see what happens to it. Events beyond the black hole’s “horizon” are invisible to us. Because of this visual e f ect, scientists named the boundary the event horizon.  \nWhat happens below the horizon stays below the horizon.  \nIgnition! Scientists keep their eyes on this bright, active spot in the sky, where they can witness new star formation. Eventually the brilliance of some stars may give way to the darkness of a black hole. (False-color telescope image)"
+    },
+    {
+      "role": "user",
+      "content": "Che cosa significa orizzonte degli eventi?"
+    }
+  ],
+  "prompt_hash": "f7d50dead05d9c08e99edc828eea8f53077c5f387eb2d022b096a7fd7832a33f",
+  "retrieved_docs": [
+    {
+      "text": "Il confine del buco nero si chiama Orizzonte degli eventi o Punto di non ritorno e somiglia un po' al bordo di una cascata. Se non l'hai ancora raggiunto, puoi cavartela se remi abbastanza in fretta. Se superi il bordo invece sei condannato. Più cose cadono in un buco nero, più quello diventa grande e il suo orizzonte avanza. Come nutrire un maiale: più gli dai da mangiare, più lui ingrassa.  \nCome si forma un buco nero?modifica | modifica sorgente]\nLa prima prova visiva della presenza di un buco nero al centro della [[Via Lattea]]. È stata catturata dall'Event Horizon Telescope (EHT): otto radio osservatori esistenti in tutto il pianeta che formano un unico telescopio delle dimensioni della Terra. La foto è stata pubblicata il 12 maggio 2022.Perché si formi un buco nero è necessario che un'enorme quantità di materia venga compressa in uno spazio minuscolo. Soltanto allora la forza di gravità aumenterà al punto da catturare la luce e trascinarla indietro, impedendole di uscire.\nUn buco nero si forma, fra l'altro, quando una stella che ha esaurito tutto il suo carburante interno esplode come una gigantesca bomba atomica, detta supernova. L'esplosione spara lontano gli strati esterni della stella, formando un enorme guscio di gas in espansione che schiaccia verso l'interno le zone centrali. se la stella è molto, molto più grande del nostro Sole, si formerà un buco nero.",
+      "source": "api_vikidia_buco_nero.json",
+      "title": "Spiegazione di Buco nero (Vikidia)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 1.459825038909912
+    },
+    {
+      "text": "An event horizon is the space around a black hole's singularity where gravity is so strong that even light can't escape. Only objects that cross an event horizon become trapped. Anything outside of an event horizon can still escape—if it travels fast enough. Event horizons are why black holes don't swallow up everything in the universe.",
+      "source": "data/raw/TOPIC 1 - Black Hole/A - Black holes (Than Ker 1980).pdf",
+      "title": "Black holes (Than Ker 1980)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 1.366901695728302
+    },
+    {
+      "text": "Have you ever watched the Sun set? After it sinks below the horizon, Earth blocks your view of it. Even though you know it’s still out there in space, you can’t see it. Any and all events on the Sun remain invisible to you for as long as it is below the horizon. If the Sun suddenly turned purple, you wouldn’t see it happen.  \nIn a similar way, once an object enters the extreme gravity zone of a black hole, the object disappears from view. Even though nothing physically blocks our sight, once the object is beyond the boundary of the zone, we cannot see what happens to it. Events beyond the black hole’s “horizon” are invisible to us. Because of this visual e f ect, scientists named the boundary the event horizon.  \nWhat happens below the horizon stays below the horizon.  \nIgnition! Scientists keep their eyes on this bright, active spot in the sky, where they can witness new star formation. Eventually the brilliance of some stars may give way to the darkness of a black hole. (False-color telescope image)",
+      "source": "data/raw/TOPIC 1 - Black Hole/A - A Black Hole is Not a Hole (Carolyn Cinami DeCristofano).pdf",
+      "title": "A Black Hole is Not a Hole (Carolyn Cinami DeCristofano)",
+      "level": "A",
+      "level_match": "exact",
+      "score": 0.6754247546195984
+    }
+  ],
+  "context_origin": "provided",
+  "retrieval_queries": null,
+  "model_called": true,
+  "raw_answer": "L'orizzonte degli eventi è come un bordo di una cascata, capisci? Quando qualcosa si avvicina troppo al buco nero, il suo orizzonte diventa come la fine del bordo della cascata. Una volta oltre questo orizzonte, non c'è modo di tornare indietro. È come se qualcosa ti bloccasse e tu non puoi più uscire. Più vicino sei all'orizzonte, più difficile è rimanere fuori. Se qualcosa o qualcuno si avvicina troppo, il buco nero può anche inghiottirlo!",
+  "final_answer": "L'orizzonte degli eventi è come un bordo di una cascata, capisci? Quando qualcosa si avvicina troppo al buco nero, il suo orizzonte diventa come la fine del bordo della cascata. Una volta oltre questo orizzonte, non c'è modo di tornare indietro. È come se qualcosa ti bloccasse e tu non puoi più uscire. Più vicino sei all'orizzonte, più difficile è rimanere fuori. Se qualcosa o qualcuno si avvicina troppo, il buco nero può anche inghiottirlo!",
+  "guardrails": {
+    "enabled": false,
+    "attempted": false,
+    "changed": false,
+    "issues_before": [],
+    "issues_after": [],
+    "retry_answer": null,
+    "retry_issues": null,
+    "retry_error": null,
+    "final_answer": "L'orizzonte degli eventi è come un bordo di una cascata, capisci? Quando qualcosa si avvicina troppo al buco nero, il suo orizzonte diventa come la fine del bordo della cascata. Una volta oltre questo orizzonte, non c'è modo di tornare indietro. È come se qualcosa ti bloccasse e tu non puoi più uscire. Più vicino sei all'orizzonte, più difficile è rimanere fuori. Se qualcosa o qualcuno si avvicina troppo, il buco nero può anche inghiottirlo!"
+  },
+  "elapsed_seconds": 1.553815899998881,
+  "run_key": "134d9a5c28c2393a2474181f51dae1b0086bc368d5dee7de0418160609ca93e0",
+  "item_id": "dev03_A",
+  "group_id": "dev03",
+  "experiment_setting": "original",
+  "model_identity": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "split": "development"
+}

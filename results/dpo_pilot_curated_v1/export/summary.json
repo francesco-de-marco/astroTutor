@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "train": 22,
+    "validation": 6
+  },
+  "source_groups": {
+    "train": [
+      "black_holes",
+      "interferometer",
+      "pulsars"
+    ],
+    "validation": [
+      "galaxy_collisions"
+    ]
+  },
+  "review_kinds": {
+    "ai_assisted": 28
+  },
+  "warning": "Pilota: 8 domande, 4 gruppi di fonte; risposte riusate tra livelli. Non 32 osservazioni indipendenti. Validation diagnostica, nessun test finale.",
+  "manifest_hash": "fb1f613db9f048db0bd2589fa86676756afb3a1afa3dfe84679ab55d4e86e7e4"
+}

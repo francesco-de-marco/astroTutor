@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6951b914c9fffc895abfe08d4fdc2fec1e6575b3b31b9d2319b697da39eb08ea",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Afferma erroneamente che la luce non viene assorbita, creando confusione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.304697803,
+      "prompt_tokens": 1639,
+      "prompt_time": 0.060862237,
+      "completion_tokens": 819,
+      "completion_time": 2.774027881,
+      "total_tokens": 2458,
+      "total_time": 2.834890118,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 283
+      }
+    },
+    "system_fingerprint": "fp_27194a498a",
+    "response_id": "chatcmpl-1ba41f6b-d9f6-4dbd-aab8-14ac77ce607e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "e750906b6d8084600abfbc0ca10e4c333956d6a8580c78aeecc76127cdc2e569",
+    "60ce9c63694eadfe34ce12b7d7bd4044911813041bb3ff6d7ae0990df976a1fc",
+    "8a1830228980c92ba8fe0087f307f6fbd4db1f712f5fc5289b4986874d03e8d2",
+    "d40639a209f29144952989348026c519d5fa9a10963b42b00496a07f69a8bf0a",
+    "6951b914c9fffc895abfe08d4fdc2fec1e6575b3b31b9d2319b697da39eb08ea",
+    "6c6fbe1b40dae206fdd4b297f09f707c5a2dfb5918b716cd0f9fbc671f7555fe"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "response_hash": "6aac193dabc8aba150cdad453d77fc0d70cfc5d1f6cac1f3e126cdec37a38c44",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+      "correctness": "La risposta è corretta e non contiene errori.",
+      "level_adequacy": "Il livello di formalismo è adatto a B, ma l'uso di termini come 'gravitazione lenta' potrebbe essere troppo complesso per questo profilo.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere un po' lunga per un profilo B."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2347,
+    "eval_count": 179,
+    "total_duration": 6266593600,
+    "done_reason": "stop"
+  }
+}

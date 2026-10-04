@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "76078215f1446b3e6aced0045be42fd65c95322495861517b8ea9d198f5d81c8",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente che il periodo dipende dalla distanza, citando 90 min per ISS."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.210986388,
+      "prompt_tokens": 1651,
+      "prompt_time": 0.102370239,
+      "completion_tokens": 837,
+      "completion_time": 1.741481582,
+      "total_tokens": 2488,
+      "total_time": 1.843851821,
+      "completion_tokens_details": {
+        "reasoning_tokens": 299
+      }
+    },
+    "system_fingerprint": "fp_90620edd96",
+    "response_id": "chatcmpl-56041cad-f491-4174-9cbb-8d19c17998ee",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5e7eddf638866524fef321aafbb29713e18d4714267977fdb16ca485eef8e636",
+    "76078215f1446b3e6aced0045be42fd65c95322495861517b8ea9d198f5d81c8",
+    "bcec02733fe955658406c523dd40dd562facdc08aa90654addc6aab903b83420",
+    "25c7dcf30836034d7754cbe603a18f452b4b4d9371cea5e6ad4582c5a89c3e0f",
+    "7cb9cdb9ba7a5f30d3c8ad1913c13e307be94e35778a877ff0edcd22425e8f65",
+    "5297e45a279dec843fdea477a5660a0711073ae0754bb500c55f35c0723b5a6c"
+  ]
+}

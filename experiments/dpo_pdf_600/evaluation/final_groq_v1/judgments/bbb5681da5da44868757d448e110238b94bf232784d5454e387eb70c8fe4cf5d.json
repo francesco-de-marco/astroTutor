@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "bbb5681da5da44868757d448e110238b94bf232784d5454e387eb70c8fe4cf5d",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Dichiara che gli atomi neutri non interagiscono affatto con l'EM, affermazione non supportata e errata."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.05274827,
+      "prompt_tokens": 2022,
+      "prompt_time": 0.109857156,
+      "completion_tokens": 969,
+      "completion_time": 2.022326964,
+      "total_tokens": 2991,
+      "total_time": 2.13218412,
+      "completion_tokens_details": {
+        "reasoning_tokens": 397
+      }
+    },
+    "system_fingerprint": "fp_f640395b96",
+    "response_id": "chatcmpl-76b6cf45-c6ea-4676-8d62-22bbe2c5c0e6",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "ce86e1a7f839cf40c95fe4033e2fc47f6a24071f770233888a70f92aa01e38a1",
+    "e60719e21ee4f91e7f1f38c9f17aa76709b917d41dda7e654cc56caa079aa3b0",
+    "1c6dfedad76b92a5520e212b85b75dbf4d1e24c06be0a13e73abbb2aa3fdc2eb",
+    "bbb5681da5da44868757d448e110238b94bf232784d5454e387eb70c8fe4cf5d",
+    "53b799588bdb8d441f8ef9e15b8d9306a2b74cdff40eba60cef8709f3ea04bd3",
+    "adac483d28f5165124475d82e48414c47e914b47587e90e65fc8b8610438de1c"
+  ]
+}

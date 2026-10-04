@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "576a4e42b01eb1f5052b4de027d64e59621ef4a6ac4849d68a5f414fd77976d3",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega costi, complessità e vantaggi dei modelli analitici in modo corretto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.300135505,
+      "prompt_tokens": 2151,
+      "prompt_time": 0.101211072,
+      "completion_tokens": 856,
+      "completion_time": 1.800711846,
+      "total_tokens": 3007,
+      "total_time": 1.901922918,
+      "completion_tokens_details": {
+        "reasoning_tokens": 325
+      }
+    },
+    "system_fingerprint": "fp_a655021f7d",
+    "response_id": "chatcmpl-00489646-66b1-489d-b405-278501f6ab7c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5362dee21de8aab5c2a95f312bcded611ae181c508807113026ba6195eeb3a21",
+    "78f32ab7637360a252c6dd5c050fc7a0df497cc41363b2a4a39d05cb32ce0fb2",
+    "42ff2e71ca4c85bd8dc23b387efbda11ffe906eeef6b5babee9c3b404825bc6d",
+    "576a4e42b01eb1f5052b4de027d64e59621ef4a6ac4849d68a5f414fd77976d3",
+    "ba9c0faa0344b62ebec138cc2d94989c1fef9b544866dba0fe59b4179362e6c4",
+    "c173d07dca57d328a8194911f5f59c4af01546361bef924b5482b7f187cddb9a"
+  ]
+}

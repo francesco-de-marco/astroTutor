@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev02_C",
+    "group_id": "dev02",
+    "topic": "Evoluzione stellare",
+    "question": "Perché una stella non brilla per sempre?",
+    "level": "C",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": ". Le onde luminose emesse dalla superficie della stella tra le 10:59:59 e le 11:00, secondo l'orologio dell'astronauta, sarebbero estese durante un periodo infinito di tempo, visto dall'imbarcazione. L'intervallo di tempo tra l'arrivo di onde successive all'imbarcazione si farebbe sempre di più molto, la luce della stella arriverebbe per quel motivo sempre di più rossa e più debole. Alla fine, la stella sarebbe tanto oscura che non marcirebbe oramai verta dall'imbarcazione: tutto quello che rimarrebbe sarebbe un buco nero nello spazio. La stella continuerebbe, nonostante, esercitando la stessa forza gravitazionale sull'imbarcazione che seguirebbe in orbita attorno al buco nero.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.2893410325050354
+    },
+    {
+      "text": "— Brillerà così per sempre? — sussurrò George.  \nNiente è per sempre — rispose Eric. — Se le stelle brillassero per sempre, noi non saremmo qui. Nelle loro viscere, le stelle trasformano particelle piccolissime in altre più grandi. È questo a provocare una reazione nucleare: la fusione delle particelle e la costruzione di grandi atomi a partire da atomi più piccoli. L’energia rilasciata da questa fusione è enorme ed è questa energia che fa brillare le stelle. Quasi tutti gli elementi di cui tu e io siamo composti hanno avuto origine in stelle esistite ben prima della Terra. Quindi si può ben dire che siamo tutti figli delle stelle! Quando quelle stelle esplosero, moltissimo tempo fa, inviarono nello spazio i grandi atomi che avevano creato. Lo stesso accadrà alla stella che vedi al di là della finestra: alla fine della sua vita, quando tutte le piccole particelle che contiene si saranno fuse a formarne di più grandi, esploderà. E l’esplosione manderà nello spazio tutti i grandi atomi che si sono formati al suo interno.  \nDall’altra parte della finestra, la stella sembrava arrabbiata. Il suo colore giallo vivo diventava rossastro e la stella cresceva sempre di più, fino a occupare quasi tutta la finestra. Si sarebbe detto che stesse per esplodere da un momento all’altro! Eric azionò di nuovo il telecomando e la finestra arretrò, allontanandosi dalla stella che diventava sempre più rossa e sempre più grande.",
+      "source": "data/raw/TOPIC 1 - Black Hole/B - La chiave segreta per luniverso.pdf",
+      "title": "La chiave segreta per luniverso",
+      "level": "B",
+      "level_match": "fallback",
+      "score": 0.9980993866920471
+    },
+    {
+      "text": "Si dice che una stella è “di sequenza principale” quando essa brilla stabilmente, cioè quando la sua forza di gravità, che attira la materia verso il centro, è perfettamente bilanciata dalla pressione dei gas nel nucleo, che spinge verso la superficie. In generale, le stelle trascorrono il 90% della loro vita in questa fase di equilibrio, bruciando gli atomi di idrogeno di cui sono composte.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/B - Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi.pdf",
+      "title": "Stelle_pianeti e galassie viaggio nella storia dellastronomia dallantichit ad oggi",
+      "level": "B",
+      "level_match": "fallback",
+      "score": 0.848743200302124
+    }
+  ],
+  "queries": [
+    "Perché una stella non brilla per sempre?"
+  ]
+}

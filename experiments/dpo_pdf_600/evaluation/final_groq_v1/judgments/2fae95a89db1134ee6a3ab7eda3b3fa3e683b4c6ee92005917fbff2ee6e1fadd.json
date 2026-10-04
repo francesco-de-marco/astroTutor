@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "2fae95a89db1134ee6a3ab7eda3b3fa3e683b4c6ee92005917fbff2ee6e1fadd",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 1,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Introduce concetto di \"atmosfera del buco nero\" non supportato dal contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.095702986,
+      "prompt_tokens": 1588,
+      "prompt_time": 0.293833523,
+      "completion_tokens": 781,
+      "completion_time": 1.9728707779999999,
+      "total_tokens": 2369,
+      "total_time": 2.266704301,
+      "prompt_tokens_details": {
+        "cached_tokens": 768
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 244
+      }
+    },
+    "system_fingerprint": "fp_a4be3b0989",
+    "response_id": "chatcmpl-e389db2f-dcd0-4970-92f2-f533a2ea7fa6",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "99c889535fcf01b69e09fd7500f8dc4d7988e4f5b2d6d4f46a8a584afa63da85",
+    "3cd9b4476be677e312f37154df86cac78eba60b19e7a99e7abf6669c91eca56c",
+    "61828ff3a714a83609b99af8e09a0e49167183ed5e1469e34dd24b7d11e20255",
+    "4ed6585bfa803e305ef1b8518eba08f7ad35c5c9b6b090deded9b1ca8da71cbf",
+    "0425faba9a1a398d09adcd20b5d7ea3639aa4a9aadce111a6cb5a3bb58bed09d",
+    "2fae95a89db1134ee6a3ab7eda3b3fa3e683b4c6ee92005917fbff2ee6e1fadd"
+  ]
+}

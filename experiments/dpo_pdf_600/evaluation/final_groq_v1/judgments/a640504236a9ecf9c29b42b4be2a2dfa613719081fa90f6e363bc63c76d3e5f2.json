@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a640504236a9ecf9c29b42b4be2a2dfa613719081fa90f6e363bc63c76d3e5f2",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente il moto della Terra attorno al baricentro, evidenziando la lentezza relativa."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.091417456,
+      "prompt_tokens": 1728,
+      "prompt_time": 0.409377334,
+      "completion_tokens": 810,
+      "completion_time": 1.953535786,
+      "total_tokens": 2538,
+      "total_time": 2.36291312,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 278
+      }
+    },
+    "system_fingerprint": "fp_05e76be18c",
+    "response_id": "chatcmpl-e4e13d98-3632-4f15-b04c-4492e9f4d80a",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5bafb7017fc58ae55696ca2f2ffebfa6206835eaa8df6193c36243c4868da128",
+    "e53e23a26c0398c47d67e65e0f021396b70acea4fb29e06eee552ba90f1bc4c3",
+    "f82efc67be0e4cad3c7548fcdfcf3309c47bd9bf1ff74e699d873940ab8a1e27",
+    "ab512883ca4c33fba63f49344a328a31bf81e91b05bfed9fcca59c3958bef157",
+    "a96a571da11877afc6e5ab4b3e4915f7c82cfdc6385185fd8f38424baebf07ca",
+    "a640504236a9ecf9c29b42b4be2a2dfa613719081fa90f6e363bc63c76d3e5f2"
+  ]
+}

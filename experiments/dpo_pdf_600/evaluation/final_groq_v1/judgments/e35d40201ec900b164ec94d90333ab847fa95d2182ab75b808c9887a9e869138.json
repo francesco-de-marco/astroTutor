@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "e35d40201ec900b164ec94d90333ab847fa95d2182ab75b808c9887a9e869138",
+    "correctness": "I",
+    "completeness": 0,
+    "adequacy": 0,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Confonde radiazione di Hawking con la luminosità del gas, errore concettuale."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.146908633,
+      "prompt_tokens": 1991,
+      "prompt_time": 0.098065665,
+      "completion_tokens": 877,
+      "completion_time": 1.854523753,
+      "total_tokens": 2868,
+      "total_time": 1.952589418,
+      "completion_tokens_details": {
+        "reasoning_tokens": 350
+      }
+    },
+    "system_fingerprint": "fp_4b2f03d631",
+    "response_id": "chatcmpl-a295f949-4f36-4e18-b1a9-e5ab40e28066",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "e35d40201ec900b164ec94d90333ab847fa95d2182ab75b808c9887a9e869138",
+    "c702ee421ac61c762a2c31dc7e747c07d7b9e5e2b83b8a034d2fd8417a6a0723",
+    "2d2a5f4c7fe13d7b8ec5a679cbad9e3e6baa8796d5e3e63a14e116c9e8949b7b",
+    "fe2ba6da13ee894f3dfc993339686aea44ad2e87949ee6906d9b108f63e8c244",
+    "eb04b4e951586bb24f6166458902489c5bd41d1d1fc4d319ec51b51c74ad4d6f",
+    "645a176e2d1ea1a4f0ae8812e29022170cd0643db527d01b3e03592880d7acd4"
+  ]
+}

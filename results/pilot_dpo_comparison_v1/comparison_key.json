@@ -1,0 +1,34 @@
+{
+  "pilot07_A": {
+    "1": "dpo",
+    "2": "base"
+  },
+  "pilot07_B": {
+    "1": "dpo",
+    "2": "base"
+  },
+  "pilot07_C": {
+    "1": "base",
+    "2": "dpo"
+  },
+  "pilot07_D": {
+    "1": "base",
+    "2": "dpo"
+  },
+  "pilot08_A": {
+    "1": "dpo",
+    "2": "base"
+  },
+  "pilot08_B": {
+    "1": "dpo",
+    "2": "base"
+  },
+  "pilot08_C": {
+    "1": "dpo",
+    "2": "base"
+  },
+  "pilot08_D": {
+    "1": "dpo",
+    "2": "base"
+  }
+}

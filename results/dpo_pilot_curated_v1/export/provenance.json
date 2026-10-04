@@ -1,0 +1,562 @@
+[
+  {
+    "id": "pilot02_B",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot02_B",
+      "pilot02_C"
+    ],
+    "review": {
+      "pair_hash": "1d8bfcec076f72e40a394152ed1e7e3754dfe03ce4e9bf722ae9caf48ffbae69",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché definisce subito il disco di accrescimento e spiega il legame tra disponibilità di materia e presenza del disco. La risposta 2 introduce l'orizzonte senza definirlo, richiedendo conoscenze aggiuntive non necessarie per il livello B.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:36:31.954271+00:00"
+    },
+    "chosen_words": 54,
+    "rejected_words": 57
+  },
+  {
+    "id": "pilot03_C",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot03_C",
+      "pilot03_B"
+    ],
+    "review": {
+      "pair_hash": "d0c055a28324d8feefd808381f9c13c27c7b7946476b0e90883a5289807b27e2",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché esplicita come l'inclinazione dell'asse magnetico rispetto all'asse di rotazione permetta al fascio di attraversare periodicamente la linea di vista. Questo passaggio geometrico offre una profondità adatta al livello C; la risposta 2 lo lascia implicito.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:37:01.325458+00:00"
+    },
+    "chosen_words": 60,
+    "rejected_words": 61
+  },
+  {
+    "id": "pilot04_D",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot04_A",
+      "pilot04_D"
+    ],
+    "review": {
+      "pair_hash": "2bdd146f975e79c7d25306474a967e3fd9484c7ad0ff11bfa5ef0a0c6573fe46",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché esplicita la condizione geometrica di mancata intersezione e distingue l'orientamento del fascio da quello dell'osservatore. Precisa inoltre che il solo disallineamento degli assi non determina la visibilità e che possono esistere altri limiti osservativi, offrendo una profondità adatta al livello D.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:37:27.315796+00:00"
+    },
+    "chosen_words": 62,
+    "rejected_words": 55
+  },
+  {
+    "id": "pilot07_B",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot07_C",
+      "pilot07_B"
+    ],
+    "review": {
+      "pair_hash": "b69e5da6812004596f85b7088e1c9b44cc8e95b7f2ec12c6324d3a415309241a",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché conserva la spiegazione causale usando termini più accessibili al livello B, come “attraversarsi” e “nascita di nuove stelle”. La risposta 1 usa formulazioni più astratte senza aggiungere contenuti necessari.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:37:52.381148+00:00"
+    },
+    "chosen_words": 57,
+    "rejected_words": 50
+  },
+  {
+    "id": "pilot03_D",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot03_A",
+      "pilot03_D"
+    ],
+    "review": {
+      "pair_hash": "7cf826d7d028e340380bf0df62f443b070204dfd270ab7c597f20cf693278d56",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché collega emissione direzionale, orientamento degli assi e intersezione con la linea di vista. Distingue inoltre la periodicità osservata da un'emissione intrinsecamente intermittente, con precisione e profondità adatte al livello D.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:38:19.580529+00:00"
+    },
+    "chosen_words": 62,
+    "rejected_words": 60
+  },
+  {
+    "id": "pilot06_C",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot06_B",
+      "pilot06_C"
+    ],
+    "review": {
+      "pair_hash": "1b56aa1c9b637a475546329a6f1b1d8ebe2135c238067bbb0d8be9a3f00217f6",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché introduce la fase relativa spiegandone il significato e collega esplicitamente differenza dei percorsi, interferenza e segnale misurato. Questa profondità è adatta al livello C; la risposta 1 lascia implicito il ruolo della fase.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:38:41.906016+00:00"
+    },
+    "chosen_words": 50,
+    "rejected_words": 50
+  },
+  {
+    "id": "pilot05_D",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot05_D",
+      "pilot05_A"
+    ],
+    "review": {
+      "pair_hash": "9a1a5a1c54a2a68dde67b12cb60df184fb4bbff7c9ec42fde51a2ecc4e7a2ea7",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché spiega il collegamento tra differenza dei percorsi ottici, fase relativa e segnale interferometrico. Esplicita il carattere differenziale della misura con precisione adatta al livello D; la risposta 2 lascia implicito il ruolo della fase.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:39:27.839117+00:00"
+    },
+    "chosen_words": 62,
+    "rejected_words": 58
+  },
+  {
+    "id": "pilot04_A",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot04_A",
+      "pilot04_D"
+    ],
+    "review": {
+      "pair_hash": "1c82b5a31e38267479552e98ba615a4d2866354e6e1f7df73bc9891e01b11c51",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché usa l'analogia del faro per spiegare in modo concreto che il fascio può non raggiungerci anche se la pulsar continua a ruotare. La risposta 2 introduce concetti geometrici e termini tecnici non spiegati, inadatti ai prerequisiti del livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:39:50.631303+00:00"
+    },
+    "chosen_words": 55,
+    "rejected_words": 62
+  },
+  {
+    "id": "pilot05_A",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot05_D",
+      "pilot05_A"
+    ],
+    "review": {
+      "pair_hash": "8fbd692738e12e6c35a9a0158048c2d5906293bcdf0d83fe5ececdd06bd6d804",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché descrive il percorso della luce e lo scopo del confronto con parole accessibili e passaggi concreti. La risposta 1 richiede concetti tecnici non spiegati, come fase relativa e variazioni differenziali, inadatti ai prerequisiti del livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:40:11.950257+00:00"
+    },
+    "chosen_words": 58,
+    "rejected_words": 62
+  },
+  {
+    "id": "pilot03_B",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot03_B",
+      "pilot03_C"
+    ],
+    "review": {
+      "pair_hash": "f05748dea747790b4eec2bd22eb5b89337b055f257fe1ac12aab453e4577e423",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché rende comprensibile il meccanismo degli impulsi attraverso la rotazione e l'analogia del faro. La risposta 2 richiede concetti geometrici e magnetici non spiegati, aggiungendo difficoltà non necessarie per il livello B.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:40:27.527561+00:00"
+    },
+    "chosen_words": 61,
+    "rejected_words": 60
+  },
+  {
+    "id": "pilot08_A",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot08_A",
+      "pilot08_D"
+    ],
+    "review": {
+      "pair_hash": "f3764fd0a81c4bcd2024d87ad731da0000a0ef6889d9b143127d8760357d97bc",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché spiega il legame tra compressione del gas e nascita delle stelle con frasi brevi e linguaggio concreto. Mantiene anche il limite sugli effetti delle collisioni senza le formulazioni astratte della risposta 2, inadatte al livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:40:51.544375+00:00"
+    },
+    "chosen_words": 47,
+    "rejected_words": 48
+  },
+  {
+    "id": "pilot04_C",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot04_B",
+      "pilot04_C"
+    ],
+    "review": {
+      "pair_hash": "8c2526e59792cdac6ffe04594e2ee9bdf29f801511874a2fcbb601473556983c",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché collega la visibilità all'orientamento dei fasci rispetto all'asse di rotazione e all'osservatore. Chiarisce che il solo disallineamento degli assi non è sufficiente, offrendo una spiegazione geometrica più approfondita e adatta al livello C.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:41:11.567975+00:00"
+    },
+    "chosen_words": 66,
+    "rejected_words": 62
+  },
+  {
+    "id": "pilot07_A",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot07_A",
+      "pilot07_D"
+    ],
+    "review": {
+      "pair_hash": "08d66a4f98baee6128eb521746d784c0a3f51cf87b9f914a1e13be7f35af614f",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché collega lo spazio vuoto alla rarità degli urti con parole comuni e frasi dirette. Spiega anche la compressione del gas in modo concreto, mentre la risposta 2 usa formulazioni astratte inadatte ai prerequisiti del livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:41:40.343774+00:00"
+    },
+    "chosen_words": 50,
+    "rejected_words": 57
+  },
+  {
+    "id": "pilot06_A",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot06_A",
+      "pilot06_D"
+    ],
+    "review": {
+      "pair_hash": "c4837f02119eae69b47737bb3fbbac327f0e9964c7524f6d6f9eebd5dd20a50a",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché descrive il collegamento tra spostamento dello specchio, percorso della luce e segnale con parole accessibili. La risposta 2 richiede concetti tecnici non spiegati, come fase relativa e variazione differenziale, inadatti ai prerequisiti del livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:42:04.091137+00:00"
+    },
+    "chosen_words": 54,
+    "rejected_words": 59
+  },
+  {
+    "id": "pilot01_B",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot01_C",
+      "pilot01_B"
+    ],
+    "review": {
+      "pair_hash": "afee5bfd157150585f32a571f2f9b3520fb8bbada6434b559322da5f586d5ba7",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché definisce l'orizzonte degli eventi e il disco di accrescimento mentre spiega da dove proviene la luce osservata. Queste definizioni rendono il ragionamento più accessibile per il livello B, senza perdere precisione scientifica.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:42:46.019913+00:00"
+    },
+    "chosen_words": 57,
+    "rejected_words": 58
+  },
+  {
+    "id": "pilot04_B",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot04_B",
+      "pilot04_C"
+    ],
+    "review": {
+      "pair_hash": "0bd3710d0e954674dbe1ca4b4858f8bd786afc6256b9a4bb3c49b53a0c631bb2",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché definisce la linea di vista e spiega direttamente perché un fascio rotante può non raggiungerci. La risposta 2 introduce concetti magnetici e geometrici non spiegati, aumentando i prerequisiti richiesti rispetto al livello B.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:43:06.411485+00:00"
+    },
+    "chosen_words": 62,
+    "rejected_words": 66
+  },
+  {
+    "id": "pilot05_C",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot05_B",
+      "pilot05_C"
+    ],
+    "review": {
+      "pair_hash": "7a411d9c0bae24f1c2292983903c5e4ecd9c78bb210041b97fb1d2d51632fa19",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché introduce e definisce la fase relativa, collegandola alla differenza dei percorsi e all'interferenza misurata. La risposta 1 descrive correttamente lo stesso meccanismo, ma la risposta 2 offre una formalizzazione accessibile e pertinente al livello C.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:43:33.257246+00:00"
+    },
+    "chosen_words": 59,
+    "rejected_words": 56
+  },
+  {
+    "id": "pilot05_B",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot05_C",
+      "pilot05_B"
+    ],
+    "review": {
+      "pair_hash": "0caf1f40c439628147b9cae5de47b100c45399c4551ae6a3acf14debcfc8ecdd",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché presenta prima il percorso dei fasci e introduce poi l'interferenza attraverso la sovrapposizione delle onde. Questa sequenza rende il meccanismo più accessibile al livello B, riducendo il numero di concetti tecnici da assimilare contemporaneamente.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:44:14.222179+00:00"
+    },
+    "chosen_words": 56,
+    "rejected_words": 59
+  },
+  {
+    "id": "pilot06_B",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot06_B",
+      "pilot06_C"
+    ],
+    "review": {
+      "pair_hash": "890cf09011766ee2ea8818b8e13b17210e5509e64315b0c8b73f2c100c050ed6",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché collega il cambiamento dei percorsi alla diversa sovrapposizione delle onde e introduce così l'interferenza. La spiegazione richiede meno concetti tecnici simultanei ed è più accessibile per il livello B.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:44:35.506824+00:00"
+    },
+    "chosen_words": 50,
+    "rejected_words": 50
+  },
+  {
+    "id": "pilot01_D",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot01_D",
+      "pilot01_A"
+    ],
+    "review": {
+      "pair_hash": "c093e48b4172fef21877b0873155b1134f6cb367763401ee3fd8380261068f14",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché distingue precisamente emissione esterna e vincolo dell'orizzonte, esplicitando anche il limite delle informazioni disponibili sul riscaldamento del gas. Il registro e la delimitazione della spiegazione sono più adatti al livello D rispetto alla presentazione elementare della risposta 2.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:45:08.947713+00:00"
+    },
+    "chosen_words": 65,
+    "rejected_words": 63
+  },
+  {
+    "id": "pilot08_B",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot08_C",
+      "pilot08_B"
+    ],
+    "review": {
+      "pair_hash": "c33a84da4a5a7d17a9419b48aae90053846cbc119ac33a4b42cafdfa2e4ca598",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché presenta il legame tra incontro delle galassie, compressione del gas e nascita delle stelle in passaggi diretti. Mantiene gli stessi contenuti e limiti della risposta 1 usando formulazioni meno astratte, più accessibili al livello B.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:45:51.851267+00:00"
+    },
+    "chosen_words": 55,
+    "rejected_words": 53
+  },
+  {
+    "id": "pilot02_A",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot02_D",
+      "pilot02_A"
+    ],
+    "review": {
+      "pair_hash": "79ce17c2876c7306d9f3a8c840b93c204697db86a5e1123a3fa8b84f4a4776c5",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché descrive il disco come gas caldo in rotazione e collega la sua presenza alla disponibilità di materiale vicino con parole concrete. La risposta 1 usa termini non spiegati e formulazioni astratte che richiedono prerequisiti superiori al livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:46:12.642851+00:00"
+    },
+    "chosen_words": 58,
+    "rejected_words": 61
+  },
+  {
+    "id": "pilot07_D",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot07_A",
+      "pilot07_D"
+    ],
+    "review": {
+      "pair_hash": "1c852b7e4c166ce14e4b5c9f3e72dcf1da1c82444e3618c36df6b9764cfd9048",
+      "decision": "2",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 2 perché distingue esplicitamente gli urti stellari dagli effetti dell'interazione sul gas, chiarendo che la rarità dei primi non implica assenza dei secondi. Questa formulazione è più adatta al livello D, pur senza aggiungere un meccanismo fisico rispetto alla risposta 1.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:46:49.564519+00:00"
+    },
+    "chosen_words": 57,
+    "rejected_words": 50
+  },
+  {
+    "id": "pilot08_D",
+    "split": "validation",
+    "source_id": "galaxy_collisions",
+    "candidate_ids": [
+      "pilot08_D",
+      "pilot08_A"
+    ],
+    "review": {
+      "pair_hash": "fdb1330a363a1602a9d3349a9d526adc9e0b977d46a12d9161c3776352457097",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché distingue il possibile effetto della compressione del gas da una conseguenza universale o quantificabile. Esplicita i limiti delle informazioni disponibili con precisione adatta al livello D, pur descrivendo lo stesso meccanismo della risposta 2.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:47:05.752564+00:00"
+    },
+    "chosen_words": 48,
+    "rejected_words": 47
+  },
+  {
+    "id": "pilot03_A",
+    "split": "train",
+    "source_id": "pulsars",
+    "candidate_ids": [
+      "pilot03_A",
+      "pilot03_D"
+    ],
+    "review": {
+      "pair_hash": "22c87d022a92fa758571e88f341bbe9dd24766e4e02e42fb967c8593276e3370",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché usa l'analogia del faro per spiegare con parole comuni come la rotazione produca impulsi osservati senza spegnere e riaccendere la sorgente. La risposta 2 richiede concetti geometrici e termini tecnici non spiegati, inadatti ai prerequisiti del livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:47:26.154657+00:00"
+    },
+    "chosen_words": 60,
+    "rejected_words": 62
+  },
+  {
+    "id": "pilot06_D",
+    "split": "train",
+    "source_id": "interferometer",
+    "candidate_ids": [
+      "pilot06_D",
+      "pilot06_A"
+    ],
+    "review": {
+      "pair_hash": "451c58e4a66f6e4824d7573bd4aa1d08e3585648eed96475b8db3a6d63ae11a8",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché collega esplicitamente la variazione differenziale dei percorsi ottici alla fase relativa e al segnale interferometrico. Questa precisione fisica è adatta al livello D, mentre la risposta 2 descrive il funzionamento in termini più elementari.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:47:54.532007+00:00"
+    },
+    "chosen_words": 59,
+    "rejected_words": 54
+  },
+  {
+    "id": "pilot01_A",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot01_A",
+      "pilot01_D"
+    ],
+    "review": {
+      "pair_hash": "24d7c20061701f3b7a8d96c0e1ff1525232b2f87198672adabb1c4acf7c1a938",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché distingue l'origine esterna della luce dall'interno del buco nero con parole comuni e frasi brevi. Introduce l'orizzonte degli eventi come un confine, mentre la risposta 2 usa formulazioni astratte e termini tecnici meno accessibili al livello A.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:48:14.088381+00:00"
+    },
+    "chosen_words": 63,
+    "rejected_words": 65
+  },
+  {
+    "id": "pilot02_D",
+    "split": "train",
+    "source_id": "black_holes",
+    "candidate_ids": [
+      "pilot02_D",
+      "pilot02_A"
+    ],
+    "review": {
+      "pair_hash": "76d837cc5417779d74aed4135164f5065fcc514e3095a2fc3c4a4f17e33634ad",
+      "decision": "1",
+      "quality_checks_passed": true,
+      "reason": "Preferisco la risposta 1 perché chiarisce che il disco richiede materia disponibile, senza trattare questa condizione come sufficiente per qualsiasi distribuzione di materia. Questa attenzione ai limiti della spiegazione è adatta al livello D; la risposta 2 offre una presentazione più elementare.",
+      "reviewer": "matti",
+      "review_kind": "ai_assisted",
+      "reviewed_at": "2026-09-14T14:48:37.861626+00:00"
+    },
+    "chosen_words": 61,
+    "rejected_words": 58
+  }
+]

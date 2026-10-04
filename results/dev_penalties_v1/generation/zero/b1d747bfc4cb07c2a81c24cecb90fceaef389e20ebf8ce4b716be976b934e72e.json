@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-10T14:00:09.055578+00:00",
+  "question": "Che differenza c'è tra una nana bianca e una stella di neutroni?",
+  "level": "C",
+  "model": "qwen2.5:3b",
+  "config": {
+    "model": "qwen2.5:3b",
+    "base_url": "http://localhost:11434/v1",
+    "translation_model": "qwen2.5:3b",
+    "generation": {
+      "temperature": 0.0,
+      "seed": 42,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0
+    },
+    "initial_k": 15,
+    "final_k": 3,
+    "use_rag": true,
+    "guardrails_enabled": false
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "Sei un assistente didattico scientifico. Il tuo compito è estrarre informazioni dai documenti forniti.\n\n⚠️ REGOLE ASSOLUTE E INVIOLABILI:\n1. Cerca la risposta SOLO all'interno del CONTESTO fornito.\n2. Se il CONTESTO non contiene la risposta esatta o non ne parla, DEVI rispondere ESATTAMENTE con: 'Mi dispiace, ma i documenti a mia disposizione non contengono questa informazione.' Non aggiungere altre spiegazioni, scuse o storielle.\n3. NON INVENTARE nulla. Non usare la tua conoscenza pregressa. Non creare analogie o metafore che non siano già scritte nel testo.\n\nSTILE DI RISPOSTA:\nSe (e SOLO SE) trovi la risposta nel contesto, esponila seguendo questa regola di stile: Spiega come se parlassi a uno studente delle superiori. Usa un linguaggio tecnico corretto e approfondisci i nessi logici.\n\nCONTESTO RECUPERATO:\n[Fonte 1 - Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking)]:\nAlla fine, però, la stella esaurirà il suo combustibile nucleare e inizierà a contrarsi. In alcuni casi, potrà riuscire a sostenersi in forma di nana bianca. Tuttavia, nel 1930 Subrahmanyan Chandrasekhar mostrò che il limite della massa di una nana bianca è pari a circa 1,4 volte quella del Sole; un limite massimo analogo, relativo a una stella costituita interamente da neutroni, venne calcolato dal fisico sovietico Lev Landau.  \nDS: Le nane bianche e le stelle di neutroni sono dei soli che hanno esaurito il proprio combustibile. Così, una volta prive di una forza in grado di sostenerle con una spinta verso l’esterno, nulla può più impedire alla loro attrazione gravitazionale di farle collassare, e finiscono per diventare oggetti tra i più densi dell’universo. Nella classifica delle stelle, però, le nane bianche e le stelle di neutroni sono ancora relativamente piccole, il che significa che non hanno una forza gravitazionale sufficiente a portare a compimento il processo di collasso. Per Stephen Hawking e altri scienziati, quindi, il caso più interessante riguarda ciò che avviene alle stelle più grandi al termine della loro esistenza.\n\n[Fonte 2 - Astrofisica per ansiosi (Licia Troisi)]:\nPossiamo immaginare le nane bianche come le prime file del nostro ipotetico teatro, tutte ordinatamente occupate dagli spettatori. In quelle prime file non potrà entrare alcun altro spettatore. Ugualmente, la materia delle nane bianche è così densa che gli elettroni vengono premuti verso gli stati quantici più energetici, e resistono a un’ulteriore compressione; per questo, esercitano una pressione che, fino a certi valori di massa, è in grado di contrastare la forza di gravità. È divertente notare che alcune nane bianche sono composte di carbonio e il carbonio molto denso è diamante. Nel 2004 è stata scoperta la nana bianca BPM 37093; la stella è stata scherzosamente soprannominata Lucy, dalla canzone dei Beatles Lucy in the Sky with Diamonds, proprio perché si suppone che il suo nucleo sia un gigantesco diamante.  \nOra, quando la forza di gravità è troppo grande, ossia quando la densità dell’oggetto supera un certo valore, neppure la pressione degenere degli elettroni è in grado di contrastarla. È quel che succede nelle stelle di neutroni: la pressione esercitata dalla forza di gravità è tale da schiacciare gli elettroni sui nuclei atomici. Protoni ed elettroni formano quindi neutroni, da cui il nome di questo tipo di stelle. Ma cosa contrasta la forza di gravità permettendo di mantenere l’oggetto in equilibrio? Sempre la pressione degenere, stavolta dei neutroni; anche per i neutroni, infatti, vale il principio di esclusione.\n\n[Fonte 3 - Dal big bang ai buchi neri. Breve storia del tempo]:\nLandau segnalò che esisteva altro possibile stato finale per una stella, anche con un massa limite di un o due volte la massa del Sole, ma molto più piccola perfino che una nana bianca. Queste stelle si manterrebbero all'inizio grazie alla repulsione dovuta di esclusione tra neutroni e protoni, invece di tra elettroni. Li fu chiamati per quel motivo stelle di neutroni. Avrebbero approssimativamente un raggio di circa quindici chilometri ed una densità di decine di milioni di tonnellate per centimetro cubo. Nell'epoca in cui furono predichas, non c'era forma di potere osservarli; non furono scoperte realmente fino a molto dopo."
+    },
+    {
+      "role": "user",
+      "content": "Che differenza c'è tra una nana bianca e una stella di neutroni?"
+    }
+  ],
+  "prompt_hash": "211b2c6dd50d3cb2e806194b86744ff910432d9595b1a74bc6d5595200b7a8c2",
+  "retrieved_docs": [
+    {
+      "text": "Alla fine, però, la stella esaurirà il suo combustibile nucleare e inizierà a contrarsi. In alcuni casi, potrà riuscire a sostenersi in forma di nana bianca. Tuttavia, nel 1930 Subrahmanyan Chandrasekhar mostrò che il limite della massa di una nana bianca è pari a circa 1,4 volte quella del Sole; un limite massimo analogo, relativo a una stella costituita interamente da neutroni, venne calcolato dal fisico sovietico Lev Landau.  \nDS: Le nane bianche e le stelle di neutroni sono dei soli che hanno esaurito il proprio combustibile. Così, una volta prive di una forza in grado di sostenerle con una spinta verso l’esterno, nulla può più impedire alla loro attrazione gravitazionale di farle collassare, e finiscono per diventare oggetti tra i più densi dell’universo. Nella classifica delle stelle, però, le nane bianche e le stelle di neutroni sono ancora relativamente piccole, il che significa che non hanno una forza gravitazionale sufficiente a portare a compimento il processo di collasso. Per Stephen Hawking e altri scienziati, quindi, il caso più interessante riguarda ciò che avviene alle stelle più grandi al termine della loro esistenza.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking).pdf",
+      "title": "Dove il tempo si ferma. La nuova teoria sui buchi neri (Stephen Hawking)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.486474096775055
+    },
+    {
+      "text": "Possiamo immaginare le nane bianche come le prime file del nostro ipotetico teatro, tutte ordinatamente occupate dagli spettatori. In quelle prime file non potrà entrare alcun altro spettatore. Ugualmente, la materia delle nane bianche è così densa che gli elettroni vengono premuti verso gli stati quantici più energetici, e resistono a un’ulteriore compressione; per questo, esercitano una pressione che, fino a certi valori di massa, è in grado di contrastare la forza di gravità. È divertente notare che alcune nane bianche sono composte di carbonio e il carbonio molto denso è diamante. Nel 2004 è stata scoperta la nana bianca BPM 37093; la stella è stata scherzosamente soprannominata Lucy, dalla canzone dei Beatles Lucy in the Sky with Diamonds, proprio perché si suppone che il suo nucleo sia un gigantesco diamante.  \nOra, quando la forza di gravità è troppo grande, ossia quando la densità dell’oggetto supera un certo valore, neppure la pressione degenere degli elettroni è in grado di contrastarla. È quel che succede nelle stelle di neutroni: la pressione esercitata dalla forza di gravità è tale da schiacciare gli elettroni sui nuclei atomici. Protoni ed elettroni formano quindi neutroni, da cui il nome di questo tipo di stelle. Ma cosa contrasta la forza di gravità permettendo di mantenere l’oggetto in equilibrio? Sempre la pressione degenere, stavolta dei neutroni; anche per i neutroni, infatti, vale il principio di esclusione.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4470897912979126
+    },
+    {
+      "text": "Landau segnalò che esisteva altro possibile stato finale per una stella, anche con un massa limite di un o due volte la massa del Sole, ma molto più piccola perfino che una nana bianca. Queste stelle si manterrebbero all'inizio grazie alla repulsione dovuta di esclusione tra neutroni e protoni, invece di tra elettroni. Li fu chiamati per quel motivo stelle di neutroni. Avrebbero approssimativamente un raggio di circa quindici chilometri ed una densità di decine di milioni di tonnellate per centimetro cubo. Nell'epoca in cui furono predichas, non c'era forma di potere osservarli; non furono scoperte realmente fino a molto dopo.",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.3864317536354065
+    }
+  ],
+  "context_origin": "provided",
+  "retrieval_queries": null,
+  "model_called": true,
+  "raw_answer": "Una nana bianca e una stella di neutroni sono entrambi stati definiti come stati finali per le stelle, ma con proprietà e condizioni diverse. \n\nLe nane bianche sono stelle che, una volta esaurite il loro combustibile nucleare, non possono più mantenere la propria forma grazie alla forza di gravità. Questo perché, quando la materia si accumula in un punto sufficientemente piccolo e densa, i loro elettroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, questa pressione non è sufficiente per impedire il collasso della stella, e queste nane bianche diventano molto dense, ma non come le stelle di neutroni.\n\nLe stelle di neutroni, invece, sono ancora più dense. Questo è dovuto al fatto che, quando la stella di una massa sufficiente si contrae fino a raggiungere un certo punto, i protoni e i neutroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, anche questa pressione non è sufficiente per impedire il collasso della stella. In questo stato, i protoni e i neutroni si combinano per formare neutroni, creando una stella di neutroni. Queste stelle di neutroni sono così dense che la forza di gravità è in grado di schiacciare i neutroni, creando una pressione interne che supera quella di tutte le altre pressioni, comprese la pressione degenere dei neutroni stessi. Questo stato è noto come stato di neutroni, e le stelle di neutroni sono quindi tra i più densi che esistono nell'universo.",
+  "final_answer": "Una nana bianca e una stella di neutroni sono entrambi stati definiti come stati finali per le stelle, ma con proprietà e condizioni diverse. \n\nLe nane bianche sono stelle che, una volta esaurite il loro combustibile nucleare, non possono più mantenere la propria forma grazie alla forza di gravità. Questo perché, quando la materia si accumula in un punto sufficientemente piccolo e densa, i loro elettroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, questa pressione non è sufficiente per impedire il collasso della stella, e queste nane bianche diventano molto dense, ma non come le stelle di neutroni.\n\nLe stelle di neutroni, invece, sono ancora più dense. Questo è dovuto al fatto che, quando la stella di una massa sufficiente si contrae fino a raggiungere un certo punto, i protoni e i neutroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, anche questa pressione non è sufficiente per impedire il collasso della stella. In questo stato, i protoni e i neutroni si combinano per formare neutroni, creando una stella di neutroni. Queste stelle di neutroni sono così dense che la forza di gravità è in grado di schiacciare i neutroni, creando una pressione interne che supera quella di tutte le altre pressioni, comprese la pressione degenere dei neutroni stessi. Questo stato è noto come stato di neutroni, e le stelle di neutroni sono quindi tra i più densi che esistono nell'universo.",
+  "guardrails": {
+    "enabled": false,
+    "attempted": false,
+    "changed": false,
+    "issues_before": [],
+    "issues_after": [],
+    "retry_answer": null,
+    "retry_issues": null,
+    "retry_error": null,
+    "final_answer": "Una nana bianca e una stella di neutroni sono entrambi stati definiti come stati finali per le stelle, ma con proprietà e condizioni diverse. \n\nLe nane bianche sono stelle che, una volta esaurite il loro combustibile nucleare, non possono più mantenere la propria forma grazie alla forza di gravità. Questo perché, quando la materia si accumula in un punto sufficientemente piccolo e densa, i loro elettroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, questa pressione non è sufficiente per impedire il collasso della stella, e queste nane bianche diventano molto dense, ma non come le stelle di neutroni.\n\nLe stelle di neutroni, invece, sono ancora più dense. Questo è dovuto al fatto che, quando la stella di una massa sufficiente si contrae fino a raggiungere un certo punto, i protoni e i neutroni vengono spinti verso stati quantici più energetici, creando una pressione che può contrastare la forza di gravità. Tuttavia, anche questa pressione non è sufficiente per impedire il collasso della stella. In questo stato, i protoni e i neutroni si combinano per formare neutroni, creando una stella di neutroni. Queste stelle di neutroni sono così dense che la forza di gravità è in grado di schiacciare i neutroni, creando una pressione interne che supera quella di tutte le altre pressioni, comprese la pressione degenere dei neutroni stessi. Questo stato è noto come stato di neutroni, e le stelle di neutroni sono quindi tra i più densi che esistono nell'universo."
+  },
+  "elapsed_seconds": 4.014020400005393,
+  "run_key": "b1d747bfc4cb07c2a81c24cecb90fceaef389e20ebf8ce4b716be976b934e72e",
+  "item_id": "dev04_C",
+  "group_id": "dev04",
+  "experiment_setting": "zero",
+  "model_identity": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "split": "development"
+}

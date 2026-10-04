@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "da77714a59ec11c9761f907997ddaed114b8c3bcacc922827ee997bfa4f37dc7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Risposta breve ma corretta: indica la formazione di idrogeno neutro."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.300494097,
+      "prompt_tokens": 1427,
+      "prompt_time": 0.286667506,
+      "completion_tokens": 680,
+      "completion_time": 1.467759058,
+      "total_tokens": 2107,
+      "total_time": 1.754426564,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 127
+      }
+    },
+    "system_fingerprint": "fp_86dc843b12",
+    "response_id": "chatcmpl-3a0e9ab0-dd78-486b-8ff2-3f9bca6d2cb3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "524fc75aeca744e182c28e309fb381a04c87f4e8b864937f74f4857d40968c8b",
+    "39e85868b74838482132ec9045bfabdc0876635f2088bba8370928d5804676e0",
+    "7431eb76e28c485750152ed0c1120a9738838fa3de815c24b0e46d47d3b556ec",
+    "85e6ed3281fb5a43b4a6feda3e7d6aa69bbb9f1499593ea1c27c836a52762b66",
+    "da77714a59ec11c9761f907997ddaed114b8c3bcacc922827ee997bfa4f37dc7",
+    "b7f39d5702409ea37ee9dc472c6b9ff008a554558c8bc4717763736e1bb58685"
+  ]
+}

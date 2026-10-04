@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8c9c82bcd65ba27d60ad0dd62bf04bfcb01a816fa8b996fd159f51991c812eef",
+    "correctness": "I",
+    "completeness": 0,
+    "adequacy": 0,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare percorsi paralleli contraddice il contesto che richiede percorsi perpendicolari."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.298366311,
+      "prompt_tokens": 1705,
+      "prompt_time": 0.08356335,
+      "completion_tokens": 864,
+      "completion_time": 2.421436554,
+      "total_tokens": 2569,
+      "total_time": 2.504999904,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 311
+      }
+    },
+    "system_fingerprint": "fp_27194a498a",
+    "response_id": "chatcmpl-f587ab28-30b7-4b4e-bbfe-b35fd5aaed0e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8c9c82bcd65ba27d60ad0dd62bf04bfcb01a816fa8b996fd159f51991c812eef",
+    "41a6ba01b5556a9d421f11daa2b94d2d10a365bd81cac0d50f6f0d8a752d01c4",
+    "15a04b477a01cd675457eda2b4e90f4fc7d5113485bfc7ebdda9316fb6a95548",
+    "eb2d83e9c57d278a6759281129d8a4e514b00e1aeca8863e47072ec6a05813fc",
+    "dc229dd89f5e1ca06db4286ebd100933184cd9a611436615ab12b5ad3f440659",
+    "40edfd212928ef17a70c71d2eeac905e0a580fd634f69af30bc4acc73836875f"
+  ]
+}

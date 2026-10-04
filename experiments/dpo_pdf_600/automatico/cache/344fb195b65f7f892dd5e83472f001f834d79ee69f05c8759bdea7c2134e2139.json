@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-1ce8b5b1-ec98-47b9-bb53-5f2581b3cb88",
+  "object": "chat.completion",
+  "created": 1790375818,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché un corpo con la stessa densità del Sole ma più di 500 volte più grande apparirebbe nero?\",\n  \"answer\": \"Secondo il brano, la velocità di fuga dal Sole è di 620 km/s, mentre la luce viaggia 500 volte più veloce. Michell osservò che se un corpo avesse la stessa densità del Sole ma fosse più di 500 volte più grande, la sua velocità di fuga supererebbe la velocità della luce. Poiché la luce è considerata composta da particelle che, come qualsiasi altro oggetto, devono superare la velocità di fuga per sfuggire al campo gravitazionale, queste particelle non avrebbero energia sufficiente a farlo. Di conseguenza la luce non può uscire da tale corpo e l’oggetto risulterebbe invisibile, cioè apparirebbe nero all’osservatore esterno.\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to produce JSON. The passage gives concept: escape velocity and black star. Question: e.g., \"Perché un oggetto con densità pari al Sole ma 500 volte più grande sarebbe nero?\" Answer based on passage. Provide evidence_ids [1]. Return usable true."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.297707756,
+    "prompt_tokens": 666,
+    "prompt_time": 0.031833424,
+    "completion_tokens": 280,
+    "completion_time": 0.579290994,
+    "total_tokens": 946,
+    "total_time": 0.611124418,
+    "completion_tokens_details": {
+      "reasoning_tokens": 59
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_86dc843b12",
+  "x_groq": {
+    "id": "req_01m3dbdwraenzrq5e1x4kwr822",
+    "seed": 1226585090
+  },
+  "service_tier": "on_demand"
+}

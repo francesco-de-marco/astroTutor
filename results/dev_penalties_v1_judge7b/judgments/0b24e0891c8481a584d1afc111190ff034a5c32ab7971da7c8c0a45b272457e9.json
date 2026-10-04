@@ -1,0 +1,23 @@
+{
+  "response_hash": "0b24e0891c8481a584d1afc111190ff034a5c32ab7971da7c8c0a45b272457e9",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sono supportate dai chunk.",
+      "correctness": "Nessun errore identificato.",
+      "level_adequacy": "Il livello è adatto a un profilo C, ma l'uso di termini tecnici come 'costante di Hubble', 'densità critica' e 'energia oscura' potrebbe essere difficile per un bambino di 6-10 anni.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere ulteriormente semplificata per un pubblico più giovane."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2652,
+    "eval_count": 197,
+    "total_duration": 6167346800,
+    "done_reason": "stop"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8133961b1aac3273e3c30a6f55edab57063873da5161f8e61fd86cdc5893ba40",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente accoppiamento fotoni‑materia ordinaria e pressione radiante, contrapposto a materia oscura."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022173249,
+      "prompt_tokens": 1844,
+      "prompt_time": 0.179758248,
+      "completion_tokens": 892,
+      "completion_time": 2.424802469,
+      "total_tokens": 2736,
+      "total_time": 2.604560717,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 322
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-82e621ef-f1ca-497b-b96e-d5dd6cf57f5c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8133961b1aac3273e3c30a6f55edab57063873da5161f8e61fd86cdc5893ba40",
+    "94b2263797e8a325e69807ac7533c42984ae20afc7573c055275b9fab44c1193",
+    "3b71fa91ec86347122c197b661ef933e0e46f4b55fc8901ad9a392c2a592a445",
+    "ff50bb8d09947ad552fc51461909527d9ab04c52eeab2779f8d2e5aa9553e415",
+    "388eeb9313300d4d974a15710e76ef3d72b812e165a118c4fa63ec651c31d395",
+    "59c751c13445181b7f24d2403b830f7725486366f0601ef19dbb03ba7ee71a89"
+  ]
+}

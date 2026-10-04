@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "model": {
+    "name": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "3.1B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 2048
+    }
+  },
+  "ollama_url": "http://localhost:11434",
+  "contexts_hash": "4523e28f3941c88ae20e0135e6fbdbadad8baee24081f88be993cf9576dd27cc",
+  "settings": {
+    "original": {
+      "frequency_penalty": 0.6,
+      "presence_penalty": 0.5
+    },
+    "zero": {
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0
+    }
+  },
+  "temperature": 0.0,
+  "seed": 42,
+  "guardrails_enabled": false,
+  "code": {
+    "src/generation.py": "4e046ca6c2dad58cf263ebadec702b2f7375820e3a8f3e99536241d082ac24e9",
+    "src/alignment.py": "7a585c8922f4df5d7da6fa74a2aa8ae84747e7150c992b918cdec84a16f9cc3e"
+  },
+  "packages": {
+    "openai": "2.46.0"
+  },
+  "script_hash": "44d330e190fda7fca506d93a29b86841889cda4ccb5165311ace814050cc6df9"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9a244bf8-afb6-4346-8542-2bd38c30ee1d",
+  "object": "chat.completion",
+  "created": 1790376058,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché nel XVI secolo gli astronomi credevano ancora nell'astrologia, mentre oggi la consideriamo priva di fondamento scientifico?\",\n  \"answer\": \"Nel XVI secolo la scienza era ancora fortemente influenzata da credenze superstizio‑magiche; l’astrologia, che attribuiva influenza dei pianeti alla vita quotidiana, era accettata perché mancavano prove sperimentali e metodologie rigorose per confutarla. Con il tempo, l’approccio scientifico è diventato più critico e basato su evidenze osservabili, portando a scoprire che la luce delle stelle impiega migliaia di anni per raggiungerci e che non può influenzare direttamente gli eventi terrestri. Questa evoluzione ha mostrato che l’astrologia è priva di meccanismo fisico plausibile, sostituendola con spiegazioni basate su fenomeni verificabili, come i virus per l’influenza, e ha spostato la credenza verso una visione basata su prove sperimentali e ragionamento critico.\",\n  \"evidence_ids\": [2,3]\n}",
+        "reasoning": "We need to extract a conceptual question from the passage. The passage talks about open-mindedness, astrology vs science. A question: \"Perché gli astronomi del XVI secolo credevano nell'astrologia, mentre oggi la consideriamo priva di fondamento?\" Answer based on passage: because earlier lacked evidence, superstition, etc. Provide answer. evidence ids: sentences 2-3 maybe. Use ids 1-4. Provide JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.089925947,
+    "prompt_tokens": 765,
+    "prompt_time": 0.031968958,
+    "completion_tokens": 361,
+    "completion_time": 0.74571505,
+    "total_tokens": 1126,
+    "total_time": 0.777684008,
+    "completion_tokens_details": {
+      "reasoning_tokens": 95
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_76082d2bd0",
+  "x_groq": {
+    "id": "req_01m3dbn75de5wan8tjtffzeaka",
+    "seed": 2037709696
+  },
+  "service_tier": "on_demand"
+}

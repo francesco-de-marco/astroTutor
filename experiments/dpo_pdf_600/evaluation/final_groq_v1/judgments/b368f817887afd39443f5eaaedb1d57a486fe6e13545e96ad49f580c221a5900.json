@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "b368f817887afd39443f5eaaedb1d57a486fe6e13545e96ad49f580c221a5900",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il legame tra periodo orbitale e rotazione terrestre e l'uso come ripetitore."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.050992317,
+      "prompt_tokens": 2210,
+      "prompt_time": 0.088760371,
+      "completion_tokens": 891,
+      "completion_time": 1.8697898990000001,
+      "total_tokens": 3101,
+      "total_time": 1.95855027,
+      "completion_tokens_details": {
+        "reasoning_tokens": 342
+      }
+    },
+    "system_fingerprint": "fp_4200b3f836",
+    "response_id": "chatcmpl-a0bf40c5-a293-4f5f-9d24-471a5008a411",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "4d3c17b2bf983fc9c2b1dcd7bfe4ae1095e1afcf25d07cddde6b5d81a99ea3b0",
+    "6769c1a29e17c564a563b9a6f44549c92c90f3f0676763db11c7f2597ff506d8",
+    "f88d82ceb57d5c840fa91e4a7914a7b837ae242de8fb009523cbb5ba0f7c72bd",
+    "b368f817887afd39443f5eaaedb1d57a486fe6e13545e96ad49f580c221a5900",
+    "b06daa7c66c6c07eade290938f29d3377915a462465fcc6284fc1a39048275e1",
+    "7f7849222cdf76c810f72e2055d08a598d37942a119ecb5b2c7fd4c56898d32c"
+  ]
+}

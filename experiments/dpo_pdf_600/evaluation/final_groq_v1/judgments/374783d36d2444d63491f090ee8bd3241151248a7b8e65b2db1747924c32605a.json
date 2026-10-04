@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "374783d36d2444d63491f090ee8bd3241151248a7b8e65b2db1747924c32605a",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Descrive correttamente il baricentro come punto interno alla Terra dove si equilibra la massa."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.022225122,
+      "prompt_tokens": 1493,
+      "prompt_time": 0.386030624,
+      "completion_tokens": 726,
+      "completion_time": 1.807475758,
+      "total_tokens": 2219,
+      "total_time": 2.193506382,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 176
+      }
+    },
+    "system_fingerprint": "fp_96d96a151c",
+    "response_id": "chatcmpl-729c41c4-9a21-4565-b0fa-15db6bfe779e",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "374783d36d2444d63491f090ee8bd3241151248a7b8e65b2db1747924c32605a",
+    "d5ed8779c88e23d46e62df9a4c5b559bf47f19d1f2b959058b21556c02bc0d2b",
+    "2835dafeb786d69e31133280e311d99132d7bc86cff5f30bdcc32f99f1814f60",
+    "7ee33790934d0ffdfcd12a818585130324587adb8a6d290753fec852acddae83",
+    "8df60db08d6f491c5a74f30f9dcf84016e6e21ed0b176fc07f1233283f0d25ef",
+    "74fe107abfa019c41c666e7d0ff5d2e47a7211e42262317a110c5d607ee56a37"
+  ]
+}

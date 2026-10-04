@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "32998fe029e4526c6c407e5a2c2f156c153ab0888454e2dd630efd581bfac82b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente ma in modo vago le proprietà ottiche degli atomi neutri."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.208890436,
+      "prompt_tokens": 1987,
+      "prompt_time": 0.268298766,
+      "completion_tokens": 861,
+      "completion_time": 2.102204951,
+      "total_tokens": 2848,
+      "total_time": 2.370503717,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 300
+      }
+    },
+    "system_fingerprint": "fp_803c0ba83d",
+    "response_id": "chatcmpl-c2902a9c-ce62-4943-b5e3-4226d585eac1",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "bf5433e9f7286216622278a294d5e9d322f9c138486a91e4ecdc19d29edf82aa",
+    "f2a1abcf032ece82c7c36dec5906ec09f30ce47dabf36b4115c5435d4149e3a0",
+    "54a02ebc9ca753d333020d4840ce3aa7739abef5a5ae0e606bc9d004133992af",
+    "7a9d4d2d1201131df7578d4c9aa6c1d87afcc62bd232100ef2fb9f63a32cc0d6",
+    "62e2a59c831fe114b528dc415e6df0848f1b76348a988e600622eb1e774cb116",
+    "32998fe029e4526c6c407e5a2c2f156c153ab0888454e2dd630efd581bfac82b"
+  ]
+}

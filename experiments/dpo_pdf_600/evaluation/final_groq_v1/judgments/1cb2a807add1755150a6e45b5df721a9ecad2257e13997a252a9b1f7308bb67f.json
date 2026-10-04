@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "1cb2a807add1755150a6e45b5df721a9ecad2257e13997a252a9b1f7308bb67f",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riporta esattamente separazione, percorsi perpendicolari, specchi e ricombinazione."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.064656276,
+      "prompt_tokens": 1458,
+      "prompt_time": 0.524135743,
+      "completion_tokens": 819,
+      "completion_time": 1.708736853,
+      "total_tokens": 2277,
+      "total_time": 2.232872596,
+      "completion_tokens_details": {
+        "reasoning_tokens": 293
+      }
+    },
+    "system_fingerprint": "fp_4200b3f836",
+    "response_id": "chatcmpl-6c1efd83-7754-4802-ba03-53c3e695cda9",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "69ff5f5daa7871bcd13461f84173d4f328a7c94891711d5999165260a0846a8c",
+    "21affa609cb344f485555abb45f4da18919c0ecd1c3956f5c930b6343349549a",
+    "d21787428f8035313436f27f3f852139efbeea4f654b3a82aba383e04165fb66",
+    "59a40cb92403a0bfede99ec1fca26a77711153753ec3b57941a75bb371d7681e",
+    "1cb2a807add1755150a6e45b5df721a9ecad2257e13997a252a9b1f7308bb67f",
+    "87aaff3aba6f549ebfaf34b33b04abb5014d8e7752d2e6fe5b21ac08f8bb4981"
+  ]
+}

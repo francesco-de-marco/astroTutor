@@ -1,0 +1,27 @@
+{
+  "manifest_hash": "38186503203c58adbecb3f175f3a8b4f3562667617dc871b333702f2a11905e0",
+  "id": "test14_C",
+  "setting": "dpo",
+  "answer": "La ricombinazione indica la formazione degli atomi di idrogeno.",
+  "completion_ids": [
+    8747,
+    29950,
+    2855,
+    258,
+    15013,
+    74680,
+    1187,
+    1352,
+    15013,
+    46569,
+    19124,
+    72,
+    1853,
+    877,
+    25188,
+    78,
+    13,
+    151645
+  ],
+  "flags": []
+}

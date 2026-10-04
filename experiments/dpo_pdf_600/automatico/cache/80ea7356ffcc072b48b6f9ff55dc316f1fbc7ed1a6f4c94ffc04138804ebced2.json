@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8c12dfc0-4ecb-4c05-a7d1-63a801732cf2",
+  "object": "chat.completion",
+  "created": 1790375295,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché un’estinzione di massa favorisce l’apparizione di nuove specie?\",\n  \"answer\": \"Un’estinzione di massa elimina gran parte delle specie esistenti, lasciando vuoti negli ecosistemi, detti \\\"nicchie ecologiche\\\". Queste nicchie sono risorse (cibo, spazio, condizioni ambientali) che prima erano occupate da organismi ormai scomparsi. Con la loro scomparsa, gli organismi sopravvissuti o i nuovi mutanti trovano spazio e risorse non più contese, il che permette loro di evolvere e diversificarsi per sfruttare questi nuovi ambienti. Il brano afferma che dopo ogni estinzione di massa si verifica un \\\"burst evolutivo\\\" in cui nuove specie si sviluppano per riempire le nicchie aperte, come avvenuto 65 milioni di anni fa per i mammiferi, i quali hanno prosperato grazie alla scomparsa di molte altre forme di vita. (evidenza: [1])\",\n  \"evidence_ids\": [1]\n}",
+        "reasoning": "We need to extract a conceptual question. From brano: link between mass extinctions and evolutionary bursts. Question: Why does a mass extinction create opportunities for new species? Answer based on niches. Provide evidence ids 1. Use JSON."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.204549577,
+    "prompt_tokens": 637,
+    "prompt_time": 0.032322302,
+    "completion_tokens": 305,
+    "completion_time": 0.636070726,
+    "total_tokens": 942,
+    "total_time": 0.668393028,
+    "completion_tokens_details": {
+      "reasoning_tokens": 50
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_90620edd96",
+  "x_groq": {
+    "id": "req_01m3daxxhteabt19cq944dx3e3",
+    "seed": 1300784025
+  },
+  "service_tier": "on_demand"
+}

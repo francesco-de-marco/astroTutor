@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "48ec2a4cb0135277c920a9c4de0e0a7d7dc5c3483aa55fd8dab244ddb7a8dac7",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Aggiunge confronto sulla dimensione e velocità delle particelle, coerente con la risposta corretta."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.052469019,
+      "prompt_tokens": 1607,
+      "prompt_time": 0.190978205,
+      "completion_tokens": 620,
+      "completion_time": 1.480450271,
+      "total_tokens": 2227,
+      "total_time": 1.671428476,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 74
+      }
+    },
+    "system_fingerprint": "fp_8ea50c0161",
+    "response_id": "chatcmpl-9f8e2b94-9d07-4a0d-b0e1-4d535f28d034",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "583eedebd2ff04f63da0a277c42b29fda584443ceded45df61c9a47d29e66aab",
+    "cea589a07f62bd4ea7125a5ca7589f9ef8524bac67f635ac44403c107ff00cbf",
+    "48ec2a4cb0135277c920a9c4de0e0a7d7dc5c3483aa55fd8dab244ddb7a8dac7",
+    "27e7fc05877fbe11e3663c26515a32d5eb6f84d3c32aeeb5812cd089cb4b44b2",
+    "0c373240b8997066c153e70386c2c8a3e0329bb9f4eff2e83f0bc95b0d27e8dc",
+    "ae7ac00145a386178ae3ea11edee4f47da82603e3f8885681722d0f97376ec80"
+  ]
+}

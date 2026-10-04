@@ -1,0 +1,18 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "model_digest": null,
+  "url": "https://api.groq.com/openai/v1",
+  "provider": "openai",
+  "script_sha256": "c99fcf0b944b09c8d90478a7e56c733b73a482dfed6faa3f52be037060108ed3",
+  "plan_hash": "ea9f0fe49bb5654825f9d58da75e435b5eddb3359e3af7549391753ff02798f9",
+  "context_files": {
+    "train": "a681be9de0d4a4e1299d46bca1d6bbe81bb1a6836bc2c6f1f2f21579090798c7",
+    "development": "3998cbbd1a98f7af09947a5a49fcc022ad558ad43df38258dcf0c7889de2fa77",
+    "test": "efd51c65dcbb8c953609f0963f50956517c00a3fe7e109a7b777063aafa8e15c"
+  },
+  "screening": "same_teacher_separate_blinded_call_not_independent",
+  "dataset_targets": {
+    "train": 600,
+    "development": 80
+  }
+}

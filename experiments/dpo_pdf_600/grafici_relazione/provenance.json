@@ -1,0 +1,29 @@
+{
+  "inputs_sha256": {
+    "runs\\Qwen__Qwen2.5-1.5B-Instruct_train_v1\\training_history.json": "29ba0712cd77bb494922340d4b8f382de9f9ce957a4b75a35ea1a4652d4fbb43",
+    "runs\\Qwen__Qwen2.5-1.5B-Instruct_train_v1\\result.json": "5f0297232b3a073cbeec9b880b866e9e460c992f03d1398a79c50abd4e81a5b6",
+    "runs\\Qwen__Qwen2.5-1.5B-Instruct_train_v1\\run_manifest.json": "0ddcec8161aabbbf738c7bfecea99baf75966807600d37f2c9cbb2ba9e836b7b",
+    "runs\\Qwen__Qwen2.5-3B-Instruct_train_v1\\training_history.json": "0d093cea6b4c8972ea8bfead682d1c020d6008ed27ab31e24c5a5ed14eb07b4b",
+    "runs\\Qwen__Qwen2.5-3B-Instruct_train_v1\\result.json": "442d5cfd09825ac9cbc3c1351f208d8ca744f16792a497766fc6c83978397f6c",
+    "runs\\Qwen__Qwen2.5-3B-Instruct_train_v1\\run_manifest.json": "8c19bb11a9424b9fdbded24b37de68e44738496f617249f95153ea1753519920",
+    "runs\\HuggingFaceTB__SmolLM3-3B_train_v1\\training_history.json": "bde895eb1f6685229cbff72e1787713c81b682d52eb958e117ffad6e44a54d54",
+    "runs\\HuggingFaceTB__SmolLM3-3B_train_v1\\result.json": "03cf605b62020567a50e749d6ba8ea27c8de22e9dd530dba158e780bd151b114",
+    "runs\\HuggingFaceTB__SmolLM3-3B_train_v1\\run_manifest.json": "ef2b044e33c9b6ccc8c6ca7c0e5ed8c722ad1ac89b8dad056e621d793056aec6",
+    "runs\\google__gemma-3-1b-it_train_v1\\training_history.json": "85680d719321b7742107c8db576ef15c3e7074fa82f5a41dad80e87d737f9957",
+    "runs\\google__gemma-3-1b-it_train_v1\\result.json": "2919eae17fa2f277ef7fbcdb6b0efbaa017bc05e046fddb6c118ab7baa81566b",
+    "runs\\google__gemma-3-1b-it_train_v1\\run_manifest.json": "629b02c71cc6ec12c3953c92766e864a48481133c3b4ef05ca8cd342ba42efe3",
+    "runs\\meta-llama__Llama-3.2-3B-Instruct_train_v1\\training_history.json": "67f9d5b57e058cadfe1e93e60d34c0b0b67241fa93550db8cca7be0c2ba0d742",
+    "runs\\meta-llama__Llama-3.2-3B-Instruct_train_v1\\result.json": "1b837139c1847c3fd071f504a7fa42a77813090533a263343227241d52b8e157",
+    "runs\\meta-llama__Llama-3.2-3B-Instruct_train_v1\\run_manifest.json": "87837c3e9e6d6dd184c0eaab05c3ba43805d775eed1bba7a2006f7a2b8db46fb",
+    "runs\\mistralai__Mistral-7B-Instruct-v0.3_train_v1\\training_history.json": "4910321784568eb894b2a260a19170e1256358091467bf81e442762ba84eebae",
+    "runs\\mistralai__Mistral-7B-Instruct-v0.3_train_v1\\result.json": "06b74917d93ef69f108af6d6cf6f903a739bea32ef4048d89181e70cd4fbfd20",
+    "runs\\mistralai__Mistral-7B-Instruct-v0.3_train_v1\\run_manifest.json": "e8d43f25729820ee4a1b7325aa11710198acc0347f462c32616b69100be7245d",
+    "evaluation\\final_groq_v1\\summary.json": "b9720d9b4e45b857040e6fc2499a2485fb0ecf66110d5dc4445d9fa850246407",
+    "evaluation\\final_groq_v1\\scored_responses.json": "630ef57a22ca81076cd97195b496ec864a649db9a118f24ed51abfa26977553a",
+    "evaluation\\final_groq_v1\\manifest.json": "5c609257a51b7dee4b08b130b2d59aeb7e47eb4dc671af6d204d685b46a31a8d"
+  },
+  "smoothing": "trailing 20 steps; raw data retained",
+  "judge": "openai/gpt-oss-120b",
+  "human_validated": false,
+  "script_sha256": "4371cdc24803bc3a02930287a5c2ceefba4c46eaaa95ea2b8b11b184d6c61676"
+}

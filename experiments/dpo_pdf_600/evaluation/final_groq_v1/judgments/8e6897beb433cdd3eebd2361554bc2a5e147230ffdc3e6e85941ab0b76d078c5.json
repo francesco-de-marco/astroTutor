@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "8e6897beb433cdd3eebd2361554bc2a5e147230ffdc3e6e85941ab0b76d078c5",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Aggiunge che la polvere riemette IR, informazione corretta e pertinente."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.544769468,
+      "prompt_tokens": 1713,
+      "prompt_time": 0.395994511,
+      "completion_tokens": 771,
+      "completion_time": 1.821294116,
+      "total_tokens": 2484,
+      "total_time": 2.217288627,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 229
+      }
+    },
+    "system_fingerprint": "fp_93703442d9",
+    "response_id": "chatcmpl-1354d955-8590-4e4a-82ee-003001d12dc9",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "8eb9fc8b3fc2b8f42ebc5e9ceb76353673d0fa02614e448376184bd448d1396e",
+    "4b854d919f4606e569ae014cf415cb0131eb6f1cf979eab4912749fd03de9f6f",
+    "ffb0751a4c0fabcf6449c771ba353fb95f0b6972c3af2574c4baaf09b1c999b9",
+    "8e6897beb433cdd3eebd2361554bc2a5e147230ffdc3e6e85941ab0b76d078c5",
+    "e442f5aab313c4b1bd7797d52d2f8176b7f25273dc56f1b963efed8a7667bfd5",
+    "594c467fdfab7dc438309467c488f9952508ea909a8141b1331cbceda6629fc2"
+  ]
+}

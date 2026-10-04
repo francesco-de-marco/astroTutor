@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-f8ab1693-6059-49b3-8980-9592f8c3fd9e",
+  "object": "chat.completion",
+  "created": 1790375510,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"usable\": true,\n  \"question\": \"Perché la Luna appare di colore rosso durante un'eclissi totale?\",\n  \"answer\": \"Durante un'eclissi totale la Luna è immersa nell'ombra della Terra, ma rimane ancora debolmente visibile perché la luce del Sole attraversa l'atmosfera terrestre, viene rifratta e raggiunge la zona d'ombra. L'atmosfera filtra la luce blu e lascia passare soprattutto la luce rossa, che illumina la Luna facendola apparire di un tenue colore rosso‑coppero.\",\n  \"evidence_ids\": [4]\n}",
+        "reasoning": "We need to produce JSON. The passage gives concept: why lunar eclipse appears red. Form question: \"Perché la Luna appare rossa durante un'eclissi totale?\" Answer using passage. Provide evidence_ids likely [4]. Usable true."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.204705744,
+    "prompt_tokens": 726,
+    "prompt_time": 0.032652663,
+    "completion_tokens": 195,
+    "completion_time": 0.405075955,
+    "total_tokens": 921,
+    "total_time": 0.437728618,
+    "completion_tokens_details": {
+      "reasoning_tokens": 51
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_8655ddce88",
+  "x_groq": {
+    "id": "req_01m3db4fmteax8f38psbfaq903",
+    "seed": 590826185
+  },
+  "service_tier": "on_demand"
+}

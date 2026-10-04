@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "99d3bea290ac354d6dbffcee69b03b9352de03c8c7931c844ae05a514bebe2cb",
+    "correctness": "I",
+    "completeness": 1,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Attribuisce la luce osservata alla radiazione di Hawking, aggiunta non supportata dal contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.02336516,
+      "prompt_tokens": 2322,
+      "prompt_time": 0.099359835,
+      "completion_tokens": 956,
+      "completion_time": 2.014620601,
+      "total_tokens": 3278,
+      "total_time": 2.113980436,
+      "completion_tokens_details": {
+        "reasoning_tokens": 395
+      }
+    },
+    "system_fingerprint": "fp_87b3c396db",
+    "response_id": "chatcmpl-c3415260-4b64-4df2-bd06-a9fee3dd0b37",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "5e2e423e113ab6d671b6ea789a07190c419d55abfdb93c27ca890986bcdc5dfe",
+    "9805e3761637ae8be61e43bbebb9df3598ab457ee930a713326326902c505f9f",
+    "99d3bea290ac354d6dbffcee69b03b9352de03c8c7931c844ae05a514bebe2cb",
+    "01daf1357d35a35c8fb54b2e1ea7a4037d8c0b983b7a3f35a046578c01f8ccf1",
+    "0c24b19de0065d047a89422825d58b81cf12d66e4720ecb88ef5bfa48ad45730",
+    "46c7dc5cab9b3e64c3f64ea585c2bab8ac638fab778f060d5ed5a194d77be922"
+  ]
+}

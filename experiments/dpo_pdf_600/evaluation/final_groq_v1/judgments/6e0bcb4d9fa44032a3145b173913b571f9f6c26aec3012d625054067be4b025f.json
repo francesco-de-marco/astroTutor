@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "6e0bcb4d9fa44032a3145b173913b571f9f6c26aec3012d625054067be4b025f",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega in modo corretto e conciso il costo e l'uso di modelli analitici."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.226237742,
+      "prompt_tokens": 2090,
+      "prompt_time": 0.243385496,
+      "completion_tokens": 907,
+      "completion_time": 1.96307025,
+      "total_tokens": 2997,
+      "total_time": 2.206455746,
+      "completion_tokens_details": {
+        "reasoning_tokens": 381
+      }
+    },
+    "system_fingerprint": "fp_3166198c1d",
+    "response_id": "chatcmpl-5417b694-6df5-4760-bb55-37a4ede49af4",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6c7a0f115df3c2322f27f70dc658ca4475f0474f05628f27cd4afacd936012ca",
+    "6e0bcb4d9fa44032a3145b173913b571f9f6c26aec3012d625054067be4b025f",
+    "6b1a7e9f59b46166f6a71178e0139efef158e6e1ac0385c9e55a62e824a59777",
+    "bdab22a79504462adafa1701a98322a6641aabccfb0267f573d1c59bf1b6a091",
+    "70f60f2a84bffd41279639bbc7578f08943f755aa7dcf0363b61b391d95c4cfd",
+    "fa8c8b8b89bed0be73549eb24fef82107b255314478fcfd8f2cfaf9a7fc35e95"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "f8ccdbafc24bdd2e88b870af4fd3e559755a3a8ac565d07e7b4e775075eecaba",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 1,
+    "clarity": 2,
+    "unsupported_addition": true,
+    "uncertain": false,
+    "reason": "Aggiunge che il riscaldamento può far nascere nuove stelle, non supportato dal contesto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.376530298,
+      "prompt_tokens": 1907,
+      "prompt_time": 0.451775882,
+      "completion_tokens": 875,
+      "completion_time": 2.061583496,
+      "total_tokens": 2782,
+      "total_time": 2.513359378,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 349
+      }
+    },
+    "system_fingerprint": "fp_90620edd96",
+    "response_id": "chatcmpl-c796d033-b9de-4615-991f-0dff483f2789",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "14bf5a9f37eb27ef2c15512bf66574b13e21dc277201443f137a69104b70e9a2",
+    "f8ccdbafc24bdd2e88b870af4fd3e559755a3a8ac565d07e7b4e775075eecaba",
+    "c8e53e0c872a060fd14a4d905e84e17a29114bc1c0c3a4afe498aeb03369998d",
+    "e8f144ea2e6aaa77dc618049dc2a928f3b4b912c23a13d9071d73bf523328c68",
+    "fd5bbb6814fc7b6c587b5359e5fe658e05bd5850704d6a727976aeacbe99a93f",
+    "4097ed58f5baba53633fdcaf5e3eed3cde7523a84b2ba2c6c79a1599dd651231"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "item": {
+    "item_id": "dev08_C",
+    "group_id": "dev08",
+    "topic": "Onde gravitazionali",
+    "question": "Che cosa sono le onde gravitazionali e come vengono rilevate?",
+    "level": "C",
+    "kind": "in_domain",
+    "split": "development"
+  },
+  "docs": [
+    {
+      "text": "L’esistenza delle onde gravitazionali fu predetta da Einstein proprio partendo dalla sua teoria della relatività generale ma si rese subito conto che gli effetti delle onde gravitazionali sarebbero stati troppo piccoli per essere misurati, almeno con la tecnologia dei suoi tempi. Supponiamo di avere due masse in caduta libera, ovvero non soggette ad alcuna forza, poste a una determinata distanza L: il passaggio di un’onda gravitazionale determina un’oscillazione della distanza L nel tempo e questo è quello che è stato misurato il 14 settembre 2015. Gli osservatori della collaborazione LIGO, posti a Livingston e Hanford negli Stati Uniti, hanno misurato per la prima volta un segnale generato da un’onda gravitazionale corrispondente a un’oscillazione di circa $4 \\times 1 0 ^ { - 1 6 }$ cm della distanza di 4 km tra due masse test. Per avere un’idea dell’accuratezza di questa misura basti notare che riguarda una variazione pari a circa 1/10 del diametro di un protone per una lunghezza di 4 km: una misura con una precisione quasi incredibile, non per niente Einstein la riteneva impossibile. L’analisi del segnale ha permesso altre importanti scoperte. Innanzitutto, il segnale non è stato rivelato in contemporanea tra i due osservatori: Hanford ha rivelato l’onda con un ritardo rispetto a Livingston pari a circa 10 millisecondi, ovvero il tempo necessario per andare da un osservatorio all’altro muovendosi alla velocità della luce, proprio come previsto per le onde gravitazionali",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi).pdf",
+      "title": "I buchi neri. Misteriosi protagonisti dellevoluzione delle galassie (Alessandro Marconi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4446982741355896
+    },
+    {
+      "text": "Ne esiste infatti un nuovo tipo, che è stato osservato per la prima volta grazie alle onde gravitazionali. Queste ultime sono delle increspature generate nello spazio-tempo da masse che collassano o oggetti molto massicci che si fondono. Per capire meglio, in genere si usa l’esempio del laghetto; se lancio un sasso in un lago si formano delle onde. Ecco, la stessa cosa accade nello spazio-tempo, solo che lo spazio tempo ha quattro dimensioni, mentre il laghetto è una superficie bidimensionale che si increspa in una terza dimensione. È una cosa assolutamente impossibile da visualizzare perché il nostro cervello non riesce a immaginare oggetti che abbiano più di tre dimensioni, ma l’importante è capire il concetto.  \nLe onde gravitazionali erano state previste dalla teoria della relatività generale e sono state cercate per più di sessant’anni, prima di venire osservate nel 2015 da due gigantesche antenne che si trovano negli Stati Uniti. La scoperta fruttò anche un premio Nobel alle persone che avevano progettato lo strumento che le ha osservate, tra cui Kip Thorne, che è noto anche per essere stato il consulente scientifico per il film Interstellar.",
+      "source": "data/raw/TOPIC 4 - Evoluzione stellare e supernovae/C - Astrofisica per ansiosi (Licia Troisi).pdf",
+      "title": "Astrofisica per ansiosi (Licia Troisi)",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.4265981316566467
+    },
+    {
+      "text": "La relatività generale predice che gli oggetti pesanti in movimento produrranno l'emissione di onde gravitazionali, riccioli nella curvatura dello spazio che viaggiano alla velocità della luce. Dette onde sono simili alle onde luminose che sono riccioli del campo elettromagnetico, ma molto più difficili da scoprire. Come la luce, si portano con sé energia degli oggetti che li emettono. Uno spererebbe, pertanto, che un sistema di oggetti massicci si stabilizzasse finalmente in un stato stazionario, poiché l'energia di qualunque movimento si perderebbe nell'emissione di onde gravitazionali. , È sembrato a lasciare cadere un sughero nell'acqua: all'inizio si muove bruscamente verso l'alto e verso il basso, ma quando le onde si portano la sua energia, rimane finalmente in un stato stazionario. Per esempio, il movimento della Terra nella sua orbita attorno al Sole produce onde gravitazionali. L'effetto della perdita di energia sarà cambiare l'orbita la Terra, in modo che gradualmente si andrà avvicinando sempre di più al sole; col tempo urterà con lui, e rimarrà in un stato stazionario. Il ritmo di perdita di energia nel caso della Terra ed il Sole è molto lento, approssimativamente la sufficienza per fare funzionare un piccolo scaldabagno elettrico",
+      "source": "data/raw/TOPIC 1 - Black Hole/C - Dal big bang ai buchi neri. Breve storia del tempo.pdf",
+      "title": "Dal big bang ai buchi neri. Breve storia del tempo",
+      "level": "C",
+      "level_match": "exact",
+      "score": 1.3544021248817444
+    }
+  ],
+  "queries": [
+    "Che cosa sono le onde gravitazionali e come vengono rilevate?"
+  ]
+}

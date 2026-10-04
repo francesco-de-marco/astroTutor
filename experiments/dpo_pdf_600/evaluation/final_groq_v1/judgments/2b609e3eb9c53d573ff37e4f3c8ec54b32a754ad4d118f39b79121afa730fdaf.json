@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "2b609e3eb9c53d573ff37e4f3c8ec54b32a754ad4d118f39b79121afa730fdaf",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riporta correttamente l'assorbimento visibile e la minore attenuazione IR."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.096704659,
+      "prompt_tokens": 2032,
+      "prompt_time": 0.137695946,
+      "completion_tokens": 667,
+      "completion_time": 1.398264712,
+      "total_tokens": 2699,
+      "total_time": 1.535960658,
+      "completion_tokens_details": {
+        "reasoning_tokens": 130
+      }
+    },
+    "system_fingerprint": "fp_02b0d31eca",
+    "response_id": "chatcmpl-8c6a4829-fcec-4d2a-90a9-573746ef2f9d",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "9a308717fdd9374750389a7c3c5713caa96fdf72b8783a7dab7c878403f70a84",
+    "b2a12213159ec49d522be5eff9cf30575f163302502440fe94be14979d9a76f8",
+    "e14f460ed8a8459306273095471ab0b45f44c9a40d7740fd692c39b461c1e419",
+    "d6360ca23bbeffe732845f70860592db977d2213dfbf453493811afc79d416b4",
+    "56a0b205c6c2f258a5f427e165b7f59d15f05e7197ad0189ddcf3216ae4631a9",
+    "2b609e3eb9c53d573ff37e4f3c8ec54b32a754ad4d118f39b79121afa730fdaf"
+  ]
+}

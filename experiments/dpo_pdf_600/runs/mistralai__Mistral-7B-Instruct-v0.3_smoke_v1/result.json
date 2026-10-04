@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "smoke",
+  "steps": 3,
+  "train_metrics": {
+    "train_runtime": 9.9495,
+    "train_samples_per_second": 0.302,
+    "train_steps_per_second": 0.302,
+    "total_flos": 0.0,
+    "train_loss": 0.6910840272903442,
+    "epoch": 0.1875
+  },
+  "max_adapter_parameter_change": 1.502475242887158e-05,
+  "peak_vram_allocated_gib": 4.782777309417725,
+  "peak_vram_reserved_gib": 5.126953125,
+  "adapter": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600\\runs\\mistralai__Mistral-7B-Instruct-v0.3_smoke_v1\\adapter",
+  "before": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "after": {
+    "available": false,
+    "reason": "No held-out validation supplied"
+  },
+  "interpretation": "Loss e reward margin misurano la preferenza relativa al riferimento. Non sono voti di correttezza o di efficacia didattica."
+}

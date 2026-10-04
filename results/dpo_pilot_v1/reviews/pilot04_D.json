@@ -1,0 +1,9 @@
+{
+  "pair_hash": "045189d59dd7526eb51c00815a13cdc0e458419cfbe44d98bb00395a598ae53b",
+  "decision": "r",
+  "quality_checks_passed": false,
+  "reason": "La risposta 2 presenta erroneamente il disallineamento degli assi come condizione sufficiente per non osservare impulsi e introduce un'etichetta non supportata dal contesto. La risposta 1 è elementare e ripetitiva. Il confronto non isola l'adeguatezza al livello D.",
+  "reviewer": "matti",
+  "review_kind": "ai_assisted",
+  "reviewed_at": "2026-09-10T20:13:30.985070+00:00"
+}

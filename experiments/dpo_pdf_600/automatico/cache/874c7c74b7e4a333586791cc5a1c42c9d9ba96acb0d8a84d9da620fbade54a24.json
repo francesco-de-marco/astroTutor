@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-fd4f54e2-6ad7-4212-91e5-fea7899bebf7",
+  "object": "chat.completion",
+  "created": 1790375377,
+  "model": "openai/gpt-oss-120b",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"usable\":true,\"answer\":\"Plutone è stato declassato a pianeta nano perché non soddisfa tutti i criteri della nuova definizione di pianeta stabilita dall’IAU nel 2006. Per essere considerato pianeta un corpo deve (1) orbitare attorno al Sole, (2) avere una massa sufficiente a rendersi tondeggiante per effetto della gravità, e (3) aver ripulito la propria zona orbitale da altri detriti. Plutone rispetta i primi due punti: ruota intorno al Sole ed è sufficientemente massiccio da mantenere una forma tondeggiante. Tuttavia, sul suo percorso orbitale coesistono numerose rocce e oggetti della Fascia di Kuiper, quindi non ha “sgombrato” la sua orbita. Per questa mancanza della terza condizione, l’IAU lo ha riclassificato come pianeta nano, mentre gli altri otto corpi soddisfano tutte e tre le regole.\",\"evidence_ids\":[2,3,4,5]}",
+        "reasoning": "We need to output JSON with usable true and answer in Italian <=200 words, citing evidence ids. Evidence: 2,3,4,5. Use those."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "queue_time": 0.017579377,
+    "prompt_tokens": 764,
+    "prompt_time": 0.036048719,
+    "completion_tokens": 276,
+    "completion_time": 0.581722413,
+    "total_tokens": 1040,
+    "total_time": 0.617771132,
+    "completion_tokens_details": {
+      "reasoning_tokens": 35
+    }
+  },
+  "usage_breakdown": null,
+  "system_fingerprint": "fp_854fa9be4c",
+  "x_groq": {
+    "id": "req_01m3db0e7zerbbt8vdnaeqk41k",
+    "seed": 1640242610
+  },
+  "service_tier": "on_demand"
+}

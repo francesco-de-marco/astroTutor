@@ -1,0 +1,23 @@
+{
+  "response_hash": "26fcf678e9986c6667e92710a9dcf001882b86154bfa4ef8213d9d798ca338f3",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "La risposta copre correttamente le differenze tra nane bianche e stelle di neutroni, basandosi sui chunk forniti.",
+      "correctness": "La descrizione è corretta e non contiene errori evidenti.",
+      "level_adequacy": "Il livello di dettaglio è adatto a un profilo B, ma potrebbe essere un po' troppo tecnico per un bambino di 6-10 anni.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere un po' complessa per un bambino di 6-10 anni."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2265,
+    "eval_count": 204,
+    "total_duration": 6591054400,
+    "done_reason": "stop"
+  }
+}

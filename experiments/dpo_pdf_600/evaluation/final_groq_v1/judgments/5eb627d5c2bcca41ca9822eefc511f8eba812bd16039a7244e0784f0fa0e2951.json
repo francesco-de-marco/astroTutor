@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "5eb627d5c2bcca41ca9822eefc511f8eba812bd16039a7244e0784f0fa0e2951",
+    "correctness": "P",
+    "completeness": 1,
+    "adequacy": 2,
+    "clarity": 1,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Afferma che sia rosso che blu aumentano con il calore, confonde il concetto."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.021794104,
+      "prompt_tokens": 2180,
+      "prompt_time": 0.092484778,
+      "completion_tokens": 847,
+      "completion_time": 1.8977286,
+      "total_tokens": 3027,
+      "total_time": 1.990213378,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 321
+      }
+    },
+    "system_fingerprint": "fp_49bfac06f1",
+    "response_id": "chatcmpl-1e46d6b8-31aa-43a2-9299-d311e9b2c701",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "94eae0255bcced7499210c5e1d677925d4792b46af0927df217b66372ff16a9f",
+    "719fc0d72013b1e6d046341f234531fb87b671957f4bc7368751aa3456a8aef1",
+    "3acbdd3ba368cefb362fff09af258d57e13494d1041abb4ba8e2285a6886a3ba",
+    "5eb627d5c2bcca41ca9822eefc511f8eba812bd16039a7244e0784f0fa0e2951",
+    "c84e201cd14222f3af2b5ca6971039609fc84ec254b983c2942ffe3caa1e8e95",
+    "d0e37b563a74e76f0283ca5664e106e2a064e51c1536cb043df9e17990aa0953"
+  ]
+}

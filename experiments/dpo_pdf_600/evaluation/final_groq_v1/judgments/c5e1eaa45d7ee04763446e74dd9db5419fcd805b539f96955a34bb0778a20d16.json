@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "c5e1eaa45d7ee04763446e74dd9db5419fcd805b539f96955a34bb0778a20d16",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente la natura di particelle cariche e l'effetto sulle aurore."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.209402558,
+      "prompt_tokens": 1708,
+      "prompt_time": 0.508129095,
+      "completion_tokens": 615,
+      "completion_time": 1.290251865,
+      "total_tokens": 2323,
+      "total_time": 1.79838096,
+      "completion_tokens_details": {
+        "reasoning_tokens": 66
+      }
+    },
+    "system_fingerprint": "fp_f73454f048",
+    "response_id": "chatcmpl-53614f10-c022-489d-95bc-086772c83279",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "13e251adf010c93d35c62513e6d62ce4b73b8f1f8dc8b7d537d5b196d881aca8",
+    "585cab1e1cbceb385bf64ecaa8eea39f3656c2f3f4996da174ab938dcb15d494",
+    "39a3e235999eb951944e46c1ded3a21e4b7e8e4b12e254105cdd3dfceb803f88",
+    "30d1aa023b3d1b053f7ae78148f66eceed664d6b1a4bad04da82cdac7d2a2538",
+    "c5e1eaa45d7ee04763446e74dd9db5419fcd805b539f96955a34bb0778a20d16",
+    "e2ca80066d9d702844f1e1c411093a8d1fd9a599a858ad3ba73986afca0f3064"
+  ]
+}

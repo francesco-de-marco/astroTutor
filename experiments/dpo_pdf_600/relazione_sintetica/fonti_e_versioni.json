@@ -1,0 +1,10 @@
+{
+  "git_main": "6859ea6ae5fa0b975c32098514f93e61847155be",
+  "git_branch": "esperimento-calibrazione",
+  "git_head": "9e21b5b",
+  "experiment_directory": "C:\\Users\\matti\\Documents\\Codex\\2026-09-09\\com\\outputs\\dpo_pdf_600",
+  "final_summary_sha256": "b9720d9b4e45b857040e6fc2499a2485fb0ecf66110d5dc4445d9fa850246407",
+  "report_pages": 5,
+  "historical_source": "astroTutor/report/report_2026_07_26.md",
+  "note": "Pilot files include untracked work; six-model campaign is outside original Git repository."
+}

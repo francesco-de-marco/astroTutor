@@ -1,0 +1,23 @@
+{
+  "response_hash": "90b7a810343e296b9a6d85337f9d78839f2d97d1c7d63715fcb1ed123644b2c0",
+  "judgment": {
+    "faithfulness": 4,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "Tutte le affermazioni sostanziali sono supportate dai chunk.",
+      "correctness": "Nessun errore identificato.",
+      "level_adequacy": "Il livello di formalismo è adatto a B, ma mancano alcuni dettagli tecnici.",
+      "clarity": "La risposta è chiara e coerente."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2366,
+    "eval_count": 145,
+    "total_duration": 5385243300,
+    "done_reason": "stop"
+  }
+}

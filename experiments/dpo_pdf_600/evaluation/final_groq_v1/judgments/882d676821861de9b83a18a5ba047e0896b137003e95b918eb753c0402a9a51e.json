@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "882d676821861de9b83a18a5ba047e0896b137003e95b918eb753c0402a9a51e",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Riassume correttamente il ruolo del vento solare e delle transizioni energetiche, senza errori."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.096645802,
+      "prompt_tokens": 1957,
+      "prompt_time": 0.073094438,
+      "completion_tokens": 614,
+      "completion_time": 1.476180341,
+      "total_tokens": 2571,
+      "total_time": 1.549274779,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "system_fingerprint": "fp_5e2577217c",
+    "response_id": "chatcmpl-b588cd1f-8ae5-4839-9995-ecd62d9b55ac",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "ed47983ac032b930ee4a577426b609d6e5f62ebcb543f3d1afc0d649f8a22511",
+    "74b94cba6920a7405a9a4f0356a3066966244b8db1c7bcd2e64879423f58e20f",
+    "11832aeea1337459426a57f803d3d037b8f4351507c8ae03695abfa7462439b5",
+    "882d676821861de9b83a18a5ba047e0896b137003e95b918eb753c0402a9a51e",
+    "89260deda0d7a1f8c565be0069ca8f16522da012dd72c141b9ba788751481540",
+    "38fed8b05d4b5278f3aa0cd5b1d62987dee80ad7f99f5e144671efc6ad312ae3"
+  ]
+}

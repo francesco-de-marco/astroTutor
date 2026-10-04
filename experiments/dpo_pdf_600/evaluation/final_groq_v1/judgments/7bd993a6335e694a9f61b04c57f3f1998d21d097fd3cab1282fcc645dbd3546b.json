@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "7bd993a6335e694a9f61b04c57f3f1998d21d097fd3cab1282fcc645dbd3546b",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega con precisione che la luce non proviene dall’interno dell’orizzonte."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.585340269,
+      "prompt_tokens": 2176,
+      "prompt_time": 0.138617962,
+      "completion_tokens": 614,
+      "completion_time": 1.295213651,
+      "total_tokens": 2790,
+      "total_time": 1.433831613,
+      "completion_tokens_details": {
+        "reasoning_tokens": 70
+      }
+    },
+    "system_fingerprint": "fp_4a7bb72c24",
+    "response_id": "chatcmpl-bc52244c-4490-4d46-99f0-e92f436c958c",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "953fefecc1334d294f555d2b3543f35db0f1d6e3b1eba1361a9f5ccadd61cbc1",
+    "0aea51026d89ededf21ff6b720f2ec36a7b4f2b5b74ba75c66ba0e9e3772691f",
+    "0367e6be55f90f3b571e67c7f0109d89fb8a4ad05417e065b916a91e83d6a22d",
+    "75a600f74c511e1d3a2ee375358df18d98830cf205d3d53994ae79a69f20c084",
+    "7bd993a6335e694a9f61b04c57f3f1998d21d097fd3cab1282fcc645dbd3546b",
+    "da317d6ae34578f0e343f0e008189994f8dbcc4efcdb04c9afb5dd72b608e252"
+  ]
+}

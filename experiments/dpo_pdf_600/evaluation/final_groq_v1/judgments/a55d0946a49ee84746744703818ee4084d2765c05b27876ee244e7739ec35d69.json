@@ -1,0 +1,40 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "a55d0946a49ee84746744703818ee4084d2765c05b27876ee244e7739ec35d69",
+    "correctness": "C",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Spiega correttamente il concetto con tono adatto a scuola primaria, senza errori."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 0.09120551,
+      "prompt_tokens": 1867,
+      "prompt_time": 0.07772521,
+      "completion_tokens": 627,
+      "completion_time": 1.336644001,
+      "total_tokens": 2494,
+      "total_time": 1.414369211,
+      "completion_tokens_details": {
+        "reasoning_tokens": 92
+      }
+    },
+    "system_fingerprint": "fp_76082d2bd0",
+    "response_id": "chatcmpl-c088e9c1-fa35-49e6-9596-75aa2f9be751",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "6b45d8c5338a59ab3605299d4bb708a45b45fc141a750aa6b6109fa5ec4ba6c3",
+    "7b22fcfb55cc7f09839ed965739611f09f8bd04d95f90c61168da03cb4e504d7",
+    "ecbe6433839a0148653b936432a82789819a5a1b498a6e628dbe4da0a8d7195b",
+    "a01485a07065891516b91234c0676ecb93223f0b3fe246120b5dbeb68a39fdca",
+    "1c1200c9a68298f2479df581288e46d5988ff931acafacea5b2db33f36b4181a",
+    "a55d0946a49ee84746744703818ee4084d2765c05b27876ee244e7739ec35d69"
+  ]
+}

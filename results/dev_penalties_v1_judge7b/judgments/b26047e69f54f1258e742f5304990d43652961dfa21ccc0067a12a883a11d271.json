@@ -1,0 +1,23 @@
+{
+  "response_hash": "b26047e69f54f1258e742f5304990d43652961dfa21ccc0067a12a883a11d271",
+  "judgment": {
+    "faithfulness": 3,
+    "correctness": 4,
+    "level_adequacy": 3,
+    "clarity": 4,
+    "refusal": false,
+    "explanation": {
+      "faithfulness": "L'espansione dell'universo viene descritta correttamente, ma non tutti i dettagli sono presenti nei chunk.",
+      "correctness": "La descrizione è corretta, ma manca l'informazione che l'espansione non si verifica rispetto a un'unità di misura fisica.",
+      "level_adequacy": "Il livello di formalismo è adatto a D, ma mancano alcuni dettagli scientifici.",
+      "clarity": "La risposta è chiara e coerente, ma potrebbe essere più completa."
+    },
+    "source_concern": ""
+  },
+  "runtime": {
+    "prompt_eval_count": 2004,
+    "eval_count": 192,
+    "total_duration": 6520016600,
+    "done_reason": "stop"
+  }
+}

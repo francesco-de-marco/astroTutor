@@ -1,0 +1,43 @@
+{
+  "evaluation_hash": "8d4bac602749363c84152efddd42bc2bcf5f90574db770744684f632bc6af368",
+  "judgment": {
+    "id": "ef8f1203b3aa4493ec08fb281f3cc4f9137e25bf4ef1ac5007f7bb5811fe55c1",
+    "correctness": "P",
+    "completeness": 2,
+    "adequacy": 2,
+    "clarity": 2,
+    "unsupported_addition": false,
+    "uncertain": false,
+    "reason": "Affermare che è il punto di massima equidistanza è impreciso."
+  },
+  "runtime_batch": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "usage": {
+      "queue_time": 1.921082146,
+      "prompt_tokens": 1611,
+      "prompt_time": 0.534471603,
+      "completion_tokens": 792,
+      "completion_time": 2.7851283860000002,
+      "total_tokens": 2403,
+      "total_time": 3.319599989,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 267
+      }
+    },
+    "system_fingerprint": "fp_fe269835c7",
+    "response_id": "chatcmpl-273771e0-9149-4be6-9f4e-a49027d835a3",
+    "finish_reason": "stop"
+  },
+  "batch_ids": [
+    "857fee97d56abd61ca1f0fb3c678fd1b398e8c9987a1ce3fe1d3728e18527a62",
+    "6939bd1e0797714bfe09a303346d8026b284bc4ff3b289d8a66c9f3fdb95ee98",
+    "ef8f1203b3aa4493ec08fb281f3cc4f9137e25bf4ef1ac5007f7bb5811fe55c1",
+    "fd4065b8d1203190aaea1f5f8f4a8c0b60fc3c7b1ccdf207257ba44dd77b6512",
+    "b738ad92ec74e10a00b3048710004a51d1c8eede5f5f1d89768994b4ff701dfc",
+    "bdeca176833d10ae7d9cf738d72a2756146b655c1967a18ab00b2d0e39df3a71"
+  ]
+}

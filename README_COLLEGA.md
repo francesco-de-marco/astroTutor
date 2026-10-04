@@ -28,6 +28,12 @@ con due negativi). I giudizi sono automatici, senza validazione umana indipenden
 
 ## Usare l’interfaccia
 
+Per installare l'ambiente completo usare ora
+[`requirements-consegna-win-cu128.txt`](requirements-consegna-win-cu128.txt).
+La guida [TRASFERIMENTO_COLLEGA.md](TRASFERIMENTO_COLLEGA.md) contiene i comandi
+e i percorsi per recuperare indice, adapter e modelli. Con questo requirements
+la UI è già installata: saltare il comando install_ui.py riportato sotto.
+
 Serve l’ambiente GPU del progetto, con i modelli base nella cache Hugging Face,
 l’indice `data/vector_db` e gli adapter nelle rispettive cartelle
 `experiments/dpo_pdf_600/runs/<modello>_train_v1/adapter`.

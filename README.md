@@ -1,95 +1,136 @@
-# AstroTutor 🚀
+# AstroTutor – Adaptive Educational RAG System
 
-**AstroTutor** è un sistema di Information Retrieval e RAG (Retrieval-Augmented Generation) sviluppato per rispondere a domande basate su documenti PDF (es. dispense, libri, appunti) adattando le risposte al livello di comprensione dell'utente. 
+This repository contains the source code for **AstroTutor**, an AI-powered educational assistant developed to provide astronomy explanations tailored to different levels of knowledge.
 
-Il sistema permette di fornire spiegazioni personalizzate scegliendo tra i seguenti livelli:
-- **A** = Bambini
-- **B** = Scuole Medie
-- **C** = Scuole Superiori
-- **D** = Universitari
+The project combines **Retrieval-Augmented Generation (RAG)**, semantic search, Large Language Models (LLMs), and **Direct Preference Optimization (DPO)** to generate context-grounded and educationally appropriate responses.
 
-## 📌 Architettura e Tecnologie
+The main objective is to investigate how retrieval techniques and preference-based alignment can improve factual reliability, response quality, and adaptation to different educational audiences.
 
-Il progetto è basato su un'architettura modulare ed esegue i modelli interamente in locale:
-- **Ingestion API**: Integrazione diretta tramite API pubbliche (es. Vikidia per Livello A, EduINAF per Livello B) per bypassare il parsing pesante e ottenere testi divulgativi puliti.
-- **Parsing PDF**: [Docling](https://github.com/DS4SD/docling) per estrarre in modo accurato testo strutturato, formule matematiche LaTeX e tabelle dai PDF di alto livello (C/D).
-- **Vector Database & Retrieval**: ChromaDB per memorizzare i vettori (embeddings BAAI/bge-m3) affiancato da un **Cross-Encoder (Re-ranker)** per la massima precisione semantica.
-- **LLM**: Esecuzione locale tramite **Ollama** (es. `qwen2.5:3b`), per garantire la privacy e permettere l'utilizzo offline.
+## 📄 Project Description
 
-## 📂 Struttura del Progetto
+AstroTutor addresses the challenge of generating accurate and understandable explanations from heterogeneous educational resources, including scientific documents, textbooks, and educational websites.
 
-```text
-progetto_IR/
-│
-├── data/
-│   ├── raw/                 # PDF originali suddivisi in cartelle per TOPIC
-│   └── processed/parsed/    # Output del parsing (file JSON strutturati e Markdown)
-│
-├── src/                     # Moduli core del sistema RAG
-│   ├── ingest_api_data.py   # Ingestione dati da API pubbliche (Vikidia, EduINAF)
-│   ├── parsing.py           # Pipeline di conversione PDF -> JSON usando Docling
-│   ├── parsing_kaggle.py    # Script alternativo di parsing per ambienti tipo Kaggle
-│   ├── chuncking.py         # Pulizia HTML (BeautifulSoup) e chunking intelligente
-│   ├── indexing.py          # Embedding (BGE-m3) dei chunk nel Vector DB (ChromaDB)
-│   ├── retrieval.py         # Ricerca vettoriale e riordino tramite Re-Ranker
-│   ├── generation.py        # Generazione della risposta tramite LLM basata sul contesto
-│   ├── evaluation.py        # Metriche per valutare le prestazioni del RAG
-│   └── alignment.py         # Moduli per la verifica di allineamento delle risposte
-│
-├── main.py                  # CLI interattiva per testare il sistema RAG (RAG Tester)
-├── compare.py               # Script per confrontare il RAG con la sola memoria dell'LLM (Baseline)
-├── config.py                # File di configurazione centralizzata
-└── README.md                # Questo file
+The system supports four educational levels:
+
+| Level | Target Audience |
+|---|---|
+| A | Children |
+| B | Middle School Students |
+| C | High School Students |
+| D | University Students |
+
+The architecture integrates several components:
+
+1. **Document Processing:** Extraction and preprocessing of educational content from PDFs and public APIs.
+2. **Semantic Retrieval:** Dense embeddings, vector search, and Cross-Encoder re-ranking.
+3. **Retrieval-Augmented Generation:** Context-aware answer generation using locally hosted LLMs.
+4. **Preference Alignment:** DPO-based fine-tuning to investigate improvements in response quality and educational adaptation.
+5. **Evaluation:** Experimental comparison of baseline and aligned models using retrieval and generation quality metrics.
+
+### Experimental Evaluation
+
+The project investigates multiple configurations, including:
+
+- **Baseline LLM:** Answer generation without external retrieval.
+- **RAG:** Generation grounded in retrieved educational documents.
+- **DPO-Aligned Models:** Preference-optimized variants of the base language model.
+- **RAG + Aligned Models:** Evaluation of preference alignment within the retrieval-augmented pipeline.
+
+The experimental workflow includes evaluations of answer quality, faithfulness to retrieved context, and behavior on out-of-domain questions.
+
+Results, evaluation artifacts, and visualizations are organized in the `results/`, `experiments/`, and `report/` directories.
+
+## 🧠 System Architecture
+
+The AstroTutor pipeline consists of five main stages:
+
+1. **Data Ingestion:** Educational content is collected from PDFs and public resources, including Vikidia and EduINAF.
+2. **Processing and Chunking:** Documents are parsed with Docling, cleaned, and segmented into retrievable passages.
+3. **Indexing:** Text passages are encoded using `BAAI/bge-m3` and stored in a ChromaDB vector database.
+4. **Retrieval and Re-ranking:** Relevant passages are retrieved and reordered using `BAAI/bge-reranker-v2-m3`.
+5. **Generation:** A locally hosted language model generates an answer conditioned on the retrieved context and the selected educational level.
+
+Preference-based alignment is implemented through a separate DPO training pipeline using QLoRA.
+
+## 📂 Repository Contents
+
+The repository is organized into the following main components:
+
+- `src/`: Core implementations for document processing, retrieval, generation, alignment, and evaluation.
+- `data/`: Educational datasets, processed documents, training data, and retrieval artifacts.
+- `models/`: Model configuration files and locally stored model artifacts.
+- `experiments/`: Experimental configurations and outputs related to model alignment and evaluation.
+- `results/`: Generated responses, evaluation metrics, and experimental results.
+- `report/`: Project documentation, figures, and analysis.
+- `main.py`: Interactive entry point for testing the RAG system.
+- `compare.py`: Comparison between baseline LLM generation and retrieval-augmented generation.
+- `config.py`: Centralized project configuration.
+- `requirements.txt`: Python dependencies.
+- `VERSIONI.md`: Detailed information about experimental environments, model versions, and reproducibility.
+
+## 🚀 Technologies Used
+
+- **Python** – Core implementation
+- **PyTorch** – Deep Learning framework
+- **Hugging Face Transformers** – Language models and training infrastructure
+- **Sentence Transformers** – Dense embeddings and Cross-Encoder re-ranking
+- **ChromaDB** – Vector database
+- **Docling** – PDF document parsing
+- **Ollama** – Local LLM inference
+- **PEFT, TRL & bitsandbytes** – QLoRA and Direct Preference Optimization
+- **RAGAS** – Evaluation of retrieval-augmented generation
+- **Streamlit** – Interactive demonstration interface
+
+## ⚙️ Installation
+
+The consolidated dependency configuration targets Windows, Python 3.14, and an NVIDIA GPU compatible with the PyTorch CUDA 12.8 build.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/francesco-de-marco/astroTutor.git
+cd astroTutor
 ```
 
-## 🧠 Flusso dei Dati (Pipeline)
+Create a virtual environment:
 
-1. **Ingestion & Parsing**: I documenti arrivano da due vie. I PDF (`data/raw/`) vengono estratti tramite `src/parsing.py` (Docling). I contenuti divulgativi vengono invece scaricati direttamente tramite chiamate REST (`src/ingest_api_data.py`). Tutto converge in formato JSON strutturato in `data/processed/parsed/`.
-2. **Chunking** (`src/chuncking.py`): I JSON vengono puliti dal rumore HTML tramite `BeautifulSoup` (preservando i segni matematici) e suddivisi in frammenti ottimali (chunk).
-3. **Indexing** (`src/indexing.py`): I chunk vengono passati a un modello di embedding multilingua (`BAAI/bge-m3`) e memorizzati in ChromaDB.
-4. **Retrieval** (`src/retrieval.py`): All'inserimento di una query, il sistema recupera i chunk semanticamente simili e utilizza un **Cross-Encoder** per riordinarli (Re-ranking) garantendo la massima aderenza alla domanda.
-5. **Generation** (`src/generation.py`): Il contesto recuperato viene iniettato nel prompt assieme alla domanda originale e al livello di difficoltà richiesto. L'LLM genera così una risposta chiara e mirata.
+```powershell
+py -3.14 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
 
-## 🚀 Come avviare il progetto
+Install the dependencies:
 
-### Prerequisiti
-1. **Python 3.10+** (consigliato l'uso di un virtual environment).
-2. Installare le dipendenze del progetto.
-3. Installare [Ollama](https://ollama.com/) per eseguire i Large Language Models in locale.
-4. Scaricare il modello predefinito tramite terminale:
-   ```bash
-   ollama run qwen2.5:3b
-   ```
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-### 1. Eseguire il RAG Interattivo
-Per fare domande direttamente ai tuoi PDF utilizzando il RAG:
+Install [Ollama](https://ollama.com/) and download the base language model:
+
+```bash
+ollama pull qwen2.5:3b
+```
+
+### Running AstroTutor
+
+Launch the interactive RAG system:
+
 ```bash
 python main.py
 ```
-Ti verrà richiesto di digitare una query e di indicare il livello di difficoltà (A, B, C o D). Il sistema elaborerà la richiesta e stamperà la risposta.
 
-### 2. Confrontare la Baseline con il RAG
-Per verificare concretamente il beneficio del sistema RAG rispetto al modello base (cioè LLM senza accesso ai PDF), puoi lanciare lo script di comparazione:
+Compare baseline generation against RAG:
+
 ```bash
 python compare.py
 ```
-Questo eseguirà due test paralleli sulla tua domanda:
-- ❌ **Versione 1**: Senza RAG (il modello usa solo quello che ha "studiato" durante il training).
-- ✅ **Versione 2**: Con RAG (il modello consulta la knowledge base prima di rispondere).
 
-## 🚧 TODO e Sviluppi Futuri
+The retrieval pipeline requires an initialized knowledge base. Dataset preparation, indexing, and experimental reproduction procedures are documented in `VERSIONI.md`.
 
-Ci sono ancora alcune aree in fase di sviluppo:
+Some preprocessing, alignment, and evaluation workflows require additional datasets, model artifacts, or external API credentials.
 
-- [ ] **Valutazione del Modello (`src/evaluation.py`)**: Implementazione di metriche avanzate (LLM-as-a-Judge, RAGAS) per calcolare l'accuratezza e la fedeltà al contesto del RAG.
-- [ ] **Allineamento e Sicurezza (`src/alignment.py`)**: Preparazione del dataset DPO e implementazione di guardrails per assicurare che il tono e i contenuti siano adatti al target (es. Bambini).
-- [ ] **Interfaccia Utente (UI)**: Passaggio dalla CLI attuale (`main.py`) a un'interfaccia web user-friendly (es. Streamlit) per un'interazione più fluida.
-- [x] **Advanced RAG**: Integrare tecniche di recupero avanzato come Multi-Query Expansion e **Re-ranker (CrossEncoder)** per migliorare la precisione (COMPLETATO).
-- [ ] **Containerizzazione**: Creare un `Dockerfile` e un `docker-compose.yaml` per semplificare il deploy del database vettoriale e dell'applicazione in ambienti cloud.
+## 👥 Authors
 
-
-## Aggiornamento sperimentale e consegna
-
-Il branch esperimento-calibrazione include pilot, confronto Base/DPO su sei modelli,
-dataset sintetico, risultati, grafici, relazione approfondita e demo Streamlit.
-Vedere [README per il collega](README_COLLEGA.md) per orientarsi e avviare la demo.
+- **Francesco De Marco**
+- **Mattia D'agostino**

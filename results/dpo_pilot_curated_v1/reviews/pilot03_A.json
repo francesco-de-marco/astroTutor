@@ -1,9 +1,0 @@
-{
-  "pair_hash": "22c87d022a92fa758571e88f341bbe9dd24766e4e02e42fb967c8593276e3370",
-  "decision": "1",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 1 perché usa l'analogia del faro per spiegare con parole comuni come la rotazione produca impulsi osservati senza spegnere e riaccendere la sorgente. La risposta 2 richiede concetti geometrici e termini tecnici non spiegati, inadatti ai prerequisiti del livello A.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:47:26.154657+00:00"
-}

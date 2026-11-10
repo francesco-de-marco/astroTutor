@@ -1,9 +1,0 @@
-{
-  "pair_hash": "1b56aa1c9b637a475546329a6f1b1d8ebe2135c238067bbb0d8be9a3f00217f6",
-  "decision": "2",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 2 perché introduce la fase relativa spiegandone il significato e collega esplicitamente differenza dei percorsi, interferenza e segnale misurato. Questa profondità è adatta al livello C; la risposta 1 lascia implicito il ruolo della fase.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:38:41.906016+00:00"
-}

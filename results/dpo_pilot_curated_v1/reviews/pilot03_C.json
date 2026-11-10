@@ -1,9 +1,0 @@
-{
-  "pair_hash": "d0c055a28324d8feefd808381f9c13c27c7b7946476b0e90883a5289807b27e2",
-  "decision": "1",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 1 perché esplicita come l'inclinazione dell'asse magnetico rispetto all'asse di rotazione permetta al fascio di attraversare periodicamente la linea di vista. Questo passaggio geometrico offre una profondità adatta al livello C; la risposta 2 lo lascia implicito.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:37:01.325458+00:00"
-}

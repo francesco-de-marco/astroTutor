@@ -1,6 +1,0 @@
-Relazione finale di sei pagine. Il PDF è la versione impaginata per la consegna.
-La versione HTML e il testo Markdown sono modificabili e contengono lo stesso testo.
-Autori, insegnamento e docente non sono stati inventati; possono essere aggiunti prima della consegna.
-I risultati provengono dalla campagna finale salvata.
-L’interfaccia è una demo locale separata: leggere streamlit_app/README.md.
-Lo ZIP non include pesi, database o l’intero repository; accompagna il progetto esistente.

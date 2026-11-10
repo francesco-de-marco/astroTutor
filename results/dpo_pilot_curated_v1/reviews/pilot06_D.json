@@ -1,9 +1,0 @@
-{
-  "pair_hash": "451c58e4a66f6e4824d7573bd4aa1d08e3585648eed96475b8db3a6d63ae11a8",
-  "decision": "1",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 1 perché collega esplicitamente la variazione differenziale dei percorsi ottici alla fase relativa e al segnale interferometrico. Questa precisione fisica è adatta al livello D, mentre la risposta 2 descrive il funzionamento in termini più elementari.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:47:54.532007+00:00"
-}

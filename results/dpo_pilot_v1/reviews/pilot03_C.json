@@ -1,9 +1,0 @@
-{
-  "pair_hash": "8b614dfe406b470bd248e77434d2ccca49db34a8a806bbf520986efc37984dd4",
-  "decision": "r",
-  "quality_checks_passed": false,
-  "reason": "Entrambe descrivono il meccanismo del faro, ma presentano ambiguità: la risposta 1 confonde periodo di rotazione e geometria osservativa; la risposta 2 non distingue chiaramente disallineamento degli assi e visibilità del fascio. La preferenza non isolerebbe il livello.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-10T20:12:59.328773+00:00"
-}

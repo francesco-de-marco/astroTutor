@@ -1,9 +1,0 @@
-{
-  "pair_hash": "9a1a5a1c54a2a68dde67b12cb60df184fb4bbff7c9ec42fde51a2ecc4e7a2ea7",
-  "decision": "1",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 1 perché spiega il collegamento tra differenza dei percorsi ottici, fase relativa e segnale interferometrico. Esplicita il carattere differenziale della misura con precisione adatta al livello D; la risposta 2 lascia implicito il ruolo della fase.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:39:27.839117+00:00"
-}

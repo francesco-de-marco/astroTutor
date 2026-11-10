@@ -1,9 +1,0 @@
-{
-  "pair_hash": "7a411d9c0bae24f1c2292983903c5e4ecd9c78bb210041b97fb1d2d51632fa19",
-  "decision": "2",
-  "quality_checks_passed": true,
-  "reason": "Preferisco la risposta 2 perché introduce e definisce la fase relativa, collegandola alla differenza dei percorsi e all'interferenza misurata. La risposta 1 descrive correttamente lo stesso meccanismo, ma la risposta 2 offre una formalizzazione accessibile e pertinente al livello C.",
-  "reviewer": "matti",
-  "review_kind": "ai_assisted",
-  "reviewed_at": "2026-09-14T14:43:33.257246+00:00"
-}

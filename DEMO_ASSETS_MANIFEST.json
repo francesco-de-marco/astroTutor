@@ -1,0 +1,254 @@
+{
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/adapter_config.json": {
+    "bytes": 919,
+    "sha256": "8372d9ea968f5e2363c85d6fa2f438bbc5780e8d697cb2273622db24a05deff1"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 5991064,
+    "sha256": "3cf006f5c72aab0e8b02b1c061fa4af22f39fdb02747fc41ee7caa3012883ccc"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/added_tokens.json": {
+    "bytes": 38,
+    "sha256": "f8730690481ac3d7ef2249793e7c876ca8d32c14821fe52cfdba1f8521b61c5c"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/chat_template.jinja": {
+    "bytes": 1579,
+    "sha256": "e0a1e0983c75b0198f1045cbb20c64506a9ffb30925bd44feba0b91acf2d4f43"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/README.md": {
+    "bytes": 5206,
+    "sha256": "58696a9e120ff664a2cce8058e42c1a83150092fc2cad0adf97946370bb58fe9"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 695,
+    "sha256": "88d16a8f41b25d29d30b7865c65404fa9527bbc9c5a652f68a1c25c4b0ae0fd1"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/tokenizer.json": {
+    "bytes": 33384568,
+    "sha256": "4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/tokenizer.model": {
+    "bytes": 4689074,
+    "sha256": "1299c11d7cf632ef3b4e11937501358ada021bbdf7c47638d13c0ee982f2e79c"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 1206732,
+    "sha256": "6eac11d7a3e6c40d7e0f19195baf61435c1350c9e5da4fea4c097779c65b2fb6"
+  },
+  "experiments/dpo_pdf_600/runs/google__gemma-3-1b-it_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "232b1cabaf96fcb0ff8ee77b3e17ace59a85602e263c807d97be2c3b509552a9"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/adapter_config.json": {
+    "bytes": 923,
+    "sha256": "a057a79ba50d3a762e59ffc33f0dd458a8796eee6fce47064017c4a26dac285f"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 15373488,
+    "sha256": "2c52298ac4bf4a60f22e6f6ff4c5f347e2c944260560a076bf30bfa53a82219a"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/chat_template.jinja": {
+    "bytes": 5691,
+    "sha256": "f988eb84fbc0a1f450a86f20889ec0b857984cf93795057edecdd4231aeacb51"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/README.md": {
+    "bytes": 5214,
+    "sha256": "d82ae21fca9518a4577b62ae58251f88188b3df275a7f7a1f5becebbf4733c52"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 305,
+    "sha256": "6d59ddd6003b5e99fbe349aa19678231e65fdf66a01b2f579b4005ff5ea66bf2"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/tokenizer.json": {
+    "bytes": 17208819,
+    "sha256": "7b6a500b662a34eb3f0374db856ba4ad7de4c81040571d78dc0d357238930005"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 52451,
+    "sha256": "218924b0ba66c5b1fd4d2f145570129a7298e82e21eedac2e2eb91239b7a3c17"
+  },
+  "experiments/dpo_pdf_600/runs/HuggingFaceTB__SmolLM3-3B_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "6cad6c40893b6630670ce8590f71c3b9a08d6cc82903b622c9330c7b132586dc"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/adapter_config.json": {
+    "bytes": 931,
+    "sha256": "36cc2d5ed119c8e231bc97ba48db5985f713cdb28a9dade5a70e09af7e28ade8"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 18379784,
+    "sha256": "d563f179c7790af33e0a30a71c3138511dd9df4e232742b589e6d5199d574256"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/chat_template.jinja": {
+    "bytes": 3920,
+    "sha256": "b582d2fda0f25a88324b6b5d56812b56f6f2c7890a08c9503cbed42ed70c7f3e"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/README.md": {
+    "bytes": 5230,
+    "sha256": "10c22fc8bea1154b617f57e08d08540d901be6bb4dcbad3d3c2abb05e5ebf767"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 342,
+    "sha256": "6880aa9f598c6b6db319b169f6ed9bf422aef3ef550d0d9514fd345d31ff089a"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/tokenizer.json": {
+    "bytes": 17209920,
+    "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 52617,
+    "sha256": "c39e7a4a8b2d2e758c6347da96f68bf7f47acdea2dbe19843310218fc57d372a"
+  },
+  "experiments/dpo_pdf_600/runs/meta-llama__Llama-3.2-3B-Instruct_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "d7aa3823316298ce9b76657b0fbc3c4f444be9aa54f49b8a847f38a80e7c2ab3"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/adapter_config.json": {
+    "bytes": 933,
+    "sha256": "59eba8166f0f1c87114aa2b2bfd2b9bba12f58838e3fa61cc2ed30d623719073"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 27297032,
+    "sha256": "6330680f94ef2abab20a8bcd0637d43aca3934554cc0f49451f55767ec51b41c"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/chat_template.jinja": {
+    "bytes": 4046,
+    "sha256": "79f7471ea9937b82554a4074bde6bb1cd1955900a6156a8860534ce82bf1a606"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/README.md": {
+    "bytes": 5234,
+    "sha256": "a65a21553c04fbe3477cf67969ff55e65ef2d112c9d46031212e1f5cbb7d4571"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 461,
+    "sha256": "3a5de3b1335d71fe010310aa87c6c2cb357506eeefa23bd8fec18d6a525b276d"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/tokenizer.json": {
+    "bytes": 3671968,
+    "sha256": "60c3fc985cbfedcb429d05994efe548bdfecd6a00226fcdc8380c36fd894a3be"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/tokenizer.model": {
+    "bytes": 587404,
+    "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 142916,
+    "sha256": "1502fbc0f5a28543256ff1536968c068d9b5e79fd2c6341279d9f3c95c64f3b1"
+  },
+  "experiments/dpo_pdf_600/runs/mistralai__Mistral-7B-Instruct-v0.3_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "d2c7af65ddb89d2d75da7a72f179877c273b49ea8da68c14940773faf66bacc5"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/adapter_config.json": {
+    "bytes": 925,
+    "sha256": "32cbc769e5e5a153f30aed2345a8d765c1654c9cc840bd5c420763f652c114c4"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 8745704,
+    "sha256": "76ead4e1bb2d56cad7372703141ed5bfd504a97baa86c5e65bb060105d4e97e0"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/added_tokens.json": {
+    "bytes": 629,
+    "sha256": "f0acedf99e19ec0a5b797ffbd0b94328172ccd90f7f385bbc521cda2701b03ab"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/chat_template.jinja": {
+    "bytes": 2561,
+    "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/merges.txt": {
+    "bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/README.md": {
+    "bytes": 5218,
+    "sha256": "0855f6a00edc26abf2605f593b07e4702183c160508ae9ef0aff914fdb16890c"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 644,
+    "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/tokenizer.json": {
+    "bytes": 11421896,
+    "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 4893,
+    "sha256": "5fd4cea2574beb6b70ba31582179880d331b723f5b5119ee67c29d45b983f7be"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "a2fdeacf60f1fba00c6154e5713be128c477afba321b667d3c9901efd4b6ed27"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-1.5B-Instruct_train_v1/adapter/vocab.json": {
+    "bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/adapter_config.json": {
+    "bytes": 923,
+    "sha256": "f04d16215e70a33156bf74ea455c325ad2fc7dfeeb4e9cf548e9c0514c589999"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/adapter_model.safetensors": {
+    "bytes": 14783648,
+    "sha256": "99ff578e5709944c7d10865e07f413380efa2f9fc403bce97b85349201742e71"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/added_tokens.json": {
+    "bytes": 629,
+    "sha256": "f0acedf99e19ec0a5b797ffbd0b94328172ccd90f7f385bbc521cda2701b03ab"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/chat_template.jinja": {
+    "bytes": 2561,
+    "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/merges.txt": {
+    "bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/README.md": {
+    "bytes": 5214,
+    "sha256": "05a16ed570f80fd684a4c316825868b17c256525efe48b190bb607ef6b40ab3b"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/special_tokens_map.json": {
+    "bytes": 644,
+    "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/tokenizer.json": {
+    "bytes": 11421896,
+    "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/tokenizer_config.json": {
+    "bytes": 4893,
+    "sha256": "5fd4cea2574beb6b70ba31582179880d331b723f5b5119ee67c29d45b983f7be"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/training_args.bin": {
+    "bytes": 6993,
+    "sha256": "77a0d21a0ae2552bb6979fef0036ea42793aeb592a8f10b6cf6ca53987452a3d"
+  },
+  "experiments/dpo_pdf_600/runs/Qwen__Qwen2.5-3B-Instruct_train_v1/adapter/vocab.json": {
+    "bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "data/vector_db/chroma.sqlite3": {
+    "bytes": 203923456,
+    "sha256": "bb2298cf078f7a63aecfed5cdce77ef49f12cc4c1e0659716e397abac1a31825"
+  },
+  "data/vector_db/54b0ff5c-1588-428f-aeb5-2fda7eb68f51/data_level0.bin": {
+    "bytes": 69639840,
+    "sha256": "1f9b7a8c8739ffb30a51e7464a51307c4bd7c19fde88b0404ad311d7a0e9fda3"
+  },
+  "data/vector_db/54b0ff5c-1588-428f-aeb5-2fda7eb68f51/header.bin": {
+    "bytes": 100,
+    "sha256": "4d8a17865bacde9c7c2fa3ea6e51ccbcc7a79106fab2303dc9f53b9ee9a150f9"
+  },
+  "data/vector_db/54b0ff5c-1588-428f-aeb5-2fda7eb68f51/index_metadata.pickle": {
+    "bytes": 1381152,
+    "sha256": "91ee33c1751cb3a7c7bd92988fa00bdaef75f35f49ad75b150bc1db0ea2fa01b"
+  },
+  "data/vector_db/54b0ff5c-1588-428f-aeb5-2fda7eb68f51/length.bin": {
+    "bytes": 65760,
+    "sha256": "e1076e7f40d60b2fe26c704a9cd674459d637db8d271e87bea896efddf2dd929"
+  },
+  "data/vector_db/54b0ff5c-1588-428f-aeb5-2fda7eb68f51/link_lists.bin": {
+    "bytes": 141920,
+    "sha256": "d875ac398feb8a9d2573949ba9221a1d8c57d490d5b0fda8a01f3e47634ee5fc"
+  }
+}

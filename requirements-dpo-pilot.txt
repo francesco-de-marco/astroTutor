@@ -1,4 +1,0 @@
-# Aggiunte per .venv-gpu esistente; non reinstallare torch.
-peft==0.17.1
-trl==0.24.0
-bitsandbytes==0.48.1

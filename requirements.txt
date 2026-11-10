@@ -1,49 +1,55 @@
-# AstroTutor — dipendenze dirette dell'ambiente LOCALE (Python 3.12.10, Windows 11)
-#
-# Versioni fissate a quelle effettivamente installate in .venv al 26/07/2026,
-# cioè quelle con cui sono stati prodotti i risultati in data/ e results/.
-#
-# Installazione:
+# AstroTutor - dipendenze unificate
+# Ambiente di riferimento: Windows x64, Python 3.14, GPU NVIDIA, PyTorch CUDA 12.8.
+# Installazione in un ambiente virtuale nuovo:
 #   python -m venv .venv
-#   .venv\Scripts\activate
-#   pip install -r requirements.txt
-#
-# Nota su torch: la ruota +cu124 non sta su PyPI, serve l'indice di PyTorch
-# (riga sotto). Su macchina senza GPU NVIDIA sostituire con `torch==2.6.0`.
-#
-# Per l'ambiente byte-per-byte (dipendenze transitive incluse) usare
-# requirements-lock.txt. Per gli ambienti Colab e per le versioni di Ollama,
-# dei modelli e degli hyperparametri di training vedere VERSIONI.md.
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+# Versioni provenienti dall'ambiente di consegna; non verificate su CPU/macOS/Linux.
+--extra-index-url https://download.pytorch.org/whl/cu128
 
---extra-index-url https://download.pytorch.org/whl/cu124
+# Training e inferenza (versioni effettive della campagna)
+torch==2.11.0+cu128
+transformers==4.57.6
+datasets==5.0.1
+accelerate==1.15.0
+peft==0.17.1
+trl==0.24.0
+bitsandbytes==0.48.1
+huggingface-hub==0.36.2
+sentencepiece==0.2.2
+protobuf==7.36.1
 
-# ── Parsing PDF (src/parsing.py) ────────────────────────────────────
+# Corpus, RAG e generazione originale
 docling==2.86.0
-PyMuPDF==1.27.2.2                # fitz: conteggio pagine, fallback parsing
-
-# ── Ingestione da API pubbliche + pulizia HTML (src/ingest_api_data.py, src/chuncking.py)
+PyMuPDF==1.27.2.2
 requests==2.33.1
 beautifulsoup4==4.14.3
-langchain-text-splitters==1.1.2  # MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
-
-# ── Indicizzazione e retrieval (src/indexing.py, src/retrieval.py, src/retrieval_eval.py)
+langchain-text-splitters==1.1.2
 chromadb==1.5.7
-sentence-transformers==5.4.1     # BAAI/bge-m3 + CrossEncoder BAAI/bge-reranker-v2-m3
-transformers==4.57.6             # backend di sentence-transformers
-torch==2.6.0+cu124               # CUDA 12.4; usato per device="cuda" nel re-ranker
-# BM25 è implementato a mano in src/retrieval_eval.py: nessuna dipendenza esterna
+sentence-transformers==5.4.1
+openai==2.46.0
+python-dotenv==1.2.2
 
-# ── Generazione e allineamento (src/generation.py, src/alignment*.py) ─
-openai==2.46.0                   # client usato sia per Ollama (locale) sia per Groq (oracolo)
-python-dotenv==1.2.2             # chiavi in .env (ORACLE_API_KEY)
-
-# ── Valutazione RAGAS (src/evaluation.py) ────────────────────────────
+# Valutazione storica e analisi
 ragas==0.4.3
 langchain-core==1.5.0
 langchain-openai==1.4.0
 langchain-community==0.3.31
-instructor==1.15.4               # structured output richiesto da ragas
-
-# ── Analisi e grafici del report (src/analysis.py) ───────────────────
-matplotlib==3.11.1
+instructor==1.15.4
 numpy==2.4.4
+pandas==3.0.5
+matplotlib==3.11.1
+pydantic==2.13.5
+
+# Interfaccia Streamlit (versione verificata nella demo)
+streamlit==1.64.0
+altair==6.0.0
+pydeck==0.9.1
+toml==0.10.2
+watchdog==6.0.0
+starlette==0.48.0
+python-multipart==0.0.20
+itsdangerous==2.2.0
+
+# Generazione delle relazioni
+reportlab==4.4.9
+pypdf==6.10.0

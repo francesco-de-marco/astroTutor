@@ -340,4 +340,4 @@ for the final experiment documented above.
 ## Authors
 
 - **Francesco De Marco**
-- **Mattia D'agostino**
+- **Attilio Mattia D'agostino**

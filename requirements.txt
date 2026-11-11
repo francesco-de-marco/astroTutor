@@ -1,9 +1,11 @@
 # AstroTutor - dipendenze unificate
-# Ambiente di riferimento: Windows x64, Python 3.14, GPU NVIDIA, PyTorch CUDA 12.8.
+# Ambiente finale registrato nei sei runs/*_train_v1/run_manifest.json:
+# Windows x64, Python 3.14.3, RTX 4070 Laptop 8 GiB, PyTorch CUDA 12.8.
+# Python, driver NVIDIA, modelli e corpus non vengono installati da pip.
 # Installazione in un ambiente virtuale nuovo:
 #   python -m venv .venv
 #   .venv\Scripts\python.exe -m pip install -r requirements.txt
-# Versioni provenienti dall'ambiente di consegna; non verificate su CPU/macOS/Linux.
+
 --extra-index-url https://download.pytorch.org/whl/cu128
 
 # Training e inferenza (versioni effettive della campagna)
@@ -29,7 +31,7 @@ sentence-transformers==5.4.1
 openai==2.46.0
 python-dotenv==1.2.2
 
-# Valutazione storica e analisi
+# Valutazione storica e analisi (RAGAS non e' il giudice della campagna finale)
 ragas==0.4.3
 langchain-core==1.5.0
 langchain-openai==1.4.0

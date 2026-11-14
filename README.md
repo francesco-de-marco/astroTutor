@@ -1,4 +1,4 @@
-# AstroTutor – Adaptive Educational RAG System
+# 🔭 AstroTutor – Adaptive Educational RAG System
 
 AstroTutor is an educational astronomy assistant that combines Retrieval-Augmented
 Generation (RAG) with Direct Preference Optimization (DPO). It adapts explanations
@@ -14,7 +14,7 @@ to four educational levels:
 The final experiment compares six base models with their DPO adapters on the same
 frozen contexts. The Streamlit demo uses these adapters with live retrieval.
 
-## Architecture and evaluation
+## 🧠 Architecture and evaluation
 
 The corpus includes astronomy PDFs and educational content from Vikidia and
 EduINAF. Docling parses PDFs; the chunking pipeline splits the extracted content;
@@ -36,7 +36,7 @@ The final saved judge is `openai/gpt-oss-120b` on Groq. Its scores are automated
 estimates, not independent human validation. Repeated levels of the same question
 are not independent observations.
 
-## Repository structure
+## 📁 Repository structure
 
 ```text
 progetto_IR/
@@ -71,7 +71,7 @@ The final models and results are under `experiments/dpo_pdf_600/`, as shown abov
 Training and evaluation manifests retain their original paths and hashes:
 do not rewrite them when relocating the repository.
 
-## Environment and installation
+## ⚙️ Environment and installation
 
 The six final training manifests record **Python 3.14.3**, **PyTorch
 2.11.0+cu128**, CUDA build **12.8**, and an **NVIDIA GeForce RTX 4070 Laptop
@@ -114,7 +114,7 @@ Face access where a model requires it. The demo loads weights from the local
 cache and does not download missing models. `DEMO_ASSETS_MANIFEST.json` records
 checksums of the distributed adapters and index; it is not a downloader.
 
-## Reproduce the corpus and retrieval
+## 🔎 Reproduce the corpus and retrieval
 
 Place PDFs in topic subdirectories under `data/raw/`, following the
 level-prefixed filename convention read by `src/parsing.py`, then run:
@@ -147,7 +147,7 @@ chunks, not exhaustive human relevance annotations. `src/analysis.py` also
 uses historical evaluation files; its plots are separate from the final
 six-model charts.
 
-## Reproduce the final DPO experiment
+## 🧪 Reproduce the final DPO experiment
 
 All following paths are relative to the repository root.
 
@@ -245,7 +245,7 @@ python experiments/dpo_pdf_600/reporting/build_extended_report.py
 These commands write to `results/figures/` and `results/reports/` within the
 experiment. They do not rerun training or inference.
 
-## Streamlit demo
+## 🖥️ Streamlit demo
 
 With the required assets and environment available:
 
@@ -267,7 +267,7 @@ Optional path overrides: `ASTROTUTOR_REPO`, `ASTROTUTOR_EXPERIMENT_DIR`
 (the `dpo_pdf_600` directory), and `ASTROTUTOR_DB_PATH`.
 The launcher accepts `-Python <executable>` and `-Port <number>`.
 
-## Checks
+## ✅ Checks
 
 ```powershell
 python -B -m unittest discover -s experiments/dpo_pdf_600/tests -p "test_final_evaluation.py" -v
@@ -324,7 +324,7 @@ matched a fixed refusal string rather than measuring refusal quality.
 Historical GGUFs, notebooks and their former commands are not prerequisites
 for the final experiment documented above.
 
-## Reproducibility limits
+## ⚠️ Reproducibility limits
 
 - Preserve corpus snapshots, model revisions, adapter/tokenizer files, run
   manifests and answer records. Seeds and package pins alone do not guarantee

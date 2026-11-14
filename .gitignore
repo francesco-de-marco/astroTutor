@@ -11,6 +11,7 @@ experiments\dpo_pdf_600\results\reports
 
 
 apikey.txt
+relazione finale.pdf
 results/smoke_20260910_135617/
 results/*.zip
 
@@ -32,3 +33,4 @@ checkpoint-*/
 **/adapter/added_tokens.json
 **/adapter/vocab.json
 **/adapter/merges.txt
+
